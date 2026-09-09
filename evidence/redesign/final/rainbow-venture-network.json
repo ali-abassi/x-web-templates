@@ -1,0 +1,46 @@
+{
+  "navigation": [
+    {
+      "domContentLoaded": 504.40000009536743,
+      "duration": 753.1000000238419
+    }
+  ],
+  "requests": [
+    {
+      "bytes": 300,
+      "duration": 165.69999992847443,
+      "status": 200,
+      "url": "http://localhost:4173/rainbow-venture/style.css"
+    },
+    {
+      "bytes": 300,
+      "duration": 196.60000002384183,
+      "status": 200,
+      "url": "http://localhost:4173/rainbow-venture/assets/hero.jpg"
+    },
+    {
+      "bytes": 300,
+      "duration": 230.80000007152557,
+      "status": 200,
+      "url": "http://localhost:4173/rainbow-venture/app.js"
+    },
+    {
+      "bytes": 300,
+      "duration": 62.29999995231629,
+      "status": 200,
+      "url": "http://localhost:4173/rainbow-venture/assets/sans-bold.otf"
+    },
+    {
+      "bytes": 300,
+      "duration": 233.09999990463257,
+      "status": 200,
+      "url": "http://localhost:4173/rainbow-venture/assets/sans.otf"
+    },
+    {
+      "bytes": 300,
+      "duration": 274.7000000476837,
+      "status": 200,
+      "url": "http://localhost:4173/rainbow-venture/assets/serif.otf"
+    }
+  ]
+}

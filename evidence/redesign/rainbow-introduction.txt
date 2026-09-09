@@ -1,0 +1,10 @@
+Introduction to Rainbow Venture
+
+Name:
+Template QA
+
+Email:
+qa@example.com
+
+The idea:
+A reusable website template with local images, accessible controls, and clear export behavior.

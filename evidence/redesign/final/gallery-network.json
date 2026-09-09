@@ -1,0 +1,52 @@
+{
+  "navigation": [
+    {
+      "domContentLoaded": 346.7999999523163,
+      "duration": 2157.5
+    }
+  ],
+  "requests": [
+    {
+      "bytes": 300,
+      "duration": 722.8000000715256,
+      "status": 200,
+      "url": "http://localhost:4173//alpine-notes/assets/hero.jpg"
+    },
+    {
+      "bytes": 300,
+      "duration": 618.1000000238419,
+      "status": 200,
+      "url": "http://localhost:4173//style.css"
+    },
+    {
+      "bytes": 300,
+      "duration": 758.6000000238419,
+      "status": 200,
+      "url": "http://localhost:4173//rainbow-venture/assets/hero.jpg"
+    },
+    {
+      "bytes": 300,
+      "duration": 287.2000000476837,
+      "status": 200,
+      "url": "http://localhost:4173//assets/sans-bold.otf"
+    },
+    {
+      "bytes": 300,
+      "duration": 360.6999999284744,
+      "status": 200,
+      "url": "http://localhost:4173//assets/sans.otf"
+    },
+    {
+      "bytes": 300,
+      "duration": 212.5,
+      "status": 200,
+      "url": "http://localhost:4173//bloop/assets/hero.jpg"
+    },
+    {
+      "bytes": 300,
+      "duration": 239,
+      "status": 200,
+      "url": "http://localhost:4173//furion/assets/hero.jpg"
+    }
+  ]
+}

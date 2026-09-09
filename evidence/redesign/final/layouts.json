@@ -1,0 +1,137 @@
+[
+  {
+    "page": "gallery",
+    "width": 1440,
+    "layout": {
+      "images": true,
+      "scroll": 1440,
+      "width": 1440
+    }
+  },
+  {
+    "page": "alpine-notes",
+    "width": 1440,
+    "layout": {
+      "images": true,
+      "scroll": 1440,
+      "width": 1440
+    }
+  },
+  {
+    "page": "rainbow-venture",
+    "width": 1440,
+    "layout": {
+      "images": true,
+      "scroll": 1440,
+      "width": 1440
+    }
+  },
+  {
+    "page": "bloop",
+    "width": 1440,
+    "layout": {
+      "images": true,
+      "scroll": 1440,
+      "width": 1440
+    }
+  },
+  {
+    "page": "furion",
+    "width": 1440,
+    "layout": {
+      "images": true,
+      "scroll": 1440,
+      "width": 1440
+    }
+  },
+  {
+    "page": "gallery",
+    "width": 375,
+    "layout": {
+      "images": true,
+      "scroll": 375,
+      "width": 375
+    }
+  },
+  {
+    "page": "alpine-notes",
+    "width": 375,
+    "layout": {
+      "images": true,
+      "scroll": 375,
+      "width": 375
+    }
+  },
+  {
+    "page": "rainbow-venture",
+    "width": 375,
+    "layout": {
+      "images": true,
+      "scroll": 375,
+      "width": 375
+    }
+  },
+  {
+    "page": "bloop",
+    "width": 375,
+    "layout": {
+      "images": true,
+      "scroll": 375,
+      "width": 375
+    }
+  },
+  {
+    "page": "furion",
+    "width": 375,
+    "layout": {
+      "images": true,
+      "scroll": 375,
+      "width": 375
+    }
+  },
+  {
+    "page": "gallery",
+    "width": 320,
+    "layout": {
+      "images": true,
+      "scroll": 320,
+      "width": 320
+    }
+  },
+  {
+    "page": "alpine-notes",
+    "width": 320,
+    "layout": {
+      "images": true,
+      "scroll": 320,
+      "width": 320
+    }
+  },
+  {
+    "page": "rainbow-venture",
+    "width": 320,
+    "layout": {
+      "images": true,
+      "scroll": 320,
+      "width": 320
+    }
+  },
+  {
+    "page": "bloop",
+    "width": 320,
+    "layout": {
+      "images": true,
+      "scroll": 320,
+      "width": 320
+    }
+  },
+  {
+    "page": "furion",
+    "width": 320,
+    "layout": {
+      "images": true,
+      "scroll": 320,
+      "width": 320
+    }
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "reproducible": true,
+  "zip_hashes": {
+    "dist/downloads/alpine-notes.zip": "876f2d5c00329e703b5ce7375cba194d5a97267b89441dabc0667d1bb1d7f546",
+    "dist/downloads/bloop.zip": "a303a5e722cc919099e9ec2ceb0a784f214bb4ebaee0f2c7f47579d906cbb506",
+    "dist/downloads/furion.zip": "946dd6f331e4880593ed5ce318a1f5420df45d1af8010f8ba5c6ee23d00334a3",
+    "dist/downloads/rainbow-venture.zip": "dcd0fe405286fe4731998425125c3ca75bb8ed328e5a992b5dbd7c05810cf45d"
+  },
+  "missing_source_preserves_previous_build": true,
+  "failure_boundary": "FileNotFoundError: missing source style.css, isolated scratch copy"
+}

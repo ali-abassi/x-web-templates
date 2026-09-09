@@ -1,0 +1,40 @@
+{
+  "navigation": [
+    {
+      "domContentLoaded": 601.1000000238419,
+      "duration": 929.399999976158
+    }
+  ],
+  "requests": [
+    {
+      "bytes": 300,
+      "duration": 333.5,
+      "status": 200,
+      "url": "http://localhost:4173/alpine-notes/style.css"
+    },
+    {
+      "bytes": 300,
+      "duration": 340.39999997615814,
+      "status": 200,
+      "url": "http://localhost:4173/alpine-notes/assets/hero.jpg"
+    },
+    {
+      "bytes": 300,
+      "duration": 345.39999997615814,
+      "status": 200,
+      "url": "http://localhost:4173/alpine-notes/app.js"
+    },
+    {
+      "bytes": 300,
+      "duration": 273,
+      "status": 200,
+      "url": "http://localhost:4173/alpine-notes/assets/sans-bold.otf"
+    },
+    {
+      "bytes": 300,
+      "duration": 356.7000000476837,
+      "status": 200,
+      "url": "http://localhost:4173/alpine-notes/assets/sans.otf"
+    }
+  ]
+}

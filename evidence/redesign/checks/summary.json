@@ -1,0 +1,347 @@
+[
+  {
+    "page": "alpine-notes",
+    "width": 1440,
+    "violations": 0,
+    "incomplete": 0,
+    "layout": {
+      "lifecycle": {
+        "effectiveLaunch": {
+          "browserLaunched": true,
+          "engine": "chrome",
+          "launchHash": 12195675696465354296
+        },
+        "launched": false,
+        "relaunchedBrowser": false,
+        "restartedBackground": false,
+        "restoreStatus": "not_configured",
+        "reused": true,
+        "saveStatus": "not_attempted"
+      },
+      "origin": "http://localhost:4173/alpine-notes/",
+      "result": "{\"width\":1440,\"scroll\":1440,\"images\":true}"
+    }
+  },
+  {
+    "page": "alpine-notes",
+    "width": 375,
+    "violations": 0,
+    "incomplete": 0,
+    "layout": {
+      "lifecycle": {
+        "effectiveLaunch": {
+          "browserLaunched": true,
+          "engine": "chrome",
+          "launchHash": 12195675696465354296
+        },
+        "launched": false,
+        "relaunchedBrowser": false,
+        "restartedBackground": false,
+        "restoreStatus": "not_configured",
+        "reused": true,
+        "saveStatus": "not_attempted"
+      },
+      "origin": "http://localhost:4173/alpine-notes/",
+      "result": "{\"width\":375,\"scroll\":375,\"images\":true}"
+    }
+  },
+  {
+    "page": "alpine-notes",
+    "width": 320,
+    "violations": 0,
+    "incomplete": 0,
+    "layout": {
+      "lifecycle": {
+        "effectiveLaunch": {
+          "browserLaunched": true,
+          "engine": "chrome",
+          "launchHash": 12195675696465354296
+        },
+        "launched": false,
+        "relaunchedBrowser": false,
+        "restartedBackground": false,
+        "restoreStatus": "not_configured",
+        "reused": true,
+        "saveStatus": "not_attempted"
+      },
+      "origin": "http://localhost:4173/alpine-notes/",
+      "result": "{\"width\":320,\"scroll\":320,\"images\":true}"
+    }
+  },
+  {
+    "page": "rainbow-venture",
+    "width": 1440,
+    "violations": 0,
+    "incomplete": 1,
+    "layout": {
+      "lifecycle": {
+        "effectiveLaunch": {
+          "browserLaunched": true,
+          "engine": "chrome",
+          "launchHash": 12195675696465354296
+        },
+        "launched": false,
+        "relaunchedBrowser": false,
+        "restartedBackground": false,
+        "restoreStatus": "not_configured",
+        "reused": true,
+        "saveStatus": "not_attempted"
+      },
+      "origin": "http://localhost:4173/rainbow-venture/",
+      "result": "{\"width\":1440,\"scroll\":1440,\"images\":true}"
+    }
+  },
+  {
+    "page": "rainbow-venture",
+    "width": 375,
+    "violations": 0,
+    "incomplete": 1,
+    "layout": {
+      "lifecycle": {
+        "effectiveLaunch": {
+          "browserLaunched": true,
+          "engine": "chrome",
+          "launchHash": 12195675696465354296
+        },
+        "launched": false,
+        "relaunchedBrowser": false,
+        "restartedBackground": false,
+        "restoreStatus": "not_configured",
+        "reused": true,
+        "saveStatus": "not_attempted"
+      },
+      "origin": "http://localhost:4173/rainbow-venture/",
+      "result": "{\"width\":375,\"scroll\":375,\"images\":true}"
+    }
+  },
+  {
+    "page": "rainbow-venture",
+    "width": 320,
+    "violations": 0,
+    "incomplete": 1,
+    "layout": {
+      "lifecycle": {
+        "effectiveLaunch": {
+          "browserLaunched": true,
+          "engine": "chrome",
+          "launchHash": 12195675696465354296
+        },
+        "launched": false,
+        "relaunchedBrowser": false,
+        "restartedBackground": false,
+        "restoreStatus": "not_configured",
+        "reused": true,
+        "saveStatus": "not_attempted"
+      },
+      "origin": "http://localhost:4173/rainbow-venture/",
+      "result": "{\"width\":320,\"scroll\":320,\"images\":true}"
+    }
+  },
+  {
+    "page": "bloop",
+    "width": 1440,
+    "violations": 0,
+    "incomplete": 2,
+    "layout": {
+      "lifecycle": {
+        "effectiveLaunch": {
+          "browserLaunched": true,
+          "engine": "chrome",
+          "launchHash": 12195675696465354296
+        },
+        "launched": false,
+        "relaunchedBrowser": false,
+        "restartedBackground": false,
+        "restoreStatus": "not_configured",
+        "reused": true,
+        "saveStatus": "not_attempted"
+      },
+      "origin": "http://localhost:4173/bloop/",
+      "result": "{\"width\":1440,\"scroll\":1440,\"images\":true}"
+    }
+  },
+  {
+    "page": "bloop",
+    "width": 375,
+    "violations": 0,
+    "incomplete": 2,
+    "layout": {
+      "lifecycle": {
+        "effectiveLaunch": {
+          "browserLaunched": true,
+          "engine": "chrome",
+          "launchHash": 12195675696465354296
+        },
+        "launched": false,
+        "relaunchedBrowser": false,
+        "restartedBackground": false,
+        "restoreStatus": "not_configured",
+        "reused": true,
+        "saveStatus": "not_attempted"
+      },
+      "origin": "http://localhost:4173/bloop/",
+      "result": "{\"width\":375,\"scroll\":375,\"images\":true}"
+    }
+  },
+  {
+    "page": "bloop",
+    "width": 320,
+    "violations": 0,
+    "incomplete": 2,
+    "layout": {
+      "lifecycle": {
+        "effectiveLaunch": {
+          "browserLaunched": true,
+          "engine": "chrome",
+          "launchHash": 12195675696465354296
+        },
+        "launched": false,
+        "relaunchedBrowser": false,
+        "restartedBackground": false,
+        "restoreStatus": "not_configured",
+        "reused": true,
+        "saveStatus": "not_attempted"
+      },
+      "origin": "http://localhost:4173/bloop/",
+      "result": "{\"width\":320,\"scroll\":320,\"images\":true}"
+    }
+  },
+  {
+    "page": "furion",
+    "width": 1440,
+    "violations": 0,
+    "incomplete": 2,
+    "layout": {
+      "lifecycle": {
+        "effectiveLaunch": {
+          "browserLaunched": true,
+          "engine": "chrome",
+          "launchHash": 12195675696465354296
+        },
+        "launched": false,
+        "relaunchedBrowser": false,
+        "restartedBackground": false,
+        "restoreStatus": "not_configured",
+        "reused": true,
+        "saveStatus": "not_attempted"
+      },
+      "origin": "http://localhost:4173/furion/",
+      "result": "{\"width\":1440,\"scroll\":1440,\"images\":true}"
+    }
+  },
+  {
+    "page": "furion",
+    "width": 375,
+    "violations": 0,
+    "incomplete": 2,
+    "layout": {
+      "lifecycle": {
+        "effectiveLaunch": {
+          "browserLaunched": true,
+          "engine": "chrome",
+          "launchHash": 12195675696465354296
+        },
+        "launched": false,
+        "relaunchedBrowser": false,
+        "restartedBackground": false,
+        "restoreStatus": "not_configured",
+        "reused": true,
+        "saveStatus": "not_attempted"
+      },
+      "origin": "http://localhost:4173/furion/",
+      "result": "{\"width\":375,\"scroll\":375,\"images\":true}"
+    }
+  },
+  {
+    "page": "furion",
+    "width": 320,
+    "violations": 0,
+    "incomplete": 2,
+    "layout": {
+      "lifecycle": {
+        "effectiveLaunch": {
+          "browserLaunched": true,
+          "engine": "chrome",
+          "launchHash": 12195675696465354296
+        },
+        "launched": false,
+        "relaunchedBrowser": false,
+        "restartedBackground": false,
+        "restoreStatus": "not_configured",
+        "reused": true,
+        "saveStatus": "not_attempted"
+      },
+      "origin": "http://localhost:4173/furion/",
+      "result": "{\"width\":320,\"scroll\":320,\"images\":true}"
+    }
+  },
+  {
+    "page": "gallery",
+    "width": 1440,
+    "violations": 1,
+    "incomplete": 1,
+    "layout": {
+      "lifecycle": {
+        "effectiveLaunch": {
+          "browserLaunched": true,
+          "engine": "chrome",
+          "launchHash": 12195675696465354296
+        },
+        "launched": false,
+        "relaunchedBrowser": false,
+        "restartedBackground": false,
+        "restoreStatus": "not_configured",
+        "reused": true,
+        "saveStatus": "not_attempted"
+      },
+      "origin": "http://localhost:4173/",
+      "result": "{\"width\":1440,\"scroll\":1440,\"images\":true}"
+    }
+  },
+  {
+    "page": "gallery",
+    "width": 375,
+    "violations": 1,
+    "incomplete": 1,
+    "layout": {
+      "lifecycle": {
+        "effectiveLaunch": {
+          "browserLaunched": true,
+          "engine": "chrome",
+          "launchHash": 12195675696465354296
+        },
+        "launched": false,
+        "relaunchedBrowser": false,
+        "restartedBackground": false,
+        "restoreStatus": "not_configured",
+        "reused": true,
+        "saveStatus": "not_attempted"
+      },
+      "origin": "http://localhost:4173/",
+      "result": "{\"width\":375,\"scroll\":375,\"images\":true}"
+    }
+  },
+  {
+    "page": "gallery",
+    "width": 320,
+    "violations": 1,
+    "incomplete": 1,
+    "layout": {
+      "lifecycle": {
+        "effectiveLaunch": {
+          "browserLaunched": true,
+          "engine": "chrome",
+          "launchHash": 12195675696465354296
+        },
+        "launched": false,
+        "relaunchedBrowser": false,
+        "restartedBackground": false,
+        "restoreStatus": "not_configured",
+        "reused": true,
+        "saveStatus": "not_attempted"
+      },
+      "origin": "http://localhost:4173/",
+      "result": "{\"width\":320,\"scroll\":320,\"images\":true}"
+    }
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "navigation": [
+    {
+      "domContentLoaded": 654.7000000476837,
+      "duration": 665.2000000476837
+    }
+  ],
+  "requests": [
+    {
+      "bytes": 300,
+      "duration": 443.39999997615814,
+      "status": 200,
+      "url": "http://localhost:4173/bloop/style.css"
+    },
+    {
+      "bytes": 300,
+      "duration": 453.7999999523163,
+      "status": 200,
+      "url": "http://localhost:4173/bloop/app.js"
+    },
+    {
+      "bytes": 0,
+      "duration": 0,
+      "status": 200,
+      "url": "http://localhost:4173/bloop/assets/hero.jpg"
+    },
+    {
+      "bytes": 0,
+      "duration": 0,
+      "status": 200,
+      "url": "http://localhost:4173/bloop/assets/sans.otf"
+    },
+    {
+      "bytes": 0,
+      "duration": 0,
+      "status": 200,
+      "url": "http://localhost:4173/bloop/assets/sans-bold.otf"
+    },
+    {
+      "bytes": 0,
+      "duration": 0,
+      "status": 200,
+      "url": "http://localhost:4173/bloop/assets/display.ttf"
+    }
+  ]
+}

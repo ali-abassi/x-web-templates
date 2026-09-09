@@ -1,0 +1,58 @@
+[
+  {
+    "case": "Alpine persistence, empty, maximum, denied storage, export, billing",
+    "width": 1440,
+    "status": "pass"
+  },
+  {
+    "case": "rainbow-venture draft",
+    "width": 1440,
+    "status": "pass",
+    "download": "evidence/redesign/journeys/rainbow-venture-1440.txt"
+  },
+  {
+    "case": "Bloop filter, disclosure, empty recovery",
+    "width": 1440,
+    "status": "pass",
+    "tier": "real plus mock empty fixture"
+  },
+  {
+    "case": "bloop draft",
+    "width": 1440,
+    "status": "pass",
+    "download": "evidence/redesign/journeys/bloop-1440.txt"
+  },
+  {
+    "case": "Furion keyboard chapter and native download",
+    "width": 1440,
+    "status": "pass"
+  },
+  {
+    "case": "Alpine persistence, empty, maximum, denied storage, export, billing",
+    "width": 375,
+    "status": "pass"
+  },
+  {
+    "case": "rainbow-venture draft",
+    "width": 375,
+    "status": "pass",
+    "download": "evidence/redesign/journeys/rainbow-venture-375.txt"
+  },
+  {
+    "case": "Bloop filter, disclosure, empty recovery",
+    "width": 375,
+    "status": "pass",
+    "tier": "real plus mock empty fixture"
+  },
+  {
+    "case": "bloop draft",
+    "width": 375,
+    "status": "pass",
+    "download": "evidence/redesign/journeys/bloop-375.txt"
+  },
+  {
+    "case": "Furion keyboard chapter and native download",
+    "width": 375,
+    "status": "pass"
+  }
+]

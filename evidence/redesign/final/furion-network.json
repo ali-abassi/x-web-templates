@@ -1,0 +1,40 @@
+{
+  "navigation": [
+    {
+      "domContentLoaded": 640.1000000238419,
+      "duration": 645.3999999761581
+    }
+  ],
+  "requests": [
+    {
+      "bytes": 300,
+      "duration": 82.39999997615814,
+      "status": 200,
+      "url": "http://localhost:4173/furion/style.css"
+    },
+    {
+      "bytes": 300,
+      "duration": 463.7999999523163,
+      "status": 200,
+      "url": "http://localhost:4173/furion/app.js"
+    },
+    {
+      "bytes": 300,
+      "duration": 0,
+      "status": 200,
+      "url": "http://localhost:4173/furion/assets/hero.jpg"
+    },
+    {
+      "bytes": 0,
+      "duration": 0,
+      "status": 200,
+      "url": "http://localhost:4173/furion/assets/sans.otf"
+    },
+    {
+      "bytes": 0,
+      "duration": 0,
+      "status": 200,
+      "url": "http://localhost:4173/furion/assets/sans-bold.otf"
+    }
+  ]
+}

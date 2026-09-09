@@ -1,0 +1,32 @@
+FURION / BRAND NOTES
+
+Less said. More done.
+
+Purpose
+A performance-editorial concept about movement, intention, and showing up.
+This is a reusable demonstration identity, not an operating sports company.
+
+Color
+Ink: #111111
+Paper: #F4F3EE
+Secondary text on ink: #B0B0A9
+
+Typography
+Nimbus Sans Bold: uppercase display, tight tracking, direct statements.
+Nimbus Sans Regular: readable body text and quiet navigation.
+Font notices are included in the template's licenses folder.
+
+Imagery
+Original ChatGPT-generated black-and-white runner photograph.
+Keep the human subject in the frame. Keep type separate and editable.
+No logos, fake product endorsements, or commercial claims in the image.
+
+Principles
+Movement before decoration.
+One clear action per section.
+Black and white, with texture from photography.
+No animation required to understand the page.
+
+Reuse
+Edit the HTML copy, CSS color variables, and local assets.
+Replace concept statements with accurate information for your organization.

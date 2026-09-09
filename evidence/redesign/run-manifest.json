@@ -1,0 +1,323 @@
+{
+  "schema_version": "1.0",
+  "run_id": "xweb-redesign-2026-09-09",
+  "mode": "iterate",
+  "target": {
+    "repo": "/Users/aliabassi/Documents/ChatGPT/AI Designer/x-web-templates",
+    "commit": "8db60a8e205c3caa4848634eb77e235826c66955",
+    "dirty": true,
+    "build": "Candidate hashes in receipt.json"
+  },
+  "environment": {
+    "device": "Mac Chrome at 1440x1000, 375x812, 320x812",
+    "runtime": "agent-browser 0.37.1; Node 26.8.1; Python 3",
+    "backend": "None: localhost static server and standalone file URLs",
+    "account_role": "Public local pages in Default Chrome profile",
+    "locale": "en",
+    "network": "Localhost normal; deliberate missing-image fixtures"
+  },
+  "product": {
+    "actor": "Template user",
+    "trigger": "Needs a distinct reusable website starting point",
+    "promised_progress": "Preview, use local demo and obtain independent editable ZIP",
+    "weakest_link": "Local storage failure and standalone source/output parity",
+    "next_decision": "Deliver the four verified static templates"
+  },
+  "cases": [
+    {
+      "id": "S1",
+      "journey": "Save/reload/export note and billing states",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Complete the declared local interaction with truthful feedback and portable output",
+      "observed": "Passed at desktop and mobile; rendered, persisted or downloaded result inspected",
+      "artifacts": [
+        {
+          "kind": "screenshot",
+          "path": "final/alpine-notes-375-full.png"
+        },
+        {
+          "kind": "trace",
+          "path": "journeys/trace.jsonl"
+        },
+        {
+          "kind": "receipt",
+          "path": "review.md"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "S2",
+      "journey": "FAQ and validated introduction draft",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Complete the declared local interaction with truthful feedback and portable output",
+      "observed": "Passed at desktop and mobile; rendered, persisted or downloaded result inspected",
+      "artifacts": [
+        {
+          "kind": "screenshot",
+          "path": "final/rainbow-venture-375-full.png"
+        },
+        {
+          "kind": "trace",
+          "path": "journeys/trace.jsonl"
+        },
+        {
+          "kind": "receipt",
+          "path": "review.md"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "S3",
+      "journey": "Filters, project disclosures and validated inquiry draft",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Complete the declared local interaction with truthful feedback and portable output",
+      "observed": "Passed at desktop and mobile; rendered, persisted or downloaded result inspected",
+      "artifacts": [
+        {
+          "kind": "screenshot",
+          "path": "final/bloop-375-full.png"
+        },
+        {
+          "kind": "trace",
+          "path": "journeys/trace.jsonl"
+        },
+        {
+          "kind": "receipt",
+          "path": "review.md"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "S4",
+      "journey": "Keyboard journal and native brand-note download",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Complete the declared local interaction with truthful feedback and portable output",
+      "observed": "Passed at desktop and mobile; rendered, persisted or downloaded result inspected",
+      "artifacts": [
+        {
+          "kind": "screenshot",
+          "path": "final/furion-375-full.png"
+        },
+        {
+          "kind": "trace",
+          "path": "journeys/trace.jsonl"
+        },
+        {
+          "kind": "receipt",
+          "path": "review.md"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "S5",
+      "journey": "Preview/return/download and standalone ZIP launch",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Complete the declared local interaction with truthful feedback and portable output",
+      "observed": "Passed at desktop and mobile; rendered, persisted or downloaded result inspected",
+      "artifacts": [
+        {
+          "kind": "screenshot",
+          "path": "final/gallery-375-full.png"
+        },
+        {
+          "kind": "trace",
+          "path": "exports/trace.jsonl"
+        },
+        {
+          "kind": "receipt",
+          "path": "review.md"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "D1",
+      "journey": "No JavaScript with native controls",
+      "critical": true,
+      "requires_real": false,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Coherent, truthful, recoverable degraded state",
+      "observed": "Assertions and screenshots verified at both widths",
+      "artifacts": [
+        {
+          "kind": "trace",
+          "path": "no-js/trace.jsonl"
+        },
+        {
+          "kind": "receipt",
+          "path": "review.md"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "D2",
+      "journey": "Reduced motion, focus and long/missing-image fixtures",
+      "critical": true,
+      "requires_real": false,
+      "evidence_tier": "mock",
+      "status": "pass",
+      "expected": "Coherent, truthful, recoverable degraded state",
+      "observed": "Assertions and screenshots verified at both widths",
+      "artifacts": [
+        {
+          "kind": "trace",
+          "path": "adverse/trace.jsonl"
+        },
+        {
+          "kind": "receipt",
+          "path": "review.md"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "D3",
+      "journey": "Denied storage and empty-category fixtures",
+      "critical": true,
+      "requires_real": false,
+      "evidence_tier": "mock",
+      "status": "pass",
+      "expected": "Coherent, truthful, recoverable degraded state",
+      "observed": "Assertions and screenshots verified at both widths",
+      "artifacts": [
+        {
+          "kind": "trace",
+          "path": "journeys/trace.jsonl"
+        },
+        {
+          "kind": "receipt",
+          "path": "review.md"
+        }
+      ],
+      "finding_ids": []
+    }
+  ],
+  "findings": [
+    {
+      "id": "R1",
+      "type": "ux_friction",
+      "severity": "P2",
+      "status": "verified",
+      "summary": "Original templates mix names, unsupported claims and compressed imagery",
+      "reproduction": "Open each original page at the base revision and compare visible identity/copy",
+      "case_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "evidence": [
+        {
+          "kind": "other",
+          "path": "session.md"
+        },
+        {
+          "kind": "receipt",
+          "path": "review.md"
+        }
+      ]
+    },
+    {
+      "id": "R2",
+      "type": "ux_friction",
+      "severity": "P2",
+      "status": "verified",
+      "summary": "Gallery cover fallback contrast failed automatic audit",
+      "reproduction": "Open gallery at 1440 or 375 and run axe on main",
+      "case_ids": [
+        "S5"
+      ],
+      "evidence": [
+        {
+          "kind": "other",
+          "path": "checks/gallery-375-a11y.json"
+        },
+        {
+          "kind": "receipt",
+          "path": "review.md"
+        }
+      ]
+    },
+    {
+      "id": "R3",
+      "type": "ux_friction",
+      "severity": "P2",
+      "status": "verified",
+      "summary": "Mobile image crop and text contrast needed correction",
+      "reproduction": "Open Bloop/Furion at 375px and inspect image behind headline",
+      "case_ids": [
+        "S3",
+        "S4"
+      ],
+      "evidence": [
+        {
+          "kind": "other",
+          "path": "rendered/furion-mobile.png"
+        },
+        {
+          "kind": "receipt",
+          "path": "review.md"
+        }
+      ]
+    }
+  ],
+  "iterations": [
+    {
+      "id": "ITER-1",
+      "hypothesis": "Clear identity, original imagery, native controls and visible local feedback solve the baseline defects",
+      "decision": "keep",
+      "changed_files": [
+        "templates/",
+        "shared/",
+        "gallery/",
+        "scripts/"
+      ],
+      "checks": [
+        "npm run check",
+        "journeys/trace.jsonl",
+        "final/",
+        "exports/trace.jsonl"
+      ],
+      "finding_ids": [
+        "R1",
+        "R2",
+        "R3"
+      ]
+    }
+  ],
+  "gates": {
+    "build_provenance": true,
+    "critical_real_flows": true,
+    "automated_regression": true,
+    "logs_reviewed": true,
+    "data_integrity": true,
+    "recovery": true,
+    "accessibility": true,
+    "security_privacy": true,
+    "performance": true,
+    "rollback": true
+  },
+  "verdict": "inconclusive",
+  "assurance_boundary": "Only the frozen static-template scope in local Chrome and standalone file URLs. Mock adverse fixtures labelled. No backend, real submissions, cross-browser/device certification, independent-agent review or production timing claim. See review.md. Pre-commit manifest is inconclusive until the candidate is committed; revalidate the immutable revision after commit."
+}
