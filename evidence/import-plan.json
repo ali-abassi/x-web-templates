@@ -1,0 +1,21 @@
+{
+  "base": "unborn",
+  "pre_existing_paths": [],
+  "alignment": {
+    "vision.md": "954a1faf88b6736fa5682e4e2d4fedf13e2ecc6ae365704c37b3ffac43534407",
+    "intent.md": "ce178ae7c92b740540689231371408be402cfd6efd3e4e79fc5360e573e79758",
+    "design.md": "59511c7bd3d95871d57d41c4afc50ca924691bcc4a02a5e06243df708c9c6322"
+  },
+  "owner_count": 1,
+  "delegation": false,
+  "scope": "Source import and repository documentation only",
+  "checks": [
+    "byte equality to source except root hosting identity",
+    "four ZIP integrity",
+    "local HTML/CSS references",
+    "JavaScript syntax",
+    "remote revision and private visibility"
+  ],
+  "review": "Separate active-agent critical review",
+  "stop": "Missing source, failed integrity, or repository access failure"
+}
