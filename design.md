@@ -27,3 +27,11 @@ The four original-resolution images are saved in evidence/reference-match/refere
 ## Required proof
 
 Freeze section inventory and high-impact geometry before code. Capture original and final paired at equal content width; evaluate composition, section order, visual massing, typography scale/wraps, image subject/crop and palette for each. Functional tests alone cannot accept this correction. Inspect each entire board at native ratio and every landing-page section. Default 1440x1000, minimum 375x812, hard safety probe 320px; real interactions and relevant adverse states. Preserve before/after and exact remaining differences in the receipt. User rejection supersedes all prior visual acceptance claims.
+
+## Collection expansion — 2026-09-10
+
+**User-stated:** Add Aster and the three new X references, preserving reference fidelity.
+
+**Observed authorities:** Viktor Oddy https://x.com/viktoroddy/status/2097500666357072243 shows a full-screen HorizonX navy/gold space scene, center white/orange title, planets, rocket, rock foreground, small outlined CTA. Christo https://x.com/chroxify/status/2097477196130529296 shows BuzzKit, a white SaaS hero with floating notification cards and a lilac dashboard. Varun https://x.com/orseliyas/status/2097307376143773730 shows a pixel-art world, white left-aligned copy, laptop/robot foreground and tree canopy.
+
+**Agent-selected working policy:** Build these in supplied order. Keep exact text/controls in HTML, art as local raster assets, responsive layouts and bounded transform/opacity motion with pause/reduced-motion support. Do not invent full-page reference evidence from a short hero clip. Preserve Aster source unchanged; inherited Aster code remains imported code, and its documented mock product boundaries remain in force. New standalone templates do not need the prior four's shared demo code. Source credits are attribution, not affiliation.

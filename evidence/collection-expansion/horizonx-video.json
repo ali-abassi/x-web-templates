@@ -1,0 +1,57 @@
+{
+  "interaction_id": "",
+  "model": "gemini-3.7-flash",
+  "output_text": "### Website Layout and Motion Description\n\n**00:00 \u2013 00:02 | Hero Section**\n* **Navigation Bar (Top):**\n  * Left: `HorizonX` logo\n  * Right: `About`, `Careers`, `Impact`, `Contact`, `EN \u2335`\n* **Visual Elements:** A dark cosmic backdrop with detailed planets, glowing rings, foreground low-poly asteroid rocks, and a spaceship flying diagonally toward the upper right with a fiery engine trail. Subtle floating parallax motion occurs across the celestial elements.\n* **Hero Content:**\n  * **Main Headline:** `HorizonX`\n  * **Supporting Text (animates in at 00:01):** `Put AI-backed spatial training in the hands of every crew on-site.`\n  * **CTA Button:** Outlined pill button reading `EXPERIENCE \u27f6`\n\n---\n\n**00:03 \u2013 00:05 | Section 02 (Scroll Transition)**\n* **Layout:** The page scrolls down past the lower rock layer into a dark textured background.\n* **Section Indicator:** `02` bordered by subtle red dash accents.\n* **Main Headline:** `Shaped for live reality.`\n* **Lead Paragraph:** \n  `Using our spatial AI stack on site, you can stand up living field programs in minutes. Let the models take the grind of production off your desk entirely.`\n* **Two-Column Body Text (00:04 \u2013 00:05):**\n  * **Left Column:**\n    * `Spatial layers now reach a wide spread of jobs, from classroom drills and coaching to live work out in the field. They make lessons concrete and give crews practical reps without the hazards or speed of the real locations now.`\n    * `We give crews a path to ship spatial programs with software that stays quiet. Whether you're just getting going or already running at volume, the product is made to keep extending what's possible for you.`\n  * **Right Column:**\n    * `The product is shaped around how people actually work: point-and-place tools, ready-made layouts, and coverage on mobiles, visors, and glasses so you can hit a wider market without a studio team, now.`\n    * `We're steadily shipping capture, teamwork, and distribution tools so you remain in front of the pack. A network of makers is on hand to back the craft as it goes from a sketch to live experience.`\n* **Interactive Tags / Buttons:**\n  * `+ AI POWERED UX`\n  * `IMMERSAL BUILDING +`",
+  "agentic_verified": true,
+  "step_types": [
+    "thought",
+    "model_output"
+  ],
+  "usage": {
+    "input_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 360
+      },
+      {
+        "modality": "text",
+        "tokens": 53
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_input_tokens": 413,
+    "total_output_tokens": 555,
+    "total_thought_tokens": 644,
+    "total_tokens": 1612,
+    "total_tool_use_tokens": 0,
+    "raw_prompt_token": 486,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 96
+          },
+          {
+            "modality": "video",
+            "tokens": 360
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 559
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 644
+          }
+        ]
+      }
+    ]
+  },
+  "retained_files": [],
+  "cleanup_errors": []
+}

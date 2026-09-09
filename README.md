@@ -1,6 +1,6 @@
 # X Web Templates
 
-Four editable reconstructions of the supplied design references, with ChatGPT-generated main photography. Plain HTML, CSS, and JavaScript. Local fonts. No runtime dependencies or API keys.
+Eight reusable templates: reference-led reconstructions and your original Aster import. Original ChatGPT-generated artwork, editable HTML/CSS/JavaScript, and local fonts. No runtime dependencies or API keys.
 
 | Template | Direction | Working interactions |
 | --- | --- | --- |
@@ -8,6 +8,21 @@ Four editable reconstructions of the supplied design references, with ChatGPT-ge
 | [Rainbow Venture](templates/rainbow-venture/) | White venture page with rainbow racing | Native FAQ, validated introduction draft download |
 | [Bloop](templates/bloop/) | Six-panel lime identity board | Native template disclosure, brand-notes download |
 | [Furion](templates/furion/) | Six-panel monochrome identity board | Native template disclosure, brand-notes download |
+| [Aster](templates/aster/) | Layered observatory learning-product page | Original parallax, mobile menu, FAQs, choice controls |
+| [HorizonX](templates/horizonx/) | Navy and gold cosmic landing page | Pauseable scene, section navigation, native disclosures |
+| [BuzzKit](templates/buzzkit/) | Notification-platform page | Four dashboard views, keyboard navigation, pause, preferences, FAQs |
+| [Pixel World](templates/pixel-world/) | Illustrated developer portfolio | Layered scene, portfolio links, validated local contact-draft download |
+
+## Original designs and credits
+
+The original four designs come from **[Naty / @DesignGuru01 — original X post](https://x.com/DesignGuru01/status/2097570950543790295)**. This collection reconstructs those references; it is not affiliated with their creator.
+
+- **Aster:** Ali's [original Aster template repository](https://github.com/ali-abassi/aster-landing-page-template), imported with its MIT license. Its documented visual reference is [Unive](https://unive.ai/).
+- **HorizonX reference:** [Viktor Oddy / @viktoroddy — original post](https://x.com/viktoroddy/status/2097500666357072243).
+- **BuzzKit reference:** [Christo / @chroxify — original post](https://x.com/chroxify/status/2097477196130529296).
+- **Pixel-world reference:** [Varun / @orseliyas — original post](https://x.com/orseliyas/status/2097307376143773730).
+
+Each reconstruction credits its source. Aster is an unchanged import; the three new templates use independent code and locally packaged assets.
 
 ## Preview the collection
 
@@ -34,6 +49,10 @@ Download an individual ZIP from the gallery or this repository:
 - [Rainbow Venture ZIP](dist/downloads/rainbow-venture.zip)
 - [Bloop ZIP](dist/downloads/bloop.zip)
 - [Furion ZIP](dist/downloads/furion.zip)
+- [Aster ZIP](dist/downloads/aster.zip)
+- [HorizonX ZIP](dist/downloads/horizonx.zip)
+- [BuzzKit ZIP](dist/downloads/buzzkit.zip)
+- [Pixel World ZIP](dist/downloads/pixel-world.zip)
 
 Unzip it, open `dist/index.html`, and edit its files. For predictable local storage and download behavior, serve the downloaded `dist` folder using Python's static server. Each ZIP includes all required CSS, JavaScript, images, fonts, a customization guide, and font licenses. You can host its `dist` folder on any static host.
 
@@ -46,7 +65,7 @@ npm run build
 npm run check
 ```
 
-The build combines shared and brand-specific files into `dist/<name>/` and produces deterministic ZIPs from the exact same output. **Do not edit the root `dist/` output directly.** Rebuilding refreshes it and removes stale generated files. All operations are rooted at this repository, not your shell's current directory.
+The build combines shared files for the original four templates, preserves the independent Aster/HorizonX/BuzzKit/Pixel World files, writes `dist/<name>/`, and produces deterministic ZIPs from the exact same output. **Do not edit the root `dist/` output directly.** Rebuilding refreshes it and removes stale generated files. All operations are rooted at this repository, not your shell's current directory.
 
 Start customization with:
 
@@ -63,10 +82,18 @@ Bird generates a local application text draft with required/email and whitespace
 
 Bloop and Furion are identity boards. Their template disclosures and brand-note downloads work without JavaScript.
 
+Aster preserves the original source and MIT license from your separate repository. Its animated reveals require JavaScript unless reduced motion is enabled. Product reviews, metrics and features are illustrative.
+
+HorizonX is a two-section reconstruction with generated space artwork and a separate ship layer. Its lower disclosures are editable local template information.
+
+BuzzKit is an independent design reconstruction, not the notification backend. Dashboard controls inside the preview are illustrative; the four scene selectors, pause, preference switches, copy prompt, FAQs and links work. Preference changes are local to the current page. Docs and pricing links go to the original project.
+
+Pixel World preserves the source portfolio’s layout and links to Varun’s reference projects; they are not Ali’s work. Its contact form downloads a local draft without sending anything. Replace names, projects and contact behavior before publishing your own portfolio.
+
 ## Validation and provenance
 
-`npm run check` verifies all five pages, local links and anchors, image dimensions/alt attributes, JavaScript syntax, and exact ZIP-to-preview parity. Current side-by-side visual comparisons, mobile and interaction evidence are in [reference-match evidence](evidence/reference-match/). The earlier `evidence/redesign` describes a rejected interpretation and does not approve this candidate.
+`npm run check` verifies every generated page, local links and anchors, image dimensions/alt attributes, JavaScript syntax, and exact ZIP-to-preview parity. The original four’s comparisons are in [reference-match evidence](evidence/reference-match/). The additions, source snapshots, image prompts, video-analysis receipts and browser checks are in [collection-expansion evidence](evidence/collection-expansion/). The earlier `evidence/redesign` describes a rejected interpretation and does not approve this candidate.
 
-The original imported source is retained at `8db60a8`. Ten replacement photographs were generated with native ChatGPT imagegen. Source paths and provenance are in `evidence/reference-match/generated-assets.json`. Bird retains one small reference study crop; Furion retains two small crops and its raster wordmark. These retained assets carry no new license: replace them or obtain rights before commercial reuse. Fonts include license notices. Exact proprietary fonts and identical photography are not claimed.
+The original imported source is retained at `8db60a8`. Ten replacement photographs for the original four and five new scene layers were generated with native ChatGPT imagegen. Provenance for the original four is in `evidence/reference-match/generated-assets.json`; new image prompts and usage are in `evidence/collection-expansion/`. Bird retains one small reference study crop; Furion retains two small crops and its raster wordmark. These retained assets carry no new license: replace them or obtain rights before commercial reuse. Fonts include license notices. Exact proprietary fonts and identical photography are not claimed.
 
 Original ChatGPT Site source: `2041d91ef089c77106c542fe5c7fa5290307759b`. Historical inspiration: [Naty / DesignGuru01](https://x.com/designguru01/status/2097570950543790295). The original hosted Site and separate Aster repository are unchanged.

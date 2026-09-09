@@ -1,0 +1,15 @@
+{
+  "aster_file_parity": 8,
+  "original_template_and_distribution_files_unchanged": 104,
+  "deterministic_zip_count": 8,
+  "zip_sha256": {
+    "horizonx.zip": "cc7de974f28af03b36846d4586624ccdb29a6a1fd9b528249a402e78b784223c",
+    "pixel-world.zip": "66c99626d8a383f2e16625657e259b0cf561c759e06f77deb0fb7bda26dd194f",
+    "aster.zip": "c4b37fdd28a392fdc0a744782d0d8d3ab440ccce17639a317f432cb3f5a0948f",
+    "bloop.zip": "cfeefc32c273e2e9bb966877c52a16eccd107d5fc5e71b087bb815f313f45ae3",
+    "furion.zip": "3b6a76e89acfa32e025e94b648328b35b4aac1a21951063cc06826e33310e57a",
+    "buzzkit.zip": "9784f008a53599eb8ad0537f0e34e5ac12b2c0e7a2ae3911f23fc025a910ecf3",
+    "alpine-notes.zip": "3a793599a24bedc4489de1eb637d0f0347486162c88d921d76aee6ee528ea937",
+    "rainbow-venture.zip": "b8548f5a4ea2c9cd69c2182263a28f4b418edf8e7be3629fe5e4ee01ed174b22"
+  }
+}

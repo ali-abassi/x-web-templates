@@ -1,0 +1,121 @@
+{
+  "success": true,
+  "data": {
+    "axeVersion": "4.12.1",
+    "counts": {
+      "inapplicable": 53,
+      "incomplete": 1,
+      "passes": 35,
+      "violations": 0
+    },
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 27,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span>\u2303</span>",
+            "target": [
+              ".workspace > span:nth-child(2)"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+            "html": "<td>user_311</td>",
+            "target": [
+              ".panel:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1)"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+            "html": "<em>Sent</em>",
+            "target": [
+              "tr:nth-child(2) > td:nth-child(2) > em"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+            "html": "<td>12m ago</td>",
+            "target": [
+              ".panel:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(3)"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+            "html": "<td>user_178</td>",
+            "target": [
+              ".panel:nth-child(3) > table > tbody > tr:nth-child(3) > td:nth-child(1)"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+            "html": "<em>Sent</em>",
+            "target": [
+              "tr:nth-child(3) > td:nth-child(2) > em"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+            "html": "<td>12m ago</td>",
+            "target": [
+              ".panel:nth-child(3) > table > tbody > tr:nth-child(3) > td:nth-child(3)"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+            "html": "<pre>{\n  \"title\": \"Leg day\",\n  \"body\": \"Let\u2019s go.\",\n  \"topic\": \"gym-reminders\"\n}</pre>",
+            "target": [
+              ".payload > pre"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span aria-hidden=\"true\">\u2302</span>",
+            "target": [
+              "#tab-overview > span[aria-hidden=\"true\"]"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span aria-hidden=\"true\">\u2318</span>",
+            "target": [
+              "#tab-workflows > span[aria-hidden=\"true\"]"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ],
+    "lifecycle": {
+      "effectiveLaunch": {
+        "browserLaunched": true,
+        "engine": "chrome",
+        "launchHash": 12195675696465354296
+      },
+      "launched": false,
+      "relaunchedBrowser": false,
+      "restartedBackground": false,
+      "restoreStatus": "not_configured",
+      "reused": true,
+      "saveStatus": "not_attempted"
+    },
+    "url": "http://localhost:4173/buzzkit/",
+    "violations": []
+  },
+  "error": null
+}

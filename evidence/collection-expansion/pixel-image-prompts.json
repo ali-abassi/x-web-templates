@@ -1,0 +1,19 @@
+{
+  "generator": "native ChatGPT imagegen",
+  "cost": "tool does not expose billing",
+  "reference": "https://x.com/orseliyas/status/2097307376143773730",
+  "assets": [
+    {
+      "path": "templates/pixel-world/dist/assets/landscape.png",
+      "prompt": "Use case: stylized-concept. Asset type: website hero backdrop. Reference image only for composition, palette and pixel-art/anime visual style, not an edit target. Create an original detailed scenic landscape with the SAME composition as the supplied reference: wide 16:9; bright deep blue clear sky occupies upper60%; green fantasy valley at lower40%, winding blue river and stone bridge, distant warm medieval skyline in center lower quarter, small ancient stepped temple in lower-left valley. Large lush sunlit green tree canopy enters upper-right corner and hangs along the right edge. Bottom-right contains a weathered wooden desk with legs and stool on a stone overlook, open dark laptop showing only tiny non-readable colored code marks, small coffee mug, plants. NO robotic arm yet; reserve empty tabletop area right of laptop for a separate yellow robot layer. NO CLOUDS: clear blue sky for separate moving cloud layers. Keep upper-left/center-left sky uncluttered for live white heading. Crisp high-detail pixel-art brushwork, beautifully dithered textures, verdant emerald foliage, cobalt/azure atmosphere, warm ochre buildings; sun from upper-left. Match subject scale and placement in reference, don't enlarge desk. No text, no logos, no UI, no border."
+    },
+    {
+      "path": "templates/pixel-world/dist/assets/clouds.png",
+      "prompt": "Use case: stylized-concept. Asset type: transparent animated cloud layer for a pixel-art website. Supplied image is only style reference. Generate one wide fluffy white cumulus cloud bank, horizontal about 3:1, with several tall billowing lobes and smaller wisps trailing right. Crisp pixel-art edges and pale warm cream highlights with soft blue/lavender shadows, matching the reference landscape painting. The entire cloud isolated on genuinely transparent RGBA background, NO sky, NO scenery, NO horizon, NO text. Generous transparent margins all around. Cloud should be large and finely detailed, not clip art."
+    },
+    {
+      "path": "templates/pixel-world/dist/assets/robot.png",
+      "prompt": "Use case: stylized-concept. Asset type: separate transparent robot foreground for pixel-art website. Supplied image only reference for yellow robot identity, pose, style, lighting. Generate one small yellow-orange desktop industrial robot arm with dark charcoal circular joints, compact round mounting base, two articulated segments, thin black gripper lowered toward left. Three-quarter front/left view, sits on a flat surface with sunlight from upper left. Match the reference robot in the lower-right corner, but isolate just this robot. Detailed crisp pixel-art illustration with warm amber highlights and slate shadows, a few worn edges. Entire robot isolated on genuinely transparent RGBA canvas. NO table, NO laptop, NO mug, NO scenery, NO ground, NO shadow plane, NO lettering. Base centered at bottom of sprite; generous transparent margins. Upright near-square composition."
+    }
+  ]
+}

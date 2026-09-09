@@ -1,0 +1,16 @@
+{
+  "generator": "native ChatGPT imagegen",
+  "cost": "tool does not expose billing",
+  "assets": [
+    {
+      "path": "templates/horizonx/dist/assets/cosmos.png",
+      "prompt": "Use case: stylized-concept. Asset type: editable website's full-bleed hero backdrop, wide 1640:1080 composition. Reference image is a composition/style reference, NOT an edit target. Generate original cosmic artwork matching the reference's exact visual massing and palette, but remove ALL text, logos, navigation, controls and the spaceship. Deep almost-black midnight navy space. Large cropped blue-purple planet occupies upper-right corner with brilliant copper-gold rim along its lower-left curve; medium planet upper-left at x15% y20%, several tiny distant planets. Blue-and-gold curved planetary horizon emerges lower-left around y68%. Angular faceted blue rocks with warm amber lit tops frame the entire bottom edge, bottom20%. Central area x25–70%, y30–68% remains very dark quiet negative space for live website headline and CTA. Rich cinematic painterly 3D illustration like the reference, sharp geological texture, sparse stars. No spaceship (will be separate animated foreground), no lettering, no UI. Landscape full bleed, no border.",
+      "reference": "https://x.com/viktoroddy/status/2097500666357072243"
+    },
+    {
+      "path": "templates/horizonx/dist/assets/ship.png",
+      "prompt": "Use case: stylized-concept. Asset type: transparent foreground sprite for a website cosmic scene. Reference image provided only for ship style, angle and lighting. Generate ONE sleek dark indigo spaceship with copper rim highlights, pointing diagonally toward upper-left (nose around x15% y15%, engines x57% y55%), long narrow golden-orange exhaust trailing toward lower-right to x90% y90%. Three-quarter top view, elongated glossy futuristic shuttle, same painterly cinematic 3D style as reference. Entire ship and flame isolated on a genuinely transparent RGBA background. No stars, no planets, no rocks, no text, no background whatsoever. Generous transparent padding. Square canvas. Ship body and flame should be large and finely detailed.",
+      "reference": "https://x.com/viktoroddy/status/2097500666357072243"
+    }
+  ]
+}

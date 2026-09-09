@@ -1,0 +1,121 @@
+{
+  "success": true,
+  "data": {
+    "axeVersion": "4.12.1",
+    "counts": {
+      "inapplicable": 68,
+      "incomplete": 1,
+      "passes": 20,
+      "violations": 0
+    },
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 10,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+            "html": "<p class=\"eyebrow\">START A CONVERSATION</p>",
+            "target": [
+              ".dialog-heading > div > .eyebrow"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+            "html": "<h2 id=\"contact-heading\">A little context<br>goes a long way.</h2>",
+            "target": [
+              "#contact-heading"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content",
+            "html": "<button type=\"button\" class=\"close\" aria-label=\"Close contact draft\">\n            \u00d7\n          </button>",
+            "target": [
+              ".close"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+            "html": "<p class=\"dialog-note\">\n          This template downloads a local contact draft. Nothing is sent to\n          Varun or anyone else.\n        </p>",
+            "target": [
+              ".dialog-note"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+            "html": "<label>Your name<input name=\"name\" autocomplete=\"name\" maxlength=\"100\" required=\"\"></label>",
+            "target": [
+              "label:nth-child(1)"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+            "html": "<input name=\"name\" autocomplete=\"name\" maxlength=\"100\" required=\"\">",
+            "target": [
+              "input[name=\"name\"]"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+            "html": "<label>Email address<input name=\"email\" type=\"email\" autocomplete=\"email\" maxlength=\"254\" required=\"\"></label>",
+            "target": [
+              "label:nth-child(2)"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+            "html": "<input name=\"email\" type=\"email\" autocomplete=\"email\" maxlength=\"254\" required=\"\">",
+            "target": [
+              "input[name=\"email\"]"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+            "html": "<button class=\"button submit\" type=\"submit\">\n            Download draft <span aria-hidden=\"true\">\u2193</span>\n          </button>",
+            "target": [
+              ".submit"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span aria-hidden=\"true\">\u2193</span>",
+            "target": [
+              ".submit > span[aria-hidden=\"true\"]"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ],
+    "lifecycle": {
+      "effectiveLaunch": {
+        "browserLaunched": true,
+        "engine": "chrome",
+        "launchHash": 12195675696465354296
+      },
+      "launched": false,
+      "relaunchedBrowser": false,
+      "restartedBackground": false,
+      "restoreStatus": "not_configured",
+      "reused": true,
+      "saveStatus": "not_attempted"
+    },
+    "url": "http://localhost:4173/pixel-world/",
+    "violations": []
+  },
+  "error": null
+}

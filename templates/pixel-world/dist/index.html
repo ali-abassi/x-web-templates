@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="An editable pixel-world portfolio inspired by Varun Lohade’s design."
+    />
+    <meta name="theme-color" content="#28628c" />
+    <title>Pixel World — A place to make things.</title>
+    <link rel="icon" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#work">Skip to work</a>
+    <main>
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="scenery" aria-hidden="true">
+          <div class="artboard">
+            <img
+              class="landscape"
+              src="assets/landscape.png"
+              width="1668"
+              height="943"
+              alt=""
+              fetchpriority="high"
+            /><img
+              class="clouds"
+              src="assets/clouds.png"
+              width="2164"
+              height="727"
+              alt=""
+            /><img
+              class="clouds distant"
+              src="assets/clouds.png"
+              width="2164"
+              height="727"
+              alt=""
+            /><img
+              class="robot"
+              src="assets/robot.png"
+              width="1254"
+              height="1254"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="scrim"></div>
+        <header>
+          <a
+            class="brand"
+            href="#hero-heading"
+            aria-label="Varun Lohade reference, home"
+            >varunlohade<span>.</span></a
+          ><a class="button" href="#contact" data-contact
+            >Say hello <span aria-hidden="true">↗</span></a
+          >
+        </header>
+        <div class="hero-copy">
+          <p class="eyebrow">Software Engineer</p>
+          <h1 id="hero-heading">
+            I couldn’t think of <br />anything to add here.
+          </h1>
+          <p class="intro">
+            Mostly software. Sometimes hardware. <br />Most times dad jokes.
+          </p>
+          <a class="button explore" href="#work"
+            >Explore my work <span aria-hidden="true">↓</span></a
+          >
+        </div>
+        <button class="motion" type="button" aria-pressed="false" hidden>
+          Pause scene
+        </button>
+      </section>
+      <section class="work wrap" id="work" aria-labelledby="work-heading">
+        <div class="section-intro">
+          <p class="eyebrow">01 / WORK</p>
+          <h2 id="work-heading">A few things<br />I’ve worked on.</h2>
+          <p>
+            Software, useful tools, and a machine that moves. Projects from
+            Varun’s original portfolio, included here as reference content.
+          </p>
+        </div>
+        <div class="projects">
+          <a class="project" href="https://avici.money/"
+            ><span class="project-number">01</span>
+            <div>
+              <p class="eyebrow">CRYPTO · FINTECH</p>
+              <h3>Avici <span aria-hidden="true">↗</span></h3>
+              <p>
+                Varun’s founding engineering work, spanning the mobile app,
+                backend, and internal AI tools.
+              </p>
+            </div></a
+          ><a class="project" href="https://github.com/varunlohade/fixmahbug"
+            ><span class="project-number">02</span>
+            <div>
+              <p class="eyebrow">AI · DEVELOPER TOOLS</p>
+              <h3>fixmahbug <span aria-hidden="true">↗</span></h3>
+              <p>
+                A codebase-aware tool for turning a teammate’s small bug report
+                into a proposed fix.
+              </p>
+            </div></a
+          >
+          <article class="project">
+            <span class="project-number">03</span>
+            <div>
+              <p class="eyebrow">ROBOTICS · EXPERIMENT</p>
+              <h3>The robotic arm</h3>
+              <p>
+                An ongoing exploration of language, software, and physical
+                movement.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="now wrap" aria-labelledby="now-heading">
+        <div>
+          <p class="eyebrow">02 / NOW</p>
+          <h2 id="now-heading">What I’m<br />exploring.</h2>
+        </div>
+        <dl>
+          <div>
+            <dt>Learning</dt>
+            <dd>Robotics, one small experiment at a time.</dd>
+          </div>
+          <div>
+            <dt>Exploring</dt>
+            <dd>Agents, on-chain finance, and machines that move.</dd>
+          </div>
+        </dl>
+      </section>
+      <section class="contact-cta wrap">
+        <p>Have an idea you want to build?</p>
+        <a href="#contact" data-contact
+          >Let’s talk.<span aria-hidden="true">↗</span></a
+        >
+      </section>
+      <dialog open id="contact" aria-labelledby="contact-heading">
+        <div class="dialog-heading">
+          <div>
+            <p class="eyebrow">START A CONVERSATION</p>
+            <h2 id="contact-heading">A little context<br />goes a long way.</h2>
+          </div>
+          <button
+            type="button"
+            class="close"
+            aria-label="Close contact draft"
+            hidden
+          >
+            ×
+          </button>
+        </div>
+        <p class="dialog-note">
+          This template downloads a local contact draft. Nothing is sent to
+          Varun or anyone else.
+        </p>
+        <form hidden>
+          <label
+            >Your name<input
+              name="name"
+              autocomplete="name"
+              maxlength="100"
+              required /></label
+          ><label
+            >Email address<input
+              name="email"
+              type="email"
+              autocomplete="email"
+              maxlength="254"
+              required /></label
+          ><label
+            >What would you like to build?<textarea
+              name="message"
+              rows="4"
+              maxlength="1500"
+              required
+            ></textarea></label
+          ><button class="button submit" type="submit">
+            Download draft <span aria-hidden="true">↓</span>
+          </button>
+          <p role="status" id="draft-status"></p>
+        </form>
+        <noscript
+          ><p>
+            To create a draft without JavaScript, copy your name, email address,
+            and project idea into a text document. This preview has no messaging
+            service.
+          </p></noscript
+        >
+      </dialog>
+    </main>
+    <footer class="wrap">
+      <div>
+        <span>Varun Lohade · design reference</span
+        ><small>Independent template reconstruction.</small>
+      </div>
+      <nav aria-label="Sources">
+        <a href="https://x.com/orseliyas/status/2097307376143773730"
+          >Original post ↗</a
+        ><a href="https://varunlohade.com">Original site ↗</a
+        ><a href="https://github.com/ali-abassi/x-web-templates"
+          >Template source ↗</a
+        >
+      </nav>
+      <a href="#hero-heading">Back to top ↑</a>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+{
+  "success": true,
+  "data": {
+    "axeVersion": "4.12.1",
+    "counts": {
+      "inapplicable": 68,
+      "incomplete": 1,
+      "passes": 20,
+      "violations": 0
+    },
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 15,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node",
+            "html": "<h1 id=\"hero-title\">Horizon<span>X</span></h1>",
+            "target": [
+              "#hero-title"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content",
+            "html": "<span>X</span>",
+            "target": [
+              "#hero-title > span"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node",
+            "html": "<p>\n            Put AI-backed spatial training in<br>the hands of every crew\n            on-site.\n          </p>",
+            "target": [
+              ".hero-copy > p"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node",
+            "html": "<a class=\"outline\" href=\"#about\">Experience <span aria-hidden=\"true\">\u27f6</span></a>",
+            "target": [
+              ".outline"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content",
+            "html": "<span aria-hidden=\"true\">\u27f6</span>",
+            "target": [
+              "span[aria-hidden=\"true\"]"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node",
+            "html": "<button class=\"motion\" type=\"button\" aria-pressed=\"false\">Pause motion</button>",
+            "target": [
+              ".motion"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<p class=\"index\">02</p>",
+            "target": [
+              ".index"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<h2 id=\"about-title\">Shaped for live reality.</h2>",
+            "target": [
+              "#about-title"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<p class=\"lead\">\n          Using our spatial AI stack on site, you can stand up living field\n          programs in minutes.<br>Let the models take the grind of production\n          off your desk entirely.\n        </p>",
+            "target": [
+              ".lead"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<p>",
+            "target": [
+              "div:nth-child(1) > p:nth-child(1)"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ],
+    "lifecycle": {
+      "effectiveLaunch": {
+        "browserLaunched": true,
+        "engine": "chrome",
+        "launchHash": 12195675696465354296
+      },
+      "launched": false,
+      "relaunchedBrowser": false,
+      "restartedBackground": false,
+      "restoreStatus": "not_configured",
+      "reused": true,
+      "saveStatus": "not_attempted"
+    },
+    "url": "http://localhost:4173/horizonx/",
+    "violations": []
+  },
+  "error": null
+}

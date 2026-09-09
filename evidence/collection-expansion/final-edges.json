@@ -1,0 +1,42 @@
+[
+  {
+    "page": "aster",
+    "width": 1440,
+    "pass": true
+  },
+  {
+    "page": "horizonx",
+    "width": 1440,
+    "pass": true
+  },
+  {
+    "page": "pixel-world",
+    "width": 1440,
+    "pass": true
+  },
+  {
+    "page": "gallery",
+    "width": 1440,
+    "pass": true
+  },
+  {
+    "page": "aster",
+    "width": 375,
+    "pass": true
+  },
+  {
+    "page": "horizonx",
+    "width": 375,
+    "pass": true
+  },
+  {
+    "page": "pixel-world",
+    "width": 375,
+    "pass": true
+  },
+  {
+    "page": "gallery",
+    "width": 375,
+    "pass": true
+  }
+]

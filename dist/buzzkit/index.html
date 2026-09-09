@@ -1,0 +1,979 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="A reusable notification-platform landing page inspired by BuzzKit."
+    />
+    <title>BuzzKit — Notifications, thoughtfully connected.</title>
+    <link rel="icon" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header wrap">
+      <a class="brand" href="#main"
+        ><img
+          src="assets/favicon.svg"
+          width="27"
+          height="27"
+          alt=""
+        />BuzzKit</a
+      >
+      <nav aria-label="Primary">
+        <a href="#features">Features ⌄</a
+        ><a href="https://buzzkit.dev/pricing">Pricing</a
+        ><a href="https://docs.buzzkit.dev">Docs</a>
+      </nav>
+      <div class="header-actions">
+        <a
+          class="github"
+          href="https://github.com/buzzkit-dev/buzzkit"
+          aria-label="BuzzKit on GitHub"
+          ><svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M9 19c-4 1-4-2-6-2m12 5v-4c0-1 .3-2 1-2.5 3-.3 6-1.4 6-6A5 5 0 0 0 20.5 6 4.5 4.5 0 0 0 20.4 2S19.3 1.7 16 3a13 13 0 0 0-7 0C6 1.7 4.6 2 4.6 2A4.5 4.5 0 0 0 4.5 6 5 5 0 0 0 3 9.5c0 4.6 3 5.7 6 6-.7.5-1 1.5-1 2.5v4"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.7"
+              stroke-linecap="round"
+            /></svg></a
+        ><a class="button black" href="#demo">Get Started</a>
+      </div>
+    </header>
+    <main id="main">
+      <section class="hero">
+        <div class="hero-stage">
+          <div class="notification n0" aria-hidden="true">
+            <span class="app-icon blue"></span>
+            <div>
+              <strong>Leg day</strong>
+              <p>Let’s go. 6:00 with Maya.</p>
+            </div>
+            <small>now</small>
+          </div>
+          <div class="notification n1" aria-hidden="true">
+            <span class="app-icon green"></span>
+            <div>
+              <strong>Your order shipped</strong>
+              <p>Arrives Thursday by 6 pm.</p>
+            </div>
+            <small>2m ago</small>
+          </div>
+          <div class="notification n2" aria-hidden="true">
+            <span class="app-icon green"></span>
+            <div>
+              <strong>Invoice paid</strong>
+              <p>Acme Studio paid $1,240.00.</p>
+            </div>
+            <small>9m ago</small>
+          </div>
+          <div class="notification n3" aria-hidden="true">
+            <span class="app-icon purple"></span>
+            <div>
+              <strong>Storm near your route</strong>
+              <p>Heavy rain expected after 3 pm.</p>
+            </div>
+            <small>now</small>
+          </div>
+          <div class="hero-copy">
+            <h1>
+              The Open Source Notification<br class="desktop-break" />
+              Orchestration Layer.
+            </h1>
+            <div class="actions">
+              <a class="button black" href="#demo">Get Started</a
+              ><a class="button" href="https://github.com/buzzkit-dev/buzzkit"
+                ><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M9 19c-4 1-4-2-6-2m12 5v-4c0-1 .3-2 1-2.5 3-.3 6-1.4 6-6A5 5 0 0 0 20.5 6 4.5 4.5 0 0 0 20.4 2S19.3 1.7 16 3a13 13 0 0 0-7 0C6 1.7 4.6 2 4.6 2A4.5 4.5 0 0 0 4.5 6 5 5 0 0 0 3 9.5c0 4.6 3 5.7 6 6-.7.5-1 1.5-1 2.5v4"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linecap="round"
+                  /></svg
+                >Star on GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+        <figure
+          class="showcase wrap"
+          id="demo"
+          aria-label="Interactive dashboard presentation"
+        >
+          <div class="dashboard">
+            <aside
+              class="sidebar"
+              aria-label="Illustrative dashboard navigation"
+            >
+              <div class="workspace">
+                <span class="app-icon blue"></span>Gymly <span>⌃</span>
+              </div>
+              <p class="side-item selected" data-side="overview">
+                ⌂ &nbsp; Overview
+              </p>
+              <small>Messaging</small>
+              <p class="side-item" data-side="deliveries">➤ &nbsp; Messages</p>
+              <p class="side-item" data-side="workflows">⌘ &nbsp; Workflows</p>
+              <p class="side-item">ϟ &nbsp; Events</p>
+              <small>Audience</small>
+              <p class="side-item">✣ &nbsp; Subscribers</p>
+              <p class="side-item" data-side="segments">◎ &nbsp; Segments</p>
+              <p class="side-item">◆ &nbsp; Topics</p>
+              <small>Developers</small>
+              <p class="side-item">◐ &nbsp; API keys</p>
+              <p class="side-item">♧ &nbsp; Webhooks</p>
+              <p class="side-item">▧ &nbsp; Sources</p>
+            </aside>
+            <div class="screens">
+              <section
+                class="screen"
+                id="overview"
+                role="tabpanel"
+                aria-labelledby="tab-overview"
+              >
+                <div class="screen-heading">
+                  <div>
+                    <h2>Overview</h2>
+                    <p>Subscribers, deliveries, events and runs over time.</p>
+                  </div>
+                  <span class="fake-control">Last 14 days ⌄</span>
+                </div>
+                <div class="metrics">
+                  <div class="metric">
+                    <span>Subscribers</span
+                    ><strong>13,460 <small>↗ 11%</small></strong>
+                    <div style="color: #679ceb">
+                      <svg viewBox="0 0 200 35" aria-hidden="true">
+                        <path
+                          d="M0 26Q18 25 27 20T56 21 83 17 112 16 144 12 175 12 200 8"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                        />
+                        <path
+                          d="M0 26Q18 25 27 20T56 21 83 17 112 16 144 12 175 12 200 8V35H0Z"
+                          fill="currentColor"
+                          opacity=".06"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="metric">
+                    <span>Delivered</span
+                    ><strong>35,285 <small>↗ 24%</small></strong>
+                    <div style="color: #4acbda">
+                      <svg viewBox="0 0 200 35" aria-hidden="true">
+                        <path
+                          d="M0 26Q18 25 27 20T56 21 83 17 112 16 144 12 175 12 200 8"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                        />
+                        <path
+                          d="M0 26Q18 25 27 20T56 21 83 17 112 16 144 12 175 12 200 8V35H0Z"
+                          fill="currentColor"
+                          opacity=".06"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="metric">
+                    <span>Events</span
+                    ><strong>143,380 <small>↗ 18%</small></strong>
+                    <div style="color: #e7bc58">
+                      <svg viewBox="0 0 200 35" aria-hidden="true">
+                        <path
+                          d="M0 26Q18 25 27 20T56 21 83 17 112 16 144 12 175 12 200 8"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                        />
+                        <path
+                          d="M0 26Q18 25 27 20T56 21 83 17 112 16 144 12 175 12 200 8V35H0Z"
+                          fill="currentColor"
+                          opacity=".06"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel delivery-chart">
+                  <div class="panel-heading">
+                    <div>
+                      <h3>Deliveries</h3>
+                      <p>Sent and failed deliveries per day.</p>
+                    </div>
+                    <span class="legend"
+                      ><i></i>Sent <i></i>Delivered <i></i>Failed</span
+                    >
+                  </div>
+                  <svg
+                    class="chart"
+                    viewBox="0 0 600 190"
+                    role="img"
+                    aria-label="Illustrative sent and delivered notifications trend upward from August 20 to September 1"
+                  >
+                    <defs>
+                      <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+                        <stop stop-color="#66d9be" stop-opacity=".18" />
+                        <stop
+                          offset="1"
+                          stop-color="#66d9be"
+                          stop-opacity="0"
+                        />
+                      </linearGradient>
+                    </defs>
+                    <path
+                      d="M0 140C35 138 45 136 66 126S97 124 120 128 150 112 180 112 210 105 240 113 270 98 300 101 330 91 360 95 390 88 420 91 450 79 480 78 510 72 540 76 580 67 600 70V185H0Z"
+                      fill="url(#area)"
+                    />
+                    <path
+                      d="M0 133C35 131 45 129 66 119S97 117 120 121 150 105 180 105 210 98 240 106 270 91 300 94 330 84 360 88 390 81 420 84 450 72 480 71 510 65 540 69 580 60 600 63"
+                      fill="none"
+                      stroke="#67d987"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M0 140C35 138 45 136 66 126S97 124 120 128 150 112 180 112 210 105 240 113 270 98 300 101 330 91 360 95 390 88 420 91 450 79 480 78 510 72 540 76 580 67 600 70"
+                      fill="none"
+                      stroke="#49cee0"
+                      stroke-width="2"
+                    />
+                    <path d="M0 184H600" stroke="#e68b95" fill="none" />
+                  </svg>
+                  <div class="dates">
+                    <span>Aug 20</span><span>Aug 22</span><span>Aug 24</span
+                    ><span>Aug 26</span><span>Aug 28</span><span>Aug 30</span
+                    ><span>Sep 1</span>
+                  </div>
+                </div>
+              </section>
+              <section
+                class="screen"
+                id="workflows"
+                role="tabpanel"
+                aria-labelledby="tab-workflows"
+                hidden
+              >
+                <p class="crumb">‹ &nbsp; Workflows</p>
+                <div class="screen-heading">
+                  <div>
+                    <h2>Trial nudge <em>Active</em></h2>
+                    <p>Once per subscriber, when trial.started fires.</p>
+                  </div>
+                  <span class="fake-control">Pause ···</span>
+                </div>
+                <div class="panel workflow">
+                  <div class="panel-heading">
+                    <h3>Steps</h3>
+                    <span>Steps &nbsp; Runs &nbsp; Code</span>
+                  </div>
+                  <div class="run-label">
+                    Runs <span>Once at a time per subscriber</span>
+                  </div>
+                  <div class="flow-node">
+                    <small>ϟ Trigger</small><strong>on trial.started</strong>
+                  </div>
+                  <div class="connector"></div>
+                  <div class="flow-node">
+                    <small>⌘ Branch</small><strong>opened-the-app-since</strong
+                    ><span>yes · no</span>
+                  </div>
+                  <div class="branches">
+                    <div>
+                      <small>yes</small>
+                      <div class="flow-node">
+                        <small>⌛ Wait</small><strong>give-it-a-day</strong
+                        ><span>Wait 1 day</span>
+                      </div>
+                    </div>
+                    <div>
+                      <small>no</small>
+                      <div class="flow-node">
+                        <small>➤ Send</small><strong>first-class-waiting</strong
+                        ><span>Your first class is waiting.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section
+                class="screen"
+                id="segments"
+                role="tabpanel"
+                aria-labelledby="tab-segments"
+                hidden
+              >
+                <p class="crumb">‹ &nbsp; Segments</p>
+                <div class="screen-heading">
+                  <div>
+                    <h2>Active pro members</h2>
+                    <p>
+                      Pro subscribers who trained this week and opened the app
+                      this month.
+                    </p>
+                  </div>
+                  <span class="fake-control black">Save</span>
+                </div>
+                <div class="panel conditions">
+                  <div class="panel-heading">
+                    <h3>Conditions</h3>
+                    <span>Builder &nbsp; JSON</span>
+                  </div>
+                  <p>Subscribers matching <b>all ⌄</b> of these conditions</p>
+                  <div class="condition">
+                    <span>♟ Attribute</span><span>plan</span><span>is</span
+                    ><span>pro</span>
+                  </div>
+                  <div class="condition">
+                    <span>ϟ Did event</span><span>workout.completed</span
+                    ><span>at least 3</span><span>last 7 days</span>
+                  </div>
+                  <div class="condition">
+                    <span>◷ Activity</span><span>active in the last</span
+                    ><span>30 days</span>
+                  </div>
+                  <p>＋ Add condition</p>
+                </div>
+                <div class="panel audience">
+                  <div class="panel-heading">
+                    <h3>Matching now</h3>
+                    <span>1,284 subscribers</span>
+                  </div>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Subscriber</th>
+                        <th>Country</th>
+                        <th>Channel</th>
+                        <th>Last seen</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><span class="avatar">M</span>Maya Lindqvist</td>
+                        <td>Sweden</td>
+                        <td><em>iOS</em></td>
+                        <td>2m ago</td>
+                      </tr>
+                      <tr>
+                        <td><span class="avatar">T</span>Tomás Ferreira</td>
+                        <td>Portugal</td>
+                        <td><em>iOS</em></td>
+                        <td>26m ago</td>
+                      </tr>
+                      <tr>
+                        <td><span class="avatar">A</span>Alex Chen</td>
+                        <td>Canada</td>
+                        <td><em>iOS</em></td>
+                        <td>1h ago</td>
+                      </tr>
+                      <tr>
+                        <td><span class="avatar">S</span>Sam Parker</td>
+                        <td>Australia</td>
+                        <td><em>iOS</em></td>
+                        <td>3h ago</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+              <section
+                class="screen"
+                id="deliveries"
+                role="tabpanel"
+                aria-labelledby="tab-deliveries"
+                hidden
+              >
+                <p class="crumb">‹ &nbsp; Messages</p>
+                <div class="screen-heading">
+                  <div>
+                    <h2>Leg day <em>Completed</em></h2>
+                    <p>Sent to the gym-reminders topic 12 minutes ago.</p>
+                  </div>
+                  <span class="fake-control">Send again</span>
+                </div>
+                <div class="delivery-grid">
+                  <div class="panel">
+                    <div class="panel-heading"><h3>Overview</h3></div>
+                    <dl>
+                      <div>
+                        <dt>Title</dt>
+                        <dd>Leg day</dd>
+                      </div>
+                      <div>
+                        <dt>Body</dt>
+                        <dd>Let’s go. 6:00 with Maya.</dd>
+                      </div>
+                      <div>
+                        <dt>Channel</dt>
+                        <dd><em>Push</em></dd>
+                      </div>
+                      <div>
+                        <dt>Sent to</dt>
+                        <dd>◆ gym-reminders</dd>
+                      </div>
+                    </dl>
+                  </div>
+                  <div class="panel">
+                    <div class="panel-heading">
+                      <h3>Delivery</h3>
+                      <span class="green-line"></span>
+                    </div>
+                    <dl>
+                      <div>
+                        <dt>Reachable</dt>
+                        <dd>2,418</dd>
+                      </div>
+                      <div>
+                        <dt>Sent</dt>
+                        <dd class="success">2,412</dd>
+                      </div>
+                      <div>
+                        <dt>Pending</dt>
+                        <dd>0</dd>
+                      </div>
+                      <div>
+                        <dt>Failed</dt>
+                        <dd class="failure">6</dd>
+                      </div>
+                    </dl>
+                  </div>
+                  <div class="panel">
+                    <div class="panel-heading">
+                      <h3>Deliveries</h3>
+                      <span>All &nbsp; Sent &nbsp; Failed</span>
+                    </div>
+                    <table>
+                      <thead>
+                        <tr>
+                          <th>Subscriber</th>
+                          <th>Status</th>
+                          <th>Sent</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>user_42</td>
+                          <td><em>Sent</em></td>
+                          <td>12m ago</td>
+                        </tr>
+                        <tr>
+                          <td>user_311</td>
+                          <td><em>Sent</em></td>
+                          <td>12m ago</td>
+                        </tr>
+                        <tr>
+                          <td>user_178</td>
+                          <td><em>Sent</em></td>
+                          <td>12m ago</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="panel payload">
+                    <div class="panel-heading"><h3>Payload</h3></div>
+                    <pre>
+{
+  "title": "Leg day",
+  "body": "Let’s go.",
+  "topic": "gym-reminders"
+}</pre
+                    >
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <div class="view-controls">
+            <div class="tablist" role="tablist" aria-label="Dashboard view">
+              <button
+                type="button"
+                id="tab-overview"
+                role="tab"
+                disabled
+                aria-controls="overview"
+                aria-selected="true"
+                tabindex="0"
+                data-screen="overview"
+              >
+                <span aria-hidden="true">⌂</span>Overview</button
+              ><button
+                type="button"
+                id="tab-workflows"
+                role="tab"
+                disabled
+                aria-controls="workflows"
+                aria-selected="false"
+                tabindex="-1"
+                data-screen="workflows"
+              >
+                <span aria-hidden="true">⌘</span>Workflows</button
+              ><button
+                type="button"
+                id="tab-segments"
+                role="tab"
+                disabled
+                aria-controls="segments"
+                aria-selected="false"
+                tabindex="-1"
+                data-screen="segments"
+              >
+                <span aria-hidden="true">◎</span>Segments</button
+              ><button
+                type="button"
+                id="tab-deliveries"
+                role="tab"
+                disabled
+                aria-controls="deliveries"
+                aria-selected="false"
+                tabindex="-1"
+                data-screen="deliveries"
+              >
+                <span aria-hidden="true">➤</span>Deliveries
+              </button>
+            </div>
+          </div>
+        </figure>
+        <noscript
+          ><p class="script-notice wrap">
+            The Overview preview works without JavaScript. Enable JavaScript to
+            switch dashboard scenes or copy the setup prompt.
+          </p></noscript
+        >
+        <div class="demo-caption wrap">
+          <span>Illustrative dashboard. Nothing is sent.</span
+          ><button id="pause" type="button" aria-pressed="false" hidden>
+            Pause preview
+          </button>
+        </div>
+      </section>
+      <section class="section wrap">
+        <h2>Notifications made easy.</h2>
+        <p class="section-lead">
+          One place to connect your events, your audience, and your next
+          message.
+        </p>
+        <div class="value-grid">
+          <article>
+            <div class="value-visual">
+              <pre><span>POST</span> /messages
+{
+  "title": "Leg day",
+  "body": "Let’s go.",
+  "topic": "gym-reminders"
+}</pre>
+            </div>
+            <h3>One clear request.</h3>
+            <p>
+              A compact API story, presented with a real, editable code example.
+            </p>
+          </article>
+          <article>
+            <div class="value-visual workspaces">
+              <strong>Workspace</strong>
+              <p>◈ Orbit <span>✓</span></p>
+              <p>◉ Gymly</p>
+              <p>▧ Nook</p>
+              <p>◇ Harbor</p>
+            </div>
+            <h3>Room for every project.</h3>
+            <p>
+              Separate workspaces help keep each product and its audience
+              together.
+            </p>
+          </article>
+          <article>
+            <div class="value-visual credential-list">
+              <p>◐ &nbsp; Apple Push Notification service</p>
+              <p>◈ &nbsp; Firebase Cloud Messaging</p>
+              <p>▣ &nbsp; Identity secret</p>
+            </div>
+            <h3>Your keys. Your data.</h3>
+            <p>
+              A place to explain the trust boundary and how you protect customer
+              data.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="section wrap" id="features">
+        <h2>Everything you need, built in.</h2>
+        <p class="section-lead">
+          Choose who to reach, automate the follow-up, and give people control.
+        </p>
+        <div class="feature-grid">
+          <article class="feature">
+            <span class="feature-icon" aria-hidden="true">⌘</span>
+            <h3>Workflows</h3>
+            <p>
+              Give every event a next step. Build a clear path from a trigger to
+              a wait, a branch, and a message.
+            </p>
+            <a href="https://buzzkit.dev/features/workflows"
+              >Explore workflows →</a
+            >
+            <div class="feature-demo">
+              <div class="mini-flow">
+                <span>ϟ trial.started</span><i></i><span>◷ Wait 1 day</span
+                ><i></i><span>➤ Send a reminder</span>
+              </div>
+            </div>
+          </article>
+          <article class="feature">
+            <span class="feature-icon" aria-hidden="true">◎</span>
+            <h3>Segments</h3>
+            <p>
+              Group your audience by the things they do, then keep those groups
+              up to date.
+            </p>
+            <a href="https://buzzkit.dev/features/segments"
+              >Explore segments →</a
+            >
+            <div class="feature-demo">
+              <div class="mini-rules">
+                <p>plan <b>is pro</b></p>
+                <p>workout.completed <b>at least 3 ×</b></p>
+                <p>active in the last <b>30 days</b></p>
+                <strong>↳ 1,284 matching subscribers</strong>
+              </div>
+            </div>
+          </article>
+          <article class="feature">
+            <span class="feature-icon" aria-hidden="true">◷</span>
+            <h3>Scheduling</h3>
+            <p>
+              A useful message, at a useful time. Show how your product handles
+              quiet hours and local delivery.
+            </p>
+            <a href="https://buzzkit.dev/features/scheduling"
+              >Explore scheduling →</a
+            >
+            <div class="feature-demo">
+              <table>
+                <tr>
+                  <td>Auckland</td>
+                  <td>UTC+12</td>
+                  <td class="success">Sent</td>
+                </tr>
+                <tr>
+                  <td>Tokyo</td>
+                  <td>UTC+9</td>
+                  <td class="success">Sent</td>
+                </tr>
+                <tr>
+                  <td>Berlin</td>
+                  <td>UTC+2</td>
+                  <td class="success">Sent</td>
+                </tr>
+                <tr>
+                  <td>New York</td>
+                  <td>UTC−4</td>
+                  <td>09:00 local</td>
+                </tr>
+              </table>
+            </div>
+          </article>
+          <article class="feature">
+            <span class="feature-icon" aria-hidden="true">☷</span>
+            <h3>Topics & preferences</h3>
+            <p>
+              Give people control over what reaches them. Try the local
+              preference switches below.
+            </p>
+            <a href="https://buzzkit.dev/features/topics-and-preferences"
+              >Explore topics & preferences →</a
+            >
+            <div class="feature-demo">
+              <div class="preferences">
+                <strong>Notifications</strong
+                ><label
+                  >Workout reminders<input
+                    type="checkbox"
+                    role="switch"
+                    checked /></label
+                ><label
+                  >Progress updates<input
+                    type="checkbox"
+                    role="switch"
+                    checked /></label
+                ><label
+                  >Tips and offers<input type="checkbox" role="switch"
+                /></label>
+                <p role="status">Preferences are local to this preview.</p>
+              </div>
+            </div>
+          </article>
+          <article class="feature">
+            <span class="feature-icon" aria-hidden="true">▧</span>
+            <h3>Sources</h3>
+            <p>
+              Connect the events your product already creates to the messages
+              your audience needs.
+            </p>
+            <a href="https://buzzkit.dev/features/sources">Explore sources →</a>
+            <div class="feature-demo">
+              <div class="source-row">
+                <span>◈ Stripe</span><em>subscription.started</em>
+              </div>
+              <div class="source-row">
+                <span>◉ RevenueCat</span><em>subscription.renewed</em>
+              </div>
+              <div class="source-row">
+                <span>▧ Custom event</span><em>order.shipped</em>
+              </div>
+            </div>
+          </article>
+          <article class="feature">
+            <span class="feature-icon" aria-hidden="true">▣</span>
+            <h3>Live Activities</h3>
+            <p>
+              Keep progress visible at a glance. Use a compact, ongoing update
+              for the things happening now.
+            </p>
+            <a href="https://buzzkit.dev/features/live-activities"
+              >Explore live activities →</a
+            >
+            <div class="feature-demo">
+              <div class="live-notification">
+                <span class="app-icon green"></span>
+                <div>
+                  <strong>Out for delivery</strong>
+                  <p>6 stops away · 24 min</p>
+                </div>
+                <div class="progress-track"><span></span></div>
+              </div>
+              <div class="live-notification">
+                <span class="app-icon blue"></span>
+                <div>
+                  <strong>Almost there</strong>
+                  <p>2 stops away · 6 min</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <article class="wide-feature">
+          <div class="panel">
+            <table>
+              <caption>
+                Delivery to user_42
+              </caption>
+              <thead>
+                <tr>
+                  <th>Attempt</th>
+                  <th>Outcome</th>
+                  <th>Latency</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Retrying</td>
+                  <td>412 ms</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Retrying</td>
+                  <td>5,000 ms</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td class="success">Sent</td>
+                  <td>142 ms</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div>
+            <h3>See what happened to every push.</h3>
+            <p>
+              Turn a delivery log into a clear story: what happened, when it
+              happened, and what comes next.
+            </p>
+            <ul>
+              <li>Automatic retries</li>
+              <li>Delivery and open receipts</li>
+              <li>Actionable failure context</li>
+            </ul>
+          </div>
+        </article>
+        <article class="wide-feature">
+          <div>
+            <h3>Add the SDK. Skip the token management.</h3>
+            <p>
+              Use this space to make setup concrete, with a short example and a
+              link to your real documentation.
+            </p>
+            <a href="https://docs.buzzkit.dev">Read the original docs →</a>
+          </div>
+          <pre class="code-sample">
+// Illustrative setup snippet
+const client = createClient();
+await client.registerDevice();
+await client.track('workout.completed');</pre
+          >
+        </article>
+      </section>
+      <section class="agent-banner wrap">
+        <div>
+          <h2>Let your agent set it up.</h2>
+          <p>
+            A clear starting point for developers and the tools they work with.
+          </p>
+          <button class="button" id="copy-prompt" type="button" disabled>
+            ↗ Copy setup prompt
+          </button>
+          <p id="copy-status" role="status"></p>
+        </div>
+        <div class="agent-tags" aria-hidden="true">
+          <span>workflows</span><span>messages</span><span>segments</span
+          ><span>events</span><span>subscribers</span><span>delivery</span>
+        </div>
+      </section>
+      <section class="section wrap open-source">
+        <div>
+          <h2>Open source, top to bottom.</h2>
+          <p>
+            The original BuzzKit project is open source. Explore its code,
+            documentation, and self-hosting guide.
+          </p>
+          <a href="https://github.com/buzzkit-dev/buzzkit"
+            >Explore the original project →</a
+          >
+        </div>
+        <pre>
+git clone github.com/buzzkit-dev/buzzkit
+cd buzzkit
+# Follow the project's setup guide.</pre
+        >
+      </section>
+      <section class="section wrap faq">
+        <h2>Frequently asked questions</h2>
+        <details>
+          <summary>
+            Does this template send real notifications?<span aria-hidden="true"
+              >＋</span
+            >
+          </summary>
+          <p>
+            No. The dashboard, charts and notification cards are illustrative
+            local demos. No credentials, network requests or messaging services
+            are connected.
+          </p>
+        </details>
+        <details>
+          <summary>
+            What can I interact with?<span aria-hidden="true">＋</span>
+          </summary>
+          <p>
+            Choose any of the four dashboard views, pause the presentation,
+            change the local preference switches, open these FAQs, and copy the
+            example snippet.
+          </p>
+        </details>
+        <details>
+          <summary>
+            Can I use this without a framework?<span aria-hidden="true"
+              >＋</span
+            >
+          </summary>
+          <p>
+            Yes. Open the HTML directly or serve this folder with a static
+            server. The fonts, CSS, JavaScript and artwork are included.
+          </p>
+        </details>
+        <details>
+          <summary>
+            Where are the real BuzzKit docs?<span aria-hidden="true">＋</span>
+          </summary>
+          <p>
+            The documentation links point to the original BuzzKit project. This
+            independent reconstruction is a design template, not the BuzzKit
+            application.
+          </p>
+        </details>
+        <details>
+          <summary>
+            How do I make it my own?<span aria-hidden="true">＋</span>
+          </summary>
+          <p>
+            Edit the brand and copy in index.html, change the color tokens in
+            style.css, then replace external links with your own destinations.
+            All four dashboard views are editable HTML.
+          </p>
+        </details>
+        <details>
+          <summary>
+            What happens with motion disabled?<span aria-hidden="true">＋</span>
+          </summary>
+          <p>
+            The page stays on its initial dashboard view and the notification
+            cards stay still. All manual controls continue to work.
+          </p>
+        </details>
+      </section>
+      <section class="closing wrap">
+        <h2>Make the next message count.</h2>
+        <p>Start with the design. Build your own product.</p>
+        <div class="actions">
+          <a class="button black" href="#demo">Explore the demo</a
+          ><a class="button" href="https://github.com/buzzkit-dev/buzzkit"
+            ><svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M9 19c-4 1-4-2-6-2m12 5v-4c0-1 .3-2 1-2.5 3-.3 6-1.4 6-6A5 5 0 0 0 20.5 6 4.5 4.5 0 0 0 20.4 2S19.3 1.7 16 3a13 13 0 0 0-7 0C6 1.7 4.6 2 4.6 2A4.5 4.5 0 0 0 4.5 6 5 5 0 0 0 3 9.5c0 4.6 3 5.7 6 6-.7.5-1 1.5-1 2.5v4"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.7"
+                stroke-linecap="round"
+              /></svg
+            >Original project</a
+          >
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="wrap footer-grid">
+        <div>
+          <a class="brand" href="#main"
+            ><img
+              src="assets/favicon.svg"
+              width="24"
+              height="24"
+              alt=""
+            />BuzzKit</a
+          >
+          <p>
+            Independent design reconstruction.<br />No affiliation or live
+            messaging service.
+          </p>
+        </div>
+        <div>
+          <h2>Explore</h2>
+          <a href="#demo">Dashboard</a><a href="#features">Features</a
+          ><a href="https://docs.buzzkit.dev">Documentation</a>
+        </div>
+        <div>
+          <h2>Original</h2>
+          <a href="https://x.com/chroxify/status/2097477196130529296"
+            >Christo’s original post ↗</a
+          ><a href="https://buzzkit.dev">BuzzKit website ↗</a
+          ><a href="https://github.com/buzzkit-dev/buzzkit"
+            >BuzzKit source ↗</a
+          >
+        </div>
+        <div>
+          <h2>Template</h2>
+          <a href="https://github.com/ali-abassi/x-web-templates"
+            >Collection source ↗</a
+          ><a href="#main">Back to top ↑</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

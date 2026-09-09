@@ -6,7 +6,7 @@ import tempfile
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-NAMES = ("alpine-notes", "rainbow-venture", "bloop", "furion")
+NAMES = ("alpine-notes", "rainbow-venture", "bloop", "furion", "aster", "horizonx", "buzzkit", "pixel-world")
 
 
 def compose(source, destination, filename, shared):
@@ -37,8 +37,9 @@ def build_template(stage, name):
     source = ROOT / "templates" / name / "dist"
     target = stage / name
     shutil.copytree(source, target)
-    compose(source, target, "style.css", "base.css")
-    compose(source, target, "app.js", "ui.js")
+    if name in ("alpine-notes", "rainbow-venture", "bloop", "furion"):
+        compose(source, target, "style.css", "base.css")
+        compose(source, target, "app.js", "ui.js")
     package_template(stage, name)
 
 
@@ -61,7 +62,7 @@ def build():
         shutil.copytree(stage, ROOT / "dist", dirs_exist_ok=True)
         expected = {path.relative_to(stage) for path in stage.rglob("*") if path.is_file()}
         remove_stale_files(expected)
-    print("Built four independent sites, the gallery, and four reproducible ZIPs.")
+    print(f"Built {len(NAMES)} independent sites, the gallery, and reproducible ZIPs.")
 
 
 def remove_stale_files(expected):

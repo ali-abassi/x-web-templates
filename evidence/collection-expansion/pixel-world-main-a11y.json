@@ -1,0 +1,93 @@
+{
+  "success": true,
+  "data": {
+    "axeVersion": "4.12.1",
+    "counts": {
+      "inapplicable": 68,
+      "incomplete": 1,
+      "passes": 20,
+      "violations": 0
+    },
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 6,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<a class=\"brand\" href=\"#hero-heading\" aria-label=\"Varun Lohade reference, home\">varunlohade<span>.</span></a>",
+            "target": [
+              ".brand"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<p class=\"eyebrow\">Software Engineer</p>",
+            "target": [
+              ".hero-copy > .eyebrow"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements",
+            "html": "<h1 id=\"hero-heading\">\n            I couldn\u2019t think of <br>anything to add here.\n          </h1>",
+            "target": [
+              "#hero-heading"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<p class=\"intro\">\n            Mostly software. Sometimes hardware. <br>Most times dad jokes.\n          </p>",
+            "target": [
+              ".intro"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span aria-hidden=\"true\">\u2193</span>",
+            "target": [
+              ".explore > span[aria-hidden=\"true\"]"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<button class=\"motion\" type=\"button\" aria-pressed=\"false\">Pause scene</button>",
+            "target": [
+              ".motion"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ],
+    "lifecycle": {
+      "effectiveLaunch": {
+        "browserLaunched": true,
+        "engine": "chrome",
+        "launchHash": 12195675696465354296
+      },
+      "launched": false,
+      "relaunchedBrowser": false,
+      "restartedBackground": false,
+      "restoreStatus": "not_configured",
+      "reused": true,
+      "saveStatus": "not_attempted"
+    },
+    "url": "http://localhost:4173/pixel-world/",
+    "violations": []
+  },
+  "error": null
+}

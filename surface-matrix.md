@@ -168,3 +168,17 @@ Required reviewer assignments: Active agent page-specific critical self-review a
 2. Clipped, unreadable or overflowing primary content.
 3. Broken local interaction, false external effect, missing assets or exports.
 - **Evidence:** To capture after implementation in evidence/reference-match.
+
+## Expansion contract — 2026-09-10
+
+The original five-surface contract above is historical and unchanged. The collection now has nine surfaces: eight templates and the gallery. The expansion boundary was frozen in evidence/collection-expansion/plan.json; source discoveries and the Pixel World pre-code addendum are in that directory. Direct execution requires a separate critical self-review, not an independent-agent claim.
+
+| Surface | Primary job and normal state | Adverse / maximum / disabled states | Required proof |
+| --- | --- | --- | --- |
+| Aster import | Preview original scenery, mobile menu, FAQ and choice controls | 320px navigation; reduced motion; inherited JavaScript requirement disclosed | Source byte parity, rendered desktop/mobile, menu Escape, FAQ/choice controls, ZIP parity |
+| HorizonX | Cinematic hero, Experience scroll, second section and native details | Long text resilience, missing artwork, no JavaScript, reduced motion | Paired original frame, desktop/mobile crop, pause animation, keyboard details, local assets and export |
+| BuzzKit | Four dashboard scenes and supporting feature page | Manual selection pauses; 4 keyboard-selected views; preference switches; no-JS disabled controls; reduced motion | Original/live pair, all4state renders, 375/320 overflow, copy result, a11y including states, ZIP parity |
+| Pixel World | Layered hero, portfolio, local contact draft | Empty/invalid/whitespace/max1500 form, mock failed download, modal Escape/focus, no JS, reduced motion | Original/live pair, desktop/mobile, actual downloaded bytes, image alpha, paused motion, ZIP parity |
+| Expanded gallery | Discover all8 templates, open previews and download self-contained ZIPs | 375/320 layout, keyboard, missing cover; long template title | Eight correct links/previews/downloads, fresh rendered covers, no broken local assets, deterministic ZIP parity |
+
+Static source identity does not establish a real SaaS backend, real contact submission, or exact generated-art/video identity. Aster’s original reveal animation requires JavaScript unless reduced motion is active; source remains unchanged as an import.

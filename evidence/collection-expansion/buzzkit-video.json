@@ -1,0 +1,57 @@
+{
+  "interaction_id": "",
+  "model": "gemini-3.7-flash",
+  "output_text": "Here is a detailed breakdown of the visible website layout, UI views, and animations:\n\n### Top Navigation & Hero Section (00:00\u201300:15)\n* **Navbar:**\n  * Left: `BuzzKit` logo (blue bee icon + text).\n  * Center links: `Features`, `Pricing`, `Docs`.\n  * Right CTA button: `Get Started` (dark filled button).\n* **Hero Section:**\n  * **Headline:** *\"The Open Source Notification Orchestration Layer.\"*\n  * **Primary CTAs:** `Get Started` (black pill button) and `Star on GitHub` (white pill button with GitHub icon).\n  * **Floating Push Notification Cards (Animated Loop):**\n    * Various push cards float around the central content and smoothly transition/replace each other over time (no visible mouse cursor; transitions occur automatically or on a timed loop). Examples include: *\"Leg day\"*, *\"Your order shipped\"*, *\"Invoice paid\"*, *\"Storm near your route\"*, *\"Rest day is over\"*, and flight boarding alerts like *\"DL 214 boarding\"*.\n\n---\n\n### Interactive Dashboard Card (`Qumly` Interface) (00:00\u201300:15)\nA central floating app mockup labeled **Qumly** cycles through four main tabs via a bottom navigation pill bar (`Overview`, `Workflows`, `Segments`, `Deliveries`):\n\n1. **Overview View (00:00\u201300:03 & 00:13\u201300:15):**\n   * Metrics cards:\n     * `Subscribers`: 13,460 (+11%)\n     * `Delivered`: 35,285 (+24%)\n     * `Events`: 143,380 (+16%)\n   * Main chart: \"Deliveries \u2014 Sent and failed deliveries per day\" showing an area/line graph over time (Aug 20 \u2013 Sep 1) with green (*Sent*) and red (*Failed*) data lines.\n\n2. **Workflows View (00:04\u201300:05):**\n   * Active workflow named **\"Trial nudge\"** (*\"Once per subscriber, when trial first starts.\"*).\n   * Visual logic tree diagram containing:\n     * Trigger: `on trial started`\n     * Branch: `opened the app since` (Yes / No paths)\n     * Step nodes: `give 4-d delay`, `first-class waiting`.\n\n3. **Segments View (00:06\u201300:09):**\n   * Audience query builder titled **\"Active pro members\"** (*\"Pro subscribers who trained this week and opened the app this month.\"*).\n   * Rule builder criteria:\n     * `Attribute`: `plan is pro`\n     * `Did event`: `workout.completed at least 3 in last 7 days`\n     * `Activity`: `active in the last 30 days`\n   * Bottom table showing matching audience list with subscriber avatars, user handles, country codes, delivery counts, and timestamps.\n\n4. **Deliveries View (00:10\u201300:12):**\n   * Message detail inspection pane for **\"Leg day\"** (`Completed`).\n   * Breakdown panels for:\n     * `Overview` (Body copy preview, channel, audience).\n     * `Delivery` stats (Reachable: 2,418, Sent: 2,412, Pending: 0, Failed: 6).\n     * `Subscribers` execution table with delivery statuses (`Sent 12m ago`).\n     * `Payload` code preview.",
+  "agentic_verified": true,
+  "step_types": [
+    "thought",
+    "model_output"
+  ],
+  "usage": {
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 56
+      },
+      {
+        "modality": "video",
+        "tokens": 900
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_input_tokens": 956,
+    "total_output_tokens": 803,
+    "total_thought_tokens": 62,
+    "total_tokens": 1821,
+    "total_tool_use_tokens": 0,
+    "raw_prompt_token": 1092,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 117
+          },
+          {
+            "modality": "video",
+            "tokens": 900
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 807
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 62
+          }
+        ]
+      }
+    ]
+  },
+  "retained_files": [],
+  "cleanup_errors": []
+}

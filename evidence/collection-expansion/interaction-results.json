@@ -1,0 +1,51 @@
+[
+  {
+    "page": "pixel-world",
+    "width": 1440,
+    "status": "pass",
+    "evidence": "completed prior journey in browser-trace.jsonl and per-state artifacts; preserved across QA resume"
+  },
+  {
+    "page": "buzzkit",
+    "width": 1440,
+    "status": "pass",
+    "evidence": "completed prior journey in browser-trace.jsonl and per-state artifacts; preserved across QA resume"
+  },
+  {
+    "page": "horizonx",
+    "width": 1440,
+    "status": "pass",
+    "evidence": "completed prior journey in browser-trace.jsonl and per-state artifacts; preserved across QA resume"
+  },
+  {
+    "page": "pixel-world",
+    "width": 375,
+    "status": "pass",
+    "evidence": "completed prior journey in browser-trace.jsonl and per-state artifacts; preserved across QA resume"
+  },
+  {
+    "page": "buzzkit",
+    "width": 375,
+    "cases": [
+      "4views and corresponding selected state",
+      "view selection pauses",
+      "Left/Right/Home/End keys",
+      "local preferences",
+      "FAQ keyboard",
+      "copy prompt feedback",
+      "autoplay advances",
+      "reduced motion"
+    ],
+    "status": "pass"
+  },
+  {
+    "page": "horizonx",
+    "width": 375,
+    "cases": [
+      "CTA anchor",
+      "capability keyboard disclosure",
+      "reduced motion"
+    ],
+    "status": "pass"
+  }
+]

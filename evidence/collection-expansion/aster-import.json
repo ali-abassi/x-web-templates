@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/ali-abassi/aster-landing-page-template",
+  "revision": "9369fb858f5ee3c38338199121ae2951e9b151e0",
+  "files": {
+    "index.html": "1b1bb43d0f12fea509d7a35201a85026874954a3e8ff77544c09b7efececa209",
+    "styles.css": "9d0173e027a7418fb803daf899dd51213dbbbb8a31c4935f4d2d44cfb0f3bb8a",
+    "script.js": "b1efb78dddcd47b2fb89a7291bd5b818d6e472361b079282b4081c218a6a4b49",
+    "favicon.svg": "f15dee4151bd38c991e1c1ea19b452546efa4cfcad8b4ab7a2f65b57289d2eee",
+    "assets/hero-foreground.webp": "bf11231cb4951be9851c2a616b8e3dbf49d75c36596f9d3388ff21857eea9e9f",
+    "assets/og-image.jpg": "74fe62ec113c302b79b765ef483906b652d5a2373268b567751c6e9818b616ae",
+    "assets/hero-midground.webp": "e6cead293cd8822a12b3156c8fed0d548366310e67ed746470a90e1cea4591cb",
+    "assets/hero-horizon.webp": "99927ba8661071c8b3a5326199ddf94382d9052a45bece0428c255408afff767"
+  }
+}

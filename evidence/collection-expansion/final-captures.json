@@ -1,0 +1,38 @@
+[
+  {
+    "page": "horizonx",
+    "width": 1640,
+    "height": 1080,
+    "pass": true
+  },
+  {
+    "page": "buzzkit",
+    "width": 1710,
+    "height": 1080,
+    "pass": true
+  },
+  {
+    "page": "pixel-world",
+    "width": 1718,
+    "height": 971,
+    "pass": true
+  },
+  {
+    "page": "gallery",
+    "width": 1440,
+    "height": 1000,
+    "pass": true
+  },
+  {
+    "page": "gallery",
+    "width": 375,
+    "height": 812,
+    "pass": true
+  },
+  {
+    "page": "gallery",
+    "width": 320,
+    "height": 812,
+    "pass": true
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "template": "aster",
+    "download_exact": true,
+    "standalone_file_assets_and_overflow": "pass"
+  },
+  {
+    "template": "horizonx",
+    "download_exact": true,
+    "standalone_file_assets_and_overflow": "pass"
+  },
+  {
+    "template": "buzzkit",
+    "download_exact": true,
+    "standalone_file_assets_and_overflow": "pass"
+  },
+  {
+    "template": "pixel-world",
+    "download_exact": true,
+    "standalone_file_assets_and_overflow": "pass"
+  }
+]

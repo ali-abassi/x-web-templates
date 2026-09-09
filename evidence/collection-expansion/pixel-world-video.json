@@ -1,0 +1,57 @@
+{
+  "interaction_id": "",
+  "model": "gemini-3.7-flash",
+  "output_text": "### Layout and Text Transcriptions\n\n- **Header:**\n  - **Top-left:** Brand identifier `varunlchade.`\n  - **Top-right:** Navigation CTA button `Say hello \u2197`\n\n- **Left Content Block:**\n  - **Role Tag:** `Software Engineer`\n  - **Headline:** `I couldn't think of anything to add here.`\n  - **Support Text:** `Mostly software. Sometimes hardware. Most times dad jokes.`\n  - **Call to Action (CTA):** Button labeled `Explore my work \u2197`\n\n- **Visual Background:**\n  - An anime-style landscape scene featuring a stone overlook on the right with an outdoor wooden workstation (laptop displaying code, desk accessories, and a yellow robotic arm).\n  - The background overlooks a wide valley with a river, bridges, ancient temple ruins on the left, a distant city skyline in the center, rolling hills, and a bright blue sky with large cumulonimbus clouds and lush green foliage framing the top and right edges.\n\n---\n\n### Motion & Animation\n\n- **00:00 \u2013 00:19:** \n  - **Autoplay Ambient Motion:** \n    - Soft continuous movement across the clouds drifting in the sky.\n    - Subtle swaying motion in the overhanging green tree branches and foliage.\n    - Ambient screen activity on the open laptop sitting on the wooden desk.\n    - Minor idle motion from the robotic arm next to the laptop.\n  - The text elements, navigation, and primary UI buttons remain fixed in place throughout the duration.",
+  "agentic_verified": true,
+  "step_types": [
+    "thought",
+    "model_output"
+  ],
+  "usage": {
+    "input_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 1320
+      },
+      {
+        "modality": "text",
+        "tokens": 53
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_input_tokens": 1373,
+    "total_output_tokens": 332,
+    "total_thought_tokens": 417,
+    "total_tokens": 2122,
+    "total_tool_use_tokens": 0,
+    "raw_prompt_token": 1544,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 124
+          },
+          {
+            "modality": "video",
+            "tokens": 1320
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 336
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 417
+          }
+        ]
+      }
+    ]
+  },
+  "retained_files": [],
+  "cleanup_errors": []
+}

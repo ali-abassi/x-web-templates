@@ -1,0 +1,9 @@
+{
+  "rule": "ESLint complexity max 5",
+  "results": {
+    "templates/horizonx/dist/app.js": [],
+    "templates/buzzkit/dist/app.js": [],
+    "templates/pixel-world/dist/app.js": []
+  },
+  "authoredTypeScriptFiles": 0
+}

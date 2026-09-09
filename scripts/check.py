@@ -62,7 +62,7 @@ def check_page(path):
 
 def check_assets():
     for path in (ROOT / "dist").rglob("*.css"):
-        for link in re.findall(r'url\(["\']?([^\)"\']+)', path.read_text()):
+        for _, link in re.findall(r"""url\((["']?)(.*?)\1\)""", path.read_text()):
             check_link(path, link)
     for path in (ROOT / "dist").rglob("*.js"):
         subprocess.run(["node", "--check", str(path)], check=True, capture_output=True)
@@ -80,13 +80,13 @@ def check_archive(name):
 
 def main():
     pages = list((ROOT / "dist").rglob("*.html"))
-    assert len(pages) == 5, "Expected gallery and four templates"
+    assert len(pages) == len(NAMES) + 1, "Expected gallery and every template"
     for page in pages:
         check_page(page)
     check_assets()
     for name in NAMES:
         check_archive(name)
-    print("PASS: five pages, local links/anchors, image attributes, JS syntax, and four exact ZIPs.")
+    print(f"PASS: {len(pages)} pages, local links/anchors, image attributes, JS syntax, and {len(NAMES)} exact ZIPs.")
 
 
 if __name__ == "__main__":

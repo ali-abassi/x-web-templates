@@ -1,0 +1,32 @@
+[
+  {
+    "file": "ship.png",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "transparent_pixels": 1325989,
+    "opaque_pixels": 330
+  },
+  {
+    "file": "robot.png",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "transparent_pixels": 1022859,
+    "opaque_pixels": 1603
+  },
+  {
+    "file": "clouds.png",
+    "mode": "RGBA",
+    "size": [
+      2164,
+      727
+    ],
+    "transparent_pixels": 900039,
+    "opaque_pixels": 1001
+  }
+]

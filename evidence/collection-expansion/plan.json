@@ -1,0 +1,29 @@
+{
+  "base": "af8e048507cafc634e0b817e5cd4b997138a45a4",
+  "preexisting_changes": [],
+  "alignment": {
+    "vision.md": "954a1faf88b6736fa5682e4e2d4fedf13e2ecc6ae365704c37b3ffac43534407",
+    "intent.md": "2dfe175417506b4c29c1c52ba730c5960e265cfaa6e155072f7fd7112b3f239d",
+    "design.md": "b2266f70fe82de337e9d587f6e5daf53d2e8baa4283f81dcfdbc05a3b780c645"
+  },
+  "owner_count": 1,
+  "delegation": false,
+  "model": "host-selected",
+  "order": [
+    "aster import and credits",
+    "horizonx",
+    "buzzkit",
+    "pixel-world"
+  ],
+  "checks": [
+    "Aster byte parity",
+    "rendered reference pairs",
+    "375/320 responsive",
+    "keyboard interactions",
+    "reduced motion",
+    "local assets and JS syntax",
+    "ZIP parity",
+    "complete separate critical self-review"
+  ],
+  "stop": "Stop affected paid boundary at infrastructure defect; do not invent missing reference behavior."
+}
