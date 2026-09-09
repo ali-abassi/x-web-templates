@@ -1,0 +1,13 @@
+{
+  "source_revision": "5d9be9064e4bbc185c6e58f4bd1ebf55af7ae4c1",
+  "remote_main_verified": "5d9be9064e4bbc185c6e58f4bd1ebf55af7ae4c1",
+  "private_repository": true,
+  "default_branch": "main",
+  "candidate_manifest_files_verified": 229,
+  "verified_at": "2026-09-09T23:01:05.480253+00:00",
+  "checks": "9 pages, 8 ZIPs; authored diff whitespace check passed",
+  "inherited_import_notice": "The full staged whitespace check reports four trailing-whitespace lines in the unchanged Aster source and its distribution. Preserved for required upstream byte parity. All authored paths pass the whitespace check.",
+  "hosting": "Local static gallery; no new production host requested",
+  "review": "review.md",
+  "boundary": "This supplemental delivery receipt changes no shipping source or evidence hashes."
+}
