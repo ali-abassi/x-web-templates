@@ -1,7 +1,7 @@
-# Current intent — 2026-09-09
+# Current intent — match the supplied references
 
-**User-stated:** Improve each of the four templates, generate imagery with the built-in ChatGPT image generator, make the sites clean and robust, and make future reuse easy.
+**User-stated, 2026-09-09:** The delivered four templates do not look close to the linked DesignGuru01 examples. Correct reference fidelity.
 
-**Agent-selected working policy:** Preserve the four identities and static-site portability; redesign all pages and gallery, replace reference-derived raster assets, remove unsupported claims, implement working local demos with failure feedback, and add one repeatable build for previews and ZIP downloads. Deliver to the existing private repository on main. No changes to the original ChatGPT Site or Aster repository; no backend, purchases, messages, analytics, or production service deployment.
+**Agent-selected working policy:** Reconstruct each reference's composition, section sequence, relative typography, colors and photographic direction. Restore the six-panel format for Bloop/Furion and compact image-led landing pages for Scribblit/Bird. Preserve editable source, standalone ZIP build and relevant working local demos. Generate needed replacement imagery with the already-selected native ChatGPT image tool. Push verified result to existing private main; no other project or hosting changes.
 
-Acceptance: inspect actual browser renders at 1440×1000 and 375×812; no overflow at 320px; accessible named controls and keyboard paths; complete local note persistence/export, form draft downloads, filters, and native disclosure flows; truthful degraded/no-JS behavior; image and link integrity; repeatable ZIPs; exact tested revision delivered.
+Acceptance: four directly paired original-versus-implementation comparisons, first-screen and full-page geometry inspection, readable responsive adaptation at 375px and no overflow at 320px, native/keyboard functionality and degraded states, valid local asset links, deterministic ZIP parity, exact candidate review. Do not label a visual result accepted merely because functional checks pass. Exact image and proprietary font matching are not claimed; composition and hierarchy must closely follow the originals.

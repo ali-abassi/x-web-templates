@@ -1,0 +1,15 @@
+{
+  "gallery_320": {
+    "width": 320,
+    "scrollWidth": 320,
+    "imagesLoaded": true
+  },
+  "repository": {
+    "private": true,
+    "branch": "main"
+  },
+  "checks": {
+    "npm_run_check": "pass",
+    "git_diff_check": "pass"
+  }
+}

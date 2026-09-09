@@ -1,2 +1,1 @@
-templateUI.bindFilters(document.querySelector('[data-projects]'));
-templateUI.bindDraftForm(document.querySelector('#project-form'));
+// The identity board and its download use native HTML.

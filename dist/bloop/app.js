@@ -38,28 +38,11 @@ const templateUI = (() => {
     });
   }
 
-  function bindFilters(container) {
-    const buttons = [...container.querySelectorAll('[data-filter]')];
-    const cards = [...container.querySelectorAll('[data-category]')];
-    const status = container.querySelector('[role="status"]');
-    container.querySelector('fieldset').disabled = false;
-    buttons.forEach(button => button.addEventListener('click', () => {
-      buttons.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
-      cards.forEach(card => {
-        card.hidden = button.dataset.filter !== 'all' && card.dataset.category !== button.dataset.filter;
-      });
-      const count = cards.filter(card => !card.hidden).length;
-      announce(status, `${count} projects shown.`);
-      container.querySelector('[data-empty]').hidden = count > 0;
-    }));
-  }
-
   document.querySelectorAll('[data-year]').forEach(element => {
     element.textContent = String(new Date().getFullYear());
   });
 
-  return Object.freeze({ announce, downloadText, bindDraftForm, bindFilters });
+  return Object.freeze({ announce, downloadText, bindDraftForm });
 })();
 
-templateUI.bindFilters(document.querySelector('[data-projects]'));
-templateUI.bindDraftForm(document.querySelector('#project-form'));
+// The identity board and its download use native HTML.

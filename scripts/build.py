@@ -45,7 +45,7 @@ def build_template(stage, name):
 def build_gallery(stage):
     shutil.copy2(ROOT / "gallery/index.html", stage / "index.html")
     compose(ROOT / "gallery", stage, "style.css", "base.css")
-    (stage / "assets").mkdir()
+    shutil.copytree(ROOT / "gallery/assets", stage / "assets")
     for filename in ("sans.otf", "sans-bold.otf", "favicon.svg"):
         shutil.copy2(stage / "alpine-notes/assets" / filename, stage / "assets" / filename)
 

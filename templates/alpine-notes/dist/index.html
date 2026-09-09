@@ -3,70 +3,44 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A little space for a clearer mind. A calm, local-first notebook demo.">
-  <meta name="theme-color" content="#edf3f5">
-  <title>Alpine Notes — A little space for a clearer mind.</title>
+  <meta name="description" content="Scribblit — Ideas. Notes. Clarity. An editable blue-sky notebook template.">
+  <meta name="theme-color" content="#077bcb">
+  <title>Scribblit — Ideas. Notes. Clarity.</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
   <script src="app.js" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
-  <header class="site-header wrap">
-    <a class="brand" href="#home"><span class="mountain-mark" aria-hidden="true">△</span> alpine notes</a>
-    <nav class="site-nav" aria-label="Main navigation"><a href="#approach">The approach</a><a href="#plans">Plans</a><a class="nav-cta" href="#notebook">Open notebook ↗</a></nav>
-  </header>
-  <main id="main">
-    <section class="hero wrap" id="home">
-      <img class="hero-image" src="assets/hero.jpg" width="1536" height="1024" alt="An alpine peak rising above a quiet sea of clouds" fetchpriority="high">
-      <div class="hero-copy">
-        <p class="eyebrow">Less noise. More perspective.</p>
-        <h1>A little space<br>for a clearer mind.</h1>
-        <p class="lede">The thought before the plan.<br>The idea before it makes sense.<br>Give it somewhere to land.</p>
-        <a class="button" href="#notebook">Find your headspace <span aria-hidden="true">↗</span></a>
-        <span class="hero-caption">Your thoughts. On your device.</span>
-      </div>
-      <div class="field-note" aria-hidden="true"><span>FIELD NOTE / 001</span><p>Maybe clarity isn’t<br>doing more.<br>Maybe it’s making room.</p><div>One thought at a time. <span>↗</span></div></div>
-      <span class="image-credit">A NEW PERSPECTIVE, EVERY DAY.</span>
-    </section>
-    <div class="quiet-strip wrap"><span>No account needed</span><span>Saved in your browser</span><span>Always yours to export</span></div>
-    <section class="section wrap" id="approach">
-      <div class="section-heading"><div><p class="eyebrow">A gentler kind of productive</p><h2>Make room for<br>what matters.</h2></div><p class="muted">Not another system to keep up with. Just a place to slow down, untangle a thought, and see what comes next.</p></div>
-      <div class="principles">
-        <article><span class="index">01 / CAPTURE</span><h3>Start anywhere.</h3><p>A messy first sentence is still a beginning. Put it down before it slips away.</p></article>
-        <article><span class="index">02 / REFLECT</span><h3>Find the thread.</h3><p>Leave yourself enough space to think. No feeds, badges, or competing tabs.</p></article>
-        <article><span class="index">03 / KEEP</span><h3>Take it with you.</h3><p>Save on this device or download a plain text copy. Your words stay portable.</p></article>
+  <main id="main" class="page">
+    <section class="hero" id="home">
+      <img class="hero-image" src="assets/mountain.jpg" width="1536" height="1024" alt="Green alpine peaks beneath a vivid blue and turquoise sky" fetchpriority="high">
+      <nav class="hero-nav" aria-label="Main navigation"><a class="wordmark" href="#home"><span aria-hidden="true">◩</span> Scribblit</a><div><a href="#features">Features</a><a href="#pricing">Pricing</a><a href="#notebook">Try it out</a></div></nav>
+      <div class="hero-copy"><span class="badge">✧ A clearer space for your ideas</span><h1>Ideas. Notes. Clarity.<br>Wherever your mind goes.</h1><p>Combine note-taking, idea tracking, and daily planning in<br class="desktop"> one smart notebook, ready whenever inspiration hits.</p>
+        <fieldset class="style-bar" aria-label="Notebook paper color" disabled><span>Style 01</span><button type="button" data-tone="blue" aria-label="Use blue note paper" aria-pressed="true">◔</button><button type="button" data-tone="white" aria-label="Use white note paper" aria-pressed="false">B</button><button type="button" data-tone="green" aria-label="Use green note paper" aria-pressed="false">◐</button><span class="toolbar-divider" aria-hidden="true"></span><span class="color-dot" aria-hidden="true"></span><span aria-hidden="true">✧</span></fieldset>
+        <div class="hero-actions"><a class="button primary" href="#notebook">Try the notebook</a><a class="button white" href="#pricing">Explore the plans <span aria-hidden="true">›</span></a></div>
       </div>
     </section>
-    <section class="notebook-section" id="notebook">
-      <div class="wrap notebook-layout">
-        <div class="notebook-intro"><p class="eyebrow">THIS SPACE IS YOURS</p><h2>One thought.<br>Then another.</h2><p>Try the notebook right here. Save explicitly when you’re ready, or download a copy to keep.</p><p class="privacy-note">This demo stores one note in this browser. It does not upload or sync your writing.</p></div>
-        <div class="notebook">
-          <div class="notebook-top"><span>YOUR FIELD NOTES</span><span aria-hidden="true">↗</span></div>
-          <label class="sr-only" for="note">Your note</label>
-          <textarea id="note" rows="9" maxlength="50000" readonly spellcheck="true" placeholder="A thought worth keeping…">A little room for a big idea.
+    <div class="trust" role="group" aria-label="Notebook benefits"><span>◇ Your ideas, on your device</span><span>◷ Save at your own pace</span><span>✧ Less noise. More clarity.</span><span>↓ Always yours to export</span></div>
+    <section class="section note-section" id="notebook"><h2>Notes that work the way you think.</h2><p class="intro">Notes shouldn’t feel messy or scattered. With Scribblit, every thought finds<br class="desktop"> a little room to breathe. Start with the idea you don’t want to lose.</p>
+      <div class="note-scene"><div class="notebook" data-tone="blue"><div class="note-toolbar"><span>Style 01</span><span class="toolbar-icons" aria-hidden="true">◔ &nbsp; B &nbsp; ◐ &nbsp; ✧</span><span class="toolbar-end" aria-hidden="true">◉ &nbsp; ✧</span></div><label class="sr-only" for="note">Your note</label><textarea id="note" readonly maxlength="50000" rows="8" spellcheck="true" placeholder="A thought worth keeping…">A little room for a big idea.
 
-What would I make if I gave myself a little more space?
+What if we gave our thoughts a space to breathe? A place for the half-formed idea, the small reminder, and the thing we don’t want to forget.
 
-Start here. See where it goes.</textarea>
-          <div class="note-meta"><span id="note-count">Your words, at your pace.</span><span>PLAIN TEXT</span></div>
-          <div class="note-actions"><button class="button" id="save-note" disabled>Save on this device</button><button class="button secondary" id="export-note" disabled>Download .txt ↓</button></div>
-          <p class="status" id="note-status" role="status" aria-live="polite">Enable JavaScript to use the notebook.</p>
-          <noscript>Enable JavaScript to edit, save, or download this demo note. The rest of the page works without it.</noscript>
-        </div>
+Start typing here. This notebook is yours.</textarea><div class="note-actions"><span id="note-count">Your words, at your pace.</span><div><button id="export-note" disabled>Download .txt ↓</button><button id="save-note" disabled>Save <span aria-hidden="true">↓</span></button></div></div><p id="note-status" class="status" role="status">Enable JavaScript to edit, save, and download your note.</p><noscript>Your writing stays local. Enable JavaScript to use the notebook.</noscript></div></div>
+    </section>
+    <section class="section" id="features"><h2>Ideas. Notes. Clarity.<br>Wherever your mind goes.</h2>
+      <div class="feature-grid">
+        <article><div class="feature-art android-art" role="img" aria-label="A soft lime workspace with an illustrated navigation capsule"><span class="floating-label">Keep it simple</span><div class="illustrated-toolbar"><span>⌂</span><span>▣</span><span>✕</span><i></i><span class="toolbar-call">Book a Call ▤</span></div><span class="soft-pill">A little clearer. ↗</span><span class="curved-arrow" aria-hidden="true">⤴</span></div><h3>Scribblit for Android</h3><p>A pocket-sized place for a thought. This editable card introduces your mobile product.</p></article>
+        <article><div class="feature-art ios-art" role="img" aria-label="Three pastel-blue progress cards for notes, folders and projects"><div class="mini-stat"><span>▤</span><div>Notes taken<i></i></div></div><div class="mini-stat"><span>▱</span><div>Folders used<i></i></div></div><div class="mini-stat"><span>▣</span><div>Collaborated projects<i></i></div></div></div><h3>Scribblit for iOS</h3><p>A clean canvas for everyday ideas. Replace this concept with your own product details.</p></article>
+        <article><div class="feature-art desktop-art" role="img" aria-label="A sculptural blue paper cloud with floating note icons"><div class="floating-icons"><span>▤</span><span>✧</span><span>▱</span></div><div class="paper-cloud"></div></div><h3>Scribblit for Windows / Linux</h3><p>Room for deeper thinking, wherever you work. The notebook demo works in your browser.</p></article>
+        <article><div class="feature-art web-art" role="img" aria-label="Lime orbital circles around a white responsive-app symbol"><i></i><i></i><i></i><span class="orbit-dot"></span><span class="responsive-label">Responsive</span><strong>◧</strong><span class="speed-label">Room to think.</span></div><h3>Scribblit for Web</h3><p>A responsive space that moves with your screen. No account needed to try the local demo.</p></article>
       </div>
     </section>
-    <section class="section wrap pricing" id="plans">
-      <div class="section-heading"><div><p class="eyebrow">ROOM TO GROW</p><h2>Simple by design.</h2></div><p class="muted">A pricing layout ready for your product. These are example plans; this demo does not charge you.</p></div>
-      <fieldset class="billing" id="billing" disabled aria-label="Billing period"><button type="button" data-billing="monthly" aria-pressed="true">Monthly</button><button type="button" data-billing="yearly" aria-pressed="false">Yearly · save 20%</button></fieldset>
-      <div class="plan-grid">
-        <article class="plan"><span class="eyebrow">A PLACE TO BEGIN</span><h3>Essential</h3><p class="price">$0<span>/ forever</span></p><p>A clear canvas for everyday thinking.</p><ul><li>One local notebook</li><li>Plain text export</li><li>No account required</li></ul><a class="button secondary" href="#notebook">Try the notebook ↗</a></article>
-        <article class="plan plus"><span class="eyebrow">A LITTLE MORE SPACE</span><h3>Plus</h3><p class="price"><span id="plus-price" class="price-value">$8</span><span>/ month</span></p><p>An illustrative plan for your future product.</p><ul><li>Example: unlimited notebooks</li><li>Example: collections &amp; search</li><li>Example: shared spaces</li></ul><a class="button" href="#notebook">Explore the demo ↗</a></article>
-      </div>
-      <p class="status pricing-status" id="billing-status" role="status">Example pricing. Plus features are not connected in this template.</p>
-    </section>
-    <section class="closing wrap"><p class="eyebrow">THERE’S NO PERFECT FIRST SENTENCE.</p><h2>Just a place to start.</h2><a class="button" href="#notebook">Write something ↗</a></section>
+    <section class="mountain-cta"><img src="assets/mountain.jpg" width="1536" height="1024" alt="" loading="lazy"><div><h2>How do you take notes?</h2><p>Start capturing your thoughts instantly.<br>Keep them organized. Effortlessly.</p><div class="hero-actions"><a class="button primary" href="#notebook">Get started free</a><a class="button white" href="#notebook">Find your flow <span aria-hidden="true">›</span></a></div></div></section>
+    <section class="section smart"><span class="pill">Made for everyday ideas</span><h2>Smarter Notes. One Simple Space to<br class="desktop"> Capture, Organize &amp; Remember</h2><p class="intro">Simplify the way you take notes. Write down your thoughts instantly, give them a little<br class="desktop"> perspective, and keep a plain text copy of anything worth remembering.</p><div class="smart-grid"><div class="capture-art" role="img" aria-label="An open blue box with floating note icons"><span>▤</span><span>✧</span><span>▱</span><span>▣</span><div class="box-back"></div><div class="box-front"></div></div><div><article><span aria-hidden="true">▣</span><div><h3>Smart Note Capture</h3><p>Quickly jot down ideas, tasks, and reminders without losing flow. Start anywhere and see where it goes.</p></div></article><article><span aria-hidden="true">◎</span><div><h3>A Little More Perspective</h3><p>Give your thoughts space to settle. Edit at your own pace, then save on this device.</p></div></article><article><span aria-hidden="true">♧</span><div><h3>Simple &amp; Flexible</h3><p>Study, work, or journal in your own way. Download your note whenever you want to take it with you.</p></div></article></div></div></section>
+    <section class="section pricing" id="pricing"><h2>Choose the best plan</h2><p class="intro">Flexible pricing built for every stage, from startup to scale.</p><div class="price-grid"><article class="starter"><div><span>Starter</span><h3>$19<small>/month</small></h3><p>Great for small teams just getting started.</p></div><div class="price-features"><h4>What’s included</h4><ul><li>Up to 5 team members</li><li>2 project boards</li><li>Basic async updates</li><li>7-day activity history</li><li>Email support</li></ul><a class="button primary" href="#notebook">Get started</a></div></article><article><div><span>Pro</span><h3>$59<small>/month</small></h3><p>For growing teams that need full visibility.</p></div><div class="price-features"><h4>What’s included</h4><ul><li>Unlimited team members</li><li>Unlimited boards &amp; tasks</li><li>Smart status automation</li><li>Full activity history</li><li>Slack &amp; Calendar integration</li></ul><a class="button primary" href="#notebook">Get started</a></div></article></div><p class="pricing-note">Example plans for the template. Team features are illustrative; this demo stores one local note and collects no payment.</p></section>
+    <footer class="mountain-footer"><img src="assets/mountain.jpg" width="1536" height="1024" alt="" loading="lazy"><div><a class="wordmark" href="#home">◩ Scribblit</a><p>Your simple space to capture ideas,<br>stay organized, and never lose a thought.</p></div><div><b>Product</b><a href="#features">Features</a><a href="#notebook">How it works</a><a href="#pricing">Pricing</a></div><div><b>Explore</b><a href="#features">For every device</a><a href="#notebook">Your notebook</a><a href="#home">Back to the top ↑</a></div><small>© <span data-year>2026</span> Scribblit · A local notebook template.</small></footer>
   </main>
-  <footer class="wrap"><div class="footer-bottom"><a class="brand" href="#home">△ alpine notes</a><span>Clearer thoughts. Lighter days.</span><span>© <span data-year>2026</span> Alpine Notes</span></div></footer>
 </body>
 </html>

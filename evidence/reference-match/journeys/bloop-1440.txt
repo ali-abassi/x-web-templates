@@ -1,0 +1,25 @@
+BLOOP / BRAND NOTES
+
+tiny blob. big brain.
+
+Palette
+Lime #A3D33D
+Olive #53751D
+White #FFFFFF
+Canvas #EEEEEE
+
+Typography
+Rubik Bubbles Regular for the scalloped display direction; Nimbus Sans for body.
+These are open, locally served font analogues; exact reference font is unconfirmed.
+
+Composition
+Six wide identity panels: hero, palette, beginning, nature, applications, philosophy.
+Desktop: two columns with generous gray gutters. Mobile: one column with readable copy.
+
+Imagery
+Original generated motion-blurred tree/sky and sunlit canopy photography.
+Teal sky, yellow-green foliage, gentle analog texture.
+
+Reference
+Naty / DesignGuru01, https://x.com/DesignGuru01/status/2097570950543790295
+An editable reference study; no claim of affiliation or rights to the source design.

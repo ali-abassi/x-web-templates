@@ -60,13 +60,10 @@ window.addEventListener('storage', event => {
   if (event.key !== storageKey) return;
   templateUI.announce(noteStatus, 'This note changed in another tab. Download this version before reloading to see the other one.', true);
 });
-document.querySelector('#billing').disabled = false;
-const billingButtons = [...document.querySelectorAll('[data-billing]')];
-billingButtons.forEach(button => button.addEventListener('click', () => {
-  billingButtons.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
-  const yearly = button.dataset.billing === 'yearly';
-  document.querySelector('#plus-price').textContent = yearly ? '$6.40' : '$8';
-  document.querySelector('#billing-status').textContent = yearly
-    ? 'Example: $76.80 billed yearly. Plus features are not connected; no payment is collected.'
-    : 'Example: $8 billed monthly. Plus features are not connected; no payment is collected.';
+const toneButtons = [...document.querySelectorAll('[data-tone]')].filter(element => element.tagName === 'BUTTON');
+document.querySelector('.style-bar').disabled = false;
+toneButtons.forEach(button => button.addEventListener('click', () => {
+  toneButtons.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+  document.querySelector('.notebook').dataset.tone = button.dataset.tone;
+  templateUI.announce(noteStatus, `Paper color changed to ${button.dataset.tone}. Your note is unchanged.`);
 }));

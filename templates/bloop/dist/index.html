@@ -3,35 +3,47 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Bloop is a small creative studio for ideas with a life of their own. Explore identities, digital experiences, and a little wild thinking.">
-  <meta name="theme-color" content="#e5f2ca">
-  <title>Bloop — Good things grow a little differently.</title>
+  <meta name="description" content="Bloop — a playful, nature-led identity. Six editable brand presentation panels.">
+  <meta name="theme-color" content="#eeeeee">
+  <title>Bloop — Tiny blob. Big brain.</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
   <script src="app.js" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
-  <header class="site-header wrap"><a class="brand" href="#home">bloop<span aria-hidden="true">✳</span></a><nav class="site-nav" aria-label="Main navigation"><a href="#work">Our kind of work</a><a href="#studio">The studio</a><a href="#hello">Plant a seed ↗</a></nav></header>
-  <main id="main">
-    <section class="hero" id="home"><div class="wrap hero-top"><p>A small creative studio.<br>A naturally curious outlook.</p><span class="eyebrow">A LITTLE WILD. A LOT OF WONDER.</span></div><div class="hero-wordmark wrap" aria-hidden="true">bloop<span>✳</span></div><div class="hero-photo"><img src="assets/hero.jpg" width="1536" height="1024" alt="Sunlight through fresh ginkgo leaves against an open blue sky" fetchpriority="high"><div class="wrap hero-photo-copy"><h1>Good things grow<br>a little differently.</h1><a class="button" href="#work">Meet the possibilities <span aria-hidden="true">↘</span></a></div><span class="photo-note">ROOTED IN CURIOSITY. OPEN TO ANYTHING.</span></div></section>
-    <section class="section wrap studio" id="studio"><p class="eyebrow">THINKING OUTSIDE THE PLANT POT</p><div><h2>Big ideas.<br>Human shapes.<br>A little happy accident.</h2><p class="lede">We make identities and digital places with room to breathe. Thoughtful at the roots, a little unexpected at the edges.</p><p class="muted">For people doing something worth caring about. And brands ready to feel a little more like themselves.</p></div></section>
-    <section class="section wrap work rule" id="work" data-projects>
-      <div class="section-heading"><div><p class="eyebrow">EXPLORATIONS FROM THE STUDIO</p><h2>Out in the wild.</h2></div><fieldset class="filter-bar" disabled aria-label="Filter projects"><button type="button" data-filter="all" aria-pressed="true">All work</button><button type="button" data-filter="identity" aria-pressed="false">Identity</button><button type="button" data-filter="digital" aria-pressed="false">Digital</button></fieldset></div>
-      <p class="status filter-status" role="status" aria-live="polite">3 concept projects. Made to show what’s possible.</p>
-      <div class="project-grid">
-        <article data-category="identity"><div class="project-art wild"><img src="assets/hero.jpg" width="1536" height="1024" alt="Ginkgo canopy used as a nature-led identity concept" loading="lazy"><span>stay<br>curious.</span></div><details><summary><span><b>Fieldwork</b><small>Identity / Concept project</small></span></summary><p>A nature-led visual direction for a community garden: open typography, leaf-green color, and a mark with room to grow. Replace this concept with your own case study.</p></details></article>
-        <article data-category="digital"><div class="project-art offgrid" role="img" aria-label="Off Grid digital concept in cream and forest green"><span class="mini">AN OPEN INVITATION TO GET LOST</span><strong>off<br>grid.</strong><span class="offgrid-circle" aria-hidden="true">↗</span></div><details><summary><span><b>Off Grid</b><small>Digital / Concept project</small></span></summary><p>An editorial direction for independent travel: big type, small discoveries, and routes that leave space for detours. A demonstration of digital art direction, not a client claim.</p></details></article>
-        <article data-category="identity"><div class="project-art common"><span class="mini">A FRESH TAKE ON EVERYDAY</span><div class="orbit-flower" aria-hidden="true">✳</div><strong>common<br>ground.</strong></div><details><summary><span><b>Common Ground</b><small>Identity / Concept project</small></span></summary><p>A playful identity exploration for a neighborhood gathering place. Warm shapes and confident contrast create a brand that feels welcoming before it says a word.</p></details></article>
-      </div>
-      <p data-empty hidden>No projects in this view yet. Choose All work to see the collection.</p>
-      <noscript>All projects are shown. Enable JavaScript to filter them.</noscript>
-    </section>
-    <section class="services"><div class="wrap section"><p class="eyebrow">FROM FIRST SPARK TO FULL BLOOM</p><div class="service-row"><span>01</span><h2>Find your voice.</h2><p>Positioning, naming, and a story you can stand behind.</p></div><div class="service-row"><span>02</span><h2>Make your mark.</h2><p>Identity systems that feel alive, wherever they show up.</p></div><div class="service-row"><span>03</span><h2>Build your world.</h2><p>Digital experiences with character, clarity, and purpose.</p></div></div></section>
-    <section class="section wrap hello" id="hello"><div><p class="eyebrow">EVERYTHING STARTS SOMEWHERE</p><h2>Got a little<br>seed of an idea?</h2><p class="lede">We like those. Give it a few words and see what grows.</p><div class="hello-flower" aria-hidden="true">✳</div></div>
-      <form id="project-form" data-title="Project inquiry for Bloop" data-filename="bloop-project-inquiry.txt"><fieldset disabled class="form-fields"><legend class="sr-only">Your project inquiry</legend><label>Your name<input name="name" data-export-label="Name" autocomplete="name" required maxlength="100" placeholder="What should we call you?"></label><label>Email address<input name="email" type="email" data-export-label="Email" autocomplete="email" required maxlength="254" placeholder="you@yourstudio.com"></label><label>What are you thinking?<textarea name="idea" data-export-label="Project idea" required rows="4" maxlength="5000" placeholder="The tiny beginning of something good…"></textarea></label><button class="button" type="submit">Keep your project brief <span aria-hidden="true">↓</span></button></fieldset><p class="form-note">Demo: downloads your brief as text. Nothing is sent.</p><p class="status" role="status" aria-live="polite"></p><noscript>Enable JavaScript to prepare a downloadable project brief.</noscript></form>
-    </section>
+  <main id="main" class="board-shell">
+    <div class="brand-board" aria-label="Bloop brand presentation">
+      <section class="panel hero" aria-label="Bloop identity">
+        <img class="panel-photo" src="assets/motion.jpg" width="1536" height="1024" alt="A sweep of sunlit green trees against turquoise sky and clouds" fetchpriority="high">
+        <div class="hero-lockup"><h1 class="bubble-type">bloop</h1><img class="seed" src="assets/seed.svg" width="88" height="100" alt=""></div>
+      </section>
+      <section class="panel palette" aria-label="Bloop color palette">
+        <div class="swatch lime"><h2>lime</h2><div class="tints"><span>20%</span><span>40%</span><span>60%</span><span>80%</span></div></div>
+        <div class="swatch olive"><h2>black</h2><div class="tints"><span>20%</span><span>40%</span><span>60%</span><span>80%</span></div></div>
+        <div class="swatch white"><h2>white</h2></div>
+      </section>
+      <section class="panel beginning" id="story" aria-label="The beginning">
+        <div class="story-card"><img class="seed" src="assets/seed.svg" width="88" height="100" alt=""><p>Bloop is a brand built on the balance between freedom, structure, and modern curiosity. Our identity draws from organic forms, soft asymmetries, and everyday moments. We make room for playful thinking, fresh perspectives, and the kind of ideas that grow a little differently.</p></div>
+        <div class="story-photo"><img src="assets/motion.jpg" width="1536" height="1024" alt="Soft green leaves in motion" loading="lazy"><div class="orbits" aria-hidden="true"><i></i><i></i><i></i></div><div class="story-caption"><h2>the beginning</h2><p>Good things don’t always follow a straight line. Sometimes, they start with a little wonder.</p></div></div>
+      </section>
+      <section class="panel nature" aria-label="Rooted in nature">
+        <img class="panel-photo" src="assets/canopy.jpg" width="1536" height="1024" alt="A lime-green tree reaching into a turquoise summer sky" loading="lazy">
+        <img class="nature-seed" src="assets/seed.svg" width="88" height="100" alt="Bloop seed symbol">
+        <p>Rooted in nature. Open to possibility. We’re here for curious minds, unexpected connections, and tiny ideas with room to grow.</p>
+      </section>
+      <section class="panel applications" aria-label="Bloop print applications">
+        <img class="panel-photo" src="assets/motion.jpg" width="1536" height="1024" alt="" loading="lazy">
+        <div class="paper letter-paper"><div class="paper-top"><h2>1203</h2><p>A small collection of very big possibilities.</p></div><span class="bubble-letter" aria-hidden="true">B</span></div>
+        <div class="photo-paper"><img src="assets/canopy.jpg" width="1536" height="1024" alt="Fresh foliage on a printed brand card" loading="lazy"></div>
+        <div class="paper manifesto"><p>Bloop is a brand built on the balance between freedom and intention. An identity that feels alive, shaped by organic forms and a curious spirit. When we leave room for the unexpected, beautiful things happen.</p><div class="orbits" aria-hidden="true"><i></i><i></i><i></i></div></div>
+      </section>
+      <section class="panel philosophy" aria-label="Tiny blob, big brain">
+        <div class="philosophy-photo"><img src="assets/canopy.jpg" width="1536" height="1024" alt="Light finding its way through green foliage" loading="lazy"><h2 class="bubble-type">tiny blob.<br>big brain.</h2></div>
+        <div class="philosophy-copy"><h3>the beginning</h3><div class="orbits" aria-hidden="true"><i></i><i></i><i></i></div><p>Bloop is a brand built on freedom, structure, and curiosity. We like ideas that feel fresh. Forms that feel human. And stories that start small, but stay with you.</p></div>
+      </section>
+    </div>
+    <footer class="template-tools"><details><summary>About this editable template</summary><p>A six-panel brand study based on the supplied design reference. Images, copy, colors, and type are separate assets. Photography is generated; this is a demonstration identity.</p><a href="brand-notes.txt" download>Download brand notes ↓</a></details><span>tiny blob. big brain.</span></footer>
   </main>
-  <footer class="wrap"><div class="footer-bottom"><a class="brand" href="#home">bloop✳</a><span>Curious by nature.</span><span>© <span data-year>2026</span> Bloop Studio</span><a href="#home">Back to the sunshine ↑</a></div></footer>
 </body>
 </html>

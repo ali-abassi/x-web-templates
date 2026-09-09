@@ -1,1 +1,1 @@
-// Editorial chapters and the brand-note download use native HTML controls.
+// Presentation panels, disclosures and downloads work without JavaScript.

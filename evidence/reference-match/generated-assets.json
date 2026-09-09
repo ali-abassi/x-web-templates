@@ -1,0 +1,62 @@
+[
+  {
+    "original": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-1feede62-99cf-4b9c-9879-f58cb253d05f.png",
+    "asset": "templates/alpine-notes/dist/assets/mountain.jpg",
+    "generator": "native imagegen",
+    "cost": "unavailable"
+  },
+  {
+    "original": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-1e5f24b6-a3a9-4290-a16d-ea41d21bd881.png",
+    "asset": "templates/bloop/dist/assets/motion.jpg",
+    "generator": "native imagegen",
+    "cost": "unavailable"
+  },
+  {
+    "original": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-01d519ae-cbe3-40fa-a967-44b3a05d602d.png",
+    "asset": "templates/bloop/dist/assets/canopy.jpg",
+    "generator": "native imagegen",
+    "cost": "unavailable"
+  },
+  {
+    "original": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-d3a60947-6586-4d78-a6b8-5a8df0e82f6a.png",
+    "asset": "templates/rainbow-venture/dist/assets/race.jpg",
+    "generator": "native imagegen",
+    "cost": "unavailable"
+  },
+  {
+    "original": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-7ebdf8d8-9925-4e44-859c-9f01e3c09118.png",
+    "asset": "templates/rainbow-venture/dist/assets/founder.jpg",
+    "generator": "native imagegen",
+    "cost": "unavailable"
+  },
+  {
+    "original": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-54a671df-7e0b-4ce8-a195-77415c6f5381.png",
+    "asset": "templates/rainbow-venture/dist/assets/computer.jpg",
+    "generator": "native imagegen",
+    "cost": "unavailable"
+  },
+  {
+    "original": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-5fc64c03-d259-4738-bd84-e32dedc1f4ed.png",
+    "asset": "templates/rainbow-venture/dist/assets/runner.jpg",
+    "generator": "native imagegen",
+    "cost": "unavailable"
+  },
+  {
+    "original": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-d1909913-12eb-4d96-bb0a-7e256c3c11ea.png",
+    "asset": "templates/furion/dist/assets/stretch.jpg",
+    "generator": "native imagegen",
+    "cost": "unavailable"
+  },
+  {
+    "original": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-cd1d47b4-7fa0-410a-8834-fd29d1e8743f.png",
+    "asset": "templates/furion/dist/assets/boxer.jpg",
+    "generator": "native imagegen",
+    "cost": "unavailable"
+  },
+  {
+    "original": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-a0aec566-ed06-4539-adeb-3287a78039c4.png",
+    "asset": "templates/furion/dist/assets/cycle.jpg",
+    "generator": "native imagegen",
+    "cost": "unavailable"
+  }
+]

@@ -8,23 +8,10 @@
 .gallery-meta { display: flex; flex-wrap: wrap; gap: 16px 40px; font-size: 10px; letter-spacing: .08em; margin-top: 40px; }
 .template-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px 24px; }
 .template-grid article { min-width: 0; }
-.cover { position: relative; display: block; aspect-ratio: 1.32; isolation: isolate; text-decoration: none; padding: 28px; background: #d4dbd1; }
-.cover > img { position: absolute; inset: 0; height: 100%; object-fit: cover; z-index: -1; }
-.cover-label { font-size: 9px; letter-spacing: .08em; }
-.cover strong { display: block; margin-top: 35px; font-size: clamp(32px, 3.6vw, 52px); line-height: .98; letter-spacing: -.055em; font-weight: 400; }
+.cover { position: relative; display: block; aspect-ratio: 1.32; isolation: isolate; background: #dedede; }
+.cover > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
 .cover-arrow { position: absolute; bottom: 20px; right: 20px; display: grid; place-items: center; width: 44px; height: 44px; background: #f4f3ee; color: #222; border-radius: 50%; transition: transform 160ms; }
 .cover:hover .cover-arrow { transform: rotate(45deg); }
-.alpine-cover { color: #18332f; }
-.alpine-cover::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, #e5eff9d9, transparent); }
-.rainbow-cover { display: grid; grid-template-columns: 1fr 1fr; padding: 0; background: #f1ecdf; }
-.rainbow-cover > div { padding: 28px 16px 28px 28px; }
-.rainbow-cover > img { position: static; z-index: 0; height: 100%; }
-.rainbow-cover strong { font-family: Georgia,serif; font-size: clamp(32px, 4.3vw, 60px); }
-.bloop-cover { color: #203810; }
-.bloop-cover strong { font-weight: 700; font-size: clamp(70px, 9vw, 130px); letter-spacing: -.08em; }
-.furion-cover { color: #fff; background: #111; }
-.furion-cover strong { font-weight: 700; font-size: clamp(40px, 4.6vw, 66px); }
-.furion-cover > img { filter: brightness(.75); }
 .template-info { padding-block: 22px; border-bottom: 1px solid var(--line); }
 .template-info .eyebrow { font-size: 10px; }
 .template-info h2 { font-size: 29px; margin-block: 12px; }
@@ -39,13 +26,5 @@
   .gallery-intro { padding-block: 50px 40px; }
   .gallery-intro h1 { font-size: 58px; }
   .template-grid { grid-template-columns: 1fr; gap: 36px; }
-  .cover { padding: 24px; }
-  .cover strong { font-size: 36px; margin-top: 28px; }
-  .rainbow-cover { padding: 0; }
-  .rainbow-cover > div { padding: 20px 10px 20px 20px; }
-  .rainbow-cover strong { font-size: 37px; }
-  .bloop-cover strong { font-size: 78px; }
-  .furion-cover strong { font-size: 40px; }
-  .cover-label { font-size: 8px; }
   .reuse { padding-block: 64px; }
 }

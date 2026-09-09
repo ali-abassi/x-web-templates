@@ -1,13 +1,13 @@
 # X Web Templates
 
-Four complete, editable website starting points with original ChatGPT-generated imagery. Plain HTML, CSS, and JavaScript. Local fonts. No runtime dependencies or API keys.
+Four editable reconstructions of the supplied design references, with ChatGPT-generated main photography. Plain HTML, CSS, and JavaScript. Local fonts. No runtime dependencies or API keys.
 
 | Template | Direction | Working interactions |
 | --- | --- | --- |
-| [Alpine Notes](templates/alpine-notes/) | Calm product / SaaS | Local note save, reload, export, billing toggle |
-| [Rainbow Venture](templates/rainbow-venture/) | Editorial venture studio | Native FAQ, validated introduction draft download |
-| [Bloop](templates/bloop/) | Playful creative studio | Project filters, case-study disclosures, inquiry draft download |
-| [Furion](templates/furion/) | Monochrome performance editorial | Keyboard-accessible chapters, brand-notes download |
+| [Alpine Notes](templates/alpine-notes/) | Blue mountain product page | Local note save, reload, export, paper colors |
+| [Rainbow Venture](templates/rainbow-venture/) | White venture page with rainbow racing | Native FAQ, validated introduction draft download |
+| [Bloop](templates/bloop/) | Six-panel lime identity board | Native template disclosure, brand-notes download |
+| [Furion](templates/furion/) | Six-panel monochrome identity board | Native template disclosure, brand-notes download |
 
 ## Preview the collection
 
@@ -52,21 +52,21 @@ Start customization with:
 
 1. The title, description, brand name, and body copy in `index.html`.
 2. Color roles in the brand stylesheet's `:root` block.
-3. `assets/hero.jpg` and its alt text; keep the intended crop and image dimensions.
+3. the named photographs under `assets/` and its alt text; keep the intended crop and image dimensions.
 4. Section links and demo wording. Connect a real backend only if your product needs it.
 
 ## Honest demo boundaries
 
-Alpine stores one note on this browser/origin using the original `scribblit-note` key, so existing demo notes survive the redesign. Saving is explicit. Export remains available if storage is denied. It does not sync notes or provide the example Plus features.
+Alpine stores one note on this browser/origin using the original `scribblit-note` key, so existing demo notes survive the redesign. Saving is explicit. Export remains available if storage is denied. It does not sync notes or provide the example plan features.
 
-Rainbow and Bloop generate local text drafts. They never email or submit the contents. Native validation checks required fields and email format; JavaScript also rejects whitespace-only input. Their forms stay disabled with an explanation when JavaScript is unavailable. Bloop's work is labelled as concept projects, not real clients.
+Bird generates a local application text draft with required/email and whitespace validation. Nothing is submitted. The form is disabled with an explanation without JavaScript. Metrics and portfolio names are illustrative.
 
-Furion is a performance editorial concept, not a store or training service. Its journal and brand-note download work without JavaScript.
+Bloop and Furion are identity boards. Their template disclosures and brand-note downloads work without JavaScript.
 
 ## Validation and provenance
 
-`npm run check` verifies all five pages, local links and anchors, image dimensions/alt attributes, JavaScript syntax, and exact ZIP-to-preview parity. Browser evidence and the scope of visual, interaction, accessibility, and adverse-state checks live in [the redesign evidence](evidence/redesign/). Those checks do not certify an unconnected production backend.
+`npm run check` verifies all five pages, local links and anchors, image dimensions/alt attributes, JavaScript syntax, and exact ZIP-to-preview parity. Current side-by-side visual comparisons, mobile and interaction evidence are in [reference-match evidence](evidence/reference-match/). The earlier `evidence/redesign` describes a rejected interpretation and does not approve this candidate.
 
-The original imported source is retained in Git history at `8db60a8`. The redesigned hero images were generated with the built-in ChatGPT image generator. [Prompts](evidence/redesign/images/prompts.json) and original outputs are preserved. Previous reference-extracted photographs and raster wordmarks are no longer used. Font license notices remain with each template; generated imagery is not a license to the historical design references.
+The original imported source is retained at `8db60a8`. Ten replacement photographs were generated with native ChatGPT imagegen. Source paths and provenance are in `evidence/reference-match/generated-assets.json`. Bird retains one small reference study crop; Furion retains two small crops and its raster wordmark. These retained assets carry no new license: replace them or obtain rights before commercial reuse. Fonts include license notices. Exact proprietary fonts and identical photography are not claimed.
 
 Original ChatGPT Site source: `2041d91ef089c77106c542fe5c7fa5290307759b`. Historical inspiration: [Naty / DesignGuru01](https://x.com/designguru01/status/2097570950543790295). The original hosted Site and separate Aster repository are unchanged.

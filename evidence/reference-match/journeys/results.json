@@ -1,0 +1,42 @@
+[
+  {
+    "case": "notebook save/reload, export, empty, long, denied storage, paper color",
+    "width": 1440,
+    "result": "pass"
+  },
+  {
+    "case": "application disclosure, invalid/whitespace/email, long draft download and FAQ keyboard",
+    "width": 1440,
+    "result": "pass"
+  },
+  {
+    "case": "bloop keyboard disclosure and brand notes",
+    "width": 1440,
+    "result": "pass"
+  },
+  {
+    "case": "furion keyboard disclosure and brand notes",
+    "width": 1440,
+    "result": "pass"
+  },
+  {
+    "case": "notebook save/reload, export, empty, long, denied storage, paper color",
+    "width": 375,
+    "result": "pass"
+  },
+  {
+    "case": "application disclosure, invalid/whitespace/email, long draft download and FAQ keyboard",
+    "width": 375,
+    "result": "pass"
+  },
+  {
+    "case": "bloop keyboard disclosure and brand notes",
+    "width": 375,
+    "result": "pass"
+  },
+  {
+    "case": "furion keyboard disclosure and brand notes",
+    "width": 375,
+    "result": "pass"
+  }
+]

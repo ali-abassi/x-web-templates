@@ -38,27 +38,11 @@ const templateUI = (() => {
     });
   }
 
-  function bindFilters(container) {
-    const buttons = [...container.querySelectorAll('[data-filter]')];
-    const cards = [...container.querySelectorAll('[data-category]')];
-    const status = container.querySelector('[role="status"]');
-    container.querySelector('fieldset').disabled = false;
-    buttons.forEach(button => button.addEventListener('click', () => {
-      buttons.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
-      cards.forEach(card => {
-        card.hidden = button.dataset.filter !== 'all' && card.dataset.category !== button.dataset.filter;
-      });
-      const count = cards.filter(card => !card.hidden).length;
-      announce(status, `${count} projects shown.`);
-      container.querySelector('[data-empty]').hidden = count > 0;
-    }));
-  }
-
   document.querySelectorAll('[data-year]').forEach(element => {
     element.textContent = String(new Date().getFullYear());
   });
 
-  return Object.freeze({ announce, downloadText, bindDraftForm, bindFilters });
+  return Object.freeze({ announce, downloadText, bindDraftForm });
 })();
 
 const note = document.querySelector('#note');
@@ -123,13 +107,10 @@ window.addEventListener('storage', event => {
   if (event.key !== storageKey) return;
   templateUI.announce(noteStatus, 'This note changed in another tab. Download this version before reloading to see the other one.', true);
 });
-document.querySelector('#billing').disabled = false;
-const billingButtons = [...document.querySelectorAll('[data-billing]')];
-billingButtons.forEach(button => button.addEventListener('click', () => {
-  billingButtons.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
-  const yearly = button.dataset.billing === 'yearly';
-  document.querySelector('#plus-price').textContent = yearly ? '$6.40' : '$8';
-  document.querySelector('#billing-status').textContent = yearly
-    ? 'Example: $76.80 billed yearly. Plus features are not connected; no payment is collected.'
-    : 'Example: $8 billed monthly. Plus features are not connected; no payment is collected.';
+const toneButtons = [...document.querySelectorAll('[data-tone]')].filter(element => element.tagName === 'BUTTON');
+document.querySelector('.style-bar').disabled = false;
+toneButtons.forEach(button => button.addEventListener('click', () => {
+  toneButtons.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+  document.querySelector('.notebook').dataset.tone = button.dataset.tone;
+  templateUI.announce(noteStatus, `Paper color changed to ${button.dataset.tone}. Your note is unchanged.`);
 }));
