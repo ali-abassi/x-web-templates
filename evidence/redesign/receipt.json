@@ -329,8 +329,8 @@
     "evidence/redesign/rendered/rainbow-venture-mobile.txt": "44453cb723699a64bdb665aacf4fafa897801a8a404bf0dc7e8497ebd536432d",
     "evidence/redesign/research.md": "6bd36c0a8f55495fc865f63bd72fc0adf6f2602bf271b23f0c5302a983a5cba6",
     "evidence/redesign/review.md": "8cfc9905df6f53e842db12b63f229b53b72819b483c190f57047da4881774b73",
-    "evidence/redesign/run-manifest.json": "34f28f752390c95b285712cf7b8afb405e140f9f60648ebd42c4b08d1d09299c",
-    "evidence/redesign/session.md": "845486d1f970054c92d62301f8cd412049f113cfb8107a4be4f17e5d6c2e4d60",
+    "evidence/redesign/run-manifest.json": "f8beccd6af2edd5d18b15667ff8eeaf7803aba64756dea2713607b3b3cf2b9e6",
+    "evidence/redesign/session.md": "fa1236e972fb0b78b78441112b3b5fb2564bfd4fdac95de9d87b9ad25f71139e",
     "evidence/redesign/surface-review.md": "ec9039b3f3cedc5030d675daeb51c728cd865ce5c26c4c0d2d306bfbc92b3dda",
     "gallery/index.html": "c14402ac06eff11526c17c4a1f46baf104f9668cfb30ad0e5399f115ca08cde1",
     "gallery/style.css": "c403597da8743608a441945217bc8d715885a8eea6ca82f94ba87a1769de9543",
@@ -345,7 +345,7 @@
     "templates/furion/dist/brand-notes.txt": "d4a8699cd6b7ea8767aa074785a90946840dc7ab3ff7a4efe50ee541e4f68f3d",
     "templates/rainbow-venture/dist/assets/hero.jpg": "9f69c2a56c8562396dc9d8eb1edecb1d139f9ff6f8636551cf76264ee58db5c5"
   },
-  "hash_boundary": "All dirty/new files before this receipt; receipt excludes itself. Final Git commit is the complete immutable tree.",
+  "hash_boundary": "Tested commit identifies the complete candidate. Content hashes exclude receipt itself; final followup only updates review metadata and validator output. No product changes after tested commit.",
   "alignment": {
     "vision.md": "954a1faf88b6736fa5682e4e2d4fedf13e2ecc6ae365704c37b3ffac43534407",
     "intent.md": "a7299e10a465b3197f9cf928e2a2f22a631d22f227614d6eb8a58badf80b31b1",
@@ -381,5 +381,6 @@
     "Independent-agent certification unavailable under user direct-execution policy; interface-validator.txt reports exactly that restriction",
     "No production backend or cross-browser/physical-phone certification; outside frozen scope"
   ],
-  "time": "2026-09-09T19:58:47.934589+00:00"
+  "time": "2026-09-09T19:58:47.934589+00:00",
+  "tested_commit": "07b03704bb7da89f352e975c4d91bb39532bf53d"
 }
