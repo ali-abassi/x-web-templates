@@ -1,0 +1,14 @@
+{
+  "fonts": "loaded",
+  "height": 1109,
+  "images": [
+    {
+      "loaded": true,
+      "src": "assets/forest.png"
+    }
+  ],
+  "scrollWidth": 375,
+  "titleFont": "Nimbus, Arial, sans-serif",
+  "url": "http://127.0.0.1:4173/swift-ai/",
+  "width": 375
+}

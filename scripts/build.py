@@ -25,6 +25,7 @@ NAMES = (
     "olympus",
     "wandor",
     "verto",
+    "swift-ai",
 )
 
 

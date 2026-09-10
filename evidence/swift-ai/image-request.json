@@ -1,0 +1,11 @@
+{
+  "mode": "built-in image_gen",
+  "intent": "generate",
+  "reference_role": "first original style/composition reference",
+  "referenced_image_paths": [
+    "/Users/aliabassi/Documents/ChatGPT/AI Designer/x-web-templates/evidence/swift-ai/references/1.jpg"
+  ],
+  "prompt": "Use case: stylized-concept. Asset: original full-bleed website hero illustration, wide landscape about 5:3. Image 1 is ONLY a style and composition reference, not an edit target. Generate a NEW original illustrated enchanted garden matching the illustrated subject, painted tactile grain, palette and massing of its forest artwork. Output ONLY the landscape artwork, no website layout, no lettering, no header/footer, no logos, no form, no UI. Coral pink and magenta tall branching tree trunks frame left and right; dense velvety sculptural emerald-green rounded and columnar topiary grows on both sides. Bright lemon yellow sky at the top fades into open cyan turquoise air in the center. A slender tall peach-pink arch-shaped portal stands centrally amid the turquoise clearing, its curved top around 35 percent down the composition. Painterly almost pastel/gouache illustration, softly grainy foliage, playful surreal spatial depth, flat luminous light, no photorealism. Lower 40 percent is softly misted teal with a subtle warm coral center and subdued foliage, broad uninterrupted negative space for HTML white text that will be added separately. Preserve a vivid detailed upper half and softly quiet lower half. Do not add people, animals, buildings, words, black shadows or busy foreground objects. Edge-to-edge art, no white border. High-quality landscape.",
+  "budget_max_calls": 2,
+  "billing": "unavailable"
+}

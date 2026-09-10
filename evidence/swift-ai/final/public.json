@@ -1,0 +1,36 @@
+[
+  {
+    "case": "gallery has19",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "public art and layout",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "public local trial",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "public brief feedback",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "public ZIP exact bytes",
+    "passed": true
+  },
+  {
+    "case": "downloaded ZIP opens standalone",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "standalone form preview",
+    "passed": true,
+    "observed": true
+  }
+]

@@ -1,0 +1,1188 @@
+{
+  "requests": [
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/html",
+      "resourceType": "Document",
+      "timestamp": 1789039830935
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/style.css",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/css",
+      "resourceType": "Stylesheet",
+      "timestamp": 1789039830935
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/app.js",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/javascript",
+      "resourceType": "Script",
+      "timestamp": 1789039830935
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/forest.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789039830935
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/sans.otf",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "font/otf",
+      "resourceType": "Font",
+      "timestamp": 1789039830935
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/favicon.svg",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/svg+xml",
+      "resourceType": "Other",
+      "timestamp": 1789039830935
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/html",
+      "resourceType": "Document",
+      "timestamp": 1789039869901
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/style.css",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/css",
+      "resourceType": "Stylesheet",
+      "timestamp": 1789039869901
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/app.js",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/javascript",
+      "resourceType": "Script",
+      "timestamp": 1789039869901
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/forest.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789039869901
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/sans.otf",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "font/otf",
+      "resourceType": "Font",
+      "timestamp": 1789039869901
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/html",
+      "resourceType": "Document",
+      "timestamp": 1789039870559
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/style.css",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/css",
+      "resourceType": "Stylesheet",
+      "timestamp": 1789039870560
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/app.js",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/javascript",
+      "resourceType": "Script",
+      "timestamp": 1789039870560
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/forest.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789039870560
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/sans.otf",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "font/otf",
+      "resourceType": "Font",
+      "timestamp": 1789039871068
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/favicon.svg",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/svg+xml",
+      "resourceType": "Other",
+      "timestamp": 1789039871068
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/html",
+      "resourceType": "Document",
+      "timestamp": 1789039872866
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/style.css",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/css",
+      "resourceType": "Stylesheet",
+      "timestamp": 1789039872866
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/app.js",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/javascript",
+      "resourceType": "Script",
+      "timestamp": 1789039872866
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/forest.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789039872866
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/sans.otf",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "font/otf",
+      "resourceType": "Font",
+      "timestamp": 1789039872866
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/html",
+      "resourceType": "Document",
+      "timestamp": 1789039873520
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/style.css",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/css",
+      "resourceType": "Stylesheet",
+      "timestamp": 1789039873520
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/app.js",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/javascript",
+      "resourceType": "Script",
+      "timestamp": 1789039873520
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/forest.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789039873520
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/sans.otf",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "font/otf",
+      "resourceType": "Font",
+      "timestamp": 1789039874024
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/favicon.svg",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/svg+xml",
+      "resourceType": "Other",
+      "timestamp": 1789039874024
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/html",
+      "resourceType": "Document",
+      "timestamp": 1789039874572
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/style.css",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/css",
+      "resourceType": "Stylesheet",
+      "timestamp": 1789039874572
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/app.js",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/javascript",
+      "resourceType": "Script",
+      "timestamp": 1789039874572
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/forest.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789039874572
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/sans.otf",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "font/otf",
+      "resourceType": "Font",
+      "timestamp": 1789039874573
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/html",
+      "resourceType": "Document",
+      "timestamp": 1789039875217
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/style.css",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/css",
+      "resourceType": "Stylesheet",
+      "timestamp": 1789039875217
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/app.js",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/javascript",
+      "resourceType": "Script",
+      "timestamp": 1789039875217
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/forest.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789039875217
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/sans.otf",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "font/otf",
+      "resourceType": "Font",
+      "timestamp": 1789039875721
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/favicon.svg",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/svg+xml",
+      "resourceType": "Other",
+      "timestamp": 1789039875721
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/html",
+      "resourceType": "Document",
+      "timestamp": 1789039981670
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/style.css",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/css",
+      "resourceType": "Stylesheet",
+      "timestamp": 1789039981670
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/app.js",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/javascript",
+      "resourceType": "Script",
+      "timestamp": 1789039981670
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/forest.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789039981670
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/sans.otf",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "font/otf",
+      "resourceType": "Font",
+      "timestamp": 1789039981670
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/html",
+      "resourceType": "Document",
+      "timestamp": 1789039982327
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/style.css",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/css",
+      "resourceType": "Stylesheet",
+      "timestamp": 1789039982327
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/app.js",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/javascript",
+      "resourceType": "Script",
+      "timestamp": 1789039982327
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/forest.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789039982327
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/sans.otf",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "font/otf",
+      "resourceType": "Font",
+      "timestamp": 1789039982832
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/favicon.svg",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/svg+xml",
+      "resourceType": "Other",
+      "timestamp": 1789039982832
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/html",
+      "resourceType": "Document",
+      "timestamp": 1789039990159
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/style.css",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/css",
+      "resourceType": "Stylesheet",
+      "timestamp": 1789039990159
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/app.js",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/javascript",
+      "resourceType": "Script",
+      "timestamp": 1789039990159
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/forest.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789039990159
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/sans.otf",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "font/otf",
+      "resourceType": "Font",
+      "timestamp": 1789039990159
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/html",
+      "resourceType": "Document",
+      "timestamp": 1789039990809
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/style.css",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/css",
+      "resourceType": "Stylesheet",
+      "timestamp": 1789039990809
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/app.js",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/javascript",
+      "resourceType": "Script",
+      "timestamp": 1789039990809
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/forest.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789039990809
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/sans.otf",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "font/otf",
+      "resourceType": "Font",
+      "timestamp": 1789039991313
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/favicon.svg",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/svg+xml",
+      "resourceType": "Other",
+      "timestamp": 1789039991313
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/html",
+      "resourceType": "Document",
+      "timestamp": 1789040052524
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/style.css",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/css",
+      "resourceType": "Stylesheet",
+      "timestamp": 1789040052524
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/app.js",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/javascript",
+      "resourceType": "Script",
+      "timestamp": 1789040052524
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/forest.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789040052524
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/sans.otf",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "font/otf",
+      "resourceType": "Font",
+      "timestamp": 1789040052524
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/html",
+      "resourceType": "Document",
+      "timestamp": 1789040053179
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/style.css",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/css",
+      "resourceType": "Stylesheet",
+      "timestamp": 1789040053179
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/app.js",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/javascript",
+      "resourceType": "Script",
+      "timestamp": 1789040053179
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/forest.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789040053179
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/sans.otf",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "font/otf",
+      "resourceType": "Font",
+      "timestamp": 1789040053185
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/favicon.svg",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/svg+xml",
+      "resourceType": "Other",
+      "timestamp": 1789040053689
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/html",
+      "resourceType": "Document",
+      "timestamp": 1789040060704
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/style.css",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/css",
+      "resourceType": "Stylesheet",
+      "timestamp": 1789040060704
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/app.js",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/javascript",
+      "resourceType": "Script",
+      "timestamp": 1789040060704
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/forest.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789040060704
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/sans.otf",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "font/otf",
+      "resourceType": "Font",
+      "timestamp": 1789040060704
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/html",
+      "resourceType": "Document",
+      "timestamp": 1789040061354
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/style.css",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/css",
+      "resourceType": "Stylesheet",
+      "timestamp": 1789040061354
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/app.js",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/javascript",
+      "resourceType": "Script",
+      "timestamp": 1789040061354
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/forest.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789040061354
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/sans.otf",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "font/otf",
+      "resourceType": "Font",
+      "timestamp": 1789040061856
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/favicon.svg",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/svg+xml",
+      "resourceType": "Other",
+      "timestamp": 1789040061856
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/html",
+      "resourceType": "Document",
+      "timestamp": 1789040128011
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/style.css",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/css",
+      "resourceType": "Stylesheet",
+      "timestamp": 1789040128011
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/app.js",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/javascript",
+      "resourceType": "Script",
+      "timestamp": 1789040128011
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/forest.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789040128011
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/sans.otf",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "font/otf",
+      "resourceType": "Font",
+      "timestamp": 1789040128011
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/html",
+      "resourceType": "Document",
+      "timestamp": 1789040128662
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/style.css",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/css",
+      "resourceType": "Stylesheet",
+      "timestamp": 1789040128662
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/app.js",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/javascript",
+      "resourceType": "Script",
+      "timestamp": 1789040128662
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/forest.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789040128662
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/sans.otf",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "font/otf",
+      "resourceType": "Font",
+      "timestamp": 1789040129166
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/favicon.svg",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/svg+xml",
+      "resourceType": "Other",
+      "timestamp": 1789040129166
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/qa-missing-forest.png",
+      "method": "GET",
+      "status": 404,
+      "mimeType": "text/html",
+      "resourceType": "Image",
+      "timestamp": 1789040131109
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/html",
+      "resourceType": "Document",
+      "timestamp": 1789040177280
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/style.css",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/css",
+      "resourceType": "Stylesheet",
+      "timestamp": 1789040177381
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/forest.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789040177381
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/sans.otf",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "font/otf",
+      "resourceType": "Font",
+      "timestamp": 1789040177381
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/favicon.svg",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/svg+xml",
+      "resourceType": "Other",
+      "timestamp": 1789040177381
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/html",
+      "resourceType": "Document",
+      "timestamp": 1789040178281
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/style.css",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/css",
+      "resourceType": "Stylesheet",
+      "timestamp": 1789040178281
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/app.js",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/javascript",
+      "resourceType": "Script",
+      "timestamp": 1789040178281
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/forest.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789040178281
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/sans.otf",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "font/otf",
+      "resourceType": "Font",
+      "timestamp": 1789040178281
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/favicon.svg",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/svg+xml",
+      "resourceType": "Other",
+      "timestamp": 1789040178281
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/html",
+      "resourceType": "Document",
+      "timestamp": 1789040178381
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/style.css",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/css",
+      "resourceType": "Stylesheet",
+      "timestamp": 1789040178381
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/app.js",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/javascript",
+      "resourceType": "Script",
+      "timestamp": 1789040178381
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/forest.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789040178381
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/sans.otf",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "font/otf",
+      "resourceType": "Font",
+      "timestamp": 1789040178481
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/favicon.svg",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/svg+xml",
+      "resourceType": "Other",
+      "timestamp": 1789040178481
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/html",
+      "resourceType": "Document",
+      "timestamp": 1789040179280
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/style.css",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/css",
+      "resourceType": "Stylesheet",
+      "timestamp": 1789040179280
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/app.js",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/javascript",
+      "resourceType": "Script",
+      "timestamp": 1789040179280
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/forest.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789040179280
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/sans.otf",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "font/otf",
+      "resourceType": "Font",
+      "timestamp": 1789040179280
+    },
+    {
+      "url": "http://127.0.0.1:4173/swift-ai/assets/favicon.svg",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/svg+xml",
+      "resourceType": "Other",
+      "timestamp": 1789040179382
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/html",
+      "resourceType": "Document",
+      "timestamp": 1789040425779
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/style.css",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/css",
+      "resourceType": "Stylesheet",
+      "timestamp": 1789040425779
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/assets/alpine-notes.jpg",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "resourceType": "Image",
+      "timestamp": 1789040425779
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/assets/rainbow-venture.jpg",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "resourceType": "Image",
+      "timestamp": 1789040425779
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/assets/bloop.jpg",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "resourceType": "Image",
+      "timestamp": 1789040425779
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/assets/furion.jpg",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "resourceType": "Image",
+      "timestamp": 1789040425779
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/assets/aster.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789040425779
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/assets/horizonx.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789040425779
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/assets/buzzkit.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789040425779
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/assets/pixel-world.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789040425779
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/assets/grid-driver.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789040425779
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/assets/clipdock.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789040425779
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/assets/telemetry-stack.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789040425779
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/assets/lost-in-flight.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789040425779
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/assets/reality-studio.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789040425779
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/assets/direct-cta.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789040425779
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/assets/quiet-presets.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789040425779
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/assets/olympus.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789040425779
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/assets/wandor.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789040425779
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/assets/verto.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789040425779
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/assets/swift-ai.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789040425779
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/assets/sans-bold.otf",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "font/otf",
+      "resourceType": "Font",
+      "timestamp": 1789040425780
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/assets/sans.otf",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "font/otf",
+      "resourceType": "Font",
+      "timestamp": 1789040425780
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/assets/favicon.svg",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/svg+xml",
+      "resourceType": "Other",
+      "timestamp": 1789040425780
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/swift-ai/",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/html",
+      "resourceType": "Document",
+      "timestamp": 1789040427173
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/swift-ai/style.css",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "text/css",
+      "resourceType": "Stylesheet",
+      "timestamp": 1789040427242
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/swift-ai/app.js",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "application/javascript",
+      "resourceType": "Script",
+      "timestamp": 1789040427242
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/swift-ai/assets/forest.png",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/png",
+      "resourceType": "Image",
+      "timestamp": 1789040427242
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/swift-ai/assets/sans.otf",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "font/otf",
+      "resourceType": "Font",
+      "timestamp": 1789040427276
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/swift-ai/assets/favicon.svg",
+      "method": "GET",
+      "status": 200,
+      "mimeType": "image/svg+xml",
+      "resourceType": "Other",
+      "timestamp": 1789040427845
+    }
+  ]
+}

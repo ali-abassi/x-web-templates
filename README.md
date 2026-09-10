@@ -1,8 +1,8 @@
 # X Web Templates
 
-**[Browse all eighteen live templates](https://x-web-templates.pages.dev/)**
+**[Browse all nineteen live templates](https://x-web-templates.pages.dev/)**
 
-Eighteen reusable templates: reference-led reconstructions and your original Aster import. Original ChatGPT-generated artwork, editable HTML/CSS/JavaScript, and local fonts. No runtime dependencies or API keys.
+Nineteen reusable templates: reference-led reconstructions and your original Aster import. Original ChatGPT-generated artwork, editable HTML/CSS/JavaScript, and local fonts. No runtime dependencies or API keys.
 
 | Template | Live preview | Direction | Working interactions |
 | --- | --- | --- | --- |
@@ -24,6 +24,7 @@ Eighteen reusable templates: reference-led reconstructions and your original Ast
 | [Olympus](templates/olympus/) | [Open ↗](https://x-web-templates.pages.dev/olympus/) | Classical AI workspace | Marble artwork, orbit motion, local task assignment and model examples. |
 | [Wandor](templates/wandor/) | [Open ↗](https://x-web-templates.pages.dev/wandor/) | Illustrated travel planner | A landmark-filled journey with editable local itinerary downloads. |
 | [Verto](templates/verto/) | [Open ↗](https://x-web-templates.pages.dev/verto/) | Cinematic Creative Studio | Scroll-controlled portrait, service previews, project stories, and downloadable local briefs. |
+| [Swift AI](templates/swift-ai/) | [Open ↗](https://x-web-templates.pages.dev/swift-ai/) | Illustrated AI studio | Local email preview, native disclosures, downloadable project brief. |
 
 ## Original designs and credits
 
@@ -34,6 +35,7 @@ The original four designs come from **[Naty / @DesignGuru01 — original X post]
 - **BuzzKit reference:** [Christo / @chroxify — original post](https://x.com/chroxify/status/2097477196130529296).
 - **Pixel-world reference:** [Varun / @orseliyas — original post](https://x.com/orseliyas/status/2097307376143773730).
 
+- **Swift AI reference:** [Muddasir / @hussain_mu20778 — original post](https://x.com/hussain_mu20778/status/2097891688777932949). First forest background only.
 - **Verto reference:** [Alex roy / @alexroyhe — original post](https://x.com/alexroyhe/status/2097505519397163100).
 - **Olympus reference:** [Judha / @jxdhaa — original post](https://x.com/jxdhaa/status/2097647071721607222).
 - **Wandor reference:** [Harshit / @oiharshit — original post](https://x.com/oiharshit/status/2097666212767633581).
@@ -94,6 +96,10 @@ Download an individual ZIP from the gallery or this repository:
 - [Reality is ZIP](dist/downloads/reality-studio.zip)
 - [Direct ZIP](dist/downloads/direct-cta.zip)
 - [Quiet ZIP](dist/downloads/quiet-presets.zip)
+- [Olympus ZIP](dist/downloads/olympus.zip)
+- [Wandor ZIP](dist/downloads/wandor.zip)
+- [Verto ZIP](dist/downloads/verto.zip)
+- [Swift AI ZIP](dist/downloads/swift-ai.zip)
 
 Unzip it, open `dist/index.html`, and edit its files. For predictable local storage and download behavior, serve the downloaded `dist` folder using Python's static server. Each ZIP includes all required CSS, JavaScript, images, fonts, a customization guide, and font licenses. You can host its `dist` folder on any static host.
 

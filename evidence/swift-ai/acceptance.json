@@ -1,0 +1,62 @@
+{
+  "verdict": "accept",
+  "candidate": {
+    "base": "a678dd45628c5dba00949fe2a413f732c263c69e",
+    "dirty_content_hashes": {
+      "README.md": "6413ed4bbcbc8cff56b0bc3bd63b702f65a3049b443c41ad0348d7724aea7627",
+      "design.md": "6458f9222f444f79c5b6053df304f7b4132ab137c7b1fe47d5562bb627c1629c",
+      "dist/assets/swift-ai.png": "ef89fca7a3d0a3aaf216437817c99c51bdf73ef06a9947cc76a1ab950089310b",
+      "dist/downloads/swift-ai.zip": "8f575a23cdc77bc6c6a15ea3f12356c039a4e0a29e346651a29776f61da0136e",
+      "dist/index.html": "bf02659bca43831c4da7ab3e5314e032b9464168229d277facc5870b9910ef7b",
+      "dist/swift-ai/app.js": "d3cf4c93b67b8347bea74675d39c42b335898400438c5bbb3026686d195628ab",
+      "dist/swift-ai/assets/favicon.svg": "e3aec6edecc98a4e954d09f14f0ab4031c1c4d013f609076d882798449b6c426",
+      "dist/swift-ai/assets/forest.png": "1e9e843b5b5a67d9e2febba841ced32ae9cf27ef1feac8bfadd0900f489f0ccb",
+      "dist/swift-ai/assets/sans.otf": "7c25be4d78155523080ab85b10277150657ff7dabbcad7037bdd536c9b6d0d08",
+      "dist/swift-ai/index.html": "66a90bed895f743633c880536f640e7fea46bec21612447d1e6529e90013287f",
+      "dist/swift-ai/style.css": "642f364ea1d1d9dd06389450b54fe68c1377850d44048d18a4120ba310cfd3e8",
+      "gallery/assets/swift-ai.png": "ef89fca7a3d0a3aaf216437817c99c51bdf73ef06a9947cc76a1ab950089310b",
+      "gallery/index.html": "bf02659bca43831c4da7ab3e5314e032b9464168229d277facc5870b9910ef7b",
+      "intent.md": "c941db09d44285670f6a3e7307002820c029a59b78aaba37af529f9dac27be48",
+      "scripts/build.py": "52bd5c49dc0af80abe6299f4a509ef3d1ce5cad63182f4a2b362b10999076ec7",
+      "templates/swift-ai/README.md": "479fd0404af8c0969c1d06bc1a4e34d3dd55d3afed8594d64de634c3029633d3",
+      "templates/swift-ai/dist/app.js": "d3cf4c93b67b8347bea74675d39c42b335898400438c5bbb3026686d195628ab",
+      "templates/swift-ai/dist/assets/favicon.svg": "e3aec6edecc98a4e954d09f14f0ab4031c1c4d013f609076d882798449b6c426",
+      "templates/swift-ai/dist/assets/forest.png": "1e9e843b5b5a67d9e2febba841ced32ae9cf27ef1feac8bfadd0900f489f0ccb",
+      "templates/swift-ai/dist/assets/sans.otf": "7c25be4d78155523080ab85b10277150657ff7dabbcad7037bdd536c9b6d0d08",
+      "templates/swift-ai/dist/index.html": "66a90bed895f743633c880536f640e7fea46bec21612447d1e6529e90013287f",
+      "templates/swift-ai/dist/style.css": "642f364ea1d1d9dd06389450b54fe68c1377850d44048d18a4120ba310cfd3e8",
+      "templates/swift-ai/licenses/Nimbus-fonts.txt": "1315a62758a603a3e6e87a79b8389563789c59c1740b9db8bc2b20e2e2145458"
+    }
+  },
+  "alignment": {
+    "/Users/aliabassi/Documents/ChatGPT/AI Designer/x-web-templates/vision.md": "954a1faf88b6736fa5682e4e2d4fedf13e2ecc6ae365704c37b3ffac43534407",
+    "/Users/aliabassi/Documents/ChatGPT/AI Designer/x-web-templates/intent.md": "c941db09d44285670f6a3e7307002820c029a59b78aaba37af529f9dac27be48",
+    "/Users/aliabassi/Documents/ChatGPT/AI Designer/x-web-templates/design.md": "6458f9222f444f79c5b6053df304f7b4132ab137c7b1fe47d5562bb627c1629c",
+    "/Users/aliabassi/.codex/policies/project-alignment.md": "96cbc985937c4aff09a05af962195b79a1435b0e468f101ab537364d39dc2f08",
+    "/Users/aliabassi/.codex/policies/project-acceptance.md": "a76a298e22eecec704660564bead8333bc74029f882fb8d9392b5407459f0642"
+  },
+  "evidence": {
+    "behavior": "final/interactions.json (38)",
+    "adverse": "final/adverse.json (6)",
+    "modes": [
+      "final/nojs.json",
+      "final/reduced.json"
+    ],
+    "production": "final/public.json (7), final/live-bytes.json (216)",
+    "accessibility": [
+      "final/axe-1440.json",
+      "final/axe-375.json"
+    ],
+    "preservation": "final/preservation.json (207 unchanged)",
+    "static": "npm run build && npm run check ->21 pages19ZIPs, git diff --check, final/complexity.json"
+  },
+  "reviewer": "active agent separate critical self-review",
+  "usage": {
+    "owners": 1,
+    "native_image_calls": 1,
+    "native_image_billing": "unavailable",
+    "delegates": 0
+  },
+  "assurance_boundary": "Static self-contained template, original first forest art, native local demo only; no real SaaS signup/auth/AI service, physical Safari/iOS or VoiceOver certification.",
+  "time": 1789040518.365643
+}

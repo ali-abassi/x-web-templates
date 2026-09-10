@@ -1,0 +1,32 @@
+[
+  {
+    "case": "maximum email dialog wraps",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "maximum brief fits",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "blocked download preserves draft",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "download recovers",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "missing forest readable",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "form works after missing art",
+    "passed": true,
+    "observed": true
+  }
+]

@@ -1,0 +1,192 @@
+[
+  {
+    "case": "About us dialog 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "About us escape/focus 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Case studies dialog 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Case studies escape/focus 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Journal dialog 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Journal escape/focus 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Login dialog 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Login escape/focus 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Get a quote dialog 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Get a quote escape/focus 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "login returns to email 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "empty validation 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "invalid preserved 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "valid local preview 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "trial to brief 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "empty brief feedback 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "brief preserved after export 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "brief retained on reopen 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "layout/assets 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "About us dialog 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "About us escape/focus 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Case studies dialog 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Case studies escape/focus 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Journal dialog 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Journal escape/focus 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Login dialog 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Login escape/focus 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Get a quote dialog 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Get a quote escape/focus 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "login returns to email 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "empty validation 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "invalid preserved 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "valid local preview 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "trial to brief 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "empty brief feedback 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "brief preserved after export 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "brief retained on reopen 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "layout/assets 375",
+    "passed": true,
+    "observed": true
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "rule": "cyclomatic complexity <=5",
+  "violations": [],
+  "authoredTypeScriptFiles": 0
+}
