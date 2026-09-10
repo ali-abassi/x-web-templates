@@ -1,0 +1,166 @@
+{
+  "verdict": "accept",
+  "content_commit": "d665917c26d33eba04f050682483b1b8ce5d6ab2",
+  "readme_sha256": "71f700f4d35c05263fdd179fb31d1b0c8e668ee204bf56187f2d3b789a969a25",
+  "raw_assets": [
+    {
+      "path": "docs/assets/icon.png",
+      "url": "https://raw.githubusercontent.com/ali-abassi/x-web-templates/d665917c26d33eba04f050682483b1b8ce5d6ab2/docs/assets/icon.png",
+      "status": "200",
+      "sha256": "b59a9fbdcbec2f988bdfa34e2e90dc529b0383b3db7bbcbe7d5d165d0d8d6af3"
+    },
+    {
+      "path": "docs/assets/workflow.svg",
+      "url": "https://raw.githubusercontent.com/ali-abassi/x-web-templates/d665917c26d33eba04f050682483b1b8ce5d6ab2/docs/assets/workflow.svg",
+      "status": "200",
+      "sha256": "5648ea539b5cffdf698a4578a967116834ae99b1cb40b8494b578d40558e70ab"
+    },
+    {
+      "path": "gallery/assets/alpine-notes.jpg",
+      "url": "https://raw.githubusercontent.com/ali-abassi/x-web-templates/d665917c26d33eba04f050682483b1b8ce5d6ab2/gallery/assets/alpine-notes.jpg",
+      "status": "200",
+      "sha256": "d64f0ce04e93126f2ce5b6fde35b1911a716dc9d5a3b9218a9548fe00abe9427"
+    },
+    {
+      "path": "gallery/assets/animora.png",
+      "url": "https://raw.githubusercontent.com/ali-abassi/x-web-templates/d665917c26d33eba04f050682483b1b8ce5d6ab2/gallery/assets/animora.png",
+      "status": "200",
+      "sha256": "4418b93a1b08cc267dd3f7de3c3d23085a5bf37b48b00cc78fa476ee84cda54c"
+    },
+    {
+      "path": "gallery/assets/arto.png",
+      "url": "https://raw.githubusercontent.com/ali-abassi/x-web-templates/d665917c26d33eba04f050682483b1b8ce5d6ab2/gallery/assets/arto.png",
+      "status": "200",
+      "sha256": "04f51898f3ce0e0df5def8b795a9c9e987919477e7ca17c8216f68a559183e1f"
+    },
+    {
+      "path": "gallery/assets/aster.png",
+      "url": "https://raw.githubusercontent.com/ali-abassi/x-web-templates/d665917c26d33eba04f050682483b1b8ce5d6ab2/gallery/assets/aster.png",
+      "status": "200",
+      "sha256": "3a725b1a5e65c5b095f7ce3e237c7c58133ee3d6bde669be29bc6347105d2935"
+    },
+    {
+      "path": "gallery/assets/bloop.jpg",
+      "url": "https://raw.githubusercontent.com/ali-abassi/x-web-templates/d665917c26d33eba04f050682483b1b8ce5d6ab2/gallery/assets/bloop.jpg",
+      "status": "200",
+      "sha256": "8bd2dd75e7273a1c5229c98a47b7f836a05920e3d235d5d59733440e94fdd8ee"
+    },
+    {
+      "path": "gallery/assets/buzzkit.png",
+      "url": "https://raw.githubusercontent.com/ali-abassi/x-web-templates/d665917c26d33eba04f050682483b1b8ce5d6ab2/gallery/assets/buzzkit.png",
+      "status": "200",
+      "sha256": "71e48860cb264b8fd3bbcc7983ab2453ef98c3275e071253a3768bd9d98cee3f"
+    },
+    {
+      "path": "gallery/assets/clipdock.png",
+      "url": "https://raw.githubusercontent.com/ali-abassi/x-web-templates/d665917c26d33eba04f050682483b1b8ce5d6ab2/gallery/assets/clipdock.png",
+      "status": "200",
+      "sha256": "b3c6ebac0dc3c0ae3f735111cf0720b90eb0592e460fa3e541bac9f8c35480c9"
+    },
+    {
+      "path": "gallery/assets/furion.jpg",
+      "url": "https://raw.githubusercontent.com/ali-abassi/x-web-templates/d665917c26d33eba04f050682483b1b8ce5d6ab2/gallery/assets/furion.jpg",
+      "status": "200",
+      "sha256": "90f195bb41e7820331ee9fea96a0af918f77ca86a55f045a8dfdbb5e2704eb39"
+    },
+    {
+      "path": "gallery/assets/grid-driver.png",
+      "url": "https://raw.githubusercontent.com/ali-abassi/x-web-templates/d665917c26d33eba04f050682483b1b8ce5d6ab2/gallery/assets/grid-driver.png",
+      "status": "200",
+      "sha256": "5946441e1f28cf0d69a665792625c5ca8ddcd9775d4dee38887772fd39fe24b3"
+    },
+    {
+      "path": "gallery/assets/horizonx.png",
+      "url": "https://raw.githubusercontent.com/ali-abassi/x-web-templates/d665917c26d33eba04f050682483b1b8ce5d6ab2/gallery/assets/horizonx.png",
+      "status": "200",
+      "sha256": "c43e528e57d5975311a84761952b074e00afafc856cecaf370928188235b5c4c"
+    },
+    {
+      "path": "gallery/assets/neurolink.png",
+      "url": "https://raw.githubusercontent.com/ali-abassi/x-web-templates/d665917c26d33eba04f050682483b1b8ce5d6ab2/gallery/assets/neurolink.png",
+      "status": "200",
+      "sha256": "ad11aa77144c567fcb0b048af456b735e3417d83462ea2dbb5239d14c26d46a5"
+    },
+    {
+      "path": "gallery/assets/olympus.png",
+      "url": "https://raw.githubusercontent.com/ali-abassi/x-web-templates/d665917c26d33eba04f050682483b1b8ce5d6ab2/gallery/assets/olympus.png",
+      "status": "200",
+      "sha256": "0665cfd1d076cc46806b462fbd89836877ae44a356a0cc908b0ddaa99229023c"
+    },
+    {
+      "path": "gallery/assets/pixel-world.png",
+      "url": "https://raw.githubusercontent.com/ali-abassi/x-web-templates/d665917c26d33eba04f050682483b1b8ce5d6ab2/gallery/assets/pixel-world.png",
+      "status": "200",
+      "sha256": "a6cb7032c9adbd090178d15cf5f23690dd26f0788137308b8b7ac44cd5d1ced2"
+    },
+    {
+      "path": "gallery/assets/rainbow-venture.jpg",
+      "url": "https://raw.githubusercontent.com/ali-abassi/x-web-templates/d665917c26d33eba04f050682483b1b8ce5d6ab2/gallery/assets/rainbow-venture.jpg",
+      "status": "200",
+      "sha256": "0b557863b2dc8ffe70ddcf6079172554ea290d49335a72a0b0f3056096fd2e9d"
+    },
+    {
+      "path": "gallery/assets/swift-ai.png",
+      "url": "https://raw.githubusercontent.com/ali-abassi/x-web-templates/d665917c26d33eba04f050682483b1b8ce5d6ab2/gallery/assets/swift-ai.png",
+      "status": "200",
+      "sha256": "ef89fca7a3d0a3aaf216437817c99c51bdf73ef06a9947cc76a1ab950089310b"
+    },
+    {
+      "path": "gallery/assets/travio.png",
+      "url": "https://raw.githubusercontent.com/ali-abassi/x-web-templates/d665917c26d33eba04f050682483b1b8ce5d6ab2/gallery/assets/travio.png",
+      "status": "200",
+      "sha256": "3a4df2516e196e57ff86aa11788b010f1da4527b70b6b0ef2c1113db2139dd4e"
+    },
+    {
+      "path": "gallery/assets/verto.png",
+      "url": "https://raw.githubusercontent.com/ali-abassi/x-web-templates/d665917c26d33eba04f050682483b1b8ce5d6ab2/gallery/assets/verto.png",
+      "status": "200",
+      "sha256": "2c2bc09f8c442de4503c02f860353724ec8d8fb98113a701a6bec9d21c57731e"
+    },
+    {
+      "path": "gallery/assets/wandor.png",
+      "url": "https://raw.githubusercontent.com/ali-abassi/x-web-templates/d665917c26d33eba04f050682483b1b8ce5d6ab2/gallery/assets/wandor.png",
+      "status": "200",
+      "sha256": "f77ce8579a6852f245e34222adb7d77179995d8b95e27560b061483c40f5188e"
+    }
+  ],
+  "metadata": {
+    "description": "I pass great designs to Astra and share the results as free, editable HTML/CSS/JS templates. 18 live previews, source credits, and ZIP downloads.",
+    "repositoryTopics": [
+      {
+        "name": "ai-generated"
+      },
+      {
+        "name": "astra"
+      },
+      {
+        "name": "css"
+      },
+      {
+        "name": "design-inspiration"
+      },
+      {
+        "name": "html"
+      },
+      {
+        "name": "javascript"
+      },
+      {
+        "name": "static-site"
+      },
+      {
+        "name": "website-templates"
+      }
+    ],
+    "visibility": "PUBLIC"
+  },
+  "native_GitHub": "Actual public GitHub README inspected at 1280px and 375px. All 21 image occurrences load; all three navigation anchors exist; See every template jumps to #templates; keyboard Tab reaches a native link; no document overflow. Final screenshots public-desktop.png and public-mobile.png; layout and navigation data public-mobile.json.",
+  "runtime_unchanged": true,
+  "unverified_claims": [
+    "No one-shot success benchmark or original-creator authorship guarantee; not claimed.",
+    "No comprehensive cross-browser or commercial-rights guarantee; limits preserved."
+  ],
+  "delivery": "README/icon/About/topics published. Pages application files unchanged, no Pages deploy needed.",
+  "checks_complete": true,
+  "remaining_failures": []
+}

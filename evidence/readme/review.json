@@ -1,6 +1,6 @@
 {
   "verdict": "accept",
-  "phase": "pre-publication candidate",
+  "phase": "final accepted landing surface",
   "base": "2fb82973f0606d8663b9b99fdca6321e27de59ef",
   "alignment": {
     "vision.md": "954a1faf88b6736fa5682e4e2d4fedf13e2ecc6ae365704c37b3ffac43534407",
@@ -53,9 +53,16 @@
     "model": "host-selected unchanged",
     "cost": "not exposed"
   },
-  "post_publication_checks": [
-    "Raw README image asset URLs",
-    "GitHub rendered screenshots, anchors, About/topics",
-    "Remote main exact SHA"
-  ]
+  "post_publication_checks": {
+    "raw_assets": "20/20 HTTP200",
+    "native_render": "1280px/375px, all 21 occurrences loaded, navigation works, zero page overflow",
+    "metadata": "About and all eight topics exact match; repository public"
+  },
+  "candidate_commit": "d665917c26d33eba04f050682483b1b8ce5d6ab2",
+  "unverified_required": [],
+  "final_content_hashes": {
+    "README.md": "71f700f4d35c05263fdd179fb31d1b0c8e668ee204bf56187f2d3b789a969a25",
+    "docs/assets/icon.png": "b59a9fbdcbec2f988bdfa34e2e90dc529b0383b3db7bbcbe7d5d165d0d8d6af3",
+    "docs/assets/workflow.svg": "5648ea539b5cffdf698a4578a967116834ae99b1cb40b8494b578d40558e70ab"
+  }
 }

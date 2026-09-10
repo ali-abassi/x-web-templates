@@ -8,7 +8,7 @@
 
 [Icon](../../docs/assets/icon.png): original built-in imagegen output, two calls including one background correction; [exact prompts](icon-prompt.json). [Workflow SVG source](../../docs/assets/workflow.svg): deterministic editable diagram. Real hero: [AnimoraAI screenshot](../../gallery/assets/animora.png).
 
-Focused good-design pass: native GitHub layout, personal story before technical detail, real screenshots, single high-contrast page-stack/star icon. Icon first draft blended into dark mode; corrected to ivory. Hero alt text corrected to match the blue character. SVG rendered with `qlmanage -t -s 1240 -o /private/tmp docs/assets/workflow.svg` and inspected for legible labels and unclipped cards. The Quick Look PNG is intentionally not committed. [Desktop gallery](desktop-gallery.png), [mobile gallery](mobile-gallery.png), [mobile dark hero](mobile-dark.png). Final native GitHub proof is recorded after publication.
+Focused good-design pass: native GitHub layout, personal story before technical detail, real screenshots, single high-contrast page-stack/star icon. Icon first draft blended into dark mode; corrected to ivory. Hero alt text corrected to match the blue character. SVG rendered with `qlmanage -t -s 1240 -o /private/tmp docs/assets/workflow.svg` and inspected for legible labels and unclipped cards. The Quick Look PNG is intentionally not committed. [Desktop gallery](desktop-gallery.png), [mobile gallery](mobile-gallery.png), [mobile dark hero](mobile-dark.png). Final native GitHub proof: [desktop](public-desktop.png), [mobile](public-mobile.png), [publication receipt and raw asset statuses](publication.json).
 
 ## Verification
 
@@ -24,9 +24,9 @@ No first-attempt success rate, speed, cost benchmark, or pixel-perfect claim. Re
 
 ## Skill fidelity
 
-- Six-line spine, README, About, topics: files linked above; live metadata verified after publication.
+- Six-line spine, README, About, topics: files linked above; live metadata verified in publication.json.
 - Icon/hero and workflow diagram: inspected pixels; source and generated prompt provenance retained.
 - Quickstart, command blocks, SVG render, anchors, all external URLs: evidence linked above.
-- Raw assets and actual GitHub render: final publication receipt records results.
+- Raw assets and actual GitHub render: publication.json records all 20 raw asset URLs returning 200 and native GitHub proof.
 - Three launch candidates with attachment and first-reply command: linked above.
 - Missing mandatory deliverables: none at final acceptance; publication checks are recorded separately.
