@@ -4,9 +4,9 @@
   "mode": "iterate",
   "target": {
     "repo": "/Users/aliabassi/Documents/ChatGPT/AI Designer/x-web-templates",
-    "commit": "9545657c26f8a1e3bbdd434a9e43e4fd0915a2d2",
-    "dirty": true,
-    "build": "Verto new template"
+    "commit": "abde15f3d94768d02009f0fa032aa4bbf2e18520",
+    "dirty": false,
+    "build": "Verto verified release / canonical 378ed376-8cf3-40a8-97fe-abe4f35b9f19"
   },
   "environment": {
     "device": "Mac Chrome with viewport emulation",
@@ -227,6 +227,10 @@
         {
           "kind": "network",
           "path": "evidence/verto/final/live-bytes.json"
+        },
+        {
+          "kind": "network",
+          "path": "evidence/verto/final/clean-release-bytes.json"
         }
       ],
       "finding_ids": [
@@ -414,6 +418,6 @@
     "performance": true,
     "rollback": true
   },
-  "verdict": "inconclusive",
+  "verdict": "production_ready",
   "assurance_boundary": "Static template and explicitly local demos. No actual agency service, client proof, message, payment or backend. Physical Safari and VoiceOver not covered."
 }

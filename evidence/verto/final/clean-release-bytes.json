@@ -1,0 +1,29 @@
+{
+  "deployment": "378ed376-8cf3-40a8-97fe-abe4f35b9f19",
+  "results": [
+    {
+      "path": "index.html",
+      "match": true,
+      "sha256": "db72a0abfaeb49e3f68cfd0d21bbf3c59a1ce12526fb96aa0831c838ddefe15b",
+      "bytes": 18196
+    },
+    {
+      "path": "verto/index.html",
+      "match": true,
+      "sha256": "91d853f5fcb5e40dab8c6e3159b7a663b83ca8adeaa8d37b8138880b17cb445e",
+      "bytes": 20360
+    },
+    {
+      "path": "verto/motion.js",
+      "match": true,
+      "sha256": "cec668c18defce8716ef48ef5348ac4f2524de2f5cc4b9032899a30faa854fd2",
+      "bytes": 2938
+    },
+    {
+      "path": "downloads/verto.zip",
+      "match": true,
+      "sha256": "ee4778869fa2f633edfa0339c8871198d45727f4ada503339de8ad4e12f13447",
+      "bytes": 22742888
+    }
+  ]
+}

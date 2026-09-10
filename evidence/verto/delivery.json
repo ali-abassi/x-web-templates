@@ -1,0 +1,18 @@
+{
+  "source_commit": "abde15f3d94768d02009f0fa032aa4bbf2e18520",
+  "repository": "https://github.com/ali-abassi/x-web-templates",
+  "visibility": "PRIVATE",
+  "branch": "main",
+  "deployment_id": "378ed376-8cf3-40a8-97fe-abe4f35b9f19",
+  "commit_dirty": false,
+  "origin": "https://x-web-templates.pages.dev",
+  "template": "https://x-web-templates.pages.dev/verto/",
+  "zip": "https://x-web-templates.pages.dev/downloads/verto.zip",
+  "templates": 18,
+  "verified_public_files": 208,
+  "clean_release_recheck": "final/clean-release-bytes.json",
+  "source_public_proof": "final/public.json and final/public-video.json",
+  "readiness": "production_ready within run-manifest assurance boundary",
+  "receipt_followup": "Only verification metadata changes after source commit; shipping artifact hashes unchanged.",
+  "time": "2026-09-10T04:42:07.274384+00:00"
+}

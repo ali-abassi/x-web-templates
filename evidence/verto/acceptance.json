@@ -3,7 +3,8 @@
   "candidate": {
     "base": "9545657c26f8a1e3bbdd434a9e43e4fd0915a2d2",
     "dirty_shipping_hashes": "evidence/verto/final/candidate-hashes.json",
-    "deployment_hashes": "evidence/verto/final/deployment-input.json"
+    "deployment_hashes": "evidence/verto/final/deployment-input.json",
+    "head": "abde15f3d94768d02009f0fa032aa4bbf2e18520"
   },
   "alignment": {
     "vision.md": "954a1faf88b6736fa5682e4e2d4fedf13e2ecc6ae365704c37b3ffac43534407",
@@ -32,7 +33,7 @@
     "gemini_static_calls": 1,
     "gemini_estimated_usd": 0.006
   },
-  "public_deployment": "a0160fde-0123-4dad-8ba3-625e15e96c11",
+  "public_deployment": "378ed376-8cf3-40a8-97fe-abe4f35b9f19",
   "risks": [
     "Generated artwork and recreated turn differ from original source",
     "Headless automation reset cause unresolved; required headed journey passed"
@@ -44,5 +45,6 @@
     "Exact proprietary source font/rig",
     "Actual provider bill"
   ],
-  "time": "2026-09-10T04:38:32.176974+00:00"
+  "time": "2026-09-10T04:38:32.176974+00:00",
+  "final_integration": "Identical accepted asset manifest redeployed with committed source SHA and commit_dirty=false; canonical metadata and root/Verto/loader/ZIP bytes verified."
 }
