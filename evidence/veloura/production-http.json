@@ -1,0 +1,72 @@
+[
+  {
+    "path": "veloura/index.html",
+    "bytes": 8040,
+    "exit": 0,
+    "error": "",
+    "match": true
+  },
+  {
+    "path": "veloura/style.css",
+    "bytes": 7884,
+    "exit": 0,
+    "error": "",
+    "match": true
+  },
+  {
+    "path": "veloura/app.js",
+    "bytes": 3681,
+    "exit": 0,
+    "error": "",
+    "match": true
+  },
+  {
+    "path": "veloura/assets/flowers.png",
+    "bytes": 1136622,
+    "exit": 0,
+    "error": "",
+    "match": true
+  },
+  {
+    "path": "veloura/assets/butterfly.png",
+    "bytes": 1709207,
+    "exit": 0,
+    "error": "",
+    "match": true
+  },
+  {
+    "path": "veloura/assets/sans.otf",
+    "bytes": 82264,
+    "exit": 0,
+    "error": "",
+    "match": true
+  },
+  {
+    "path": "veloura/assets/favicon.svg",
+    "bytes": 182,
+    "exit": 0,
+    "error": "",
+    "match": true
+  },
+  {
+    "path": "index.html",
+    "bytes": 18908,
+    "exit": 0,
+    "error": "",
+    "match": true
+  },
+  {
+    "path": "assets/veloura.jpg",
+    "bytes": 96228,
+    "exit": 0,
+    "error": "",
+    "match": true
+  },
+  {
+    "path": "downloads/veloura.zip",
+    "bytes": 2906922,
+    "exit": 0,
+    "error": "",
+    "match": true
+  }
+]

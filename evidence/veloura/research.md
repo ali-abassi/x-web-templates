@@ -11,3 +11,6 @@ Official source URLs: https://github.com/mdn/css-examples/blob/24f806373566e7c34
 
 
 Post-dialog paint investigation: exact Exa searches saved in exa-dialog.json and exa-rendering.json. Official backdrop-filter documentation https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/backdrop-filter describes filtering behind the element and backdrop-root behavior. No exact Chromium bug identification is claimed. One-variable experiment removed only dialog::backdrop blur; same375px open/Escape sequence changed from missing text to correctly painted text, both locally and hosted preview2. Keep rgba backdrop.
+
+
+Follow-up: exa-text-paint.json; system font experiment failed and was rejected. Official https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-display distinguishes font loading from painting, and loaded-font state did not eliminate the defect. Official https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform documents non-none transforms creating stacking contexts. translateZ(0) applied only to persistent text containers passed repeated dismissal; no specific upstream Chromium issue is claimed.

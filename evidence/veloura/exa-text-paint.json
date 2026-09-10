@@ -1,0 +1,49 @@
+{
+  "requestId": "0f87c6989dfdcaa033e7c543a5e57e17",
+  "resolvedSearchType": "",
+  "results": [
+    {
+      "id": "https://stackoverflow.com/questions/39037821/invisible-text-in-modal-dialogs-with-chrome",
+      "title": "Invisible text in modal dialogs with Chrome",
+      "url": "https://stackoverflow.com/questions/39037821/invisible-text-in-modal-dialogs-with-chrome",
+      "publishedDate": "2016-08-19T11:22:45.000Z",
+      "author": "Rising Concupiscence",
+      "highlights": [
+        "I'm facing an issue in a project I'm currently working on. I have a series of modal dialogs made with CSS (display: fixed) that are hidden by default with display: none;. In Chrome, when opening these dialogs, all the text is invisible (I can select it, but it is not visible). Using the inspector, I can change for example its font-weight and the text will then be visible, even when reverting to its original font weight. I'm using a custom font (MuseoSans) imported with the following CSS code:\n...\n```\n@font-face {\n    font-family: \"MuseoSans\";\n    font-style: normal;\n    font-weight: 100;\n    src: url(\"../fonts/MuseoSans_100-webfont.eot?\") format(\"eot\"), url(\"../fonts/MuseoSans_100-webfont.woff\") format(\"woff\"), url(\"../fonts/MuseoSans_100-webfont.ttf\") format(\"truetype\"), url(\"../fonts/MuseoSans_100-webfont.svg#MuseoSans\") format(\"svg\"); }\n...\n@font-face {\n    font-family: \"MuseoSans\";\n    font-style: normal;\n    font-weight: 300;\n    src: url(\"../fonts/MuseoSans_100-webfont.eot?\") format(\"eot\"), url(\"../fonts/MuseoSans_100-webfont.woff\") format(\"woff\"), url(\"../fonts/MuseoSans_100-webfont.ttf\") format(\"truetype\"), url(\"../fonts/MuseoSans_100-webfont.svg#MuseoSans\") format(\"svg\"); }\n...\nI found that if in these dialogs I switch to font-family: Verdana; for example, text will be always visible. Any ideas? I could only reproduce this behavior in Google Chrome (52.0.2743.116 (Build oficial) m (32 bits)).\n...\nEDIT: found out it works as it should if the font size and weight are rendered in a visible place prior to opening the modal dialog.\n...\n- **Rising Concupiscence**: It seems the issue only occurs with Museo Sans (at least). I just replaced it with Open Sans (same mixin and filenames to import them using CSS) and can't reproduce the problem. I generated both webfonts from the Font Squirrel generator. I know I should post an example but I assume I can't create a jsbin that uses MuseoSans as it's a propietary font. I did double check color, background and such where right, of course. Again, using the inspector to just change font-size, weight or any other font property, it renders fine even after undoing these changes (problem reoccurs after browser reload).\n...\n- **Mike 'Pomax' Kamermans**: No idea, you're not really showing enough code to tell, nor a jsbin or something that reproduces this outside your (presumably large) codebase, so: did you remember to give your dialog explicit CSS `background-color` and `color` values?"
+      ]
+    },
+    {
+      "id": "https://issues.chromium.org/issues/41008801",
+      "title": "Dialog boxes appear wrong when using custom Windows UI color schemes [41008801] - Chromium",
+      "url": "https://issues.chromium.org/issues/41008801",
+      "highlights": [
+        "Dialog boxes appear wrong when using custom Windows UI color schemes [41008801] - Chromium\n...\nUserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31Steps to reproduce the problem:1. Switch to the High Contrast Windows color scheme (right click on desktop, \"Customize\", scroll down to get the high contrast schemes)2. Try any kind of dialog box. Example with a Javascript one : http://www.tutorialspoint.com/cgi-bin/practice.cgi?file=javascript_31 What is the expected behavior?Dialog boxes should either :- Not change their font color to match the user'sOR, preferred :- Match the window's background color with the user's.What went wrong?The dialog box appears with white text on white background when using custom color schemes that include a white font. (usually white font on dark background.)Did this work before? Yes Before 26.0.1410.64 mChrome version: 26.0.1410.64 Channel: stableOS Version: 6.1 (Windows 7, Windows Server 2008 R2)This bug is kind of related to this one about drop-down menus : https://code.google.com/p/chromium/issues/detail?id=230258"
+      ],
+      "favicon": "https://www.gstatic.com/chrome-tracker/img/chromium.svg"
+    },
+    {
+      "id": "https://github.com/chromium/chromium/commit/1f0984b6b2a28d8cd7778f926a07ff572c37c7d6",
+      "title": "1f0984b [inert] The modal dialog and the fullscreen element should escape inertness of ancestor",
+      "url": "https://github.com/chromium/chromium/commit/1f0984b6b2a28d8cd7778f926a07ff572c37c7d6",
+      "highlights": [
+        "# 1f0984b [inert] The modal dialog and the fullscreen element should escape inertness of ancestor\n...\n[inert] The modal dialog and the fullscreen element should escape inertness of ancestor\n...\nthe spec:\n...\n> While document is so blocked, every node that is connected to\n> document, with the exception of the subject element and its flat tree\n> descendants, must become inert. subject can additionally become inert\n> via the inert attribute, but only if specified on subject itself\n> (i.e., subject escapes inertness of ancestors); subject's flat tree\n> descendants can become inert in a similar fashion.\n...\nThe modal dialog should escape the inertness set by an ancestor\nwith the inert attribute. Consider this test case:\n \n find me! \n \n document.querySelector(\"dialog\").showModal() \n\nThe return value of `window.find('me')` should be true,\nbecause ` ` does not specify the inert attribute."
+      ]
+    },
+    {
+      "id": "https://chromium.googlesource.com/chromium/src/+/353463abd51345350be2cc419e74fd8b3fd062c8/ui/webui/resources/cr_elements/cr_dialog/cr_dialog.html",
+      "title": "ui/webui/resources/cr_elements/cr_dialog/cr_dialog.html - chromium/src - Git at Google",
+      "url": "https://chromium.googlesource.com/chromium/src/+/353463abd51345350be2cc419e74fd8b3fd062c8/ui/webui/resources/cr_elements/cr_dialog/cr_dialog.html",
+      "highlights": [
+        "| :host ::slotted([slot=title]) { |\n| color: var(--cr-primary-text-color); |\n| flex: 1; |\n| font-size: calc(15 / 13 * 100%); |\n| line-height: 1; |\n| padding-bottom: 16px; |\n| padding-inline-end: 20px; |\n| padding-inline-start: 20px; |\n| padding-top: 20px; |\n| } |\n...\n| #close { |\n| align-self: flex-start; |\n| margin-inline-end: 4px; |\n| margin-top: 4px; |\n| } |"
+      ],
+      "image": "https://www.gstatic.com/images/branding/lockups/2x/lockup_git_color_108x24dp.png"
+    }
+  ],
+  "searchTime": 1083.4,
+  "costDollars": {
+    "total": 0.007,
+    "search": {
+      "neural": 0.007
+    }
+  }
+}

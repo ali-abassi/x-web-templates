@@ -1,5 +1,5 @@
 {
-  "verdict": "reject",
+  "verdict": "accept",
   "base": "9643c8829269e35735a429140fc8824c52b2433c",
   "candidate_inventory": "candidate-hashes.json",
   "alignment": {
@@ -21,10 +21,7 @@
   "usage": "1owner; host-selected model/effort; no agents;2native generations plus1 targeted correction; cost unavailable",
   "unverified": [
     "file:// UI blocked by browser policy; ZIP extraction/parity verified",
-    "OS reduced-motion preference and assistive technology; fixture/keyboard evidence only",
-    "Human visible rendering versus capture artifact; requested and pending"
+    "OS reduced-motion preference and assistive technology; fixture/keyboard evidence only"
   ],
-  "time": "2026-09-10T22:43:31.733730+00:00",
-  "candidate": "f880ebf52a0c6030f1b33b83ee533c6eec6162d8",
-  "reason": "Rendering failure remained after publication; initial acceptance superseded. All experimental source changes reverted."
+  "time": "2026-09-10T22:24:07.182765+00:00"
 }

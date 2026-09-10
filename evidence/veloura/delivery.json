@@ -1,0 +1,9 @@
+{
+  "source": "f880ebf52a0c6030f1b33b83ee533c6eec6162d8",
+  "deployment": "cbb95c58-4e45-4c86-97f1-ee9c2c2931db",
+  "url": "https://x-web-templates.pages.dev/veloura/",
+  "acceptance": "reject",
+  "reason": "Repeated capture text loss; human visual check pending",
+  "http_verification": "production-http.json",
+  "experimental_source_changes": "all reverted"
+}

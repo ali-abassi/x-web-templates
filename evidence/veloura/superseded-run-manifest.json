@@ -2,13 +2,13 @@
   "schema_version": "1.0",
   "run_id": "veloura-0911",
   "mode": "iterate",
-  "verdict": "not_ready",
-  "assurance_boundary": "Built and published static candidate; acceptance rejected because repeated browser captures lose text. Human visible-page check pending. API/source/ZIP checks do not resolve rendering. No file://UI, OS reduced-motion or assistive technology claim.",
+  "verdict": "inconclusive",
+  "assurance_boundary": "Scoped static template behavior passes. Pending clean source commit for readiness verdict. No real OS reduced-motion toggle or assistive technology test. Browser file:// navigation disallowed; archive parity/extraction and HTTP behavior verified. No backend or original video-file analysis claimed.",
   "target": {
     "repo": "ali-abassi/x-web-templates",
-    "commit": "f880ebf52a0c6030f1b33b83ee533c6eec6162d8",
-    "build": "cbb95c58-4e45-4c86-97f1-ee9c2c2931db",
-    "dirty": false
+    "commit": "9643c8829269e35735a429140fc8824c52b2433c",
+    "build": "7e2f1975-5e11-4afc-8d9f-a9bff687fe07",
+    "dirty": true
   },
   "environment": {
     "device": "macOS desktop;375/320/1440 viewport emulation",
@@ -30,14 +30,13 @@
       "id": "V01",
       "journey": "Desktop reference composition",
       "expected": "Monochrome hero, original flowers and moving butterfly",
-      "observed": "Visible hosted1440x1080 artwork and readable copy Later captures lose text; acceptance rejected, pending human visual check.",
+      "observed": "Visible hosted1440x1080 artwork and readable copy",
       "critical": true,
       "requires_real": true,
       "evidence_tier": "real",
-      "status": "fail",
+      "status": "pass",
       "finding_ids": [
-        "F01",
-        "F04"
+        "F01"
       ],
       "artifacts": [
         {
@@ -81,11 +80,11 @@
       "id": "V03",
       "journey": "Keyboard and native dialogs",
       "expected": "Escape closes and returns focus; content remains painted",
-      "observed": "Repeated desktop How/Contact/Features and mobile How/Contact dismissals retain visible text with explicit text layers; prior blur-only claim superseded. Later captures lose text; acceptance rejected, pending human visual check.",
+      "observed": "Exact hosted How it works open/Escape passes with visible text and focus return; local direct fragment and keyboard cycle pass",
       "critical": true,
       "requires_real": true,
       "evidence_tier": "real",
-      "status": "fail",
+      "status": "pass",
       "finding_ids": [
         "F03",
         "F04"
@@ -102,14 +101,6 @@
         {
           "kind": "log",
           "path": "journal.md"
-        },
-        {
-          "kind": "screenshot",
-          "path": "text-layer-final-desktop.jpg"
-        },
-        {
-          "kind": "screenshot",
-          "path": "text-layer-mobile.jpg"
         }
       ]
     },
@@ -217,14 +208,12 @@
       "id": "V08",
       "journey": "Hosted integration",
       "expected": "Live hero/card/ZIP match candidate",
-      "observed": "Preview2 card present with19 count,10 public files byte-identical, no error/warning console entries Later captures lose text; acceptance rejected, pending human visual check.",
+      "observed": "Preview2 card present with19 count,10 public files byte-identical, no error/warning console entries",
       "critical": true,
       "requires_real": true,
       "evidence_tier": "real",
-      "status": "fail",
-      "finding_ids": [
-        "F04"
-      ],
+      "status": "pass",
+      "finding_ids": [],
       "artifacts": [
         {
           "kind": "state",
@@ -305,13 +294,11 @@
       "id": "F04",
       "type": "bug",
       "severity": "P1",
-      "status": "open",
-      "summary": "Persistent text intermittently absent from later captures, including without dialog use; exact cause unresolved.",
-      "reproduction": "Load Veloura, capture initial frame, then capture after several seconds or after How it works and Contact close. Later captures lose most text while AX text remains.",
+      "status": "verified",
+      "summary": "Backdrop blur caused post-dialog text paint loss; removed blur",
+      "reproduction": "375px page: open How it works then Escape; original background text disappeared",
       "case_ids": [
-        "V01",
-        "V03",
-        "V08"
+        "V03"
       ],
       "evidence": [
         {
@@ -325,34 +312,6 @@
         {
           "kind": "screenshot",
           "path": "preview2-mobile-after-dialog.jpg"
-        },
-        {
-          "kind": "screenshot",
-          "path": "production-desktop.jpg"
-        },
-        {
-          "kind": "screenshot",
-          "path": "system-font-desktop.jpg"
-        },
-        {
-          "kind": "screenshot",
-          "path": "text-layer-final-desktop.jpg"
-        },
-        {
-          "kind": "screenshot",
-          "path": "text-layer-mobile.jpg"
-        },
-        {
-          "kind": "screenshot",
-          "path": "cloudflare-initial-text.jpg"
-        },
-        {
-          "kind": "screenshot",
-          "path": "cloudflare-after-dialog-text.jpg"
-        },
-        {
-          "kind": "screenshot",
-          "path": "production-native-capture.jpg"
         }
       ]
     }
@@ -420,7 +379,7 @@
     {
       "id": "I04",
       "hypothesis": "Backdrop blur caused post-dialog text paint loss; removed blur",
-      "decision": "inconclusive",
+      "decision": "keep",
       "changed_files": [
         "templates/veloura/dist/style.css"
       ],
@@ -441,30 +400,16 @@
       "finding_ids": [
         "F04"
       ]
-    },
-    {
-      "id": "I5",
-      "hypothesis": "Explicit text layers isolate persistent copy from modal compositing changes",
-      "decision": "inconclusive",
-      "changed_files": [
-        "templates/veloura/dist/style.css"
-      ],
-      "checks": [
-        "repeated desktop three dialogs; mobile two dialogs; check-final.log"
-      ],
-      "finding_ids": [
-        "F04"
-      ]
     }
   ],
   "gates": {
     "build_provenance": true,
-    "critical_real_flows": false,
+    "critical_real_flows": true,
     "automated_regression": true,
     "logs_reviewed": true,
     "data_integrity": true,
     "recovery": true,
-    "accessibility": false,
+    "accessibility": true,
     "security_privacy": true,
     "performance": true,
     "rollback": true
