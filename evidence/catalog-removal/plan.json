@@ -1,0 +1,29 @@
+{
+  "base": "ffcb0dc6e5523c4d4d7cc30fd5eb8a1f0e0d2549",
+  "removed": [
+    "telemetry-stack",
+    "lost-in-flight",
+    "reality-studio",
+    "direct-cta",
+    "quiet-presets"
+  ],
+  "alignment": {
+    "vision.md": "954a1faf88b6736fa5682e4e2d4fedf13e2ecc6ae365704c37b3ffac43534407",
+    "intent.md": "e14ed83e19e9e0391c03cec379823636bb8bd97744f9de103d7df6a4e06e19e2",
+    "design.md": "d30cb0badb208bb39e000e50e2b5e5ccd3aa30bffea6fb8205a53ae7e1466e62"
+  },
+  "criteria": [
+    "Five source trees, previews, ZIPs and catalog links absent",
+    "18 remaining published templates unchanged",
+    "Build and links check pass",
+    "Git main and public Pages updated"
+  ],
+  "owner": "active agent direct execution and separate self-review",
+  "checks": [
+    "npm run build",
+    "npm run check",
+    "remaining content hash parity",
+    "public gallery and ZIP checks"
+  ],
+  "preexisting": " M design.md\n M intent.md\n?? evidence/travio/final/deployment.json\n?? evidence/travio/final/public-bytes-urllib-failed.json\n?? evidence/travio/final/public-desktop.png\n?? evidence/travio/final/public-preview.json\n?? evidence/travio/final/public-preview.png\n?? evidence/travio/final/public-zip.json\n"
+}

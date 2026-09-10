@@ -102,3 +102,7 @@ Proof:3054sourceframesand1440render/realrecording,375/320,empty/invalid/max/canc
 ## Travio — frozen 2026-09-10
 
 **User-stated:** Add the supplied Travio travel-app concept. **Agent-selected working policy:** Follow [evidence/travio/design.md](evidence/travio/design.md): one alpine phone presentation, native zipper and plane, original photograph, accessible local preference preview. Preserve all 22 previously published templates.
+
+## Catalog removal — 2026-09-10
+
+**User-stated:** Remove Telemetry, Lost in Flight, Reality is, Direct, and Quiet. This supersedes their inclusion in the historical seven-reference scope. Preserve the remaining catalog design.

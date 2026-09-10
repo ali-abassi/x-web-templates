@@ -1,8 +1,8 @@
 # X Web Templates
 
-**[Browse all twenty-three live templates](https://x-web-templates.pages.dev/)**
+**[Browse all eighteen live templates](https://x-web-templates.pages.dev/)**
 
-Twenty-three reusable templates: reference-led reconstructions and your original Aster import. Original ChatGPT-generated artwork, editable HTML/CSS/JavaScript, and local fonts. No runtime dependencies or API keys.
+Eighteen reusable templates: reference-led reconstructions and your original Aster import. Original ChatGPT-generated artwork, editable HTML/CSS/JavaScript, and local fonts. No runtime dependencies or API keys.
 
 | Template | Live preview | Direction | Working interactions |
 | --- | --- | --- | --- |
@@ -16,11 +16,6 @@ Twenty-three reusable templates: reference-led reconstructions and your original
 | [Pixel World](templates/pixel-world/) | [Open ↗](https://x-web-templates.pages.dev/pixel-world/) | Illustrated developer portfolio | Layered scene, portfolio links, validated local contact-draft download |
 | [GRID01 / Leo Mazzi](templates/grid-driver/) | [Open ↗](https://x-web-templates.pages.dev/grid-driver/) | Racing & Portfolio | Helmet reveal, pointer trails, circuit lap, and stacked season cards. |
 | [Clipdock](templates/clipdock/) | [Open ↗](https://x-web-templates.pages.dev/clipdock/) | Product & Navigation | A notched menu, blue landscape, and editable clipboard preview. |
-| [Telemetry](templates/telemetry-stack/) | [Open ↗](https://x-web-templates.pages.dev/telemetry-stack/) | Observability & SaaS | Nine dashboard scenes, keyboard controls, and pauseable autoplay. |
-| [Lost in Flight](templates/lost-in-flight/) | [Open ↗](https://x-web-templates.pages.dev/lost-in-flight/) | Creative 404 | Dimensional planes in motion, with a working route home. |
-| [Reality is](templates/reality-studio/) | [Open ↗](https://x-web-templates.pages.dev/reality-studio/) | Studio & Footer | A drifting atmosphere and geometric trails that follow your pointer. |
-| [Direct](templates/direct-cta/) | [Open ↗](https://x-web-templates.pages.dev/direct-cta/) | Agency & Call To Action | Two bold CTA cards, rotating arrows, and a local work reveal. |
-| [Quiet](templates/quiet-presets/) | [Open ↗](https://x-web-templates.pages.dev/quiet-presets/) | Product & Feature Section | A swipeable focus-preset gallery with tactile lifestyle photography. |
 | [Olympus](templates/olympus/) | [Open ↗](https://x-web-templates.pages.dev/olympus/) | Classical AI workspace | Marble artwork, orbit motion, local task assignment and model examples. |
 | [Wandor](templates/wandor/) | [Open ↗](https://x-web-templates.pages.dev/wandor/) | Illustrated travel planner | A landmark-filled journey with editable local itinerary downloads. |
 | [Verto](templates/verto/) | [Open ↗](https://x-web-templates.pages.dev/verto/) | Cinematic Creative Studio | Scroll-controlled portrait, service previews, project stories, and downloadable local briefs. |
@@ -66,7 +61,7 @@ More references shared by Ali, via **[Dzianis Kravchu / @thedzianis — original
 | [CTA Gallery](https://www.cta.gallery/) | Call-to-action sections |
 | [Unsection](https://www.unsection.com/) | Website sections, including heroes, pricing and calls to action |
 
-One selected example from each library is now a working motion template: **Kimi → GRID01**, **Supaste → Clipdock**, **Better Stack → Telemetry**, **Gabriel Beaugonin → Lost in Flight**, **Reality is → Reality is**, **Direct → Direct**, and **Norma → Quiet**. The GetLayers helmet effect follows its published motion description; the other selections were inspected on their live sites. Generated photos and independently authored code replace the original assets and implementation.
+The retained motion selections are **Kimi → GRID01** and **Supaste → Clipdock**. Five other selections were removed at the user’s request.
 
 ## Preview the collection
 
@@ -99,11 +94,6 @@ Download an individual ZIP from the gallery or this repository:
 - [Pixel World ZIP](dist/downloads/pixel-world.zip)
 - [GRID01 / Leo Mazzi ZIP](dist/downloads/grid-driver.zip)
 - [Clipdock ZIP](dist/downloads/clipdock.zip)
-- [Telemetry ZIP](dist/downloads/telemetry-stack.zip)
-- [Lost in Flight ZIP](dist/downloads/lost-in-flight.zip)
-- [Reality is ZIP](dist/downloads/reality-studio.zip)
-- [Direct ZIP](dist/downloads/direct-cta.zip)
-- [Quiet ZIP](dist/downloads/quiet-presets.zip)
 - [Olympus ZIP](dist/downloads/olympus.zip)
 - [Wandor ZIP](dist/downloads/wandor.zip)
 - [Verto ZIP](dist/downloads/verto.zip)
@@ -169,11 +159,9 @@ Original ChatGPT Site source: `2041d91ef089c77106c542fe5c7fa5290307759b`. Histor
 
 Every template README includes its screenshot and live preview.
 
-[![direct-cta](gallery/assets/direct-cta.png)](https://x-web-templates.pages.dev/direct-cta/)
 
 [![furion](gallery/assets/furion.png)](https://x-web-templates.pages.dev/furion/)
 
-[![lost-in-flight](gallery/assets/lost-in-flight.png)](https://x-web-templates.pages.dev/lost-in-flight/)
 
 [![rainbow-venture](gallery/assets/rainbow-venture.png)](https://x-web-templates.pages.dev/rainbow-venture/)
 
@@ -183,9 +171,7 @@ Every template README includes its screenshot and live preview.
 
 [![alpine-notes](gallery/assets/alpine-notes.png)](https://x-web-templates.pages.dev/alpine-notes/)
 
-[![telemetry-stack](gallery/assets/telemetry-stack.png)](https://x-web-templates.pages.dev/telemetry-stack/)
 
-[![reality-studio](gallery/assets/reality-studio.png)](https://x-web-templates.pages.dev/reality-studio/)
 
 [![pixel-world](gallery/assets/pixel-world.png)](https://x-web-templates.pages.dev/pixel-world/)
 
@@ -197,7 +183,6 @@ Every template README includes its screenshot and live preview.
 
 [![buzzkit](gallery/assets/buzzkit.png)](https://x-web-templates.pages.dev/buzzkit/)
 
-[![quiet-presets](gallery/assets/quiet-presets.png)](https://x-web-templates.pages.dev/quiet-presets/)
 
 ### Olympus
 
