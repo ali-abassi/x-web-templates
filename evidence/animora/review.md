@@ -27,3 +27,7 @@ The initial Gemini Files API upload/poll failed with 500 INTERNAL. The user expl
 The first browser recorder stopped early at 1.633 seconds. That failed attempt is retained as gaze.webm and does not count as full motion proof. The successful replacement is motion.mp4 plus motion.json. A static screenshot helper reset gaze while configuring viewport metrics; gaze proof therefore uses a single CDP connection and actual pointer input. Static captures use fixed scale and fresh measurements.
 
 The frozen requirements in alignment.json were not changed to approve this output. Native image generation used one call; the original asset and exact prompt are saved. Initial source-browser ambiguity and Gemini errors are preserved. These infrastructure failures do not affect the standalone runtime.
+
+## Publication result
+
+The public boundary now passes: 247/247 exact published files, eleven real public and standalone checks, and an empty public browser error log. Canonical deployment b0d90365-53db-409e-8723-1a17c35d6b27 serves source a2181cb. The reviewed runtime is unchanged. All six declared case groups pass within the stated Chrome/static-template assurance boundary.

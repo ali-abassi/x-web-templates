@@ -1,0 +1,344 @@
+{
+  "schema_version": "1.0",
+  "run_id": "animora-2026-09-10",
+  "mode": "iterate",
+  "target": {
+    "repo": "/Users/aliabassi/Documents/ChatGPT/AI Designer/x-web-templates",
+    "commit": "a2181cbf3e5ba9734dd3a2b80bed32112733713f",
+    "dirty": false,
+    "build": "Animora22 deployment b0d90365-53db-409e-8723-1a17c35d6b27"
+  },
+  "environment": {
+    "device": "Mac Chrome, viewport and touch emulation",
+    "runtime": "Chrome153 / agent-browser0.37.1 actual Default headed",
+    "backend": "local static and personal Cloudflare Pages",
+    "account_role": "owner",
+    "locale": "en-US",
+    "network": "normal"
+  },
+  "product": {
+    "actor": "template visitor",
+    "trigger": "explores supplied character reference",
+    "promised_progress": "Editable character hero with pointer/touch/keyboard gaze, themes and local preset export",
+    "weakest_link": "Reference fidelity and input response",
+    "next_decision": "Accept scoped template delivery"
+  },
+  "cases": [
+    {
+      "id": "AN01",
+      "journey": "Reference composition and desktop",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Meets frozen plan.md and design.md for this scoped case.",
+      "observed": "Inspected source and complete renders at1610\u00d71080 and1440\u00d71000, including four palettes.",
+      "artifacts": [
+        {
+          "kind": "screenshot",
+          "path": "evidence/animora/final/animora-1610.png"
+        },
+        {
+          "kind": "screenshot",
+          "path": "evidence/animora/final/animora-1440.png"
+        },
+        {
+          "kind": "screenshot",
+          "path": "evidence/animora/final/orange-1440.png"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/animora/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "AN02",
+      "journey": "Mobile, touch and keyboard",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Meets frozen plan.md and design.md for this scoped case.",
+      "observed": "375px and320px layouts fit; native keyboard gaze works; actual Chrome touch release retains gaze after focused fix.",
+      "artifacts": [
+        {
+          "kind": "screenshot",
+          "path": "evidence/animora/final/animora-375.png"
+        },
+        {
+          "kind": "screenshot",
+          "path": "evidence/animora/final/animora-320.png"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/animora/final/touch.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/animora/final/interactions.json"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/animora/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "AN03",
+      "journey": "Pointer gaze and palettes",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Meets frozen plan.md and design.md for this scoped case.",
+      "observed": "40 native pointer positions are correctly directed and bounded;10.072-second actual-frame recording decodes and directional frames inspected.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/animora/final/motion.json"
+        },
+        {
+          "kind": "video",
+          "path": "evidence/animora/final/motion.mp4"
+        },
+        {
+          "kind": "screenshot",
+          "path": "evidence/animora/final/motion-000.png"
+        },
+        {
+          "kind": "screenshot",
+          "path": "evidence/animora/final/motion-020.png"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/animora/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "AN04",
+      "journey": "Panels and local preset download",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Meets frozen plan.md and design.md for this scoped case.",
+      "observed": "Navigation, focus return, validation, cancel/reopen, maximum input and real preset JSON downloads work.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/animora/final/interactions.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/animora/final/preset-download-0.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/animora/final/preset-download-1.json"
+        },
+        {
+          "kind": "screenshot",
+          "path": "evidence/animora/final/long-name-320.png"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/animora/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "AN05",
+      "journey": "Motion and adverse recovery",
+      "critical": true,
+      "requires_real": false,
+      "evidence_tier": "mock",
+      "status": "pass",
+      "expected": "Meets frozen plan.md and design.md for this scoped case.",
+      "observed": "Reduced motion/noJS pass; hidden tab stops gaze; injected art/download failures preserve controls and input, then recover.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/animora/final/nojs.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/animora/final/reduced.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/animora/final/animora-visibility.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/animora/final/adverse.json"
+        },
+        {
+          "kind": "screenshot",
+          "path": "evidence/animora/final/missing-art-320.png"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/animora/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "AN06",
+      "journey": "Public gallery, ZIP and preservation",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Meets frozen plan.md and design.md for this scoped case.",
+      "observed": "Canonical deployment succeeds at recorded source. All247published files match;22gallerycards;11public/standalone checks pass;242prior templatefilesunchanged.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/animora/final/live-bytes.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/animora/final/public.json"
+        },
+        {
+          "kind": "screenshot",
+          "path": "evidence/animora/final/public-animora.png"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/animora/final/public-preset.json"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/animora/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    }
+  ],
+  "findings": [
+    {
+      "id": "AN-F01",
+      "type": "bug",
+      "severity": "P2",
+      "summary": "Hidden line breaks joined mobile headline words.",
+      "reproduction": "375px first render hides br and removes word boundaries. Real whitespace restores them.",
+      "case_ids": [
+        "AN02"
+      ],
+      "status": "verified",
+      "evidence": [
+        {
+          "kind": "screenshot",
+          "path": "evidence/animora/candidate/animora-375.png"
+        },
+        {
+          "kind": "screenshot",
+          "path": "evidence/animora/final/animora-375.png"
+        }
+      ]
+    },
+    {
+      "id": "AN-F02",
+      "type": "bug",
+      "severity": "P2",
+      "summary": "Thumbnail art stretched by independent dimensions.",
+      "reproduction": "First thumbnail used mismatched width and height. Original2:3ratio restores undistorted figure.",
+      "case_ids": [
+        "AN01"
+      ],
+      "status": "verified",
+      "evidence": [
+        {
+          "kind": "screenshot",
+          "path": "evidence/animora/candidate/animora-1440.png"
+        },
+        {
+          "kind": "screenshot",
+          "path": "evidence/animora/final/animora-1440.png"
+        }
+      ]
+    },
+    {
+      "id": "AN-F03",
+      "type": "bug",
+      "severity": "P2",
+      "summary": "Touch release reset gaze immediately.",
+      "reproduction": "Touchstart updates pupils; touchend generates pointerleave and centers them. Touch leave now preserves gaze; mouse leave still resets.",
+      "case_ids": [
+        "AN02"
+      ],
+      "status": "verified",
+      "evidence": [
+        {
+          "kind": "state",
+          "path": "evidence/animora/candidate/touch.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/animora/final/touch.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/animora/final/adverse.json"
+        }
+      ]
+    }
+  ],
+  "iterations": [
+    {
+      "id": "AN-I01",
+      "hypothesis": "Explicit spaces and native image ratio restore mobile reading and thumbnail proportions.",
+      "decision": "keep",
+      "changed_files": [
+        "templates/animora/dist/index.html",
+        "templates/animora/dist/style.css"
+      ],
+      "checks": [
+        "final/interactions.json",
+        "final/animora-375.png"
+      ],
+      "finding_ids": [
+        "AN-F01",
+        "AN-F02"
+      ]
+    },
+    {
+      "id": "AN-I02",
+      "hypothesis": "Ignoring touch pointerleave retains a tap gaze while preserving mouse resets.",
+      "decision": "keep",
+      "changed_files": [
+        "templates/animora/dist/app.js"
+      ],
+      "checks": [
+        "final/touch.json",
+        "final/adverse.json",
+        "final/motion.json"
+      ],
+      "finding_ids": [
+        "AN-F03"
+      ]
+    }
+  ],
+  "gates": {
+    "build_provenance": true,
+    "critical_real_flows": true,
+    "automated_regression": true,
+    "logs_reviewed": true,
+    "data_integrity": true,
+    "recovery": true,
+    "accessibility": true,
+    "security_privacy": true,
+    "performance": true,
+    "rollback": true
+  },
+  "verdict": "production_ready",
+  "assurance_boundary": "Only this static template and local browser interactions. Original artwork differs from source. Real Chrome viewport/touch emulation, not physical iOS/Safari/VoiceOver. No realAI, camera, payment or accountservice. Gemini inline analysis succeeded; initial failed public-video upload deletion and native-image billing remain unverified."
+}

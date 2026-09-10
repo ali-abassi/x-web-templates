@@ -1,0 +1,55 @@
+[
+  {
+    "case": "gallery has22",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "public assets and baseline",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "public pointer gaze",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "public palette",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "real public preset download",
+    "passed": true
+  },
+  {
+    "case": "public dialog focus return",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "public mobile no overflow",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "public mobile keyboard gaze",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "public ZIP exact bytes",
+    "passed": true
+  },
+  {
+    "case": "public ZIP standalone",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "public standalone theme and gaze",
+    "passed": true,
+    "observed": true
+  }
+]

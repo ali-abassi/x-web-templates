@@ -1,6 +1,6 @@
 {
   "verdict": "accept",
-  "scope": "Local static candidate for already authorized deployment; public verification pending",
+  "scope": "Completed Animora static template delivery",
   "base": "b69d59362496a01a5bfada7084464ca94c97d21f",
   "head": "b69d59362496a01a5bfada7084464ca94c97d21f",
   "alignment": {
@@ -149,7 +149,6 @@
   },
   "environment": "Chrome153 on Mac, actual Default headed session xweb-swift-01a08b0a, agent-browser0.37.1, viewport/touch emulation, local127.0.0.1:4176 and file://",
   "unverified": [
-    "Public deployment not yet run",
     "Physical Safari/iOS and VoiceOver",
     "Native image billing",
     "Deletion of first failed Gemini public-video upload"
@@ -162,5 +161,32 @@
     "completedGeminiAnalyses": 1,
     "geminiTokens": 2820
   },
-  "time": "2026-09-10T14:21:08.831929+00:00"
+  "time": "2026-09-10T14:25:12.009360+00:00",
+  "delivery": {
+    "sourceRevision": "a2181cbf3e5ba9734dd3a2b80bed32112733713f",
+    "canonicalDeployment": "b0d90365-53db-409e-8723-1a17c35d6b27",
+    "stage": "success",
+    "url": "https://x-web-templates.pages.dev/animora/",
+    "publishedFilesMatched": 247,
+    "publicAndStandaloneChecks": 11,
+    "privateRepository": true
+  },
+  "skillFidelity": {
+    "goodDesign": "Frozen design.md/reference ledger/type choices; final responsive and adverse renders inspected.",
+    "githubResearch": "Two cloned source teardowns, licenses and bounded steal-list in research.md/json.",
+    "imagegen": "One native image with exact prompt, local asset, alpha and in-context proof in asset-receipt.json.",
+    "videoUnderstanding": "User-authorized retry completed via direct Gemini3.7 static Interactions; no agentic claim. First failed upload deletion unverified.",
+    "dogfooding": "6/6 cases completed; journal, raw artifacts and run-manifest.json.",
+    "acceptance": "Separate active-agent critical review; full changed candidate hashes; exact public build verified."
+  },
+  "completionEvidenceHashes": {
+    "evidence/animora/final/public-animora.png": "b589b28f91a4cedd43672b88d11e8d862f4c092dbde0adf97090e27ef1db9006",
+    "evidence/animora/final/public-preset.json": "47be595d539629029f65d9e086c6422f50252e4c526f566d67c38a2fee6254b8",
+    "evidence/animora/final/public-errors.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/animora/final/public-gallery.png": "52f79a1855a25bf6206003747e5947c37c8ddf11765d0f40939b5883e3e3d132",
+    "evidence/animora/final/public.json": "050e0f36ba10e9f58bd7d8145601feb17f3f25b4eb408df0c3638630de9a234a",
+    "evidence/animora/final/public-gaze.png": "8efe1327e8fb6785fb90a9fd106f8b964c5ecac0123ebe86374028968fbc1011",
+    "evidence/animora/final/public-mobile.png": "84edee0a107fccd63d84ab11bcfcd9f95f6ca77a3123e0ae42cd7db5ba4561fe",
+    "evidence/animora/final/public-animora.zip": "80334d2fe592fe9286b46f919b3b791b0307c25d686c9697a5889539323a0c29"
+  }
 }
