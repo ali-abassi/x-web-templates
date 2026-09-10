@@ -1,0 +1,50 @@
+[
+  {
+    "column": 39,
+    "line": 267,
+    "text": "TypeError: Cannot read properties of null (reading 'addEventListener')\n    at https://www.404s.design/:268:40",
+    "url": null
+  },
+  {
+    "column": 40,
+    "line": 283,
+    "text": "TypeError: Cannot read properties of null (reading 'addEventListener')\n    at https://www.404s.design/:284:41",
+    "url": null
+  },
+  {
+    "column": 41,
+    "line": 291,
+    "text": "TypeError: Cannot read properties of null (reading 'addEventListener')\n    at https://www.404s.design/:292:42",
+    "url": null
+  },
+  {
+    "column": 0,
+    "line": 0,
+    "text": "Uncaught SyntaxError: Identifier 'trackingScript' has already been declared",
+    "url": null
+  },
+  {
+    "column": 39,
+    "line": 267,
+    "text": "TypeError: Cannot read properties of null (reading 'addEventListener')\n    at https://www.404s.design/:268:40",
+    "url": null
+  },
+  {
+    "column": 40,
+    "line": 283,
+    "text": "TypeError: Cannot read properties of null (reading 'addEventListener')\n    at https://www.404s.design/:284:41",
+    "url": null
+  },
+  {
+    "column": 41,
+    "line": 291,
+    "text": "TypeError: Cannot read properties of null (reading 'addEventListener')\n    at https://www.404s.design/:292:42",
+    "url": null
+  },
+  {
+    "column": 0,
+    "line": 0,
+    "text": "Uncaught SyntaxError: Identifier 'trackingScript' has already been declared",
+    "url": null
+  }
+]

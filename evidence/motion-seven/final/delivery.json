@@ -1,0 +1,28 @@
+{
+  "source_commit": "c7be2fe963e783bae15f87196ddac44cd0ca7e0f",
+  "repository": "https://github.com/ali-abassi/x-web-templates",
+  "private": true,
+  "branch": "main",
+  "live": "https://x-web-templates.pages.dev/",
+  "deployment": {
+    "id": "f4d725fc-b9ca-4ed2-bb6e-5c2ea6722510",
+    "stage": {
+      "name": "deploy",
+      "started_on": null,
+      "ended_on": "2026-09-10T02:15:06.694985Z",
+      "status": "success"
+    },
+    "deployment_trigger": {
+      "type": "ad_hoc",
+      "metadata": {
+        "branch": "main",
+        "commit_hash": "c7be2fe963e783bae15f87196ddac44cd0ca7e0f",
+        "commit_message": "Seven motion additions and fifteen live template previews",
+        "commit_dirty": false
+      }
+    }
+  },
+  "verified_assets": 161,
+  "templates": 15,
+  "verification": "live-bytes.json and live-interactions.json; final clean-commit deployment uses the identical manifest."
+}
