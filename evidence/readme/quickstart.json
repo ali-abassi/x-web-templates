@@ -1,0 +1,27 @@
+{
+  "fresh_clone": "/private/tmp/xweb-readme-quickstart-0910/x-web-templates",
+  "source_commit": "2fb8297",
+  "environment": {
+    "os": "macOS",
+    "python": "3.14.7",
+    "node": "26.8.1",
+    "npm": "11.19.0"
+  },
+  "install": "Fresh public clone via documented git clone, no package installation.",
+  "commands": [
+    {
+      "command": "git clone https://github.com/ali-abassi/x-web-templates.git",
+      "result": "exit 0; exact documented command, fresh full clone"
+    },
+    {
+      "command": "cd x-web-templates\npython3 -m http.server 8080 --bind 127.0.0.1 --directory dist",
+      "result": "Serving HTTP on 127.0.0.1 port 8080 (http://127.0.0.1:8080/) ...",
+      "http": "GET / succeeded; response saved /private/tmp/xweb-readme-quickstart-page.html"
+    },
+    {
+      "command": "npm run build\nnpm run check",
+      "result": "Built 18 independent sites, the gallery, and reproducible ZIPs.\nPASS: 19 pages, local links/anchors, image attributes, JS syntax, and 18 exact ZIPs."
+    }
+  ],
+  "scope": "Two executable command blocks, both executed verbatim in fresh clone context; output blocks match captured final lines."
+}

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 236" role="img" aria-labelledby="title desc">
+  <title id="title">From a great design to an editable template</title>
+  <desc id="desc">Find a design and save its source. Give the reference to Astra. Check the result and share the template with credit.</desc>
+  <rect width="1200" height="236" rx="20" fill="#0d1117"/>
+  <g fill="#161b22" stroke="#30363d">
+    <rect x="28" y="28" width="352" height="180" rx="12"/>
+    <rect x="424" y="28" width="352" height="180" rx="12"/>
+    <rect x="820" y="28" width="352" height="180" rx="12"/>
+  </g>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <g fill="#a6d69c" font-size="17" font-weight="600">
+      <text x="54" y="64">01 / THE INSPIRATION</text>
+      <text x="450" y="64">02 / THE BUILD</text>
+      <text x="846" y="64">03 / THE COLLECTION</text>
+    </g>
+    <g fill="#f0f3f6" font-size="28" font-weight="600">
+      <text x="54" y="110">Find a great design.</text>
+      <text x="450" y="110">Pass it to Astra.</text>
+      <text x="846" y="110">Check. Credit. Share.</text>
+    </g>
+    <g fill="#b1bac4" font-size="20">
+      <text x="54" y="153">Keep the original source.</text>
+      <text x="450" y="153">Ask for a working template.</text>
+      <text x="846" y="153">Editable files. Free downloads.</text>
+    </g>
+    <g fill="#b1bac4" font-size="26" text-anchor="middle">
+      <text x="402" y="125">→</text>
+      <text x="798" y="125">→</text>
+    </g>
+  </g>
+</svg>

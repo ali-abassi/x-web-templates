@@ -106,3 +106,9 @@ Proof:3054sourceframesand1440render/realrecording,375/320,empty/invalid/max/canc
 ## Catalog removal — 2026-09-10
 
 **User-stated:** Remove Telemetry, Lost in Flight, Reality is, Direct, and Quiet. This supersedes their inclusion in the historical seven-reference scope. Preserve the remaining catalog design.
+
+## Public repository landing — 2026-09-10
+
+**User-stated:** Personal first-person Astra story, free templates, original-creator credit, an icon and a star request.
+
+**Agent-selected working policy:** Focused GitHub-native README composition using github-readme skill: centered small original icon, direct headline, concise personal story and star request, one real Animora screenshot above the fold, all 18 real previews with source links. GitHub controls typography, responsiveness, keyboard and theme. Use a monochrome page-stack/star icon on an ivory square; no fake badges or performance guarantees. Keep provenance and rights limitations visible. Existing screenshot files remain unchanged. A compact editable SVG explains the three-step workflow.

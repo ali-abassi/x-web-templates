@@ -1,0 +1,61 @@
+{
+  "verdict": "accept",
+  "phase": "pre-publication candidate",
+  "base": "2fb82973f0606d8663b9b99fdca6321e27de59ef",
+  "alignment": {
+    "vision.md": "954a1faf88b6736fa5682e4e2d4fedf13e2ecc6ae365704c37b3ffac43534407",
+    "intent.md": "237b0b6bc76f7126d2f3a5bcfdff518b50dcc03953522282c1382cef1495e467",
+    "design.md": "5061dc8b74c806e494563d4a96f99c08d6fe7befbcd2407d2a3b47078c479b94"
+  },
+  "changes": {
+    "README.md": "71f700f4d35c05263fdd179fb31d1b0c8e668ee204bf56187f2d3b789a969a25",
+    "design.md": "5061dc8b74c806e494563d4a96f99c08d6fe7befbcd2407d2a3b47078c479b94",
+    "intent.md": "237b0b6bc76f7126d2f3a5bcfdff518b50dcc03953522282c1382cef1495e467",
+    "docs/assets/icon.png": "b59a9fbdcbec2f988bdfa34e2e90dc529b0383b3db7bbcbe7d5d165d0d8d6af3",
+    "docs/assets/workflow.svg": "5648ea539b5cffdf698a4578a967116834ae99b1cb40b8494b578d40558e70ab",
+    "evidence/readme/desktop-gallery.png": "5ab6aa6144717e2430bfd931ab05d2ef698fb8a55eb9ad0f9ff1146cfc1f77b4",
+    "evidence/readme/handoff.md": "8c80535185f5bac8633380f387b58d2bbf2ee2587105861e4a499d81fece3eef",
+    "evidence/readme/icon-prompt.json": "dfa0309850fed9ea4e5551e8ce19919a3eac6cf7ff3cb611fcda7f244a74d9af",
+    "evidence/readme/launch-drafts.md": "73af7e8f4af2eff183d102629915f901bf92813c36c1a020a93573bd37f861e3",
+    "evidence/readme/links.json": "5449268fc9ada862f8d4ddd6615957fc9621f15604181dc63af5d55ce12cb20b",
+    "evidence/readme/message-spine.md": "17aa82a85709ca5c9674af65dd36fa1908a5839c9ed2fff041fb02b0fad3aa31",
+    "evidence/readme/metadata.json": "754ce6a68b84cec53ec7a6ea6efec791f37e418cc38016b92e3f78d0396eada0",
+    "evidence/readme/mobile-dark.png": "a394507dc3f35c9d4dd1eaee5dcb3254bf5e50393888c373c1f98ef9eec6b2c8",
+    "evidence/readme/mobile-gallery.png": "c602ac9922ab5056d29de69c41c1c9eb2e48791460c11954fcd2f0082ff12c1c",
+    "evidence/readme/plan.json": "7ca8343077ae1530f91c7f063af9b05c037e3375ea0da7b6960cc89542db7813",
+    "evidence/readme/quickstart.json": "278ad96d7eb61affa88ea20a99578c29f8738c7916793454fc4296c2253159f9",
+    "evidence/readme/render-provenance.json": "c40c8d199b0ab508c4d8a33ceaa5f212d7d188800970b3732c6b852e151991ad"
+  },
+  "checks": [
+    "18 screenshots resolve, 67 external HTTP200, anchors resolve",
+    "Fresh clone all executable command blocks pass; exact shown output",
+    "SVG pixel inspection, light desktop and 375px light/dark layouts",
+    "Native GitHub Markdown API render",
+    "git diff --check",
+    "No runtime/source/distribution changes"
+  ],
+  "cleanup": [
+    "Removed broken .png screenshot references; used existing .jpg assets",
+    "Added missing Swift AI, NeuroLink, Arto and Animora screenshots",
+    "Replaced stale four-template About draft",
+    "Clarified asked-for one-shot workflow and disclosed refinements",
+    "Retained rights, local demo, provenance, permission and validation limitations",
+    "Corrected blue-character alt text and dark-theme icon background",
+    "Direct ZIP links replace intermediate GitHub file pages"
+  ],
+  "types": "No TypeScript authored",
+  "complexity": "No product functions changed; SVG is declarative",
+  "reviewer": "active agent separate critical self-review",
+  "usage": {
+    "owners": 1,
+    "agents": 0,
+    "imagegen_calls": 2,
+    "model": "host-selected unchanged",
+    "cost": "not exposed"
+  },
+  "post_publication_checks": [
+    "Raw README image asset URLs",
+    "GitHub rendered screenshots, anchors, About/topics",
+    "Remote main exact SHA"
+  ]
+}

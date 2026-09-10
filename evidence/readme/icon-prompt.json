@@ -1,0 +1,10 @@
+{
+  "prompt": "Use case: logo-brand. Asset type: GitHub repository icon for a collection of editable website templates made from design references with Astra. Create one original, very simple graphic mark: two slightly offset browser-page cards, with a bold four-point star cut out of the foremost card. The page-stack stands for reusable templates; the star stands for the transformation from inspiration. Flat near-black geometric shapes on a solid warm ivory square background. Compact, confident silhouette readable at 64 pixels, rounded page corners, generous outer margin, centered composition. A small browser bar may be suggested with one simple line, but avoid tiny detail. No text, letters, gradients, 3D, shadows, texture, watermark, or existing company logos. Deliver one square icon only.",
+  "mode": "built-in imagegen",
+  "calls": 2,
+  "source": "exec-f93387ff-b99c-4439-b714-72aa51022baf.png",
+  "cost": "not exposed by built-in tool",
+  "edit_prompt": "Edit this repository icon. Change only the transparent canvas/background to a completely opaque, uniform warm ivory (#f4f3ee) square. Preserve the exact page-stack/star symbol, its colors, edges, scale, position, and all other pixels of the mark. No transparency anywhere in the final image. No new text, decoration, shadows, frames, or other changes. This should make the black page-stack silhouette visible when the square image is displayed on GitHub's dark theme.",
+  "final_source": "exec-a0572167-5b10-4e15-b15c-fb712c90c767.png",
+  "review": "First icon read poorly on dark theme; background correction preserves the mark and restores silhouette."
+}

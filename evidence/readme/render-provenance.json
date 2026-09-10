@@ -1,0 +1,32 @@
+{
+  "renderer": "GitHub POST /markdown mode gfm context ali-abassi/x-web-templates",
+  "preview": "Rendered HTML with current GitHub CSS; local container sizing; actual GitHub post-push required",
+  "stylesheets": [
+    "https://github.githubassets.com/assets/light-99f877e9ddfc0e51.css",
+    "https://github.githubassets.com/assets/light_high_contrast-48fdd0811afbab3c.css",
+    "https://github.githubassets.com/assets/dark-79ad2ace604703b3.css",
+    "https://github.githubassets.com/assets/dark_high_contrast-24484a076f02295f.css",
+    "https://github.githubassets.com/assets/primer-primitives-ed9ca172356fd545.css",
+    "https://github.githubassets.com/assets/primer-1d2c7f7b52a6068b.css",
+    "https://github.githubassets.com/assets/global-adcabba7b5c5d221.css",
+    "https://github.githubassets.com/assets/github-552513ad07a183a1.css",
+    "https://github.githubassets.com/assets/repository-11ee8a031c040c1a.css",
+    "https://github.githubassets.com/assets/code-2d56bdb0166c0238.css",
+    "https://github.githubassets.com/assets/app-runtime.d4b9313c7f0807eb.module.css",
+    "https://github.githubassets.com/assets/react-core.3911904c13b62614.module.css",
+    "https://github.githubassets.com/assets/primer-react-css.3ff9ad885fbbd7b1.module.css",
+    "https://github.githubassets.com/assets/ql0.16c145071702f131.module.css",
+    "https://github.githubassets.com/assets/46.73d41df1aa9a8bca.module.css",
+    "https://github.githubassets.com/assets/xc.678a3a89a0b97d69.module.css",
+    "https://github.githubassets.com/assets/4b.b27df37732ef81c7.module.css",
+    "https://github.githubassets.com/assets/dynamic-github-ui--code-view--route-components.cad23e852ccda72f.module.css",
+    "https://github.githubassets.com/assets/code-view.03470d35d98c49f5.module.css",
+    "https://github.githubassets.com/assets/primer-react-css.3ff9ad885fbbd7b1.module.css",
+    "https://github.githubassets.com/assets/notifications-subscriptions-menu.5f88178404d5649c.module.css",
+    "https://github.githubassets.com/assets/primer-react-css.3ff9ad885fbbd7b1.module.css",
+    "https://github.githubassets.com/assets/keyboard-shortcuts-dialog.6bee9a63e20bce26.module.css",
+    "https://github.githubassets.com/assets/primer-react-css.3ff9ad885fbbd7b1.module.css",
+    "https://github.githubassets.com/assets/primer-react-brand-css.206bbd4fd232654e.module.css",
+    "https://github.githubassets.com/assets/lazy-react-partial-marketing-header.784f79e59a54ffa6.module.css"
+  ]
+}

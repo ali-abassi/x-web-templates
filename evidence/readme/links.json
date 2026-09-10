@@ -1,0 +1,348 @@
+{
+  "anchors": [
+    "credits",
+    "quickstart",
+    "templates"
+  ],
+  "unresolved_anchors": [],
+  "missing_local_paths": [],
+  "local_image_count": 21,
+  "unique_screenshots": 18,
+  "external_urls": [
+    {
+      "url": "http://localhost:8080",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://github.com/ali-abassi/aster-landing-page-template",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://github.com/ali-abassi/x-web-templates/issues",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://nextjs.org/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://supahero.io/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://unive.ai/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.404s.design/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.cta.gallery/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.footer.design/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.framer.com/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.getlayers.ai/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.getlayers.ai/layer/kimi",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.navbar.gallery/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.supaste.com/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.unsection.com/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/alpine-notes/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/animora/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/arto/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/aster/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/bloop/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/buzzkit/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/clipdock/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/furion/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/grid-driver/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/horizonx/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/neurolink/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/olympus/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/pixel-world/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/rainbow-venture/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/swift-ai/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/travio/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/verto/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/wandor/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x.com/DesignGuru01/status/2097570950543790295",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x.com/aether_uiux/status/2097650553782510046",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x.com/alexroyhe/status/2097505519397163100",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x.com/andrewgurio/status/2097988488146870482/photo/1",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x.com/chroxify/status/2097477196130529296",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x.com/designguru01/status/2097570950543790295",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x.com/hussain_mu20778/status/2097891688777932949",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x.com/iamtanzil_/status/2098018663089533246",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x.com/jibon33212/status/2098040111472800179",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x.com/jibon33212/status/2098040111472800179?s=46",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x.com/jxdhaa/status/2097647071721607222",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x.com/oiharshit/status/2097666212767633581",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x.com/orseliyas/status/2097307376143773730",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x.com/thedzianis/status/2097600028416381178",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x.com/viktoroddy/status/2097500666357072243",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/downloads/alpine-notes.zip",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/downloads/animora.zip",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/downloads/arto.zip",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/downloads/aster.zip",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/downloads/bloop.zip",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/downloads/buzzkit.zip",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/downloads/clipdock.zip",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/downloads/furion.zip",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/downloads/grid-driver.zip",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/downloads/horizonx.zip",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/downloads/neurolink.zip",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/downloads/olympus.zip",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/downloads/pixel-world.zip",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/downloads/rainbow-venture.zip",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/downloads/swift-ai.zip",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/downloads/travio.zip",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/downloads/verto.zip",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://x-web-templates.pages.dev/downloads/wandor.zip",
+      "status": "200",
+      "exit": 0
+    }
+  ]
+}

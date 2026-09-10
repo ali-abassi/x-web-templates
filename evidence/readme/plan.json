@@ -1,0 +1,42 @@
+{
+  "base": "2fb82973f0606d8663b9b99fdca6321e27de59ef",
+  "alignment": {
+    "vision.md": "954a1faf88b6736fa5682e4e2d4fedf13e2ecc6ae365704c37b3ffac43534407",
+    "intent.md": "237b0b6bc76f7126d2f3a5bcfdff518b50dcc03953522282c1382cef1495e467",
+    "design.md": "5061dc8b74c806e494563d4a96f99c08d6fe7befbcd2407d2a3b47078c479b94"
+  },
+  "owned": [
+    "README.md",
+    "docs/assets",
+    "evidence/readme",
+    "intent.md",
+    "design.md",
+    "GitHub About/topics"
+  ],
+  "preexisting": "clean worktree before alignment edits; other checkout has pending Liquid Glass; untouched",
+  "owners": 1,
+  "parallel_agents": 0,
+  "model": "host-selected unchanged",
+  "review": "active agent separate self-review, one focused correction pass as needed",
+  "boundary": "No template runtime, gallery or publishing changes; GitHub docs/metadata delivery explicitly requested",
+  "stop": "Missing required evidence blocks that claim; no scores or live model evals",
+  "skills": {
+    "github-readme": [
+      "Fresh clone quickstart and exact shown command/output verification",
+      "Six-line message spine",
+      "Headline, first-person story, star request",
+      "Icon + real hero screenshot; every SVG rendered and inspected",
+      "All 18 screenshots, links and creator credits",
+      "Quickstart/how-it-works/command table/compatibility/alternatives/internals/validation/status/security/rights/docs",
+      "Local paths and GitHub anchor checks",
+      "Every external URL and raw asset URL checked with statuses recorded",
+      "README render inspected at desktop and narrow width",
+      "About and topics synced",
+      "2\u20133 launch drafts, attachment, first-reply command",
+      "Separate critical self-review, content hash receipt, direct main push",
+      "Skill fidelity audit with any missing/unverified items"
+    ],
+    "good-design": "Focused icon and native README: read local design; state thesis; render inspect fix; no independent agent",
+    "imagegen": "One built-in logo-brand call; no references; inspect; copy final original file; retain exact prompt; no API calls or quantified quality claims"
+  }
+}
