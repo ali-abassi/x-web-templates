@@ -1,0 +1,29 @@
+{
+  "verdict": "accept",
+  "time": "2026-09-10T00:17:13.720462+00:00",
+  "reviewer": "active agent separate critical self-review",
+  "base": "ba1ccff70c4c0a0c1e421fea741502128cbb7ff2",
+  "checks": {
+    "original_post": "Signed-in X article by Dzianis Kravchu @thedzianis; all seven links matched in original order; no WebMCP tools registered.",
+    "destinations": "Five pages read through web tool; GetLayers and 404s web retrieval failed, then their public rendered pages were verified with agent-browser 0.37.1 in the existing Default-profile session.",
+    "url_inventory": "7 of 7 exact destination links, with canonical www redirects",
+    "diff": "README and intent changes reviewed; git diff --check passed",
+    "runtime_tests": "Not applicable: documentation-only, no runtime or generated-file changes"
+  },
+  "urls": [
+    "https://www.getlayers.ai/",
+    "https://www.navbar.gallery/",
+    "https://supahero.io/",
+    "https://www.404s.design/",
+    "https://www.footer.design/",
+    "https://www.cta.gallery/",
+    "https://www.unsection.com/"
+  ],
+  "changed_path_sha256": {
+    "README.md": "fd02a4f8baf912dffef6ce412d041736985a6e3c907e5bf74f92717250b0019f",
+    "intent.md": "051afb136907d5ff98e1eb31ce23f3a614d7bee396522e404ac6e8041b63f004",
+    "evidence/inspiration-sources/plan.json": "10d3bf9a0329a6e7fd039467a0d94f04beb5d0b8b267f2b2f149f7bc12a9bab7"
+  },
+  "usage": "One owner, no delegates, paid generation or model eval. Host token usage unavailable.",
+  "unverified": "Individual library entries, premium prompts and reuse licenses were not assessed; no template selected or implemented from this list."
+}

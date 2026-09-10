@@ -1,0 +1,21 @@
+{
+  "base": "ba1ccff70c4c0a0c1e421fea741502128cbb7ff2",
+  "preexisting_changes": [],
+  "request": "More great examples: https://x.com/thedzianis/status/2097600028416381178?s=20",
+  "observed": "The post lists seven reference libraries, not individual template designs.",
+  "working_scope": "Add a credited resource table to README; no new templates or runtime changes.",
+  "alignment": {
+    "vision.md": "954a1faf88b6736fa5682e4e2d4fedf13e2ecc6ae365704c37b3ffac43534407",
+    "intent.md": "2dfe175417506b4c29c1c52ba730c5960e265cfaa6e155072f7fd7112b3f239d",
+    "design.md": "b2266f70fe82de337e9d587f6e5daf53d2e8baa4283f81dcfdbc05a3b780c645"
+  },
+  "owner_count": 1,
+  "review": "separate active-agent critical self-review",
+  "checks": [
+    "Compare all seven URLs with signed-in post",
+    "Read each destination page",
+    "Review complete documentation diff and whitespace"
+  ],
+  "budget": "No paid generation or eval; documentation-only",
+  "stop": "Do not invent a library description when page evidence is unavailable."
+}

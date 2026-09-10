@@ -24,6 +24,22 @@ The original four designs come from **[Naty / @DesignGuru01 — original X post]
 
 Each reconstruction credits its source. Aster is an unchanged import; the three new templates use independent code and locally packaged assets.
 
+## Design inspiration libraries
+
+More references shared by Ali, via **[Dzianis Kravchu / @thedzianis — original post](https://x.com/thedzianis/status/2097600028416381178)**:
+
+| Library | Useful for |
+| --- | --- |
+| [GetLayers](https://www.getlayers.ai/) | Cinematic website templates, immersive website prompts and 3D scene prompts |
+| [Navbar Gallery](https://www.navbar.gallery/) | Navigation patterns: static bars, dropdowns, mega menus and sidebars |
+| [Supahero](https://supahero.io/) | Website hero-section references |
+| [404s](https://www.404s.design/) | Creative error-page designs |
+| [Footer](https://www.footer.design/) | Footer layouts and design references |
+| [CTA Gallery](https://www.cta.gallery/) | Call-to-action sections |
+| [Unsection](https://www.unsection.com/) | Website sections, including heroes, pricing and calls to action |
+
+These are external research libraries; the eight downloadable templates above are this repository's implementations. Choose a specific example and inspect its original page before reconstructing it. The post notes that some resources include prompts; availability varies by library and entry.
+
 ## Preview the collection
 
 Install Python 3.9+ and Node.js (Node is used for npm shortcuts and JavaScript syntax checks), then:
