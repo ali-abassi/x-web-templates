@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Veloura — a monochrome botanical website template, where beauty meets interaction."
+    />
+    <title>Veloura — Where Beauty Meets Interaction</title>
+    <link rel="icon" href="/templates/veloura/dist/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/templates/veloura/dist/style.css" />
+    
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="stage">
+      <header class="header">
+        <a class="wordmark" href="#main" aria-label="Veloura home">Veloura</a>
+        <nav aria-label="Main navigation">
+          <a href="#main">Home</a>
+          <a href="#features" data-dialog>Features</a>
+          <a href="https://x-web-templates.pages.dev/">Templates</a>
+          <a href="#gallery" data-dialog>Gallery</a>
+          <a href="#pricing" data-dialog>Pricing</a>
+        </nav>
+        <a class="button header-contact" href="#contact" data-dialog
+          >Contact Us <span aria-hidden="true">⟶</span></a
+        >
+      </header>
+      <main id="main">
+        <div class="hero-copy">
+          <h1>Where Beauty<br /><span>Meets Interaction</span></h1>
+          <p>
+            Modern websites designed with subtle detail, emotional depth, and
+            a<br class="desktop-break" />
+            premium visual edge.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="#contact" data-dialog
+              >Contact team <span aria-hidden="true">⟶</span></a
+            >
+            <a class="button" href="#how-it-works" data-dialog
+              >How it works <span aria-hidden="true">⟶</span></a
+            >
+          </div>
+        </div>
+        <div class="garden" aria-hidden="true">
+          <img
+            class="flowers"
+            src="/templates/veloura/dist/assets/flowers.png"
+            width="2172"
+            height="724"
+            alt=""
+          />
+          <div class="butterfly">
+            <div class="wings">
+              <div class="wing left">
+                <img
+                  src="/templates/veloura/dist/assets/butterfly.png"
+                  width="1254"
+                  height="1254"
+                  alt=""
+                />
+              </div>
+              <div class="wing right">
+                <img
+                  src="/templates/veloura/dist/assets/butterfly.png"
+                  width="1254"
+                  height="1254"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="art-error" role="status" hidden>
+          Some artwork couldn’t load. You can still explore this template.
+        </p>
+      </main>
+    </div>
+    <footer class="utility">
+      <a href="#about" data-dialog>About this template</a>
+      <button id="motion" type="button" aria-pressed="false" disabled>
+        Pause motion
+      </button>
+    </footer>
+
+    <dialog id="contact" aria-labelledby="contact-title">
+      <a class="close" href="#main" aria-label="Close project note">×</a>
+      <p class="eyebrow">START WITH A THOUGHT</p>
+      <h2 id="contact-title">What would you love to create?</h2>
+      <p>
+        This is a local project note. Preview it, then save a copy for yourself.
+        Nothing is sent.
+      </p>
+      <form id="note-form">
+        <label for="project-note">Your project</label>
+        <textarea
+          id="project-note"
+          rows="5"
+          maxlength="2000"
+          required
+          placeholder="A little about your idea, the feeling, and what you need…"
+        ></textarea>
+        <button class="button primary" type="submit" disabled>
+          Preview note <span aria-hidden="true">⟶</span>
+        </button>
+      </form>
+      <section id="note-preview" aria-label="Project note preview" hidden>
+        <h3>Your starting point</h3>
+        <p id="preview-text"></p>
+        <div class="actions">
+          <button class="button primary" id="download" type="button" disabled>
+            Download note ↓</button
+          ><button class="button" id="edit" type="button" disabled>
+            Edit note
+          </button>
+        </div>
+      </section>
+      <p id="note-status" role="status"></p>
+      <noscript
+        ><p>
+          JavaScript is off. You can write and copy your note here; preview and
+          download need JavaScript.
+        </p></noscript
+      >
+    </dialog>
+    <dialog id="features" aria-labelledby="features-title">
+      <a class="close" href="#main" aria-label="Close features">×</a>
+      <p class="eyebrow">SUBTLE BY DESIGN</p>
+      <h2 id="features-title">Small details. A lasting impression.</h2>
+      <ul>
+        <li>Original monochrome botanical artwork.</li>
+        <li>A butterfly with gently folding wings.</li>
+        <li>Editable text and a local project-note preview.</li>
+        <li>A responsive layout with keyboard and reduced-motion support.</li>
+      </ul>
+    </dialog>
+    <dialog id="gallery" aria-labelledby="gallery-title">
+      <a class="close" href="#main" aria-label="Close gallery">×</a>
+      <p class="eyebrow">THE BOTANICAL STUDY</p>
+      <h2 id="gallery-title">Light, without color.</h2>
+      <img
+        class="gallery-art"
+        src="/templates/veloura/dist/assets/flowers.png"
+        width="2172"
+        height="724"
+        alt="A luminous white anemone among a softly blurred monochrome flower bed."
+      />
+      <p>
+        Original generated artwork, composed into an editable web scene. The
+        butterfly and flowers live on separate layers.
+      </p>
+      <a class="button" href="https://x-web-templates.pages.dev/"
+        >Explore all templates <span aria-hidden="true">⟶</span></a
+      >
+    </dialog>
+    <dialog id="pricing" aria-labelledby="pricing-title">
+      <a class="close" href="#main" aria-label="Close pricing">×</a>
+      <p class="eyebrow">YOURS TO EXPLORE</p>
+      <h2 id="pricing-title">Free to download.</h2>
+      <p>
+        This template is part of Ali’s free collection. No subscription,
+        account, or checkout. Review the included asset and font notices before
+        reusing it.
+      </p>
+      <a
+        class="button primary"
+        href="https://x-web-templates.pages.dev/downloads/veloura.zip"
+        >Download template ↓</a
+      >
+    </dialog>
+    <dialog id="how-it-works" aria-labelledby="how-title">
+      <a class="close" href="#main" aria-label="Close how it works">×</a>
+      <p class="eyebrow">MAKE IT YOURS</p>
+      <h2 id="how-title">A beautiful starting point.</h2>
+      <ol>
+        <li>Download the template from the collection.</li>
+        <li>Open the included page in your browser.</li>
+        <li>Edit the copy, artwork and links to tell your own story.</li>
+      </ol>
+      <p>
+        The contact button opens a local note, not a submission service. Connect
+        your own contact destination before publishing a business site.
+      </p>
+    </dialog>
+    <dialog id="about" aria-labelledby="about-title">
+      <a class="close" href="#main" aria-label="Close template information"
+        >×</a
+      >
+      <p class="eyebrow">REFERENCE &amp; CRAFT</p>
+      <h2 id="about-title">Veloura, reconstructed.</h2>
+      <p>
+        Inspired by
+        <a href="https://x.com/AltamashAyazz/status/2098071500934775112"
+          >Altamash’s original reference</a
+        >. Independently written HTML, CSS and JavaScript, with original
+        generated art. Wing motion recreates the idea; it does not reproduce the
+        original renderer.
+      </p>
+      <p>
+        Your note stays in this page’s memory until reload. Nothing is sent or
+        stored remotely.
+      </p>
+      <a
+        class="button"
+        href="https://github.com/ali-abassi/x-web-templates/tree/main/templates/veloura"
+        >View source <span aria-hidden="true">⟶</span></a
+      >
+    </dialog>
+  </body>
+</html>

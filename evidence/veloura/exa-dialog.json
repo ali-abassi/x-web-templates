@@ -1,0 +1,40 @@
+{
+  "requestId": "da049fdfd014e51dbbfeef63d6270b7b",
+  "resolvedSearchType": "",
+  "results": [
+    {
+      "id": "https://www.answeroverflow.com/m/1380882779209863198",
+      "title": "CSS transition on <dialog> backdrop-filter",
+      "url": "https://www.answeroverflow.com/m/1380882779209863198",
+      "publishedDate": "2025-06-07T00:00:00.000Z",
+      "highlights": [
+        "The problem here is you are only changing the `::backdrop`, which is a child of the `dialog`. When you close the `dialog`, it instantly goes away.\n...\nYou only need to do the display and overlay transitions on the dialog itself, not the backdrop:\n...\n```css\ndialog {\n  opacity: 0;\n  transition-property: opacity display overlay;\n  transition-duration: 1s;\n  transition-behavior: allow-discrete;\n}\n...\ndialog[open] {\n  opacity: 1;\n\n  @starting-style {\n    opacity: 0;\n  }\n}\n\ndialog::backdrop {\n  transition: opacity;\n  transition-duration: 1s;\n  backdrop-filter: blur(16px);\n  background: hsl(0 0% 0% / 1);\n  opacity: 0;\n}\n\ndialog[open]::backdrop {\n  opacity: 1;\n}\n\n@starting-style {\n  dialog[open]::backdrop {\n    opacity: 0;\n  }\n}\n\n```\n...\ns a browser thing\n...\nit would have changed after a year\n...\nIt works correctly in Chromium but my primary browser is Firefox (and upon installing Chrome it forces itself as the default browser so I don't have it installed most of the time)\n...\nFirefox supports `allow-discrete`, but not for the display property yet :\\ - https://caniuse.com/mdn-css_properties_display_is_transitionable\n...\n://bugzilla\n...\nmozilla.org\n...\n18348\n...\n7 there\u2019s the bug report"
+      ],
+      "image": "https://cdn.answeroverflow.com/1380902183272448160/image.png"
+    },
+    {
+      "id": "https://stackoverflow.com/questions/77747642/animating-html-dialog-element-backdrop-on-closing-not-working",
+      "title": "animating HTML dialog element backdrop on closing not working",
+      "url": "https://stackoverflow.com/questions/77747642/animating-html-dialog-element-backdrop-on-closing-not-working",
+      "highlights": [
+        "I'm trying to animate the opening and closing of my dialog by using the new native feature where the display property can be animated. (The feature is explained towards the bottom here). Note that it is currently only supported in Chrome, Edge, and Opera as of now: see caniuse.\n...\n(!) Please Note: I realize I should use tricks like setting a close class with my animation and pairing it with an onanimationend eventlistener which then runs the dialog.close() method. My question is however NOT about that, and instead about getting the native display none animations to work.\n...\nAs you can see from my snippet, I am able to animate the closing and opening of the dialog successfully. Even further the ::backdrop is successfully animating when opening the dialog. However, for some reason I do not understand, the ::backdrop is not animating when closing the dialog. Is this a bug with animating the display property? Or have I made a mistake?\n...\nI tried making another fade-out keyframe without the display values to use only for the backdrop but it still does'not work.\n...\nI suspect it has something to do with the descrete animation effect only working on the element itself and not children or pseudoelements, but I am not sure.\n \n \nconst dialog = document.getElementById(\"dialog\")\nconst open = document.getElementById(\"open\")\nconst close = document\n...\ngetElementById(\"close\")\n...\nopen.onclick = () => dialog.showModal()\nclose.onclick = () => dialog.close() \ndialog {\n background: white;\n color: black;\n padding: 1rem;\n border: unset;\n inset: unset;\n width: unset;\n height: unset;\n position: fixed;\n top: 50%;\n left: 50%;\n transform: translate(-50%, -50%);\n box-shadow: 0 0 0.5rem 0 rgba(0,0,0,0.2);\n animation: scale-out 1000ms forwards, fade-out 1000ms forwards;\n}\n...\ndialog::backdrop {\n background: rgba(0,0,0,0.5);\n animation: test 1000ms forwards;\n}\n...\ndialog[open] {\n animation: scale-in 1000ms forwards, fade-in 1000ms forwards;\n}\n...\ndialog[open]::backdrop {\n animation: fade-in 1000ms forwards;\n}\n...\ndisplay: none\n...\n**Oscar** (\n...\n: 0): @imhvost Like Rory suggested I should, this would be one way of implementing my own dialog control where I have full control over the UI. But my question is about how I can achieve the animation using the new native feature for animating the display property\n...\n**Oscar** (score: 0): @James the MDN link I gave says: \"When animating using CSS transitions, transition-behavior: allow-discrete needs to be set to enable the above behavior. This behavior is available by default when animating with CSS animations; an equivalent step is not required.\"\n...\n**James** (score: 0): @RokoC.Buljan No! However the top answer does mention using transitions instead of animations which I thought might be key here. Since we are talking about using the transition-behavior property, seems like it would apply to a transition rather than an animation.\n...\n**Oscar** (score: 0): @RoryMcCrossan You are right, I added the caniuse table to the question and you can see it only works in chrome, edge and opera. I still am trying to get it to work for a hobby project though.\n...\n**Rory McCrossan** (score: 0): Just FYI, the modal overlay is not animating for me in Firefox. I would suggest that applying CSS to the overlay will be extremely browser-dependent. If you need this to function consistently across multiple browsers, you would probably be better off implementing your own dialog control where you will have full control over the UI\n...\n**Roko C. Buljan** (score: 5): @\n...\nwhat you linked-to has anything to do specifically with the <dialog> Element"
+      ]
+    },
+    {
+      "id": "https://issues.chromium.org/issues/542796760",
+      "title": "backdrop not painted during a view transition when the root ...",
+      "url": "https://issues.chromium.org/issues/542796760",
+      "publishedDate": "2026-08-05T00:00:00.000Z",
+      "highlights": [
+        "Chromium\n\nChromium\n[Sign in](https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://issues.chromium.org/issues/542796760&followup=https://issues.chromium.org/issues/542796760&ec=GAZAkwI)"
+      ]
+    }
+  ],
+  "searchTime": 1184.5,
+  "costDollars": {
+    "total": 0.007,
+    "search": {
+      "neural": 0.007
+    }
+  }
+}

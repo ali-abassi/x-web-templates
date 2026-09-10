@@ -2,7 +2,7 @@
   <img src="docs/assets/icon.png" width="96" height="96" alt="X Web Templates: stacked web pages with a star" />
   <h1>Great designs. Free web templates.</h1>
   <p><strong>I find a design I love, pass it to Astra, and ask for a working template in one shot.</strong></p>
-  <p>18 templates · Editable HTML, CSS &amp; JavaScript · Free downloads</p>
+  <p>19 templates · Editable HTML, CSS &amp; JavaScript · Free downloads</p>
   <p><a href="https://x-web-templates.pages.dev/">Browse the live collection ↗</a> · <a href="#templates">See every template</a> · <a href="#quickstart">Run locally</a> · <a href="#credits">Original creators</a></p>
   <p><strong>If you find something you love, give this repo a ⭐</strong></p>
   <a href="https://x-web-templates.pages.dev/animora/"><img src="gallery/assets/animora.png" width="920" alt="Actual AnimoraAI template: a blue character on a dark stage, with editable gaze and palette controls" /></a>
@@ -224,7 +224,21 @@ These are screenshots of the actual templates. Click an image to open the live p
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td valign="top">
+      <h3>Veloura</h3>
+      <a href="https://x-web-templates.pages.dev/veloura/"><img src="gallery/assets/veloura.jpg" width="440" alt="Veloura template screenshot" /></a>
+      <p>A silver butterfly and a monochrome flower bed, with gently folding wings.</p>
+      <p><a href="https://x-web-templates.pages.dev/veloura/">Live preview ↗</a> · <a href="https://x-web-templates.pages.dev/downloads/veloura.zip">Download ZIP</a> · <a href="templates/veloura/">Source</a></p>
+      <p><sub>Reference: <a href="https://x.com/AltamashAyazz/status/2098071500934775112">Altamash</a></sub></p>
+    </td>
+  </tr>
+</table>
+
 ## Credits
+
+- **Veloura reference:** [Altamash / @AltamashAyazz — original post](https://x.com/AltamashAyazz/status/2098071500934775112). One monochrome butterfly-and-flowers hero; original generated art and independently authored CSS motion.
 
 Thank you to the designers whose work made me want to try this in the first place. Please visit their original posts and give them some love.
 
@@ -289,8 +303,8 @@ npm run check
 Final lines from the verified run:
 
 ```text
-Built 18 independent sites, the gallery, and reproducible ZIPs.
-PASS: 19 pages, local links/anchors, image attributes, JS syntax, and 18 exact ZIPs.
+Built 19 independent sites, the gallery, and reproducible ZIPs.
+PASS: 20 pages, local links/anchors, image attributes, JS syntax, and 19 exact ZIPs.
 ```
 
 The quickstart and checks were run on macOS with Python 3.14.7, Node.js 26.8.1, and npm 11.19.0. The included sites are plain static files; the hosted collection is verified on Cloudflare Pages. Other hosts and older runtimes are not exhaustively tested.
@@ -346,7 +360,7 @@ Original ChatGPT Site source: `2041d91ef089c77106c542fe5c7fa5290307759b`. Histor
 
 ### Verification and status
 
-The build checks cover all **18 templates and 18 ZIPs**: generated page inventory, local links and anchors, image attributes, JavaScript syntax, and exact ZIP parity. They are not a certification of every browser, accessibility scenario, backend integration, or reference-perfect design. Per-template browser evidence and remaining differences are retained under `evidence/`.
+The build checks cover all **19 templates and 19 ZIPs**: generated page inventory, local links and anchors, image attributes, JavaScript syntax, and exact ZIP parity. They are not a certification of every browser, accessibility scenario, backend integration, or reference-perfect design. Per-template browser evidence and remaining differences are retained under `evidence/`.
 
 The collection is public and the gallery is live. Git pushes do not currently deploy Pages automatically. This is a growing personal collection, not an official Astra or original-creator product.
 

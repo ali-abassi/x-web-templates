@@ -1,0 +1,27 @@
+{
+  "verdict": "accept",
+  "base": "9643c8829269e35735a429140fc8824c52b2433c",
+  "candidate_inventory": "candidate-hashes.json",
+  "alignment": {
+    "vision.md": "954a1faf88b6736fa5682e4e2d4fedf13e2ecc6ae365704c37b3ffac43534407",
+    "intent.md": "e8b217729fbe433a051625c0d2d4f8d7881f6a608b46ac50f45abebe37a4e019",
+    "design.md": "765201b4002e4e71abba8709df302859d4e7abc4fd6b5d4515b18524f34ba76c"
+  },
+  "evidence": "run-manifest.json; journal.md; preview2-http.json",
+  "reviewer": "active agent separate critical self-review",
+  "cleanup": "Reviewed complete HTML/CSS/JS and integration. Fixed44px targets, direct-fragment fallback, and post-dialog paint defect. Preserved all18 previous templates. No authored TypeScript; ESLint complexity cap5 passes.",
+  "checks": [
+    "python3 scripts/build.py:19templates",
+    "python3 scripts/check.py:20pages,19ZIPparity",
+    "ESLint9.35.0 complexity5:pass",
+    "git diff --check:pass",
+    "10hosted files byte-identical",
+    "no browser error/warn logs"
+  ],
+  "usage": "1owner; host-selected model/effort; no agents;2native generations plus1 targeted correction; cost unavailable",
+  "unverified": [
+    "file:// UI blocked by browser policy; ZIP extraction/parity verified",
+    "OS reduced-motion preference and assistive technology; fixture/keyboard evidence only"
+  ],
+  "time": "2026-09-10T22:24:07.182765+00:00"
+}

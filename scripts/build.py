@@ -25,6 +25,7 @@ NAMES = (
     "arto",
     "animora",
     "travio",
+    "veloura",
 )
 
 

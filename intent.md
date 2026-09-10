@@ -1,5 +1,5 @@
-# Current intent — public README
+# Current intent — Veloura
 
-**User-stated, 2026-09-10:** Give the public repository an icon and a README explaining that Ali passes great designs to Astra to make templates in one shot, shares the results for free, does his best to credit original creators, and asks for a star. Show screenshots of every template on the main page.
+**User-stated, 2026-09-11:** Add the next reference, https://x.com/AltamashAyazz/status/2098071500934775112?s=20, to the template collection. Inspect it in the in-app browser.
 
-**Agent-selected working policy:** Update README, icon and supporting landing assets, About and topics. Preserve all 18 template implementations and the live catalog. Describe one-shot as the requested workflow, not an unverified zero-revision benchmark. Retain rights, demo and security boundaries; no new blanket license.
+**Agent-selected working policy:** Add one Veloura hero template, its catalog card, README preview, source attribution, self-contained ZIP, and verification. Preserve all 18 existing templates and the five removals. Deliver to the existing GitHub main branch and personal Cloudflare Pages project after scoped checks.

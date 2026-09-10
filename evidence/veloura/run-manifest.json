@@ -1,0 +1,417 @@
+{
+  "schema_version": "1.0",
+  "run_id": "veloura-0911",
+  "mode": "iterate",
+  "verdict": "inconclusive",
+  "assurance_boundary": "Scoped static template behavior passes. Pending clean source commit for readiness verdict. No real OS reduced-motion toggle or assistive technology test. Browser file:// navigation disallowed; archive parity/extraction and HTTP behavior verified. No backend or original video-file analysis claimed.",
+  "target": {
+    "repo": "ali-abassi/x-web-templates",
+    "commit": "9643c8829269e35735a429140fc8824c52b2433c",
+    "build": "7e2f1975-5e11-4afc-8d9f-a9bff687fe07",
+    "dirty": true
+  },
+  "environment": {
+    "device": "macOS desktop;375/320/1440 viewport emulation",
+    "runtime": "Codex in-app Chromium",
+    "backend": "Cloudflare Pages static preview",
+    "account_role": "public anonymous template; signed-in X reference separately",
+    "locale": "English",
+    "network": "live internet and local HTTP"
+  },
+  "product": {
+    "actor": "Template user",
+    "trigger": "Reference-led hero selection",
+    "promised_progress": "Preview, inspect, customize local note and download standalone source",
+    "weakest_link": "Visual fidelity and mobile fallback",
+    "next_decision": "Publish exact accepted static build"
+  },
+  "cases": [
+    {
+      "id": "V01",
+      "journey": "Desktop reference composition",
+      "expected": "Monochrome hero, original flowers and moving butterfly",
+      "observed": "Visible hosted1440x1080 artwork and readable copy",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "finding_ids": [
+        "F01"
+      ],
+      "artifacts": [
+        {
+          "kind": "screenshot",
+          "path": "preview2-desktop.jpg"
+        },
+        {
+          "kind": "log",
+          "path": "journal.md"
+        }
+      ]
+    },
+    {
+      "id": "V02",
+      "journey": "375px and320px navigation/layout",
+      "expected": "Readable content, reachable controls and no overflow",
+      "observed": "Measured width equals scrollWidth; all four images loaded",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "finding_ids": [
+        "F02"
+      ],
+      "artifacts": [
+        {
+          "kind": "screenshot",
+          "path": "preview2-320.jpg"
+        },
+        {
+          "kind": "screenshot",
+          "path": "preview2-mobile-after-dialog.jpg"
+        },
+        {
+          "kind": "log",
+          "path": "journal.md"
+        }
+      ]
+    },
+    {
+      "id": "V03",
+      "journey": "Keyboard and native dialogs",
+      "expected": "Escape closes and returns focus; content remains painted",
+      "observed": "Exact hosted How it works open/Escape passes with visible text and focus return; local direct fragment and keyboard cycle pass",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "finding_ids": [
+        "F03",
+        "F04"
+      ],
+      "artifacts": [
+        {
+          "kind": "screenshot",
+          "path": "preview2-mobile-after-dialog.jpg"
+        },
+        {
+          "kind": "screenshot",
+          "path": "text-loss-baseline.jpg"
+        },
+        {
+          "kind": "log",
+          "path": "journal.md"
+        }
+      ]
+    },
+    {
+      "id": "V04",
+      "journey": "Local project note lifecycle",
+      "expected": "Empty validation, preview, edit,2000char wrapping, retained cancellation, text download",
+      "observed": "All observed locally; actual downloaded note content preserved",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "finding_ids": [],
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "downloaded-note.txt"
+        },
+        {
+          "kind": "screenshot",
+          "path": "mobile-max-note.jpg"
+        },
+        {
+          "kind": "screenshot",
+          "path": "note-preview.jpg"
+        },
+        {
+          "kind": "log",
+          "path": "journal.md"
+        }
+      ]
+    },
+    {
+      "id": "V05",
+      "journey": "Motion lifecycle",
+      "expected": "Pause/resume and real hidden event stop animation",
+      "observed": "Computed playState changes; navigation hidden event recorded paused. Reduced preference separately mocked",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "finding_ids": [],
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "hidden-navigation.json"
+        },
+        {
+          "kind": "log",
+          "path": "journal.md"
+        }
+      ]
+    },
+    {
+      "id": "V06",
+      "journey": "Deliberate adverse fixtures",
+      "expected": "NoJS readable, missing art message, failed download retains note, reduced preference stops art",
+      "observed": "Labelled fixtures satisfy all fallback expectations",
+      "critical": true,
+      "requires_real": false,
+      "evidence_tier": "mock",
+      "status": "pass",
+      "finding_ids": [],
+      "artifacts": [
+        {
+          "kind": "screenshot",
+          "path": "no-script.jpg"
+        },
+        {
+          "kind": "screenshot",
+          "path": "download-failure.jpg"
+        },
+        {
+          "kind": "log",
+          "path": "journal.md"
+        }
+      ]
+    },
+    {
+      "id": "V07",
+      "journey": "Build/archive and preservation",
+      "expected": "19 ZIPs contain correct standalone trees; previous18 unchanged",
+      "observed": "Build and check pass20pages/19ZIPs;215 original source files preserved",
+      "critical": true,
+      "requires_real": false,
+      "evidence_tier": "automated",
+      "status": "pass",
+      "finding_ids": [],
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "check.log"
+        },
+        {
+          "kind": "state",
+          "path": "preservation.json"
+        },
+        {
+          "kind": "log",
+          "path": "journal.md"
+        }
+      ]
+    },
+    {
+      "id": "V08",
+      "journey": "Hosted integration",
+      "expected": "Live hero/card/ZIP match candidate",
+      "observed": "Preview2 card present with19 count,10 public files byte-identical, no error/warning console entries",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "finding_ids": [],
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "preview2-http.json"
+        },
+        {
+          "kind": "state",
+          "path": "preview2-console.json"
+        },
+        {
+          "kind": "log",
+          "path": "journal.md"
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "F01",
+      "type": "bug",
+      "severity": "P2",
+      "status": "verified",
+      "summary": "Generated butterfly had baked checkerboard; corrected to opaque black screen composite",
+      "reproduction": "Inspect original butterfly reference export",
+      "case_ids": [
+        "V01"
+      ],
+      "evidence": [
+        {
+          "kind": "screenshot",
+          "path": "rejected-checkerboard.png"
+        },
+        {
+          "kind": "screenshot",
+          "path": "preview2-desktop.jpg"
+        }
+      ]
+    },
+    {
+      "id": "F02",
+      "type": "bug",
+      "severity": "P2",
+      "status": "verified",
+      "summary": "Small nav targets; widened to44px",
+      "reproduction": "Inspect mobile nav target rectangles",
+      "case_ids": [
+        "V02"
+      ],
+      "evidence": [
+        {
+          "kind": "screenshot",
+          "path": "mobile.jpg"
+        },
+        {
+          "kind": "screenshot",
+          "path": "preview2-320.jpg"
+        }
+      ]
+    },
+    {
+      "id": "F03",
+      "type": "bug",
+      "severity": "P1",
+      "status": "verified",
+      "summary": "Direct fragment dialog could remain visible after close; enhanced fallback now separated",
+      "reproduction": "Load#contact then Escape/close; original fallback target retained display",
+      "case_ids": [
+        "V03"
+      ],
+      "evidence": [
+        {
+          "kind": "log",
+          "path": "journal.md"
+        }
+      ]
+    },
+    {
+      "id": "F04",
+      "type": "bug",
+      "severity": "P1",
+      "status": "verified",
+      "summary": "Backdrop blur caused post-dialog text paint loss; removed blur",
+      "reproduction": "375px page: open How it works then Escape; original background text disappeared",
+      "case_ids": [
+        "V03"
+      ],
+      "evidence": [
+        {
+          "kind": "screenshot",
+          "path": "text-loss-baseline.jpg"
+        },
+        {
+          "kind": "screenshot",
+          "path": "text-loss-fixed.jpg"
+        },
+        {
+          "kind": "screenshot",
+          "path": "preview2-mobile-after-dialog.jpg"
+        }
+      ]
+    }
+  ],
+  "iterations": [
+    {
+      "id": "I01",
+      "hypothesis": "Generated butterfly had baked checkerboard; corrected to opaque black screen composite",
+      "decision": "keep",
+      "changed_files": [
+        "templates/veloura/dist/assets/butterfly.png"
+      ],
+      "checks": [
+        {
+          "kind": "screenshot",
+          "path": "rejected-checkerboard.png"
+        },
+        {
+          "kind": "screenshot",
+          "path": "preview2-desktop.jpg"
+        }
+      ],
+      "finding_ids": [
+        "F01"
+      ]
+    },
+    {
+      "id": "I02",
+      "hypothesis": "Small nav targets; widened to44px",
+      "decision": "keep",
+      "changed_files": [
+        "templates/veloura/dist/style.css"
+      ],
+      "checks": [
+        {
+          "kind": "screenshot",
+          "path": "mobile.jpg"
+        },
+        {
+          "kind": "screenshot",
+          "path": "preview2-320.jpg"
+        }
+      ],
+      "finding_ids": [
+        "F02"
+      ]
+    },
+    {
+      "id": "I03",
+      "hypothesis": "Direct fragment dialog could remain visible after close; enhanced fallback now separated",
+      "decision": "keep",
+      "changed_files": [
+        "templates/veloura/dist/app.js"
+      ],
+      "checks": [
+        {
+          "kind": "log",
+          "path": "journal.md"
+        }
+      ],
+      "finding_ids": [
+        "F03"
+      ]
+    },
+    {
+      "id": "I04",
+      "hypothesis": "Backdrop blur caused post-dialog text paint loss; removed blur",
+      "decision": "keep",
+      "changed_files": [
+        "templates/veloura/dist/style.css"
+      ],
+      "checks": [
+        {
+          "kind": "screenshot",
+          "path": "text-loss-baseline.jpg"
+        },
+        {
+          "kind": "screenshot",
+          "path": "text-loss-fixed.jpg"
+        },
+        {
+          "kind": "screenshot",
+          "path": "preview2-mobile-after-dialog.jpg"
+        }
+      ],
+      "finding_ids": [
+        "F04"
+      ]
+    }
+  ],
+  "gates": {
+    "build_provenance": true,
+    "critical_real_flows": true,
+    "automated_regression": true,
+    "logs_reviewed": true,
+    "data_integrity": true,
+    "recovery": true,
+    "accessibility": true,
+    "security_privacy": true,
+    "performance": true,
+    "rollback": true
+  }
+}

@@ -1,0 +1,13 @@
+# Native mechanics / source verification
+
+Scope: CSS hinged wing rotation and native modal cancellation; queries: gh search code rotateY --repo mdn/css-examples; gh search code showModal --repo mdn/dom-examples. No renderer dependency is needed for this single-surface reconstruction. These are MDN's maintained authoritative runnable platform examples, not full production websites. Their example coverage does not prove our animation or accessibility.
+
+| Source | Reality/activity/license | Mechanic and decision |
+|---|---|---|
+| mdn/css-examples,24f806373566e7c34f3aa7bf55bd097a6fff00d8,modules/transforms.html,lines42–122 | Current shallow clone, runnable CSS transform playground, issue templates and maintenance workflows; CC0; no dedicated wing test | Parent perspective plus preserve-3d and signed rotateY rotates surfaces around a hinge. Steal now: author two clipped halves with opposite rotations; native CSS, about25lines, no dependency, high confidence. Bank interactive perspective sliders; avoid global element-ID variables and large playground UI. |
+| mdn/dom-examples,72c9e5c6fc6141fadccfc2b3eacc4b7e3aa92407,htmldialogelement-basic/index.html | Pinned official basic runnable demo; simple open/close checks rather than complete accessibility test; CC0 | showModal/close native lifecycle supplies modal focus, Escape and return. Steal now: own explicit query/event code, about20lines, no dependency, high confidence. Avoid logging-only state checks as product QA. |
+
+Official source URLs: https://github.com/mdn/css-examples/blob/24f806373566e7c34f3aa7bf55bd097a6fff00d8/modules/transforms.html and https://github.com/mdn/dom-examples/blob/72c9e5c6fc6141fadccfc2b3eacc4b7e3aa92407/htmldialogelement-basic/index.html . Local existing Swift AI also uses showModal and Blob downloads; preserve its implementation unchanged. Independent code authored here, no copied third-party implementation. Runtime truth is the actual Codex Chromium render; platform/native primitives are already supported by the previous collection. No new framework, undocumented API, retry engine or external service. Two relevant source examples fully settle adoption: use the browser platform.
+
+
+Post-dialog paint investigation: exact Exa searches saved in exa-dialog.json and exa-rendering.json. Official backdrop-filter documentation https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/backdrop-filter describes filtering behind the element and backdrop-root behavior. No exact Chromium bug identification is claimed. One-variable experiment removed only dialog::backdrop blur; same375px open/Escape sequence changed from missing text to correctly painted text, both locally and hosted preview2. Keep rgba backdrop.
