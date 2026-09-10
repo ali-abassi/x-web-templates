@@ -1,0 +1,324 @@
+{
+  "schema_version": "1.0",
+  "run_id": "swift-ai-2026-09-10",
+  "mode": "iterate",
+  "target": {
+    "repo": "/Users/aliabassi/Documents/ChatGPT/AI Designer/x-web-templates",
+    "commit": "fee11df4bb261ddcb368e5bc66ca80ae89ee4afd",
+    "dirty": false,
+    "build": "Swift AI19 canonical d3f6cda1-f1b6-4bc4-9eb2-f3eb99e6c78d"
+  },
+  "environment": {
+    "device": "Mac Chrome with viewport emulation",
+    "runtime": "Chrome153.0.0.0 / agent-browser0.37.1 actual Default headed",
+    "backend": "local static + personal Cloudflare Pages",
+    "account_role": "owner",
+    "locale": "en-US",
+    "network": "normal"
+  },
+  "product": {
+    "actor": "template visitor",
+    "trigger": "explores Swift AI source reference",
+    "promised_progress": "preview/download editable illustrated landing page and local brief",
+    "weakest_link": "source fidelity and local-only truth",
+    "next_decision": "accept scoped template delivery"
+  },
+  "cases": [
+    {
+      "id": "SW01",
+      "journey": "Source composition and desktop render",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Source composition and desktop render works in the declared state.",
+      "observed": "First forest only;1440render inspected with matching header/hero/form/strip order.",
+      "artifacts": [
+        {
+          "kind": "screenshot",
+          "path": "evidence/swift-ai/final/swift-ai-1440.png"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/swift-ai/final/swift-ai-1440.json"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/swift-ai/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "SW02",
+      "journey": "375px mobile layout",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "375px mobile layout works in the declared state.",
+      "observed": "Readable recomposed header/form;no overflow;scoped axe zero.",
+      "artifacts": [
+        {
+          "kind": "screenshot",
+          "path": "evidence/swift-ai/final/swift-ai-375.png"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/swift-ai/final/axe-375.json"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/swift-ai/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "SW03",
+      "journey": "320px narrow layout",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "320px narrow layout works in the declared state.",
+      "observed": "Full page and maximum email/brief fit.",
+      "artifacts": [
+        {
+          "kind": "screenshot",
+          "path": "evidence/swift-ai/final/swift-ai-320.png"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/swift-ai/final/adverse.json"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/swift-ai/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "SW04",
+      "journey": "Navigation native dialogs",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Navigation native dialogs works in the declared state.",
+      "observed": "All five navigation items open and close;keyboard/Escape restore focus.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/swift-ai/final/interactions.json"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/swift-ai/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "SW05",
+      "journey": "Email validation and corrected local preview",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Email validation and corrected local preview works in the declared state.",
+      "observed": "Empty and invalid rejected;valid email opens local preview with no account or submission.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/swift-ai/final/interactions.json"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/swift-ai/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "SW06",
+      "journey": "Brief download/cancellation/keyboard",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Brief download/cancellation/keyboard works in the declared state.",
+      "observed": "Real desktop/mobile downloads contain brief;cancel/reopen preserves input.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/swift-ai/final/interactions.json"
+        },
+        {
+          "kind": "screenshot",
+          "path": "evidence/swift-ai/final/brief-export-375.png"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/swift-ai/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "SW07",
+      "journey": "Disabled script/reduced motion",
+      "critical": true,
+      "requires_real": false,
+      "evidence_tier": "mock",
+      "status": "pass",
+      "expected": "Disabled script/reduced motion works in the declared state.",
+      "observed": "NoJS inline disclosure works,JS-only buttons disabled;reduced has no running animations.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/swift-ai/final/nojs.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/swift-ai/final/reduced.json"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/swift-ai/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "SW08",
+      "journey": "Missing artwork and blocked export recovery",
+      "critical": true,
+      "requires_real": false,
+      "evidence_tier": "mock",
+      "status": "pass",
+      "expected": "Missing artwork and blocked export recovery works in the declared state.",
+      "observed": "Injected failures keep content/form and drafts usable;restored URL API exports.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/swift-ai/final/adverse.json"
+        },
+        {
+          "kind": "screenshot",
+          "path": "evidence/swift-ai/final/missing-forest-320.png"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/swift-ai/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "SW09",
+      "journey": "Public gallery and standalone ZIP",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Public gallery and standalone ZIP works in the declared state.",
+      "observed": "216publicfilesmatch;19cards;7public/standalone assertionspass.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/swift-ai/final/live-bytes.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/swift-ai/final/public.json"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/swift-ai/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    }
+  ],
+  "findings": [
+    {
+      "id": "SW-F01",
+      "type": "bug",
+      "severity": "P2",
+      "summary": "Mobile hidden br joined Systemsfor;fixed with explicit word space.",
+      "reproduction": "Initial375px render hides br and joined two words. Final render shows Systems for.",
+      "case_ids": [
+        "SW02"
+      ],
+      "status": "verified",
+      "evidence": [
+        {
+          "kind": "screenshot",
+          "path": "evidence/swift-ai/candidate/swift-ai-375.png"
+        },
+        {
+          "kind": "screenshot",
+          "path": "evidence/swift-ai/final/swift-ai-375.png"
+        }
+      ]
+    },
+    {
+      "id": "SW-F02",
+      "type": "accessibility",
+      "severity": "P2",
+      "summary": "Sample-logo gray failed4.5:1;darkened to#707070.",
+      "reproduction": "Run scoped axe1440/375 on initiallogo#767676;4.35:1. Final has zero violations.",
+      "case_ids": [
+        "SW01",
+        "SW02"
+      ],
+      "status": "verified",
+      "evidence": [
+        {
+          "kind": "state",
+          "path": "evidence/swift-ai/candidate/axe-375.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/swift-ai/final/axe-375.json"
+        }
+      ]
+    }
+  ],
+  "iterations": [
+    {
+      "id": "SW-I01",
+      "hypothesis": "Explicit space and darker gray fix mobile reading/contrast without changing composition.",
+      "decision": "keep",
+      "changed_files": [
+        "templates/swift-ai/dist/index.html",
+        "templates/swift-ai/dist/style.css"
+      ],
+      "checks": [
+        "final/interactions.json",
+        "final/axe-1440.json",
+        "final/axe-375.json"
+      ],
+      "finding_ids": [
+        "SW-F01",
+        "SW-F02"
+      ]
+    }
+  ],
+  "gates": {
+    "build_provenance": true,
+    "critical_real_flows": true,
+    "automated_regression": true,
+    "logs_reviewed": true,
+    "data_integrity": true,
+    "recovery": true,
+    "accessibility": true,
+    "security_privacy": true,
+    "performance": true,
+    "rollback": true
+  },
+  "verdict": "production_ready",
+  "assurance_boundary": "Only the named static template and local browser interactions. Original artwork substitutes source illustration. No real signup/authentication/AI or customer claims; physical Safari/iOS and VoiceOver untested; native image billing unavailable."
+}

@@ -2,6 +2,10 @@
   "initial_deployment": "f779ea83-352f-4fea-b3fc-d5291e0f04d7",
   "origin": "https://x-web-templates.pages.dev",
   "public_file_matches": 216,
-  "source_commit": "pending commit",
-  "rollback_deployment": "378ed376-8cf3-40a8-97fe-abe4f35b9f19"
+  "source_commit": "fee11df4bb261ddcb368e5bc66ca80ae89ee4afd",
+  "rollback_deployment": "378ed376-8cf3-40a8-97fe-abe4f35b9f19",
+  "final_deployment": "d3f6cda1-f1b6-4bc4-9eb2-f3eb99e6c78d",
+  "commit_dirty": false,
+  "private_repository": true,
+  "final_source_verified": true
 }

@@ -1,0 +1,21 @@
+{
+  "checks": [
+    {
+      "path": "index.html",
+      "matched": true
+    },
+    {
+      "path": "swift-ai/index.html",
+      "matched": true
+    },
+    {
+      "path": "swift-ai/app.js",
+      "matched": true
+    },
+    {
+      "path": "downloads/swift-ai.zip",
+      "matched": true
+    }
+  ],
+  "transport_note": "Python urllib returned403; established curl transport succeeded with exact content."
+}
