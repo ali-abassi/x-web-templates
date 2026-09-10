@@ -94,3 +94,7 @@ Proof:3054sourceframesand1440render/realrecording,375/320,empty/invalid/max/canc
 ## Arto+ — frozen 2026-09-10
 
 **User-stated:** Reconstruct the supplied Arto dashboard. **Agent-selected working policy:** The complete compact visual system and source ledger are frozen in [evidence/arto/design.md](evidence/arto/design.md); one dashboard surface, native local sample interactions, original mountain photography, no banking effects. Default1440x1080; mobile375/320.
+
+## AnimoraAI — frozen2026-09-10
+
+**User-stated:** Reconstruct the supplied Tanzil character reference. **Agent-selected working policy:** The compact system is frozen in [evidence/animora/design.md](evidence/animora/design.md): one dark character hero, original artwork, native gaze and four themes, truthful local interaction boundaries. Preserve previous21templates.

@@ -1,0 +1,57 @@
+{
+  "interaction_id": "",
+  "model": "gemini-3.7-flash",
+  "output_text": "Here is a breakdown of the visible layout, content, and interactive behavior shown in the recording:\n\n---\n\n### 1. Visible Layout & Static Copy\n\n* **Top Navigation Bar:**\n  * **Logo (Top-Left):** `AnimoraAI.` (with a circular smiling/face icon).\n  * **Nav Links (Center):** `Home`, `Features`, `Showcase`, `Pricing`, `About`.\n  * **Call-to-Action (Top-Right):** Pill-shaped button reading `Get Started` with an arrow icon.\n* **Hero Content (Left Side):**\n  * **Supporting Copy:** \n    > *\"Experience smooth, latency-free 360\u00b0 eye tracking with frame-accurate angular gaze calibration as you move your cursor freely.\"*\n  * **Main Headline:**\n    > **\"Meet the**  \n    > **character**  \n    > **who tracks**  \n    > **your moves\"**\n  * **Social Proof Badge (Bottom-Left):**\n    > Globe icon + *\"Used in 120+ Countries\"*  \n    > *\"By Creators, Brands & Teams\"*\n* **Hero Centerpiece:** \n  * A 3D-rendered furry monster character centered on the canvas with animated eyes and pupils.\n* **Theme Selector / Character Dock (Right Side):**\n  * A vertical rail containing 4 rounded cards displaying character color variants (Blue, Red, Orange, Purple/Pink).\n\n---\n\n### 2. Interactive Behavior & Timestamped Timeline\n\n* **00:00 \u2013 00:04 (Cursor Gaze Tracking - Blue Theme):**\n  * A custom circular cursor moves along the left side of the screen over the headline.\n  * The character\u2019s eyeballs and pupils calculate angular direction in real-time, accurately following the cursor\u2019s position.\n* **00:04 \u2013 00:10 (Theme & Character Transitions):**\n  * **00:04 \u2013 00:05:** Full-scene transition to the **Red monster** with ambient red stage lighting.\n  * **00:05 \u2013 00:06:** Transition to the **Purple monster** with green interior mouth/tongue accents and dark purple background.\n  * **00:06 \u2013 00:07:** Transition to the **Orange monster** with warm amber background lighting.\n  * **00:07 \u2013 00:10:** Transition to the **Magenta/Pink monster**. The cursor circles across the right side of the screen (00:08\u201300:10), and the pink character\u2019s eyes follow the cursor movement smoothly.\n* **00:10 \u2013 00:12 (Return to Blue Theme):**\n  * The scene returns to the primary **Blue monster** theme. The cursor moves around the text area on the left; gaze tracking continues.\n* **00:12 \u2013 00:15 (CTA Interaction):**\n  * The cursor travels from the lower-left up toward the top-right corner.\n  * The monster tilts its gaze sharply upward and to the right, following the cursor path until it reaches and hovers over the **`Get Started`** button at **00:14 \u2013 00:15**.\n\n---\n\n### 3. Inferred Source Implementation (Separated from Observation)\n\n* **Gaze Tracking:** Likely implemented using JavaScript/Canvas or WebGL/Three.js computing the trigonometric angle (`Math.atan2`) between the character's eye coordinates and the window mouse event (`mousemove` / `clientX`, `clientY`) with lerped easing.\n* **Theme Switching:** Bound to reactive state (e.g., React/Vue state or CSS variables) swapping 3D assets/textures or pre-rendered asset layers along with ambient radial background gradients.",
+  "agentic_verified": true,
+  "step_types": [
+    "thought",
+    "model_output"
+  ],
+  "usage": {
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 51
+      },
+      {
+        "modality": "video",
+        "tokens": 1275
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_input_tokens": 1326,
+    "total_output_tokens": 841,
+    "total_thought_tokens": 653,
+    "total_tokens": 2820,
+    "total_tool_use_tokens": 0,
+    "raw_prompt_token": 1567,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 142
+          },
+          {
+            "modality": "video",
+            "tokens": 1275
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 845
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 653
+          }
+        ]
+      }
+    ]
+  },
+  "retained_files": [],
+  "cleanup_errors": []
+}

@@ -1,0 +1,14 @@
+{
+  "width": 320,
+  "scrollWidth": 320,
+  "art": true,
+  "enabledButtons": 9,
+  "nojs": false,
+  "reduced": true,
+  "tracking": false,
+  "eyeX": [
+    "0px",
+    "0px"
+  ],
+  "animations": 0
+}

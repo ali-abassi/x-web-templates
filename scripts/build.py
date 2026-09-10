@@ -28,6 +28,7 @@ NAMES = (
     "swift-ai",
     "neurolink",
     "arto",
+    "animora",
 )
 
 

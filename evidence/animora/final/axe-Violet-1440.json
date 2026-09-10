@@ -1,0 +1,121 @@
+{
+  "success": true,
+  "data": {
+    "axeVersion": "4.12.1",
+    "counts": {
+      "inapplicable": 64,
+      "incomplete": 1,
+      "passes": 23,
+      "violations": 0
+    },
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 16,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+            "html": "<span>Animora<span class=\"brand-accent\">AI.</span></span>",
+            "target": [
+              ".brand > span:nth-child(2)"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+            "html": "<span class=\"brand-accent\">AI.</span>",
+            "target": [
+              ".brand-accent"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+            "html": "<a href=\"#home\" aria-current=\"page\">Home</a>",
+            "target": [
+              "a[aria-current=\"page\"]"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+            "html": "<button type=\"button\" data-panel=\"features\">Features</button>",
+            "target": [
+              "button[data-panel=\"features\"]"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+            "html": "<button type=\"button\" id=\"showcase\">Showcase</button>",
+            "target": [
+              "#showcase"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+            "html": "<button type=\"button\" data-panel=\"pricing\">Pricing</button>",
+            "target": [
+              "button[data-panel=\"pricing\"]"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+            "html": "<button type=\"button\" data-panel=\"about\">About</button>",
+            "target": [
+              "button[data-panel=\"about\"]"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+            "html": "<button class=\"start\" type=\"button\" data-panel=\"customize\">\n          <span aria-hidden=\"true\">\u203a</span>Get Started\n        </button>",
+            "target": [
+              ".start"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+            "html": "<p class=\"intro\">\n        Meet a little personality with eyes that follow your cursor. Move\n        around, pick a color, and see where curiosity takes you.\n      </p>",
+            "target": [
+              ".intro"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+            "html": "<h1>\n        Meet the <br>character <br>who\n        <strong>tracks <br>your moves</strong>\n      </h1>",
+            "target": [
+              "h1"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ],
+    "lifecycle": {
+      "effectiveLaunch": {
+        "browserLaunched": true,
+        "engine": "chrome",
+        "launchHash": 9020837919885364189
+      },
+      "launched": false,
+      "relaunchedBrowser": false,
+      "restartedBackground": false,
+      "restoreStatus": "not_configured",
+      "reused": true,
+      "saveStatus": "not_configured"
+    },
+    "url": "http://127.0.0.1:4176/animora/",
+    "violations": []
+  },
+  "error": null
+}

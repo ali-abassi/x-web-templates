@@ -1,0 +1,42 @@
+[
+  {
+    "case": "blocked export preserves literal input",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "export retry recovers",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "art failure offers truthful recovery",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "art failure keeps colors usable",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "art failure retains draft",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "reload restores clean art",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "mouse tracks after touch fix",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "mouse leave still centers",
+    "passed": true,
+    "observed": true
+  }
+]

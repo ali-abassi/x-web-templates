@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Meet an expressive little character whose eyes follow your pointer. Four colors, one playful interactive template."
+    />
+    <meta name="theme-color" content="#02041a" />
+    <title>AnimoraAI — Meet your character</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body data-theme="blue">
+    <a class="skip" href="#character">Skip to character</a>
+    <main class="scene" id="home">
+      <header class="header">
+        <a class="brand" href="#home" aria-label="Animora AI home"
+          ><span class="brand-face" aria-hidden="true"
+            ><i></i><i></i><b></b></span
+          ><span>Animora<span class="brand-accent">AI.</span></span></a
+        >
+        <nav aria-label="Main navigation">
+          <a href="#home" aria-current="page">Home</a>
+          <button type="button" data-panel="features" disabled>Features</button>
+          <button type="button" id="showcase" disabled>Showcase</button>
+          <button type="button" data-panel="pricing" disabled>Pricing</button>
+          <button type="button" data-panel="about" disabled>About</button>
+        </nav>
+        <button class="start" type="button" data-panel="customize" disabled>
+          <span aria-hidden="true">›</span>Get Started
+        </button>
+      </header>
+      <p class="intro">
+        Meet a little personality with eyes that follow your cursor. Move
+        around, pick a color, and see where curiosity takes you.
+      </p>
+      <h1>
+        Meet the <br />character <br />who
+        <strong>tracks <br />your moves</strong>
+      </h1>
+      <div
+        class="character"
+        id="character"
+        tabindex="0"
+        role="group"
+        aria-label="Interactive character"
+        aria-describedby="gaze-help"
+      >
+        <div class="figure" aria-hidden="true">
+          <img
+            class="character-art"
+            src="assets/character.png"
+            alt=""
+            width="1024"
+            height="1536"
+            fetchpriority="high"
+          />
+          <span class="eye eye-left"><span class="pupil"></span></span>
+          <span class="eye eye-right"><span class="pupil"></span></span>
+        </div>
+        <p class="art-error" hidden>
+          The character couldn’t load. Reload to try again; you can still choose
+          a color and save your preset.
+        </p>
+      </div>
+      <div class="themes" role="group" aria-label="Character colors">
+        <button
+          class="theme"
+          type="button"
+          data-color="blue"
+          aria-label="Blue character"
+          aria-pressed="true"
+          disabled
+        >
+          <span class="miniature blue" aria-hidden="true"
+            ><img
+              src="assets/character.png"
+              alt=""
+              width="1024"
+              height="1536" /><i class="mini-eye left"></i
+            ><i class="mini-eye right"></i></span
+          ><span class="theme-label">Blue</span>
+        </button>
+        <button
+          class="theme"
+          type="button"
+          data-color="pink"
+          aria-label="Pink character"
+          aria-pressed="false"
+          disabled
+        >
+          <span class="miniature pink" aria-hidden="true"
+            ><img
+              src="assets/character.png"
+              alt=""
+              width="1024"
+              height="1536" /><i class="mini-eye left"></i
+            ><i class="mini-eye right"></i></span
+          ><span class="theme-label">Pink</span>
+        </button>
+        <button
+          class="theme"
+          type="button"
+          data-color="orange"
+          aria-label="Orange character"
+          aria-pressed="false"
+          disabled
+        >
+          <span class="miniature orange" aria-hidden="true"
+            ><img
+              src="assets/character.png"
+              alt=""
+              width="1024"
+              height="1536" /><i class="mini-eye left"></i
+            ><i class="mini-eye right"></i></span
+          ><span class="theme-label">Orange</span>
+        </button>
+        <button
+          class="theme"
+          type="button"
+          data-color="violet"
+          aria-label="Violet character"
+          aria-pressed="false"
+          disabled
+        >
+          <span class="miniature violet" aria-hidden="true"
+            ><img
+              src="assets/character.png"
+              alt=""
+              width="1024"
+              height="1536" /><i class="mini-eye left"></i
+            ><i class="mini-eye right"></i></span
+          ><span class="theme-label">Violet</span>
+        </button>
+      </div>
+      <footer class="scene-footer">
+        <div class="footnote">
+          <svg viewBox="0 0 40 40" aria-hidden="true">
+            <circle cx="20" cy="20" r="17" />
+            <ellipse cx="20" cy="20" rx="8" ry="17" />
+            <path d="M3 20h34M20 3v34" />
+          </svg>
+          <div>
+            <b>A little character. A lot of personality.</b
+            ><span id="gaze-help"
+              >Move your pointer · Tap to look · Arrow keys when focused</span
+            >
+          </div>
+        </div>
+        <button
+          class="pause"
+          type="button"
+          id="pause"
+          aria-pressed="false"
+          disabled
+        >
+          Pause tracking <span aria-hidden="true">Ⅱ</span>
+        </button>
+      </footer>
+      <span class="pointer-halo" aria-hidden="true"></span>
+    </main>
+    <aside class="template-note">
+      Interactive template · Original character artwork · No camera or AI
+      service.
+      <a href="https://x.com/iamtanzil_/status/2098018663089533246"
+        >Design reference ↗</a
+      ><noscript>
+        Enable JavaScript for gaze, colors, and preset controls.</noscript
+      >
+    </aside>
+    <p class="sr-only" id="announcement" role="status"></p>
+    <dialog id="panel" aria-labelledby="panel-title">
+      <button class="close" type="button" aria-label="Close dialog">×</button>
+      <h2 id="panel-title"></h2>
+      <div id="panel-copy"></div>
+      <form id="preset" hidden>
+        <label for="character-name">Character name</label>
+        <input
+          id="character-name"
+          name="name"
+          value="Momo"
+          maxlength="40"
+          required
+          autocomplete="off"
+        />
+        <label for="color">Color</label>
+        <select id="color" name="color">
+          <option value="blue">Blue</option>
+          <option value="pink">Pink</option>
+          <option value="orange">Orange</option>
+          <option value="violet">Violet</option>
+        </select>
+        <p class="hint">
+          Your color previews immediately. Download saves a small settings file
+          to your device. Nothing is sent or published.
+        </p>
+        <button class="download" type="submit">Download preset ↓</button>
+        <p id="download-status" role="status"></p>
+      </form>
+    </dialog>
+    <template id="features"
+      ><p>
+        Two curious eyes follow your pointer, taps, or arrow keys. Pick a color
+        to change the character and its world.
+      </p>
+      <p>
+        Pause tracking whenever you like. Reduced-motion settings keep the eyes
+        still automatically.
+      </p></template
+    >
+    <template id="pricing"
+      ><p>
+        This is a standalone website template, with no subscription or checkout.
+        Its character responds locally in your browser.
+      </p>
+      <p>
+        No AI account, camera access, or payment is needed to explore it.
+      </p></template
+    >
+    <template id="about"
+      ><p>
+        AnimoraAI is a playful interface study inspired by Tanzil Chowdhury’s
+        design. The furry artwork is newly generated; the eyes and interactions
+        are editable HTML, CSS, and JavaScript.
+      </p>
+      <p>
+        It follows your pointer position, not your face or your eyes. No camera
+        is used.
+      </p></template
+    >
+    <template id="customize"
+      ><p>
+        Give your character a name, choose its color, and take your preset with
+        you.
+      </p></template
+    >
+  </body>
+</html>

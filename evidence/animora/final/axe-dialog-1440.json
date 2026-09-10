@@ -1,0 +1,121 @@
+{
+  "success": true,
+  "data": {
+    "axeVersion": "4.12.1",
+    "counts": {
+      "inapplicable": 68,
+      "incomplete": 1,
+      "passes": 19,
+      "violations": 0
+    },
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 10,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content",
+            "html": "<button class=\"close\" type=\"button\" aria-label=\"Close dialog\">\u00d7</button>",
+            "target": [
+              ".close"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+            "html": "<h2 id=\"panel-title\">Make it yours.</h2>",
+            "target": [
+              "#panel-title"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+            "html": "<p>\n        Give your character a name, choose its color, and take your preset with\n        you.\n      </p>",
+            "target": [
+              "#panel-copy > p"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+            "html": "<label for=\"character-name\">Character name</label>",
+            "target": [
+              "label[for=\"character-name\"]"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+            "html": "<input id=\"character-name\" name=\"name\" value=\"Momo\" maxlength=\"40\" required=\"\" autocomplete=\"off\">",
+            "target": [
+              "#character-name"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+            "html": "<label for=\"color\">Color</label>",
+            "target": [
+              "label[for=\"color\"]"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+            "html": "<select id=\"color\" name=\"color\">\n          <option value=\"blue\">Blue</option>\n          <option value=\"pink\">Pink</option>\n          <option value=\"orange\">Orange</option>\n          <option value=\"violet\">Violet</option>\n        </select>",
+            "target": [
+              "#color"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+            "html": "<p class=\"hint\">\n          Your color previews immediately. Download saves a small settings file\n          to your device. Nothing is sent or published.\n        </p>",
+            "target": [
+              ".hint"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+            "html": "<button class=\"download\" type=\"submit\">Download preset \u2193</button>",
+            "target": [
+              ".download"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+            "html": "<p id=\"download-status\" role=\"status\">Your preset download is ready. Nothing was sent or published.</p>",
+            "target": [
+              "#download-status"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ],
+    "lifecycle": {
+      "effectiveLaunch": {
+        "browserLaunched": true,
+        "engine": "chrome",
+        "launchHash": 9020837919885364189
+      },
+      "launched": false,
+      "relaunchedBrowser": false,
+      "restartedBackground": false,
+      "restoreStatus": "not_configured",
+      "reused": true,
+      "saveStatus": "not_configured"
+    },
+    "url": "http://127.0.0.1:4176/animora/",
+    "violations": []
+  },
+  "error": null
+}

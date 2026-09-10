@@ -1,0 +1,13 @@
+{
+  "status": "blocked",
+  "model": "gemini-3.7-flash",
+  "processing": "static",
+  "store": false,
+  "source": "source.mp4",
+  "inference_requests_completed": 0,
+  "failure_phase": "Files API get while waiting for upload",
+  "error": "500 INTERNAL: Failed to convert server response to JSON",
+  "cleanup": "File listing also returned same500; uploaded file ID not returned by script, deletion unverified. No unrelated files deleted.",
+  "usage": "Unavailable; no inference receipt",
+  "next_step": "Await user choice of direct video/frame inspection fallback or one retry"
+}

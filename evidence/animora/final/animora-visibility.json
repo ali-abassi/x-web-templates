@@ -1,0 +1,40 @@
+{
+  "template": "animora",
+  "environment": "actual Chrome target activation; owned blank tab closed",
+  "before": {
+    "url": "http://127.0.0.1:4176/animora/",
+    "hidden": false,
+    "eyes": [
+      "-17.712160264486293px",
+      "-18.057413920490927px"
+    ],
+    "tracking": true
+  },
+  "hidden": {
+    "url": "http://127.0.0.1:4176/animora/",
+    "hidden": true,
+    "eyes": [
+      "0px",
+      "0px"
+    ],
+    "tracking": false
+  },
+  "held": {
+    "url": "http://127.0.0.1:4176/animora/",
+    "hidden": true,
+    "eyes": [
+      "0px",
+      "0px"
+    ],
+    "tracking": false
+  },
+  "visible": {
+    "url": "http://127.0.0.1:4176/animora/",
+    "hidden": false,
+    "eyes": [
+      "0px",
+      "0px"
+    ],
+    "tracking": false
+  }
+}

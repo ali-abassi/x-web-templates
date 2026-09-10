@@ -1,0 +1,272 @@
+[
+  {
+    "case": "layout 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Pink palette 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Orange palette 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Violet palette 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Blue palette 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Features panel 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Features focus restored 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Pricing panel 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Pricing focus restored 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "About panel 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "About focus restored 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "showcase focus 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "local preset preview 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "cancel retains name 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "empty name rejected 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "blank name rejected 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "download initiated 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "CTA focus restored 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "ArrowLeft gaze 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "ArrowRight gaze 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "ArrowUp gaze 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "ArrowDown gaze 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "home centers 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "pause gaze 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "pointer bounded 100,200",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "pointer bounded 1400,900",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "pointer bounded 1300,60",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "pointer bounded 60,800",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "layout 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Pink palette 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Orange palette 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Violet palette 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Blue palette 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Features panel 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Features focus restored 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Pricing panel 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Pricing focus restored 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "About panel 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "About focus restored 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "showcase focus 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "local preset preview 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "cancel retains name 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "empty name rejected 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "blank name rejected 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "download initiated 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "CTA focus restored 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "ArrowLeft gaze 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "ArrowRight gaze 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "ArrowUp gaze 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "ArrowDown gaze 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "home centers 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "pause gaze 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "320 layout",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "maximum name fits",
+    "passed": true,
+    "observed": true
+  }
+]

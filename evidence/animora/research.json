@@ -1,0 +1,16 @@
+[
+  {
+    "repo": "dotnet/eShop",
+    "commit": "b4a40872005d4bb29e5b1fa1ff7e244143d39215",
+    "source": "src/WebApp/wwwroot/js/chat-eyes.js",
+    "license": "MIT",
+    "lines": 151
+  },
+  {
+    "repo": "MozillaFoundation/foundation.mozilla.org",
+    "commit": "ed0a103ea92805257a591c90fc62bd5a4f471203",
+    "source": "foundation_cms/legacy_apps/static/js/buyers-guide/template-js-handler/creepy-eyes.js",
+    "license": "MPL2.0",
+    "lines": 64
+  }
+]

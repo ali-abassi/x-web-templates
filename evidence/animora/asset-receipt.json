@@ -1,0 +1,18 @@
+{
+  "generator": "native image_gen tool",
+  "calls": 1,
+  "prompt": "evidence/animora/character-prompt.txt",
+  "output": "templates/animora/dist/assets/character.png",
+  "sha256": "bcec83d4930219c34be62af2a51dcd45a406c7bb85a49476dab32ae891c44b26",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "inspection": "Blank eye spheres, complete front-facing body, transparent fur edge; native pupils inspected in all palettes and directions.",
+  "billing": "Unavailable"
+}
