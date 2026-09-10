@@ -1,5 +1,9 @@
 # Scribblit / Alpine Notes
 
+[Live preview](https://x-web-templates.pages.dev/alpine-notes/) · [Download ZIP](https://x-web-templates.pages.dev/downloads/alpine-notes.zip)
+
+![alpine-notes screenshot](https://x-web-templates.pages.dev/assets/alpine-notes.png)
+
 A blue mountain product page with glass-like UI and a working local notebook.
 
 ## Use

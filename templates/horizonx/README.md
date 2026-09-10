@@ -1,5 +1,9 @@
 # HorizonX
 
+[Live preview](https://x-web-templates.pages.dev/horizonx/) · [Download ZIP](https://x-web-templates.pages.dev/downloads/horizonx.zip)
+
+![horizonx screenshot](https://x-web-templates.pages.dev/assets/horizonx.png)
+
 Reference-led static reconstruction of [Viktor Oddy’s original post](https://x.com/viktoroddy/status/2097500666357072243). Includes the visible hero and “Shaped for live reality” section. Original generated artwork replaces reference artwork; exact proprietary typography is not claimed.
 
 Open dist/index.html or serve dist with Python. Edit index.html for text and destinations, style.css for geometry and colors, app.js for motion controls, assets/cosmos.png and assets/ship.png for the separate artwork. No dependency install or API keys. Motion can be paused and respects reduced motion.

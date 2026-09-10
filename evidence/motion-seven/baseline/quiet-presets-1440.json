@@ -1,0 +1,23 @@
+{
+  "height": 1285,
+  "images": [
+    {
+      "loaded": true,
+      "src": "assets/deep-work.png"
+    },
+    {
+      "loaded": true,
+      "src": "assets/family-time.png"
+    },
+    {
+      "loaded": true,
+      "src": "assets/wind-down.png"
+    },
+    {
+      "loaded": true,
+      "src": "assets/study-session.png"
+    }
+  ],
+  "scrollWidth": 1440,
+  "width": 1440
+}

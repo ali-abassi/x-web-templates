@@ -1,0 +1,544 @@
+[
+  {
+    "name": "grid-driver",
+    "width": 1440,
+    "animations": 0,
+    "buttons": [
+      {
+        "disabled": true,
+        "id": "toggle-helmet"
+      },
+      {
+        "disabled": true,
+        "id": "replay-lap"
+      },
+      {
+        "disabled": true,
+        "id": "pause"
+      }
+    ],
+    "heading": "LEOMAZZI",
+    "images": [
+      {
+        "ok": true,
+        "src": "assets/portrait.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/portrait.png"
+      }
+    ],
+    "overflow": false,
+    "ready": false
+  },
+  {
+    "name": "grid-driver",
+    "width": 375,
+    "animations": 0,
+    "buttons": [
+      {
+        "disabled": true,
+        "id": "toggle-helmet"
+      },
+      {
+        "disabled": true,
+        "id": "replay-lap"
+      },
+      {
+        "disabled": true,
+        "id": "pause"
+      }
+    ],
+    "heading": "LEOMAZZI",
+    "images": [
+      {
+        "ok": true,
+        "src": "assets/portrait.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/portrait.png"
+      }
+    ],
+    "overflow": false,
+    "ready": false
+  },
+  {
+    "name": "clipdock",
+    "width": 1440,
+    "animations": 0,
+    "buttons": [
+      {
+        "disabled": true,
+        "id": "tab-history"
+      },
+      {
+        "disabled": true,
+        "id": "tab-prompts"
+      },
+      {
+        "disabled": true,
+        "id": "tab-colors"
+      },
+      {
+        "disabled": true,
+        "id": "tab-assets"
+      },
+      {
+        "disabled": true,
+        "id": "tab-inspirations"
+      },
+      {
+        "disabled": true,
+        "id": "copy"
+      }
+    ],
+    "heading": "Copy once.Reuse anytime.",
+    "images": [
+      {
+        "ok": true,
+        "src": "assets/meadow.png"
+      }
+    ],
+    "overflow": false,
+    "ready": false
+  },
+  {
+    "name": "clipdock",
+    "width": 375,
+    "animations": 0,
+    "buttons": [
+      {
+        "disabled": true,
+        "id": "tab-history"
+      },
+      {
+        "disabled": true,
+        "id": "tab-prompts"
+      },
+      {
+        "disabled": true,
+        "id": "tab-colors"
+      },
+      {
+        "disabled": true,
+        "id": "tab-assets"
+      },
+      {
+        "disabled": true,
+        "id": "tab-inspirations"
+      },
+      {
+        "disabled": true,
+        "id": "copy"
+      }
+    ],
+    "heading": "Copy once.Reuse anytime.",
+    "images": [
+      {
+        "ok": true,
+        "src": "assets/meadow.png"
+      }
+    ],
+    "overflow": false,
+    "ready": false
+  },
+  {
+    "name": "telemetry-stack",
+    "width": 1440,
+    "animations": 0,
+    "buttons": [
+      {
+        "disabled": true,
+        "id": ""
+      },
+      {
+        "disabled": true,
+        "id": "previous"
+      },
+      {
+        "disabled": true,
+        "id": "next"
+      },
+      {
+        "disabled": true,
+        "id": "pause"
+      }
+    ],
+    "heading": "The AI SREobservability stack",
+    "images": [],
+    "overflow": false,
+    "ready": false
+  },
+  {
+    "name": "telemetry-stack",
+    "width": 375,
+    "animations": 0,
+    "buttons": [
+      {
+        "disabled": true,
+        "id": ""
+      },
+      {
+        "disabled": true,
+        "id": "previous"
+      },
+      {
+        "disabled": true,
+        "id": "next"
+      },
+      {
+        "disabled": true,
+        "id": "pause"
+      }
+    ],
+    "heading": "The AI SREobservability stack",
+    "images": [],
+    "overflow": false,
+    "ready": false
+  },
+  {
+    "name": "lost-in-flight",
+    "width": 1440,
+    "animations": 0,
+    "buttons": [
+      {
+        "disabled": true,
+        "id": "pause"
+      }
+    ],
+    "heading": "404",
+    "images": [],
+    "overflow": false,
+    "ready": false
+  },
+  {
+    "name": "lost-in-flight",
+    "width": 375,
+    "animations": 0,
+    "buttons": [
+      {
+        "disabled": true,
+        "id": "pause"
+      }
+    ],
+    "heading": "404",
+    "images": [],
+    "overflow": false,
+    "ready": false
+  },
+  {
+    "name": "reality-studio",
+    "width": 1440,
+    "animations": 0,
+    "buttons": [
+      {
+        "disabled": true,
+        "id": "copy"
+      },
+      {
+        "disabled": true,
+        "id": "pause"
+      }
+    ],
+    "heading": "Reality is__",
+    "images": [],
+    "overflow": false,
+    "ready": false
+  },
+  {
+    "name": "reality-studio",
+    "width": 375,
+    "animations": 0,
+    "buttons": [
+      {
+        "disabled": true,
+        "id": "copy"
+      },
+      {
+        "disabled": true,
+        "id": "pause"
+      }
+    ],
+    "heading": "Reality is__",
+    "images": [],
+    "overflow": false,
+    "ready": false
+  },
+  {
+    "name": "direct-cta",
+    "width": 1440,
+    "animations": 0,
+    "buttons": [
+      {
+        "disabled": true,
+        "id": "copy"
+      }
+    ],
+    "heading": "DIRECT",
+    "images": [],
+    "overflow": false,
+    "ready": false
+  },
+  {
+    "name": "direct-cta",
+    "width": 375,
+    "animations": 0,
+    "buttons": [
+      {
+        "disabled": true,
+        "id": "copy"
+      }
+    ],
+    "heading": "DIRECT",
+    "images": [],
+    "overflow": false,
+    "ready": false
+  },
+  {
+    "name": "quiet-presets",
+    "width": 1440,
+    "animations": 0,
+    "buttons": [
+      {
+        "disabled": true,
+        "id": "previous"
+      },
+      {
+        "disabled": true,
+        "id": "next"
+      },
+      {
+        "disabled": true,
+        "id": ""
+      },
+      {
+        "disabled": true,
+        "id": ""
+      },
+      {
+        "disabled": true,
+        "id": ""
+      },
+      {
+        "disabled": true,
+        "id": ""
+      }
+    ],
+    "heading": "Make room forwhat matters.",
+    "images": [
+      {
+        "ok": true,
+        "src": "assets/deep-work.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/family-time.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/wind-down.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/study-session.png"
+      }
+    ],
+    "overflow": false,
+    "ready": false
+  },
+  {
+    "name": "quiet-presets",
+    "width": 375,
+    "animations": 0,
+    "buttons": [
+      {
+        "disabled": true,
+        "id": "previous"
+      },
+      {
+        "disabled": true,
+        "id": "next"
+      },
+      {
+        "disabled": true,
+        "id": ""
+      },
+      {
+        "disabled": true,
+        "id": ""
+      },
+      {
+        "disabled": true,
+        "id": ""
+      },
+      {
+        "disabled": true,
+        "id": ""
+      }
+    ],
+    "heading": "Make room forwhat matters.",
+    "images": [
+      {
+        "ok": true,
+        "src": "assets/deep-work.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/family-time.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/wind-down.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/study-session.png"
+      }
+    ],
+    "overflow": false,
+    "ready": false
+  },
+  {
+    "name": "gallery",
+    "width": 1440,
+    "animations": 0,
+    "buttons": [],
+    "heading": "A differentplace to start.",
+    "images": [
+      {
+        "ok": true,
+        "src": "assets/alpine-notes.jpg"
+      },
+      {
+        "ok": true,
+        "src": "assets/rainbow-venture.jpg"
+      },
+      {
+        "ok": true,
+        "src": "assets/bloop.jpg"
+      },
+      {
+        "ok": true,
+        "src": "assets/furion.jpg"
+      },
+      {
+        "ok": true,
+        "src": "assets/aster.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/horizonx.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/buzzkit.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/pixel-world.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/grid-driver.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/clipdock.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/telemetry-stack.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/lost-in-flight.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/reality-studio.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/direct-cta.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/quiet-presets.png"
+      }
+    ],
+    "overflow": false,
+    "ready": false
+  },
+  {
+    "name": "gallery",
+    "width": 375,
+    "animations": 0,
+    "buttons": [],
+    "heading": "A differentplace to start.",
+    "images": [
+      {
+        "ok": true,
+        "src": "assets/alpine-notes.jpg"
+      },
+      {
+        "ok": true,
+        "src": "assets/rainbow-venture.jpg"
+      },
+      {
+        "ok": true,
+        "src": "assets/bloop.jpg"
+      },
+      {
+        "ok": true,
+        "src": "assets/furion.jpg"
+      },
+      {
+        "ok": true,
+        "src": "assets/aster.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/horizonx.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/buzzkit.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/pixel-world.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/grid-driver.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/clipdock.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/telemetry-stack.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/lost-in-flight.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/reality-studio.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/direct-cta.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/quiet-presets.png"
+      }
+    ],
+    "overflow": false,
+    "ready": false
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "name": "grid-driver",
+    "width": 1440,
+    "animations": 0,
+    "buttons": [
+      {
+        "disabled": false,
+        "id": "toggle-helmet"
+      },
+      {
+        "disabled": false,
+        "id": "replay-lap"
+      },
+      {
+        "disabled": false,
+        "id": "pause"
+      }
+    ],
+    "heading": "LEOMAZZI",
+    "images": [
+      {
+        "ok": true,
+        "src": "assets/portrait.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/portrait.png"
+      }
+    ],
+    "overflow": false,
+    "ready": false
+  },
+  {
+    "name": "grid-driver",
+    "width": 375,
+    "animations": 0,
+    "buttons": [
+      {
+        "disabled": false,
+        "id": "toggle-helmet"
+      },
+      {
+        "disabled": false,
+        "id": "replay-lap"
+      },
+      {
+        "disabled": false,
+        "id": "pause"
+      }
+    ],
+    "heading": "LEOMAZZI",
+    "images": [
+      {
+        "ok": true,
+        "src": "assets/portrait.png"
+      },
+      {
+        "ok": true,
+        "src": "assets/portrait.png"
+      }
+    ],
+    "overflow": false,
+    "ready": false
+  },
+  {
+    "name": "telemetry-stack",
+    "width": 1440,
+    "animations": 0,
+    "buttons": [
+      {
+        "disabled": false,
+        "id": ""
+      },
+      {
+        "disabled": false,
+        "id": "previous"
+      },
+      {
+        "disabled": false,
+        "id": "next"
+      },
+      {
+        "disabled": false,
+        "id": "pause"
+      }
+    ],
+    "heading": "The AI SREobservability stack",
+    "images": [],
+    "overflow": false,
+    "ready": true
+  },
+  {
+    "name": "telemetry-stack",
+    "width": 375,
+    "animations": 0,
+    "buttons": [
+      {
+        "disabled": false,
+        "id": ""
+      },
+      {
+        "disabled": false,
+        "id": "previous"
+      },
+      {
+        "disabled": false,
+        "id": "next"
+      },
+      {
+        "disabled": false,
+        "id": "pause"
+      }
+    ],
+    "heading": "The AI SREobservability stack",
+    "images": [],
+    "overflow": false,
+    "ready": true
+  }
+]

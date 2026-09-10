@@ -1,0 +1,114 @@
+{
+  "success": true,
+  "data": {
+    "axeVersion": "4.12.1",
+    "counts": {
+      "inapplicable": 63,
+      "incomplete": 1,
+      "passes": 25,
+      "violations": 0
+    },
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 9,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node",
+            "html": "<span class=\"chip\">Deep work<small>7 apps</small></span>",
+            "target": [
+              "button[data-name=\"Deep work\"] > .chip"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node",
+            "html": "<small>7 apps</small>",
+            "target": [
+              "button[data-name=\"Deep work\"] > .chip > small"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node",
+            "html": "<span class=\"chip\">Family time<small>22 apps</small></span>",
+            "target": [
+              "button[data-name=\"Family time\"] > .chip"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node",
+            "html": "<small>22 apps</small>",
+            "target": [
+              "button[data-name=\"Family time\"] > .chip > small"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node",
+            "html": "<span class=\"chip\">Wind-down<small>6 apps</small></span>",
+            "target": [
+              "button[data-name=\"Wind-down\"] > .chip"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node",
+            "html": "<small>6 apps</small>",
+            "target": [
+              "button[data-name=\"Wind-down\"] > .chip > small"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node",
+            "html": "<span class=\"chip\">Study session<small>13 apps</small></span>",
+            "target": [
+              "button[data-name=\"Study session\"] > .chip"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node",
+            "html": "<small>13 apps</small>",
+            "target": [
+              "button[data-name=\"Study session\"] > .chip > small"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element",
+            "html": "<p>Course notes open, feed closed. Space to think.</p>",
+            "target": [
+              "article:nth-child(4) > p"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ],
+    "lifecycle": {
+      "effectiveLaunch": {
+        "browserLaunched": true,
+        "engine": "chrome",
+        "launchHash": 12195675696465354296
+      },
+      "launched": false,
+      "relaunchedBrowser": false,
+      "restartedBackground": false,
+      "restoreStatus": "not_configured",
+      "reused": true,
+      "saveStatus": "not_attempted"
+    },
+    "url": "http://127.0.0.1:4173/quiet-presets/",
+    "violations": []
+  },
+  "error": null
+}

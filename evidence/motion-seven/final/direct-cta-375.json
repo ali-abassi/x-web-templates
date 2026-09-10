@@ -1,0 +1,12 @@
+{
+  "buttons": [
+    {
+      "disabled": false,
+      "id": "copy",
+      "label": "/ COPY MAILPrefer mail?hello@direct.example\n            \u2197"
+    }
+  ],
+  "images": [],
+  "scrollWidth": 375,
+  "width": 375
+}

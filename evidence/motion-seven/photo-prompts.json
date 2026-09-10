@@ -1,0 +1,32 @@
+[
+  {
+    "asset": "landscape",
+    "prompt": "Use case: photorealistic-natural. Asset type: wide website landscape background for a blue clipboard-product hero. Soft rolling grassy green hills dotted with tiny white wildflowers, low rounded central hill across the lower half, a few distant hills left and right. Clear luminous cyan blue sky occupying upper half, subtle atmospheric haze, warm late-afternoon sunlight from right, lush grass texture. Clean photoreal landscape like a premium desktop wallpaper. Camera low over meadow looking across hills. Landscape 1536x1024. No buildings, trees, people, objects, text, UI, watermarks or logos. Blue sky must be uncluttered for deterministic app mockup layered above.",
+    "mode": "native image_gen",
+    "result": "Visually inspected generated photo; accepted source; billing unavailable"
+  },
+  {
+    "asset": "deepwork",
+    "prompt": "Use case: photorealistic-natural. Asset type: portrait lifestyle photograph for a focus preset carousel. A close overhead editorial photograph of the lower left corner of a space-gray laptop keyboard on a pale cream desk, beside a small brushed stainless steel focus token: flat circular puck 6cm diameter, concentric machined rings and white circular center, no lettering. The laptop occupies upper left and token is around lower center; an open design magazine with abstract unreadable page details at bottom. Soft natural window light, honest tactile material, warm gray and cream palette, slightly casual lived-in composition. Portrait 1024x1536. No UI, badges, logos, readable text, watermark or human hands.",
+    "mode": "native image_gen",
+    "result": "Visually inspected generated photo; accepted source; billing unavailable"
+  },
+  {
+    "asset": "family",
+    "prompt": "Use case: photorealistic-natural. Asset type: portrait lifestyle photo for a focus carousel. Supporting reference image 1 supplies ONLY the stainless steel focus token design: preserve that flat circular brushed steel puck with concentric rings and white center. Create a DIFFERENT natural photograph: a fluffy ginger cat curled at the left side of a warm walnut coffee table, beside a closed cream art magazine with abstract non-readable cover, the same small metal token resting on the magazine near the center. Quiet home, soft afternoon window light, cream wall softly out of focus at top, editorial close-up with tactile orange fur, wood and metal. Portrait 1024x1536. No readable text, logos, UI, badges, watermarks or people.",
+    "mode": "native image_gen",
+    "result": "Visually inspected generated photo; accepted source; billing unavailable"
+  },
+  {
+    "asset": "winddown",
+    "prompt": "Use case: photorealistic-natural. Asset type: portrait lifestyle photo for a quiet-evening focus preset. Supporting reference 1 is ONLY the design of the small brushed stainless steel token with white center. New room photograph: honey-toned woven rattan lounge chair to the right, a clean chrome cube side table to the left, white ribbed paper pendant lamp above, cream wall and warm oak floor. A small metal focus token matching reference rests on the table beside a ceramic cup and one closed art book. Soft late afternoon interior light, editorial Scandinavian home photography, intimate tactile feel, no person. Frame chair and table close enough to identify token but include lamp. Portrait 1024x1536. No readable writing, logos, badges, UI, watermarks.",
+    "mode": "native image_gen",
+    "result": "Visually inspected generated photo; accepted source; billing unavailable"
+  },
+  {
+    "asset": "study",
+    "prompt": "Use case: photorealistic-natural. Asset type: portrait lifestyle photograph for study focus preset. Supporting reference 1 supplies ONLY the small stainless-steel focus token design with brushed concentric metal and white center. Create a different scene: a well-used wooden desk against a white pegboard wall covered with pinned abstract color swatches, small postcards, sketches with no readable writing, a narrow shelf of art books, a slim black task lamp, notebooks spread open, pencils in ceramic cup, a small vase of yellow flowers. The same metal token rests on the desk near a notebook. A vintage metal stool under the desk, soft daylight from a window outside frame. Natural creative studio editorial photography, cozy slightly untidy but beautiful, cream/wood muted palette. Portrait 1024x1536 showing the full desk and pegboard. No people, UI, logos, badges, readable text or watermark.",
+    "mode": "native image_gen",
+    "result": "Visually inspected generated photo; accepted source; billing unavailable"
+  }
+]

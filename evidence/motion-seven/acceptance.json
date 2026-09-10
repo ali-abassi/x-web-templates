@@ -1,0 +1,57 @@
+{
+  "verdict": "accept",
+  "candidate": {
+    "base": "fa2f9b2636da36b03256a2676950c97c5869d77e",
+    "head": "fa2f9b2636da36b03256a2676950c97c5869d77e",
+    "dirty_new_hashes": "candidate-hashes.json",
+    "deployed_file_hashes": "final/deployment-input.json"
+  },
+  "alignment": {
+    "vision.md": "954a1faf88b6736fa5682e4e2d4fedf13e2ecc6ae365704c37b3ffac43534407",
+    "intent.md": "a5c8a8d29d0a5bea603de065c29641bb36a2b7dc4b28176e4d8fe8d2502892c8",
+    "design.md": "349c6545a120547453a02c6b58156dfa3764ec7bc952f9c3b9f1b0c7a35d3603"
+  },
+  "scope_amendment": "hosting-amendment.md",
+  "changes": "Complete path/hash inventory in candidate-hashes.json; receipt and final delivery metadata are audit documents.",
+  "evidence": {
+    "reference_fidelity": "comparisons.html and final source-specific screenshots/motion clips",
+    "primary_jobs": "final/live-interactions.json; seven templates at desktop and phone plus gallery navigation/downloads",
+    "states": "final/states-final.json, nojs-results.json, nojs-refresh-results.json, reduced-results.json, reduced-refresh-results.json",
+    "visibility": "final/visibility-{template}.json for driver, telemetry, flight, reality",
+    "exports": "final/exports.json; seven unpacked ZIPs opened as file URLs",
+    "preservation": "final/original-parity.json; 152 original runtime files unchanged",
+    "production": "final/live-bytes.json; all 161 assets match, including fifteen ZIPs"
+  },
+  "environment": "Chrome 152 with actual Default profile, agent-browser 0.37.1, desktop 1440x1000, phone 375x812 and 320px safety; Cloudflare Pages direct upload",
+  "checks": {
+    "python3 scripts/check.py": "PASS: 17 pages, assets/anchors, JS syntax, fifteen ZIP parity",
+    "eslint 9.39.1 complexity [error,5]": "PASS for all seven authored app.js files",
+    "git diff --check": "PASS",
+    "declared_dogfood_cases": "12/12 passed for the scoped static collection",
+    "system_validator": "Eight missing-independent-reviewer findings only; unmodified validator preserved. User explicitly requires direct execution, superseding that lane. No independent certification claimed."
+  },
+  "cleanup": "Fixed observed first-click pause race, layout/contrast/label issues, rail overflow, long-content overflow and portrait failure path. No new runtime dependency. Zero authored TypeScript; JS cyclomatic complexity at most 5. Python page inventory check has one cohesive responsibility.",
+  "usage": {
+    "owners": 1,
+    "delegated_agents": 0,
+    "native_image_calls": 8,
+    "retained_assets": 7,
+    "rejected_assets": 1,
+    "image_billing": "unavailable",
+    "paid_model_judges": 0
+  },
+  "risks": [
+    "GetLayers effect is a documented-motion reconstruction; exact original shader/typefaces are not claimed.",
+    "Generated photography differs from reference assets.",
+    "No physical Safari or VoiceOver certification.",
+    "Static product demonstrations have no real accounts, messages, monitoring or app blocking.",
+    "Pages Git integration is unavailable; deployment is direct upload."
+  ],
+  "unverified_required_boundaries": [],
+  "reviewer": "Active-agent separate critical self-review per user policy",
+  "policy_paths": [
+    "/Users/aliabassi/.codex/policies/project-alignment.md",
+    "/Users/aliabassi/.codex/policies/project-acceptance.md"
+  ],
+  "time": "2026-09-10T02:12:36.080407+00:00"
+}

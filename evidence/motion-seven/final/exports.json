@@ -1,0 +1,188 @@
+[
+  {
+    "name": "grid-driver",
+    "environment": "unpacked ZIP opened as file URL",
+    "buttons": [
+      {
+        "disabled": false,
+        "id": "toggle-helmet"
+      },
+      {
+        "disabled": false,
+        "id": "replay-lap"
+      },
+      {
+        "disabled": false,
+        "id": "pause"
+      }
+    ],
+    "fonts": "loaded",
+    "images": [
+      {
+        "loaded": true,
+        "src": "assets/portrait.png"
+      },
+      {
+        "loaded": true,
+        "src": "assets/portrait.png"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "name": "clipdock",
+    "environment": "unpacked ZIP opened as file URL",
+    "buttons": [
+      {
+        "disabled": false,
+        "id": "tab-history"
+      },
+      {
+        "disabled": false,
+        "id": "tab-prompts"
+      },
+      {
+        "disabled": false,
+        "id": "tab-colors"
+      },
+      {
+        "disabled": false,
+        "id": "tab-assets"
+      },
+      {
+        "disabled": false,
+        "id": "tab-inspirations"
+      },
+      {
+        "disabled": false,
+        "id": "copy"
+      }
+    ],
+    "fonts": "loaded",
+    "images": [
+      {
+        "loaded": true,
+        "src": "assets/meadow.png"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "name": "telemetry-stack",
+    "environment": "unpacked ZIP opened as file URL",
+    "buttons": [
+      {
+        "disabled": false,
+        "id": ""
+      },
+      {
+        "disabled": false,
+        "id": "previous"
+      },
+      {
+        "disabled": false,
+        "id": "next"
+      },
+      {
+        "disabled": false,
+        "id": "pause"
+      }
+    ],
+    "fonts": "loaded",
+    "images": [],
+    "overflow": false
+  },
+  {
+    "name": "lost-in-flight",
+    "environment": "unpacked ZIP opened as file URL",
+    "buttons": [
+      {
+        "disabled": false,
+        "id": "pause"
+      }
+    ],
+    "fonts": "loaded",
+    "images": [],
+    "overflow": false
+  },
+  {
+    "name": "reality-studio",
+    "environment": "unpacked ZIP opened as file URL",
+    "buttons": [
+      {
+        "disabled": false,
+        "id": "copy"
+      },
+      {
+        "disabled": false,
+        "id": "pause"
+      }
+    ],
+    "fonts": "loaded",
+    "images": [],
+    "overflow": false
+  },
+  {
+    "name": "direct-cta",
+    "environment": "unpacked ZIP opened as file URL",
+    "buttons": [
+      {
+        "disabled": false,
+        "id": "copy"
+      }
+    ],
+    "fonts": "loaded",
+    "images": [],
+    "overflow": false
+  },
+  {
+    "name": "quiet-presets",
+    "environment": "unpacked ZIP opened as file URL",
+    "buttons": [
+      {
+        "disabled": true,
+        "id": "previous"
+      },
+      {
+        "disabled": false,
+        "id": "next"
+      },
+      {
+        "disabled": false,
+        "id": ""
+      },
+      {
+        "disabled": false,
+        "id": ""
+      },
+      {
+        "disabled": false,
+        "id": ""
+      },
+      {
+        "disabled": false,
+        "id": ""
+      }
+    ],
+    "fonts": "loaded",
+    "images": [
+      {
+        "loaded": true,
+        "src": "assets/deep-work.png"
+      },
+      {
+        "loaded": true,
+        "src": "assets/family-time.png"
+      },
+      {
+        "loaded": true,
+        "src": "assets/wind-down.png"
+      },
+      {
+        "loaded": true,
+        "src": "assets/study-session.png"
+      }
+    ],
+    "overflow": false
+  }
+]

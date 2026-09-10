@@ -1,0 +1,9 @@
+# Skill-fidelity audit
+
+- GitHub research: two maintained official/source repositories pinned and inspected; load-bearing source, tests/CI, licenses, source path and borrow/avoid decisions recorded in research.md.
+- Good design: pre-edit eight-surface matrix; reference captures; page-specific default/minimum/320px states; long and degraded views; primary interaction and motion evidence; F1–F12/check results in surface-matrix.md. Unmodified final validator is saved in final/system-validator.txt. Its independent-review lanes conflict with Ali’s explicit no-delegation policy, so only active-agent self-review is claimed. No independent System certification.
+- Native image generation: image-generation.json, photo-prompts.json and generation-assets.json preserve prompts, reference purpose, source UUID/hash and results. Seven assets retained; one failed alpha correction preserved in rejected/. Tool billing is unavailable. Original RGB helmet is used behind a native silhouette/motion mask; no successful native-alpha claim is made for it.
+- Dogfooding: iterate mode; twelve scoped cases, initial hashes and baseline, findings, correction hypotheses, reruns, browser traces, real live journeys, byte verification and static-collection readiness in run-manifest.json and session-notes.md. Mock asset/clipboard faults remain distinct from real browser/live cases.
+- Cloudflare: official docs and Wrangler 4.130.0 source/schema inspected; personal project selected from existing related projects; scoped direct upload and public byte verification recorded in hosting-research.md and final/. Git installation error is retained and not called repaired.
+
+No paid judge calibration or optimization workflow was used or claimed. The native asset budget initially named seven calls; one failed alpha correction was added and then stopped, with the eight-call ceiling and limitation recorded in image-generation.json.

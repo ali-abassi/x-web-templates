@@ -1,0 +1,236 @@
+[
+  {
+    "name": "grid-driver",
+    "width": 1440,
+    "state": "missing-art",
+    "overflow": false,
+    "title": "LEO\nMAZZI"
+  },
+  {
+    "name": "grid-driver",
+    "width": 1440,
+    "state": "long-content",
+    "overflow": false
+  },
+  {
+    "name": "grid-driver",
+    "width": 375,
+    "state": "missing-art",
+    "overflow": false,
+    "title": "LEO\nMAZZI"
+  },
+  {
+    "name": "grid-driver",
+    "width": 375,
+    "state": "long-content",
+    "overflow": false
+  },
+  {
+    "name": "clipdock",
+    "width": 1440,
+    "state": "missing-art",
+    "overflow": false,
+    "title": "Copy once.\nReuse anytime."
+  },
+  {
+    "name": "clipdock",
+    "width": 1440,
+    "state": "long-content",
+    "overflow": false
+  },
+  {
+    "name": "clipdock",
+    "width": 375,
+    "state": "missing-art",
+    "overflow": false,
+    "title": "Copy once.\nReuse anytime."
+  },
+  {
+    "name": "clipdock",
+    "width": 375,
+    "state": "long-content",
+    "overflow": false
+  },
+  {
+    "name": "telemetry-stack",
+    "width": 1440,
+    "state": "missing-art",
+    "overflow": false,
+    "title": "The AI SRE\nobservability stack"
+  },
+  {
+    "name": "telemetry-stack",
+    "width": 1544,
+    "state": "long-content",
+    "overflow": true
+  },
+  {
+    "name": "telemetry-stack",
+    "width": 1440,
+    "state": "missing-art",
+    "overflow": false,
+    "title": "The AI SRE\nobservability stack"
+  },
+  {
+    "name": "telemetry-stack",
+    "width": 1544,
+    "state": "long-content",
+    "overflow": true
+  },
+  {
+    "name": "telemetry-stack",
+    "width": 1440,
+    "state": "missing-art",
+    "overflow": false,
+    "title": "The AI SRE\nobservability stack"
+  },
+  {
+    "name": "telemetry-stack",
+    "width": 1440,
+    "state": "long-content",
+    "overflow": false
+  },
+  {
+    "name": "telemetry-stack",
+    "width": 375,
+    "state": "missing-art",
+    "overflow": false,
+    "title": "The AI SRE\nobservability stack"
+  },
+  {
+    "name": "telemetry-stack",
+    "width": 375,
+    "state": "long-content",
+    "overflow": false
+  },
+  {
+    "name": "lost-in-flight",
+    "width": 1440,
+    "state": "missing-art",
+    "overflow": false,
+    "title": "404"
+  },
+  {
+    "name": "lost-in-flight",
+    "width": 1440,
+    "state": "long-content",
+    "overflow": false
+  },
+  {
+    "name": "lost-in-flight",
+    "width": 375,
+    "state": "missing-art",
+    "overflow": false,
+    "title": "404"
+  },
+  {
+    "name": "lost-in-flight",
+    "width": 375,
+    "state": "long-content",
+    "overflow": false
+  },
+  {
+    "name": "reality-studio",
+    "width": 1440,
+    "state": "missing-art",
+    "overflow": false,
+    "title": "Reality is__"
+  },
+  {
+    "name": "reality-studio",
+    "width": 1440,
+    "state": "long-content",
+    "overflow": false
+  },
+  {
+    "name": "reality-studio",
+    "width": 375,
+    "state": "missing-art",
+    "overflow": false,
+    "title": "Reality is__"
+  },
+  {
+    "name": "reality-studio",
+    "width": 375,
+    "state": "long-content",
+    "overflow": false
+  },
+  {
+    "name": "direct-cta",
+    "width": 1440,
+    "state": "missing-art",
+    "overflow": false,
+    "title": "DIRECT"
+  },
+  {
+    "name": "direct-cta",
+    "width": 1440,
+    "state": "long-content",
+    "overflow": false
+  },
+  {
+    "name": "direct-cta",
+    "width": 375,
+    "state": "missing-art",
+    "overflow": false,
+    "title": "DIRECT"
+  },
+  {
+    "name": "direct-cta",
+    "width": 375,
+    "state": "long-content",
+    "overflow": false
+  },
+  {
+    "name": "quiet-presets",
+    "width": 1440,
+    "state": "missing-art",
+    "overflow": false,
+    "title": "Make room for\nwhat matters."
+  },
+  {
+    "name": "quiet-presets",
+    "width": 1440,
+    "state": "long-content",
+    "overflow": false
+  },
+  {
+    "name": "quiet-presets",
+    "width": 375,
+    "state": "missing-art",
+    "overflow": false,
+    "title": "Make room for\nwhat matters."
+  },
+  {
+    "name": "quiet-presets",
+    "width": 375,
+    "state": "long-content",
+    "overflow": false
+  },
+  {
+    "name": "gallery",
+    "width": 1440,
+    "state": "missing-art",
+    "overflow": false,
+    "title": "A different\nplace to start."
+  },
+  {
+    "name": "gallery",
+    "width": 1440,
+    "state": "long-content",
+    "overflow": false
+  },
+  {
+    "name": "gallery",
+    "width": 375,
+    "state": "missing-art",
+    "overflow": false,
+    "title": "A different\nplace to start."
+  },
+  {
+    "name": "gallery",
+    "width": 375,
+    "state": "long-content",
+    "overflow": false
+  }
+]

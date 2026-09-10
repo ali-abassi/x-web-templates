@@ -1,5 +1,9 @@
 # Furion
 
+[Live preview](https://x-web-templates.pages.dev/furion/) · [Download ZIP](https://x-web-templates.pages.dev/downloads/furion.zip)
+
+![furion screenshot](https://x-web-templates.pages.dev/assets/furion.png)
+
 A six-panel monochrome performance identity presentation.
 
 ## Use

@@ -1,0 +1,23 @@
+{
+  "base": "fa2f9b2636da36b03256a2676950c97c5869d77e",
+  "preexisting_changes": [],
+  "owners": 1,
+  "delegation": false,
+  "review": "Separate active-agent critical pass, then integrated build check",
+  "owned": [
+    "templates/seven new directories",
+    "gallery",
+    "scripts/build.py",
+    "README.md",
+    "dist",
+    "evidence/motion-seven"
+  ],
+  "asset_budget": "At most seven native image calls: portrait, aligned helmet edit, four focus photos, one island. One anchor first; inspect before scaling. No model-judge or live scored eval. Tool billing unavailable.",
+  "stop": "Stop on unavailable required asset/tool boundary, paid defect, failed check or missing evidence; preserve raw failures. Routine corrections allowed; no stochastic optimization loop.",
+  "criteria_map": "surface-matrix.md frozen checks -> per-template screenshots, interaction records, reduced/noJS checks; build -> fifteen ZIP parity; review -> hashes and receipt",
+  "alignment": {
+    "vision.md": "954a1faf88b6736fa5682e4e2d4fedf13e2ecc6ae365704c37b3ffac43534407",
+    "intent.md": "a5c8a8d29d0a5bea603de065c29641bb36a2b7dc4b28176e4d8fe8d2502892c8",
+    "design.md": "349c6545a120547453a02c6b58156dfa3764ec7bc952f9c3b9f1b0c7a35d3603"
+  }
+}

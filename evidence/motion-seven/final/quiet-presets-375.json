@@ -1,0 +1,54 @@
+{
+  "buttons": [
+    {
+      "disabled": true,
+      "id": "previous",
+      "label": "\u2039"
+    },
+    {
+      "disabled": false,
+      "id": "next",
+      "label": "\u203a"
+    },
+    {
+      "disabled": false,
+      "id": "",
+      "label": "Deep work7 apps"
+    },
+    {
+      "disabled": false,
+      "id": "",
+      "label": "Family time22 apps"
+    },
+    {
+      "disabled": false,
+      "id": "",
+      "label": "Wind-down6 apps"
+    },
+    {
+      "disabled": false,
+      "id": "",
+      "label": "Study session13 apps"
+    }
+  ],
+  "images": [
+    {
+      "loaded": true,
+      "src": "assets/deep-work.png"
+    },
+    {
+      "loaded": true,
+      "src": "assets/family-time.png"
+    },
+    {
+      "loaded": true,
+      "src": "assets/wind-down.png"
+    },
+    {
+      "loaded": true,
+      "src": "assets/study-session.png"
+    }
+  ],
+  "scrollWidth": 375,
+  "width": 375
+}

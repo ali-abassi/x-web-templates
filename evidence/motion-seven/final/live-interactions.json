@@ -1,0 +1,212 @@
+[
+  {
+    "check": "grid-driver1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "grid-driverconsole1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "clipdock1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "clipdockconsole1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "telemetry-stack1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "telemetry-stackconsole1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "lost-in-flight1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "lost-in-flightconsole1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "reality-studio1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "reality-studioconsole1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "direct-cta1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "direct-ctaconsole1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "quiet-presets1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "quiet-presetsconsole1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "grid-driver375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "grid-driverconsole375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "clipdock375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "clipdockconsole375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "telemetry-stack375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "telemetry-stackconsole375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "lost-in-flight375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "lost-in-flightconsole375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "reality-studio375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "reality-studioconsole375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "direct-cta375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "direct-ctaconsole375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "quiet-presets375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "quiet-presetsconsole375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "gallery link grid-driver",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "live download grid-driver",
+    "passed": true,
+    "sha256": "45e65a242668c582ebca9131a295b9f7d21489bb8ce43008086087079c9d2758"
+  },
+  {
+    "check": "gallery link clipdock",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "live download clipdock",
+    "passed": true,
+    "sha256": "efc1343d4ca2d89ed67cdff389c2e720d2d041d0f0c93e12a3bb9ae0a9709b7a"
+  },
+  {
+    "check": "gallery link telemetry-stack",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "live download telemetry-stack",
+    "passed": true,
+    "sha256": "5a1d01f954ae26fb4df16d24482fdb5b4ca6ad40b101c1e0913841313c5885d6"
+  },
+  {
+    "check": "gallery link lost-in-flight",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "live download lost-in-flight",
+    "passed": true,
+    "sha256": "63c856ffcea5352de52537687092c0b64e30f7a7c903045f2de6cbed62c5ac7d"
+  },
+  {
+    "check": "gallery link reality-studio",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "live download reality-studio",
+    "passed": true,
+    "sha256": "d12f795654af9a5488f50614cb2257f3b343152b1886adc82cb99db17f4d47b1"
+  },
+  {
+    "check": "gallery link direct-cta",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "live download direct-cta",
+    "passed": true,
+    "sha256": "aa1194faf9aaf84dd206a2fb1a92138eb2fb03f751ce672821d0270f2d5cf767"
+  },
+  {
+    "check": "gallery link quiet-presets",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "live download quiet-presets",
+    "passed": true,
+    "sha256": "bc60a38f55cb4d913d0598e4ed39e4fc8c9136a86f0aa5a63ab2114ac51a55fd"
+  }
+]

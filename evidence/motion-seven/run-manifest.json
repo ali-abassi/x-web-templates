@@ -1,0 +1,367 @@
+{
+  "schema_version": "1.0",
+  "run_id": "motion-seven-2026-09-10",
+  "mode": "iterate",
+  "target": {
+    "repo": "/Users/aliabassi/Documents/ChatGPT/AI Designer/x-web-templates",
+    "commit": "fa2f9b2636da36b03256a2676950c97c5869d77e",
+    "dirty": true,
+    "build": "Final 15-template static deployment; exact files in final/deployment-input.json",
+    "provenance_note": "Commit metadata names base plus dirty=true; final source commit is recorded in delivery receipt."
+  },
+  "environment": {
+    "device": "Ali macOS Chrome desktop, task-owned tab",
+    "runtime": "Chrome 152; agent-browser 0.37.1; native HTML/CSS/JS",
+    "backend": "https://x-web-templates.pages.dev/; production deployment b28d758a-fd69-4119-96ae-af2aa1ac3868",
+    "account_role": "Public template visitor; actual Chrome Default profile",
+    "locale": "en-US",
+    "network": "Normal; injected asset/clipboard faults labeled mock"
+  },
+  "product": {
+    "actor": "Template user",
+    "trigger": "Preview and reuse a supplied design",
+    "promised_progress": "See reference-led motion, use local interactions, download a working independent template",
+    "weakest_link": "Motion and asset fidelity at mobile size and exported/live boundary",
+    "next_decision": "Whether complete candidate is ready for direct delivery"
+  },
+  "cases": [
+    {
+      "id": "CASE-001",
+      "journey": "grid-driver primary journey and motion",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Toggle helmet and replay circuit; reference composition, desktop/mobile, keyboard and appropriate motion behavior",
+      "observed": "Verified final candidate; see mapped screenshots, local/live interaction logs and exact byte checks.",
+      "artifacts": [
+        "final/live-interactions.json",
+        "final/states-final.json",
+        "final/grid-driver-live-keyboard-1440.png",
+        "final/grid-driver-live-keyboard-375.png"
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "CASE-002",
+      "journey": "clipdock primary journey and motion",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Open mobile menu, select clipboard category, edit and copy a local item; reference composition, desktop/mobile, keyboard and appropriate motion behavior",
+      "observed": "Verified final candidate; see mapped screenshots, local/live interaction logs and exact byte checks.",
+      "artifacts": [
+        "final/live-interactions.json",
+        "final/states-final.json",
+        "final/clipdock-live-keyboard-1440.png",
+        "final/clipdock-live-keyboard-375.png"
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "CASE-003",
+      "journey": "telemetry-stack primary journey and motion",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Navigate monitoring scenes and pause autoplay; reference composition, desktop/mobile, keyboard and appropriate motion behavior",
+      "observed": "Verified final candidate; see mapped screenshots, local/live interaction logs and exact byte checks.",
+      "artifacts": [
+        "final/live-interactions.json",
+        "final/states-final.json",
+        "final/telemetry-stack-live-keyboard-1440.png",
+        "final/telemetry-stack-live-keyboard-375.png"
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "CASE-004",
+      "journey": "lost-in-flight primary journey and motion",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Pause flight and follow a real local home link; reference composition, desktop/mobile, keyboard and appropriate motion behavior",
+      "observed": "Verified final candidate; see mapped screenshots, local/live interaction logs and exact byte checks.",
+      "artifacts": [
+        "final/live-interactions.json",
+        "final/states-final.json",
+        "final/lost-in-flight-live-keyboard-1440.png",
+        "final/lost-in-flight-live-keyboard-375.png"
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "CASE-005",
+      "journey": "reality-studio primary journey and motion",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Move pointer, pause motion, expand services and copy contact; reference composition, desktop/mobile, keyboard and appropriate motion behavior",
+      "observed": "Verified final candidate; see mapped screenshots, local/live interaction logs and exact byte checks.",
+      "artifacts": [
+        "final/live-interactions.json",
+        "final/states-final.json",
+        "final/reality-studio-live-keyboard-1440.png",
+        "final/reality-studio-live-keyboard-375.png"
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "CASE-006",
+      "journey": "direct-cta primary journey and motion",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Copy example contact and reveal local work cards; reference composition, desktop/mobile, keyboard and appropriate motion behavior",
+      "observed": "Verified final candidate; see mapped screenshots, local/live interaction logs and exact byte checks.",
+      "artifacts": [
+        "final/live-interactions.json",
+        "final/states-final.json",
+        "final/direct-cta-live-keyboard-1440.png",
+        "final/direct-cta-live-keyboard-375.png"
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "CASE-007",
+      "journey": "quiet-presets primary journey and motion",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Browse four presets and select one with visible local feedback; reference composition, desktop/mobile, keyboard and appropriate motion behavior",
+      "observed": "Verified final candidate; see mapped screenshots, local/live interaction logs and exact byte checks.",
+      "artifacts": [
+        "final/live-interactions.json",
+        "final/states-final.json",
+        "final/quiet-presets-live-keyboard-1440.png",
+        "final/quiet-presets-live-keyboard-375.png"
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "CASE-008",
+      "journey": "gallery primary journey and motion",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Open all seven new templates and download standalone ZIPs; reference composition, desktop/mobile, keyboard and appropriate motion behavior",
+      "observed": "Verified final candidate; see mapped screenshots, local/live interaction logs and exact byte checks.",
+      "artifacts": [
+        "final/gallery-live.png",
+        "final/live-interactions.json"
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "CASE-009",
+      "journey": "Degraded, long-label and no-JavaScript states for seven additions and gallery",
+      "critical": true,
+      "requires_real": false,
+      "evidence_tier": "mock",
+      "status": "pass",
+      "expected": "Readable reserved artwork area, wrapping content, usable static navigation, denied clipboard preserves text",
+      "observed": "Verified final candidate; see mapped screenshots, local/live interaction logs and exact byte checks.",
+      "artifacts": [
+        "final/states-final.json",
+        "final/nojs-results.json",
+        "final/nojs-refresh-results.json"
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "CASE-010",
+      "journey": "Reduced motion, page visibility and bounded resources",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Continuous motion stops, manual interactions remain, trails bounded and no console errors",
+      "observed": "Verified final candidate; see mapped screenshots, local/live interaction logs and exact byte checks.",
+      "artifacts": [
+        "final/reduced-results.json",
+        "final/reduced-refresh-results.json",
+        "final/visibility-grid-driver.json",
+        "final/visibility-telemetry-stack.json",
+        "final/visibility-lost-in-flight.json",
+        "final/visibility-reality-studio.json"
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "CASE-011",
+      "journey": "Build, original-template preservation and standalone ZIPs",
+      "critical": true,
+      "requires_real": false,
+      "evidence_tier": "automated",
+      "status": "pass",
+      "expected": "17 HTML pages, 15 exact ZIPs, original eight runtime trees unchanged",
+      "observed": "Verified final candidate; see mapped screenshots, local/live interaction logs and exact byte checks.",
+      "artifacts": [
+        "final/original-parity.json",
+        "final/exports.json"
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "CASE-012",
+      "journey": "Cloudflare Pages deployment and README previews for all fifteen templates",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Live gallery, all template URLs and downloads return valid assets; README live links and screenshots resolve",
+      "observed": "Verified final candidate; see mapped screenshots, local/live interaction logs and exact byte checks.",
+      "artifacts": [
+        "final/live-bytes.json",
+        "final/deployment-input.json",
+        "final/live-interactions.json"
+      ],
+      "finding_ids": []
+    }
+  ],
+  "findings": [
+    {
+      "id": "FIND-001",
+      "type": "accessibility",
+      "severity": "P2",
+      "case_ids": [
+        "CASE-001"
+      ],
+      "user_consequence": "Driver metadata intersects the portrait at phone width; status loses contrast on dark suit.",
+      "reproduction": "Open grid-driver at 375x812 and show helmet.",
+      "expected": "Name, metadata, portrait and race summary remain readable.",
+      "observed": "Portrait begins beside name and behind metadata; lower status is dark on suit.",
+      "evidence": [
+        "baseline/grid-mobile-first.png"
+      ],
+      "status": "fixed_verified",
+      "verification": "Final rendered states, matching interaction rerun and live verification in final/."
+    },
+    {
+      "id": "FIND-002",
+      "type": "bug",
+      "severity": "P2",
+      "case_ids": [
+        "CASE-001"
+      ],
+      "user_consequence": "Thin checkerboard fringe appears on right edge of helmet.",
+      "reproduction": "Show helmet on grid-driver desktop.",
+      "expected": "Only helmet silhouette is visible.",
+      "observed": "Runtime silhouette includes several background pixels at right.",
+      "evidence": [
+        "baseline/grid-helmet.png"
+      ],
+      "status": "fixed_verified",
+      "verification": "Final rendered states, matching interaction rerun and live verification in final/."
+    },
+    {
+      "id": "FIND-003",
+      "type": "bug",
+      "severity": "P2",
+      "case_ids": [
+        "CASE-002"
+      ],
+      "user_consequence": "Mobile clipboard sentence concatenates organized.Keep.",
+      "reproduction": "Open clipdock at 375x812.",
+      "expected": "Natural word boundary when line break is hidden.",
+      "observed": "Missing whitespace between sentences.",
+      "evidence": [
+        "baseline/clipdock-375.png"
+      ],
+      "status": "fixed_verified",
+      "verification": "Final rendered states, matching interaction rerun and live verification in final/."
+    },
+    {
+      "id": "FIND-004",
+      "type": "bug",
+      "severity": "P1",
+      "case_ids": [
+        "CASE-003"
+      ],
+      "user_consequence": "First click on Pause leaves carousel playing.",
+      "reproduction": "Fresh telemetry page, click Pause once before keyboard focus.",
+      "expected": "Autoplay stops and control reads Play.",
+      "observed": "Focus handler pauses before click handler toggles it back to playing.",
+      "evidence": [
+        "baseline/telemetry-pause-first.json",
+        "baseline/telemetry-pause-first.png"
+      ],
+      "status": "fixed_verified",
+      "verification": "Final rendered states, matching interaction rerun and live verification in final/."
+    },
+    {
+      "id": "FIND-005",
+      "type": "accessibility",
+      "severity": "P2",
+      "case_ids": [
+        "CASE-002",
+        "CASE-007",
+        "CASE-003"
+      ],
+      "user_consequence": "Some photo-overlay/blue-card utility text has insufficient worst-case contrast; marquee has unsupported label.",
+      "reproduction": "Inspect theme colors and incomplete axe findings at baseline.",
+      "expected": "Small text has at least 4.5:1 contrast; label has valid semantic role.",
+      "observed": "Axe cannot evaluate image overlays; manual worst-case composite for #3339 chip over white is below 4.5. Signal strip label lacks a role.",
+      "evidence": [
+        "baseline/quiet-presets-a11y.json",
+        "baseline/clipdock-a11y.json",
+        "baseline/telemetry-stack-a11y.json"
+      ],
+      "status": "fixed_verified",
+      "verification": "Final rendered states, matching interaction rerun and live verification in final/."
+    },
+    {
+      "id": "FIND-006",
+      "type": "bug",
+      "severity": "P2",
+      "case_ids": [
+        "CASE-007"
+      ],
+      "expected": "Rail scrolls independently at 375px",
+      "observed": "Absolutely positioned visually hidden headings escape the rail clipping into page overflow (913px).",
+      "status": "fixed_verified",
+      "evidence": [
+        "final/quiet-presets-375.json"
+      ],
+      "hypothesis": "Give each preset a positioned containing block; preserve the scroll rail.",
+      "verification": "Final rendered states, matching interaction rerun and live verification in final/."
+    }
+  ],
+  "iterations": [
+    {
+      "id": "iteration-1",
+      "scope": "FIND-001 through FIND-005",
+      "decision": "keep",
+      "evidence": "final/interaction-results.json and final/*-final-*-a11y.json",
+      "changes": "Mobile driver placement; first Pause focus race; whitespace/contrast; tighter helmet outline."
+    },
+    {
+      "id": "iteration-2",
+      "scope": "FIND-006 and long-content review",
+      "decision": "keep",
+      "evidence": "final/states-final.json and final/*-long-final-*.png",
+      "changes": "Position preset headings inside the rail; let long footer/hero text wrap; responsive driver flow and portrait failure feedback."
+    }
+  ],
+  "gates": {
+    "build_provenance": true,
+    "critical_real_flows": true,
+    "automated_regression": true,
+    "logs_reviewed": true,
+    "data_integrity": true,
+    "recovery": true,
+    "accessibility": true,
+    "security_privacy": true,
+    "performance": true,
+    "rollback": true
+  },
+  "verdict": "production_ready",
+  "assurance_boundary": "Static template collection only. Product data is fictional/local; no real AI, app blocking, accounts, purchases or message sending. Desktop Chrome plus viewport and reduced-motion emulation; no physical Safari or VoiceOver certification. Readiness applies to this static template collection, not the fictional products shown. Active-agent self-review only; no independent-agent System certification."
+}

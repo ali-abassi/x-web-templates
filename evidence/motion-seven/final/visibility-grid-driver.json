@@ -1,0 +1,28 @@
+{
+  "template": "grid-driver",
+  "environment": "real Chrome target activation; target discovered immediately before check",
+  "before": {
+    "url": "http://127.0.0.1:4173/grid-driver/",
+    "hidden": false,
+    "paused": false,
+    "helmetHash": -516462071
+  },
+  "hidden": {
+    "url": "http://127.0.0.1:4173/grid-driver/",
+    "hidden": true,
+    "paused": false,
+    "helmetHash": -355342852
+  },
+  "held": {
+    "url": "http://127.0.0.1:4173/grid-driver/",
+    "hidden": true,
+    "paused": false,
+    "helmetHash": -355342852
+  },
+  "visible": {
+    "url": "http://127.0.0.1:4173/grid-driver/",
+    "hidden": false,
+    "paused": false,
+    "helmetHash": -539819130
+  }
+}

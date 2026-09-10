@@ -1,0 +1,25 @@
+{
+  "mode": "native image_gen",
+  "calls": [
+    {
+      "asset": "driver",
+      "prompt": "Use case: photorealistic-natural. Asset type: transparent website hero portrait, paired later with an aligned helmet edit. Create a front-facing waist-up studio portrait of a fictional adult male Formula racing driver, 25 years old, curly dark brown hair, olive skin, calm confident expression. White racing suit with black shoulder panels and tiny teal piping, no sponsors, no writing, no brands. Centered perfectly symmetric camera at eye level, head entirely visible, shoulders and arms included, body fills lower image and reaches bottom edge. Soft cool studio light, realistic skin and fabric. Isolated on genuinely transparent background, alpha channel, no backdrop, no floor, no cast shadow, no text. Square canvas. The face should occupy the central upper third and leave room around hair for a racing helmet in a subsequent matched edit.",
+      "path": "exec-69ff06a9-a145-43c3-b484-73478d4905f2.png",
+      "result": "RGBA 1254x1254; visually inspected; accepted source"
+    },
+    {
+      "asset": "helmet",
+      "prompt": "Use case: precise-object-edit. Edit target: the attached generated driver portrait. Add only a white full-face Formula racing helmet to the driver's head, with small black/teal trim and a dark smoked visor. Keep EXACTLY the same canvas size, transparent background, camera, body position, shoulders, crossed arms, white suit, fabric folds, every pixel below the neck. Helmet covers face and hair, aligned to the same head position, no extra cropping, no movement or enlargement of torso. No logos, writing, sponsors, or text. Preserve actual transparent alpha background. This is an aligned overlay for a website revealing the original face through a mask; pixel registration of the unchanged body is critical.",
+      "path": "exec-4e4ed9d3-338d-4614-964a-44d51965b313.png",
+      "result": "RGB 1254x1254; alpha requirement failed; evaluate runtime silhouette mask"
+    },
+    {
+      "asset": "helmet-alpha-correction",
+      "prompt": "Use case: background-extraction. Edit target: attached helmeted racing driver. Remove ONLY the checkerboard background and replace it with REAL transparent alpha pixels. A checkerboard printed into RGB is NOT transparency. Return an actual RGBA transparent PNG. Keep driver, white helmet, black visor, crossed arms, suit, colors, exact positions and 1254x1254 canvas unchanged. Do not move, redraw, resize, or crop the driver. No checkerboard, no white backdrop, no black backdrop; genuine transparent background.",
+      "path": "exec-1f96be40-480d-4fe4-b65c-1ce03a849370.png",
+      "result": "RGB 1254x1254; repeated failure; rejected and no further alpha retries"
+    }
+  ],
+  "billing": "unavailable",
+  "planAmendment": "Original seven intended assets plus one corrective call already attempted, eight total calls maximum. No further helmet generation. Original seven deliverables remain; bounded browser mask will be checked visually. Not a scored model eval; no quality score or calibrated judge claim."
+}

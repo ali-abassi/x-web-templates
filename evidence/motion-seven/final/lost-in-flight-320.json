@@ -1,0 +1,12 @@
+{
+  "buttons": [
+    {
+      "disabled": false,
+      "id": "pause",
+      "label": "Pause motion"
+    }
+  ],
+  "images": [],
+  "scrollWidth": 320,
+  "width": 320
+}

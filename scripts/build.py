@@ -6,7 +6,23 @@ import tempfile
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-NAMES = ("alpine-notes", "rainbow-venture", "bloop", "furion", "aster", "horizonx", "buzzkit", "pixel-world")
+NAMES = (
+    "alpine-notes",
+    "rainbow-venture",
+    "bloop",
+    "furion",
+    "aster",
+    "horizonx",
+    "buzzkit",
+    "pixel-world",
+    "grid-driver",
+    "clipdock",
+    "telemetry-stack",
+    "lost-in-flight",
+    "reality-studio",
+    "direct-cta",
+    "quiet-presets",
+)
 
 
 def compose(source, destination, filename, shared):

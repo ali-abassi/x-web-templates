@@ -1,0 +1,42 @@
+{
+  "buttons": [
+    {
+      "disabled": false,
+      "id": "tab-history",
+      "label": "History 3"
+    },
+    {
+      "disabled": false,
+      "id": "tab-prompts",
+      "label": "Prompts 3"
+    },
+    {
+      "disabled": false,
+      "id": "tab-colors",
+      "label": "Colors 3"
+    },
+    {
+      "disabled": false,
+      "id": "tab-assets",
+      "label": "Assets 3"
+    },
+    {
+      "disabled": false,
+      "id": "tab-inspirations",
+      "label": "Inspirations 3"
+    },
+    {
+      "disabled": false,
+      "id": "copy",
+      "label": "Copy clip"
+    }
+  ],
+  "images": [
+    {
+      "loaded": true,
+      "src": "assets/meadow.png"
+    }
+  ],
+  "scrollWidth": 1440,
+  "width": 1440
+}

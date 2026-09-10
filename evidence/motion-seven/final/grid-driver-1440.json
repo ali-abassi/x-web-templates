@@ -1,0 +1,31 @@
+{
+  "buttons": [
+    {
+      "disabled": false,
+      "id": "toggle-helmet",
+      "label": "Show helmet"
+    },
+    {
+      "disabled": false,
+      "id": "replay-lap",
+      "label": "Replay lap \u2197"
+    },
+    {
+      "disabled": false,
+      "id": "pause",
+      "label": "Pause motion"
+    }
+  ],
+  "images": [
+    {
+      "loaded": true,
+      "src": "assets/portrait.png"
+    },
+    {
+      "loaded": true,
+      "src": "assets/portrait.png"
+    }
+  ],
+  "scrollWidth": 1440,
+  "width": 1440
+}

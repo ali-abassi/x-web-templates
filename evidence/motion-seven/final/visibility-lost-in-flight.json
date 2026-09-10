@@ -1,0 +1,28 @@
+{
+  "template": "lost-in-flight",
+  "environment": "real Chrome target activation; target discovered immediately before check",
+  "before": {
+    "url": "http://127.0.0.1:4173/lost-in-flight/",
+    "hidden": false,
+    "paused": false,
+    "helmetHash": 0
+  },
+  "hidden": {
+    "url": "http://127.0.0.1:4173/lost-in-flight/",
+    "hidden": true,
+    "paused": true,
+    "helmetHash": 0
+  },
+  "held": {
+    "url": "http://127.0.0.1:4173/lost-in-flight/",
+    "hidden": true,
+    "paused": true,
+    "helmetHash": 0
+  },
+  "visible": {
+    "url": "http://127.0.0.1:4173/lost-in-flight/",
+    "hidden": false,
+    "paused": false,
+    "helmetHash": 0
+  }
+}

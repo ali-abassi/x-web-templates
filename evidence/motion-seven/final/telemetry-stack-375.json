@@ -1,0 +1,27 @@
+{
+  "buttons": [
+    {
+      "disabled": false,
+      "id": "",
+      "label": "Explore demo"
+    },
+    {
+      "disabled": false,
+      "id": "previous",
+      "label": "\u2039"
+    },
+    {
+      "disabled": false,
+      "id": "next",
+      "label": "\u203a"
+    },
+    {
+      "disabled": false,
+      "id": "pause",
+      "label": "Pause"
+    }
+  ],
+  "images": [],
+  "scrollWidth": 375,
+  "width": 375
+}

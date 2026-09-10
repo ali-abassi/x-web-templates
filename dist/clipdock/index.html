@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Clipdock — copy once, reuse anytime — a standalone motion template."
+    />
+    <title>Clipdock — copy once, reuse anytime</title>
+    <link rel="icon" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <a href="#top" class="brand"
+        ><span class="app-icon" aria-hidden="true"></span>Clipdock</a
+      >
+      <nav aria-label="Main">
+        <a href="#demo">Features</a><a href="#faq">FAQ</a
+        ><a href="#about">About</a
+        ><a href="https://www.supaste.com/?ref=navbar.gallery">Reference ↗</a>
+      </nav>
+      <a class="nav-demo" href="#demo">Try the demo</a>
+      <details class="mobile-menu">
+        <summary aria-label="Open navigation">
+          <span></span><span></span>
+        </summary>
+        <div>
+          <a href="#demo">Features</a><a href="#faq">FAQ</a
+          ><a href="#about">About</a
+          ><a href="https://www.supaste.com/?ref=navbar.gallery"
+            >Reference ↗</a
+          >
+        </div>
+      </details>
+    </header>
+    <main>
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="kicker">
+            <span aria-hidden="true">▣</span> Clipboard history
+          </p>
+          <h1>Copy once.<br /><em>Reuse anytime.</em></h1>
+          <p class="description">
+            Everything you copy, beautifully organized. <br />Keep your words,
+            colors, and ideas within reach.
+          </p>
+          <a class="primary" href="#demo"
+            >Try the clipboard demo <span aria-hidden="true">↗</span></a
+          >
+        </div>
+        <div class="scene">
+          <img
+            class="landscape"
+            src="assets/meadow.png"
+            width="1536"
+            height="1024"
+            alt="Sunlit green hills under a clear blue sky."
+          />
+          <div class="desktop">
+            <div class="desktop-bar">
+              <span>◉ &nbsp; Clipdock</span><span>⌕ &nbsp; ◇ &nbsp; 09:41</span>
+            </div>
+            <section id="demo" class="clipboard" aria-label="Clipboard preview">
+              <div class="preview-label">
+                <span>YOUR CLIPBOARD</span><small>Local demo</small>
+              </div>
+              <div
+                class="tabs"
+                role="tablist"
+                aria-label="Clipboard categories"
+              >
+                <button
+                  role="tab"
+                  aria-selected="true"
+                  aria-controls="clip-panel"
+                  id="tab-history"
+                  data-category="History"
+                  disabled
+                >
+                  History <small>3</small></button
+                ><button
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="clip-panel"
+                  id="tab-prompts"
+                  data-category="Prompts"
+                  tabindex="-1"
+                  disabled
+                >
+                  Prompts <small>3</small></button
+                ><button
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="clip-panel"
+                  id="tab-colors"
+                  data-category="Colors"
+                  tabindex="-1"
+                  disabled
+                >
+                  Colors <small>3</small></button
+                ><button
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="clip-panel"
+                  id="tab-assets"
+                  data-category="Assets"
+                  tabindex="-1"
+                  disabled
+                >
+                  Assets <small>3</small></button
+                ><button
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="clip-panel"
+                  id="tab-inspirations"
+                  data-category="Inspirations"
+                  tabindex="-1"
+                  disabled
+                >
+                  Inspirations <small>3</small>
+                </button>
+              </div>
+              <div
+                id="clip-panel"
+                role="tabpanel"
+                aria-labelledby="tab-history"
+              >
+                <div class="clip-cards">
+                  <div class="clip-card featured">
+                    <span class="card-symbol" aria-hidden="true">⌘</span
+                    ><strong id="card-title">A thought worth keeping.</strong
+                    ><small>Text · just now</small>
+                  </div>
+                  <div class="clip-card color-card">
+                    <span>Color palette</span><strong>#008FFF</strong
+                    ><small>A little blue sky</small>
+                  </div>
+                  <div class="clip-card note-card">
+                    <span aria-hidden="true">✳</span
+                    ><strong>Make room<br />for good ideas.</strong
+                    ><small>Your next project</small>
+                  </div>
+                </div>
+                <div class="editor">
+                  <label for="clip-text" id="editor-label">Edit this clip</label
+                  ><textarea id="clip-text" maxlength="2000" rows="2">
+A thought worth keeping.</textarea
+                  ><button id="copy" disabled>Copy clip</button>
+                </div>
+                <p role="status" id="status">
+                  Edit the sample above, then copy it. Nothing is saved online.
+                </p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="about">
+        <p class="eyebrow">A LITTLE LESS SEARCHING</p>
+        <h2>Your ideas,<br />right where you left them.</h2>
+        <div class="feature-grid">
+          <article>
+            <span>01</span>
+            <h3>Collect the useful things.</h3>
+            <p>
+              Switch between text, prompts, colors, assets and inspirations in
+              the interactive preview.
+            </p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Make them yours.</h3>
+            <p>
+              Edit a sample and copy it with one click. Your edits stay in this
+              page until you refresh.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section id="faq" class="faq">
+        <h2>A few useful answers.</h2>
+        <details>
+          <summary>Is this reading my clipboard?</summary>
+          <p>
+            No. The preview only writes the text you choose to copy. It never
+            reads your clipboard.
+          </p>
+        </details>
+        <details>
+          <summary>Will my edits be saved?</summary>
+          <p>
+            Your edits remain while you switch categories, but reset when the
+            page reloads. No content is sent to a server.
+          </p>
+        </details>
+        <details>
+          <summary>Can I adapt this into a real product?</summary>
+          <p>
+            Yes. The navigation, category tabs, editable preview and motion are
+            plain HTML, CSS and JavaScript. The README describes the local demo
+            boundary.
+          </p>
+        </details>
+      </section>
+    </main>
+    <footer>
+      Clipdock / Independent motion template
+      <a href="https://www.navbar.gallery/navbar/supaste"
+        >Original design reference ↗</a
+      >
+    </footer>
+    <noscript
+      >The preview is static without JavaScript. Navigation and questions still
+      work.</noscript
+    >
+  </body>
+</html>

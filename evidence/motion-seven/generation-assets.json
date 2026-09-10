@@ -1,0 +1,37 @@
+[
+  {
+    "asset": "templates/grid-driver/dist/assets/portrait.png",
+    "sha256": "41a1abc7fc88e352026a7175e4aa6d7ded2cd38f5c194a356995503e31378f01",
+    "native_source": "exec-69ff06a9-a145-43c3-b484-73478d4905f2.png"
+  },
+  {
+    "asset": "templates/grid-driver/dist/assets/helmet.png",
+    "sha256": "e4022d4fc6856c8d265966cb5a802c5c21c98da495ec2b4ef87102fc1540fc34",
+    "native_source": "exec-4e4ed9d3-338d-4614-964a-44d51965b313.png"
+  },
+  {
+    "asset": "templates/clipdock/dist/assets/meadow.png",
+    "sha256": "15301a546947cb7c8fcaf94729a950b7634baba3dbe5382b880e24cd890ebbad",
+    "native_source": "exec-87863ee9-957c-402c-b7a3-a00013600ddd.png"
+  },
+  {
+    "asset": "templates/quiet-presets/dist/assets/study-session.png",
+    "sha256": "0986e14aed5090eec094939a423ba4b8967790e2fdd8caa311aee75b24e971e8",
+    "native_source": "exec-c01dff08-4589-429f-a05a-93fcb549f0c8.png"
+  },
+  {
+    "asset": "templates/quiet-presets/dist/assets/deep-work.png",
+    "sha256": "3874a47fdf63dd790c67916eea7650d909238f23780f11d13e0633b2dc90d62e",
+    "native_source": "exec-3ea20d65-715e-4089-89a2-53e016b37b29.png"
+  },
+  {
+    "asset": "templates/quiet-presets/dist/assets/family-time.png",
+    "sha256": "61a7857af90e34a1ea133ac66d62ba9eaeb484b18598f88dda144cfd89568e07",
+    "native_source": "exec-a286c900-e7df-4a4e-b059-32bed9e81a9a.png"
+  },
+  {
+    "asset": "templates/quiet-presets/dist/assets/wind-down.png",
+    "sha256": "44544e26bcf9ff4095d140a80fd2b94e60d1b76b76a2bcde79cbbd15a38a0e02",
+    "native_source": "exec-8b3dbf8b-0420-4fbb-b0e6-3d5ff037dd92.png"
+  }
+]

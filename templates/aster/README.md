@@ -1,4 +1,8 @@
 <div align="center">
+
+[Live preview](https://x-web-templates.pages.dev/aster/) · [Download ZIP](https://x-web-templates.pages.dev/downloads/aster.zip)
+
+![aster screenshot](https://x-web-templates.pages.dev/assets/aster.png)
 <img src=".github/repo-icon.png" width="160" alt="HTML Landing Page Template — Aster icon" />
 
 # HTML Landing Page Template — Aster

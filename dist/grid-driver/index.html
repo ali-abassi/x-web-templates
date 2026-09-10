@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="An interactive fictional racing driver portfolio with a helmet reveal and animated circuit."
+    />
+    <title>GRID01 — Leo Mazzi</title>
+    <link rel="icon" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <svg class="clip-defs" aria-hidden="true">
+      <defs>
+        <clipPath id="helmet-outline" clipPathUnits="objectBoundingBox">
+          <path
+            d="M.499 .031C.438 .03 .398 .053 .377 .10C.35 .14 .334 .163 .332 .191C.33 .253 .344 .308 .375 .351C.406 .393 .452 .418 .501 .42C.554 .418 .602 .393 .63 .349C.653 .316 .661 .265 .66 .215C.66 .169 .641 .125 .612 .087C.581 .045 .54 .031 .499 .031Z"
+          />
+        </clipPath>
+      </defs>
+    </svg>
+    <main>
+      <section class="driver-hero" id="driver">
+        <div class="contours" aria-hidden="true"></div>
+        <header>
+          <a class="logo" href="#driver"
+            >GRID01<small>BEYOND THE LIMIT</small></a
+          >
+          <nav aria-label="Main">
+            <a href="#driver">DRIVER</a><a href="#season">SEASON</a
+            ><a href="#circuit">NEXT RACE</a>
+          </nav>
+          <a class="garage" href="#notes">[ GARAGE → ]</a>
+        </header>
+        <div class="driver-name">
+          <p>DRIVER_042</p>
+          <h1><span>LEO</span><span>MAZZI</span></h1>
+          <ul>
+            <li>🇮🇹 &nbsp; ITALY</li>
+            <li>✣ &nbsp; ROOKIE SEASON_2026</li>
+            <li>◎ &nbsp; GRID01 RACING TEAM</li>
+          </ul>
+        </div>
+        <div class="portrait" id="portrait">
+          <img
+            src="assets/portrait.png"
+            alt="Fictional racing driver Leo Mazzi, facing the camera."
+            width="1254"
+            height="1254"
+          /><img
+            class="suit-tone"
+            src="assets/portrait.png"
+            alt=""
+            width="1254"
+            height="1254"
+            aria-hidden="true"
+          /><canvas
+            style="clip-path: url(#helmet-outline)"
+            id="helmet"
+            width="1254"
+            height="1254"
+            aria-hidden="true"
+          ></canvas>
+        </div>
+        <aside class="race-card">
+          <div class="race-next">
+            <p class="label">NEXT RACE</p>
+            <h2>THE GRAND TOUR</h2>
+            <p>ROUND 07<br />TRACK PREVIEW</p>
+            <svg viewBox="0 0 200 100" aria-hidden="true">
+              <path
+                d="M20 75L35 42 68 20 86 25 108 15 151 28 175 52 160 65 136 58 119 77 93 69 60 88 43 66Z"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
+          <div class="stats">
+            <p class="label">SEASON STATS</p>
+            <dl>
+              <div>
+                <dt>RACES</dt>
+                <dd>12</dd>
+              </div>
+              <div>
+                <dt>PODIUMS</dt>
+                <dd>3</dd>
+              </div>
+              <div>
+                <dt>POINTS</dt>
+                <dd>118</dd>
+              </div>
+            </dl>
+          </div>
+        </aside>
+        <div class="portrait-controls">
+          <button id="toggle-helmet" aria-pressed="false" disabled>
+            Show helmet
+          </button>
+          <p id="portrait-status" role="status">
+            A driver. A different perspective.
+          </p>
+        </div>
+        <a class="scroll-note" href="#season">SCROLL TO THE SEASON ↓</a>
+      </section>
+      <section class="season-card" id="season">
+        <div class="section-top">
+          <p>01 / THE SEASON</p>
+          <span>2026</span>
+        </div>
+        <h2>Every lap.<br />A little closer.</h2>
+        <div class="season-bottom">
+          <p>
+            A fictional driver’s story, built for the next generation of racing
+            portfolios.
+          </p>
+          <dl>
+            <div>
+              <dt>STARTS</dt>
+              <dd>12</dd>
+            </div>
+            <div>
+              <dt>PODIUMS</dt>
+              <dd>03</dd>
+            </div>
+            <div>
+              <dt>FOCUS</dt>
+              <dd>100%</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+      <section class="circuit-card season-card" id="circuit">
+        <div class="section-top">
+          <p>02 / NEXT RACE</p>
+          <span>THE GRAND TOUR</span>
+        </div>
+        <div class="circuit-layout">
+          <div>
+            <h2>Find the<br />racing line.</h2>
+            <p>
+              A circuit built for this template.<br />Follow one complete lap.
+            </p>
+            <button id="replay-lap" disabled>Replay lap ↗</button>
+            <p id="lap-status" role="status">
+              Scroll into view to start the lap.
+            </p>
+          </div>
+          <svg
+            id="track"
+            viewBox="0 0 640 430"
+            role="img"
+            aria-label="Fictional circuit with animated lap marker"
+          >
+            <path
+              class="track-shadow"
+              d="M78 301L112 170Q123 145 150 133L241 63 285 91 356 55 492 95Q521 101 535 128L581 208 529 261 446 228 391 324 310 286 198 369 147 270Z"
+            />
+            <path
+              id="track-line"
+              d="M78 301L112 170Q123 145 150 133L241 63 285 91 356 55 492 95Q521 101 535 128L581 208 529 261 446 228 391 324 310 286 198 369 147 270Z"
+            />
+            <circle id="lap-dot" cx="78" cy="301" r="9" />
+            <path d="M65 294L88 304" stroke="#111" stroke-width="4" />
+          </svg>
+        </div>
+      </section>
+      <section class="notes-card season-card" id="notes">
+        <div class="section-top">
+          <p>03 / THE GARAGE</p>
+          <span>BUILT TO CUSTOMIZE</span>
+        </div>
+        <h2>The details<br />make the difference.</h2>
+        <div class="notes-grid">
+          <p>
+            Swap the portrait, change the colors and make the season your own.
+            The helmet reveal, cursor trails, circuit lap and stacked sections
+            are all local browser code.
+          </p>
+          <div>
+            <p>
+              Reference: Kimi / GetLayers<br />Original motion described by its
+              creator.<br />Independently reconstructed here.
+            </p>
+            <a href="https://www.getlayers.ai/layer/kimi"
+              >View the original reference ↗</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="tools">
+      <button id="pause" aria-pressed="false" disabled>Pause motion</button>
+    </div>
+    <noscript
+      >The driver portrait and all season content remain visible. Helmet reveal
+      and circuit motion need JavaScript.</noscript
+    >
+  </body>
+</html>

@@ -78,9 +78,20 @@ def check_archive(name):
                 assert archive.read(key) == path.read_bytes(), key
 
 
+def check_page_inventory(pages):
+    expected = {Path("index.html")}
+    for name in NAMES:
+        source = ROOT / "templates" / name / "dist"
+        expected.update(
+            Path(name) / page.relative_to(source) for page in source.rglob("*.html")
+        )
+    actual = {page.relative_to(ROOT / "dist") for page in pages}
+    assert actual == expected, "Expected gallery and every source page"
+
+
 def main():
     pages = list((ROOT / "dist").rglob("*.html"))
-    assert len(pages) == len(NAMES) + 1, "Expected gallery and every template"
+    check_page_inventory(pages)
     for page in pages:
         check_page(page)
     check_assets()

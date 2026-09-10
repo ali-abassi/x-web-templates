@@ -1,0 +1,372 @@
+[
+  {
+    "check": "helmet toggle 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "driver paused 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "circuit completes 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "clip keyboard category 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "clip drafts retained 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "actual clipboard success 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "empty clip rejected 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "clipboard denied keeps text 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "first pause works 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "paused scene stable 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "scene visible 1440 0",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "scene visible 1440 1",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "scene visible 1440 2",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "scene visible 1440 3",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "scene visible 1440 4",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "scene visible 1440 5",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "scene visible 1440 6",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "scene visible 1440 7",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "scene visible 1440 8",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "keyboard dashboard 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "local demo truthful 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "autoplay resumes 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "planes paused 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "real local home 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "bounded pointer trail 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "gradient paused 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "services reveal 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "contact copied 1440",
+    "passed": false,
+    "observed": false
+  },
+  {
+    "check": "bounded pointer trail 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "gradient paused 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "services reveal 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "contact copied 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "direct copy 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "work reveal 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "direct denied feedback 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "preset rail moves 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "preset selection 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "rail keyboard within page 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "helmet toggle 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "driver paused 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "circuit completes 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "mobile menu opens",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "menu closes on navigation",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "clip keyboard category 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "clip drafts retained 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "actual clipboard success 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "empty clip rejected 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "clipboard denied keeps text 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "first pause works 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "paused scene stable 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "scene visible 375 0",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "scene visible 375 1",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "scene visible 375 2",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "scene visible 375 3",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "scene visible 375 4",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "scene visible 375 5",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "scene visible 375 6",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "scene visible 375 7",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "scene visible 375 8",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "keyboard dashboard 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "local demo truthful 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "autoplay resumes 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "planes paused 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "real local home 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "bounded pointer trail 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "gradient paused 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "services reveal 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "contact copied 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "direct copy 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "work reveal 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "direct denied feedback 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "preset rail moves 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "preset selection 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "check": "rail keyboard within page 375",
+    "passed": true,
+    "observed": true
+  }
+]

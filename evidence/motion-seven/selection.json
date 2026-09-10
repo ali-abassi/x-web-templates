@@ -1,0 +1,74 @@
+[
+  {
+    "name": "grid-driver",
+    "reference": "Kimi / GetLayers",
+    "url": "https://www.getlayers.ai/layer/kimi",
+    "composition": "Huge condensed driver name, cool white portrait hero, track and racing stats, stacked season cards",
+    "motion": "Helmet burns away on entry; pointer briefly restores helmet; circuit lap on scroll; sticky cards",
+    "interaction": "Toggle helmet and replay circuit",
+    "degraded": "Portrait or helmet unavailable; readable name and stats remain"
+  },
+  {
+    "name": "clipdock",
+    "reference": "Supaste / Navbar Gallery",
+    "url": "https://www.supaste.com/?ref=navbar.gallery",
+    "composition": "Blue atmospheric hero, black notched navigation, white sans and italic serif heading, island and clipboard app",
+    "motion": "Navigation reveal, app preview lift on scroll, animated tab content",
+    "interaction": "Open mobile menu, select clipboard category, edit and copy a local item",
+    "degraded": "Empty clipboard text and denied clipboard permission preserve editable input"
+  },
+  {
+    "name": "telemetry-stack",
+    "reference": "Better Stack / Supahero",
+    "url": "https://betterstack.com/",
+    "composition": "Dark navy split hero, white/gray headline, purple CTA, perspective dashboard, carousel controls",
+    "motion": "Dashboard scene transitions and timed carousel; moving logo row",
+    "interaction": "Navigate monitoring scenes and pause autoplay",
+    "degraded": "No JavaScript keeps first dashboard and hides inactive controls"
+  },
+  {
+    "name": "lost-in-flight",
+    "reference": "Gabriel Beaugonin / 404s",
+    "url": "https://www.gabrielbeaugonin.com/404?via=404sdesign",
+    "composition": "White full viewport, pale scattered dimensional planes, small left-center 404 message",
+    "motion": "Planes cross viewport on independent paths; pause and reduced motion",
+    "interaction": "Pause flight and follow a real local home link",
+    "degraded": "JavaScript disabled retains static planes and home link"
+  },
+  {
+    "name": "reality-studio",
+    "reference": "Reality is / Footer Design",
+    "url": "https://www.reality-is.com/",
+    "composition": "White compact studio header, cyan/lilac gradient footer, giant black wordmark, right service columns",
+    "motion": "Drifting gradient and fading geometric pointer trails",
+    "interaction": "Move pointer, pause motion, expand services and copy contact",
+    "degraded": "Clipboard denied exposes selectable contact; no JavaScript retains complete footer"
+  },
+  {
+    "name": "direct-cta",
+    "reference": "Direct / CTA Gallery",
+    "url": "https://wearedirect.co/",
+    "composition": "Black footer, adjacent white and blue CTA cards, huge sans labels, large bottom wordmark",
+    "motion": "Arrow rotation and text/card hover transitions, work reveal",
+    "interaction": "Copy example contact and reveal local work cards",
+    "degraded": "Denied clipboard retains visible selectable address; no JavaScript native work disclosure"
+  },
+  {
+    "name": "quiet-presets",
+    "reference": "Norma / Unsection",
+    "url": "https://nor.ma/?ref=unsection.com",
+    "composition": "White spacious section, compact two-line heading, 340px portrait photo rail with translucent preset chips",
+    "motion": "Smooth snap carousel via arrows, touch swipe and focus",
+    "interaction": "Browse four presets and select one with visible local feedback",
+    "degraded": "Missing photo preserves dimensions and descriptive alt text; no JavaScript rail remains scrollable"
+  },
+  {
+    "name": "gallery",
+    "reference": "Collection gallery",
+    "url": "./gallery/index.html",
+    "composition": "Preserve current gallery with fifteen preview cards and ZIP links",
+    "motion": "Existing gallery behavior; new static cover images",
+    "interaction": "Open all seven new templates and download standalone ZIPs",
+    "degraded": "Missing cover preserves title and preview/download links"
+  }
+]

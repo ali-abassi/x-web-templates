@@ -1,5 +1,9 @@
 # Bird / Rainbow Venture
 
+[Live preview](https://x-web-templates.pages.dev/rainbow-venture/) · [Download ZIP](https://x-web-templates.pages.dev/downloads/rainbow-venture.zip)
+
+![rainbow-venture screenshot](https://x-web-templates.pages.dev/assets/rainbow-venture.png)
+
 A white venture page with a narrow serif headline, rainbow racing imagery and compact sections.
 
 ## Use

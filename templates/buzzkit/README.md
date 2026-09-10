@@ -1,5 +1,9 @@
 # BuzzKit landing-page template
 
+[Live preview](https://x-web-templates.pages.dev/buzzkit/) · [Download ZIP](https://x-web-templates.pages.dev/downloads/buzzkit.zip)
+
+![buzzkit screenshot](https://x-web-templates.pages.dev/assets/buzzkit.png)
+
 Standalone reconstruction of [Christo’s original post](https://x.com/chroxify/status/2097477196130529296) and the linked [BuzzKit website](https://buzzkit.dev). This template is not affiliated with BuzzKit and is not its notification backend.
 
 Open dist/index.html, or serve dist locally. Edit index.html for content, all four dashboard scenes and links; style.css for the visual system; app.js for the bounded preview carousel. No framework or API keys. Local Open Runde fonts are included with their OFL notice. No upstream application code is copied.

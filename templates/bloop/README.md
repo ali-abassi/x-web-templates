@@ -1,5 +1,9 @@
 # Bloop
 
+[Live preview](https://x-web-templates.pages.dev/bloop/) · [Download ZIP](https://x-web-templates.pages.dev/downloads/bloop.zip)
+
+![bloop screenshot](https://x-web-templates.pages.dev/assets/bloop.png)
+
 A six-panel lime and teal identity presentation.
 
 ## Use
