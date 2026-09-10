@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:4173/arto/#budget",
+  "width": 320,
+  "scrollWidth": 320,
+  "art": true,
+  "enabledButtons": 0,
+  "aboutVisible": true,
+  "reduced": false,
+  "animations": 1
+}

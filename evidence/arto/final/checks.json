@@ -1,0 +1,16 @@
+{
+  "build": "npm run build:21 sites and ZIPs",
+  "check": "npm run check:23pages,local links/anchors,imageattributes,JSsyntax,21ZIPsourceparity",
+  "complexity": {
+    "tool": "ESLint10.10.0",
+    "command": "npx --no-install eslint --no-config-lookup --rule complexity:[error,5] templates/arto/dist/*.js templates/neurolink/dist/*.js",
+    "exit": 0,
+    "allFunctionsAtMost": 5
+  },
+  "authoredTypescript": 0,
+  "runtimeDependenciesAdded": 0,
+  "interactions": 76,
+  "adverse": 11,
+  "axe1440Violations": 0,
+  "axe375Violations": 0
+}

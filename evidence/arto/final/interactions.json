@@ -1,0 +1,382 @@
+[
+  {
+    "case": "loaded baseline 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "7day sample totals 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "30day filter 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "hide via keyboard 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "show restores 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "known search 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "details open 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "detail focus restored 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "empty results 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "all ledger rows 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "recent restored 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "income metric filter 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "savings explanation 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Notifications 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Profile for Alex Morgan 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "View all goals 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Budgets navigation 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Budgets focus 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Cards navigation 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Cards focus 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Settings navigation 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Settings focus 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Transactions anchored navigation 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Analytics anchored navigation 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Goals anchored navigation 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Dashboard anchored navigation 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "chart last week 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "chart keyboard day changes 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "empty action rejected 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "whitespace rejected 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "negative rejected 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "transfer preview truthful 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "cancel preserves action 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "request stays local 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "income updates data 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "budget saved locally 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "budget review uses saved state 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "no viewport overflow 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "loaded baseline 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "7day sample totals 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "30day filter 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "hide via keyboard 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "show restores 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "known search 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "details open 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "detail focus restored 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "empty results 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "all ledger rows 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "recent restored 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "income metric filter 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "savings explanation 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Notifications 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Profile for Alex Morgan 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "View all goals 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Budgets navigation 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Budgets focus 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Cards navigation 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Cards focus 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Settings navigation 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Settings focus 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Transactions anchored navigation 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Analytics anchored navigation 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Goals anchored navigation 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Dashboard anchored navigation 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "chart last week 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "chart keyboard day changes 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "empty action rejected 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "whitespace rejected 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "negative rejected 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "transfer preview truthful 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "cancel preserves action 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "request stays local 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "income updates data 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "budget saved locally 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "budget review uses saved state 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "no viewport overflow 375",
+    "passed": true,
+    "observed": true
+  }
+]

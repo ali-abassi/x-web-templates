@@ -1,0 +1,31 @@
+[
+  {
+    "case": "gallery has20",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "public art and layout",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "public local tribute preview",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "public ZIP exact bytes",
+    "passed": true
+  },
+  {
+    "case": "downloaded ZIP opens standalone",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "standalone editor opens",
+    "passed": true,
+    "observed": true
+  }
+]

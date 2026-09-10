@@ -1,6 +1,6 @@
 {
   "verdict": "accept",
-  "scope": "pre-delivery static candidate; public verification follows",
+  "scope": "Completed public static template delivery",
   "candidate": {
     "base": "f3f0c889ff574f10930b85e875636331a1b4ebf9",
     "dirty_content_hashes": {
@@ -126,8 +126,8 @@
   "cleanup": "Active agent separate critical self-review;zero authoredTS;manual complexity<=5;no new dependencies. Native recorder failure retained; replacement timestamped capture inspected.",
   "evidence": "evidence/neurolink/final and browser-trace.jsonl",
   "unverified": [
-    "public deployed bytes/browser and standalone downloaded ZIP until postdelivery gate",
-    "Physical iOS/Safari and VoiceOver outside scope"
+    "Physical iOS/Safari and VoiceOver outside scope",
+    "Native image billing unavailable"
   ],
   "usage": {
     "owners": 1,
@@ -136,5 +136,11 @@
     "nativeCost": "unavailable",
     "geminiEstimateUSD": 0.00472875
   },
-  "time": "2026-09-10T12:19:49.387551+00:00"
+  "time": "2026-09-10T12:19:49.387551+00:00",
+  "delivery": {
+    "revision": "f24ed1f",
+    "deployment": "36daae01-8e34-49f4-ab0b-6d5e69b58042",
+    "publishedFilesMatched": 227,
+    "publicBrowserChecks": 6
+  }
 }

@@ -1,0 +1,819 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Arto+ — Financial Overview</title>
+    <meta
+      name="description"
+      content="A reusable dark finance dashboard with interactive sample data, editable budgets and local action previews. No bank account is connected."
+    />
+    <meta name="theme-color" content="#080f15" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="data.js" defer></script>
+    <script src="app.js" defer></script>
+    <script src="chart.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#overview">Skip to dashboard</a>
+    <aside class="sidebar">
+      <a class="brand" href="#overview" aria-label="Arto home"
+        ><svg class="logo-mark" viewBox="0 0 30 36" aria-hidden="true">
+          <defs>
+            <linearGradient id="pearl" x2="1" y2="1">
+              <stop stop-color="#f5f2d8" />
+              <stop offset="1" stop-color="#8c9386" />
+            </linearGradient>
+          </defs>
+          <ellipse
+            cx="12"
+            cy="10"
+            rx="7"
+            ry="9"
+            transform="rotate(34 12 10)"
+            fill="url(#pearl)"
+          />
+          <ellipse
+            cx="16"
+            cy="26"
+            rx="12"
+            ry="7"
+            transform="rotate(-15 16 26)"
+            fill="url(#pearl)"
+          /></svg
+        ><span>Arto<sup>+</sup></span></a
+      >
+      <nav aria-label="Main navigation">
+        <a href="#overview" data-nav="overview" aria-current="page"
+          ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="3" y="3" width="7" height="7" rx="2" />
+            <rect x="14" y="3" width="7" height="7" rx="2" />
+            <rect x="3" y="14" width="7" height="7" rx="2" />
+            <rect x="14" y="14" width="7" height="7" rx="2" /></svg
+          ><span>Dashboard</span></a
+        ><a href="#transactions" data-nav="transactions"
+          ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="6" y="3" width="14" height="17" rx="2" />
+            <path d="M3 7v14h13M10 7h6m-6 4h6m-6 4h4" /></svg
+          ><span>Transactions</span></a
+        ><a href="#analytics" data-nav="analytics"
+          ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 20V7m0 13h17M8 15l4-5 4 2 5-8" /></svg
+          ><span>Analytics</span></a
+        ><a href="#budget" data-nav="budget"
+          ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M4 7V5a2 2 0 0 1 2-2h12v4M4 7h16v14H4zM16 12h4v5h-4z"
+            /></svg
+          ><span>Budgets</span></a
+        ><a href="#goals" data-nav="goals"
+          ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="9" />
+            <circle cx="12" cy="12" r="5" />
+            <path d="m12 12 8-8" /></svg
+          ><span>Goals</span></a
+        ><a href="#cards" data-nav="cards"
+          ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="3" y="5" width="18" height="14" rx="3" />
+            <path d="M3 10h18M7 15h4" /></svg
+          ><span>Cards</span></a
+        ><a href="#settings" data-nav="settings"
+          ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="m9 3-1 3-3 1-2 3 2 3v4l4 1 3 3 3-3 4-1v-4l2-3-2-3-3-1-1-3z"
+            />
+            <circle cx="12" cy="12" r="3" /></svg
+          ><span>Settings</span></a
+        >
+      </nav>
+      <a class="motivation panel" href="#goals"
+        ><span>✦</span
+        ><strong>Better<br />habits.<br />Bigger<br />goals.</strong>
+        <p>Take control of your money and build the future you want.</p>
+        <span class="round-arrow"
+          ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m9 5 7 7-7 7" /></svg></span
+      ></a>
+    </aside>
+    <div class="workspace">
+      <header class="topbar">
+        <label class="search"
+          ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="10" cy="10" r="6" />
+            <path d="m15 15 5 5" /></svg
+          ><input
+            disabled
+            id="search"
+            type="search"
+            placeholder="Search anything…"
+            aria-label="Search transactions"
+            maxlength="100"
+          /><kbd aria-hidden="true">⌘ K</kbd></label
+        >
+        <div class="account">
+          <button
+            disabled
+            class="notification icon-button"
+            data-panel="notifications"
+            aria-label="Notifications"
+          >
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 16h14l-2-3V9a5 5 0 0 0-10 0v4zM10 20h4" /></svg
+            ><span></span></button
+          ><button
+            disabled
+            class="profile"
+            data-panel="profile"
+            aria-label="Profile for Alex Morgan"
+          >
+            <span class="avatar"
+              ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="8" r="4" />
+                <path d="M4 22v-3a8 8 0 0 1 16 0v3" /></svg></span
+            ><span
+              ><strong>Alex Morgan</strong><small>Sample account</small></span
+            ><span aria-hidden="true">⌄</span>
+          </button>
+        </div>
+      </header>
+      <div class="dashboard">
+        <main class="primary-column" id="overview" tabindex="-1">
+          <section class="overview" aria-labelledby="headline">
+            <img
+              class="mountains"
+              src="assets/mountains.png"
+              width="1536"
+              height="1024"
+              alt=""
+              fetchpriority="high"
+            />
+            <div class="greeting">
+              <p>Good morning.</p>
+              <blockquote>
+                Discipline today<br />builds freedom<br />tomorrow.
+              </blockquote>
+              <h1 id="headline">Here’s your<br />financial overview</h1>
+              <p class="intro">
+                Stay consistent. Small steps create big results.
+              </p>
+            </div>
+            <div class="periods" role="group" aria-label="Overview period">
+              <button
+                disabled
+                data-period="7D"
+                aria-pressed="false"
+                type="button"
+              >
+                7D</button
+              ><button
+                disabled
+                data-period="30D"
+                aria-pressed="false"
+                type="button"
+              >
+                30D</button
+              ><button
+                disabled
+                data-period="3M"
+                aria-pressed="false"
+                type="button"
+              >
+                3M</button
+              ><button
+                disabled
+                data-period="6M"
+                aria-pressed="false"
+                type="button"
+              >
+                6M</button
+              ><button
+                disabled
+                data-period="1Y"
+                aria-pressed="true"
+                type="button"
+              >
+                1Y
+              </button>
+            </div>
+            <div class="balance-label">
+              Total Balance<button
+                disabled
+                id="hide-balance"
+                class="icon-button"
+                type="button"
+                aria-label="Hide total balance"
+                aria-pressed="false"
+              >
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12Z" />
+                  <circle cx="12" cy="12" r="3" />
+                </svg>
+              </button>
+            </div>
+            <div class="balance">
+              <strong data-amount="balance">$3,908.00</strong>
+              <p>
+                <span class="mint">↗ +12.4%</span
+                ><small>vs last month · sample</small>
+              </p>
+            </div>
+            <p id="art-status" role="status"></p>
+            <div class="metrics">
+              <button
+                disabled
+                class="metric panel mint"
+                data-metric="income"
+                type="button"
+              >
+                <span class="metric-label"
+                  ><span class="icon-bubble"
+                    ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path
+                        d="M4 18C1 10 7 4 20 3c1 12-6 19-13 16m-3 2L16 8"
+                      /></svg></span
+                  >Income<svg
+                    class="icon chevron"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <path d="m9 5 7 7-7 7" /></svg></span
+                ><strong data-amount="income">$3,898.00</strong
+                ><span class="change">↗ +12.4%</span
+                ><svg class="sparkline" viewBox="0 0 150 50" aria-hidden="true">
+                  <polyline
+                    points="0,39 13,29 24,32 37,23 49,25 60,23 72,29 84,20 95,18 110,9 123,12 137,6 150,8"
+                  />
+                </svg></button
+              ><button
+                disabled
+                class="metric panel purple"
+                data-metric="expense"
+                type="button"
+              >
+                <span class="metric-label"
+                  ><span class="icon-bubble"
+                    ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path
+                        d="M12 3v13m-5-5 5 5 5-5M4 16v5h16v-5"
+                      /></svg></span
+                  >Outcome<svg
+                    class="icon chevron"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <path d="m9 5 7 7-7 7" /></svg></span
+                ><strong data-amount="expense">$2,093.00</strong
+                ><span class="change">↗ +8.6%</span
+                ><svg class="sparkline" viewBox="0 0 150 50" aria-hidden="true">
+                  <polyline
+                    points="0,42 16,32 28,35 40,23 51,25 63,20 75,24 88,18 99,21 112,10 127,11 139,5 150,4"
+                  />
+                </svg></button
+              ><button
+                disabled
+                class="metric panel blue"
+                data-metric="savings"
+                type="button"
+              >
+                <span class="metric-label"
+                  ><span class="icon-bubble"
+                    ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path
+                        d="m12 2 8 4v7c0 5-8 9-8 9s-8-4-8-9V6zM9 12l2 2 4-5"
+                      /></svg></span
+                  >Savings<svg
+                    class="icon chevron"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <path d="m9 5 7 7-7 7" /></svg></span
+                ><strong data-amount="savings">$1,805.00</strong
+                ><span class="change">↗ +15.2%</span
+                ><svg class="sparkline" viewBox="0 0 150 50" aria-hidden="true">
+                  <polyline
+                    points="0,41 14,26 27,30 39,19 53,22 66,16 77,24 89,14 104,24 116,17 126,18 140,9 150,2"
+                  />
+                </svg>
+              </button>
+            </div>
+          </section>
+          <section
+            class="transactions panel"
+            id="transactions"
+            tabindex="-1"
+            aria-labelledby="transactions-title"
+          >
+            <div class="panel-heading">
+              <h2 id="transactions-title">Recent Transactions</h2>
+              <button
+                disabled
+                id="view-all"
+                type="button"
+                aria-expanded="false"
+              >
+                View all
+              </button>
+            </div>
+            <div
+              class="table-scroll"
+              tabindex="0"
+              role="region"
+              aria-label="Transactions table, scroll horizontally on narrow screens"
+            >
+              <table>
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                    <th>Category</th>
+                    <th class="amount">Amount</th>
+                    <th>Date</th>
+                    <th><span class="sr-only">Details</span></th>
+                  </tr>
+                </thead>
+                <tbody id="transaction-rows">
+                  <tr>
+                    <td>
+                      <span class="transaction-type income"
+                        ><span class="icon-bubble"
+                          ><svg
+                            class="icon"
+                            viewBox="0 0 24 24"
+                            aria-hidden="true"
+                          >
+                            <path
+                              d="M12 3v13m-5-5 5 5 5-5M4 16v5h16v-5"
+                            /></svg></span
+                        ><span>Received</span></span
+                      >
+                    </td>
+                    <td>Freelance Payment</td>
+                    <td>Income</td>
+                    <td class="amount income">+ $1,500.00</td>
+                    <td class="date">Mar 22, 2025</td>
+                    <td>
+                      <button
+                        disabled
+                        class="row-more"
+                        data-row="0"
+                        aria-label="Details for Freelance Payment"
+                      >
+                        ···
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="transaction-type expense"
+                        ><span class="icon-bubble"
+                          ><svg
+                            class="icon"
+                            viewBox="0 0 24 24"
+                            aria-hidden="true"
+                          >
+                            <circle cx="12" cy="12" r="9" />
+                            <path d="M12 17V7m-4 4 4-4 4 4" /></svg></span
+                        ><span>Sent</span></span
+                      >
+                    </td>
+                    <td>Spotify Premium</td>
+                    <td>Entertainment</td>
+                    <td class="amount expense">− $9.99</td>
+                    <td class="date">Mar 22, 2025</td>
+                    <td>
+                      <button
+                        disabled
+                        class="row-more"
+                        data-row="1"
+                        aria-label="Details for Spotify Premium"
+                      >
+                        ···
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="transaction-type expense"
+                        ><span class="icon-bubble"
+                          ><svg
+                            class="icon"
+                            viewBox="0 0 24 24"
+                            aria-hidden="true"
+                          >
+                            <circle cx="12" cy="12" r="9" />
+                            <path d="M12 17V7m-4 4 4-4 4 4" /></svg></span
+                        ><span>Sent</span></span
+                      >
+                    </td>
+                    <td>Wire Transfer</td>
+                    <td>Transfer</td>
+                    <td class="amount expense">− $200.00</td>
+                    <td class="date">Mar 21, 2025</td>
+                    <td>
+                      <button
+                        disabled
+                        class="row-more"
+                        data-row="2"
+                        aria-label="Details for Wire Transfer"
+                      >
+                        ···
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="transaction-type income"
+                        ><span class="icon-bubble"
+                          ><svg
+                            class="icon"
+                            viewBox="0 0 24 24"
+                            aria-hidden="true"
+                          >
+                            <path
+                              d="M12 3v13m-5-5 5 5 5-5M4 16v5h16v-5"
+                            /></svg></span
+                        ><span>Received</span></span
+                      >
+                    </td>
+                    <td>Client Payment</td>
+                    <td>Income</td>
+                    <td class="amount income">+ $850.00</td>
+                    <td class="date">Mar 20, 2025</td>
+                    <td>
+                      <button
+                        disabled
+                        class="row-more"
+                        data-row="3"
+                        aria-label="Details for Client Payment"
+                      >
+                        ···
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="transaction-type expense"
+                        ><span class="icon-bubble"
+                          ><svg
+                            class="icon"
+                            viewBox="0 0 24 24"
+                            aria-hidden="true"
+                          >
+                            <circle cx="12" cy="12" r="9" />
+                            <path d="M12 17V7m-4 4 4-4 4 4" /></svg></span
+                        ><span>Sent</span></span
+                      >
+                    </td>
+                    <td>PayPal</td>
+                    <td>Transfer</td>
+                    <td class="amount expense">− $120.00</td>
+                    <td class="date">Mar 19, 2025</td>
+                    <td>
+                      <button
+                        disabled
+                        class="row-more"
+                        data-row="4"
+                        aria-label="Details for PayPal"
+                      >
+                        ···
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="empty" id="empty" role="status" hidden>
+              No transactions match your search. Try another description or
+              category.
+            </p>
+            <p class="table-note" id="table-note">
+              Showing 5 of 8 sample transactions
+            </p>
+          </section>
+          <p class="demo-note">
+            Interactive sample data. No bank is connected. Changes last until
+            you reload.
+          </p>
+        </main>
+        <aside class="secondary-column" aria-label="Balance and quick actions">
+          <section
+            class="chart-panel panel"
+            id="analytics"
+            tabindex="-1"
+            aria-labelledby="chart-title"
+          >
+            <div class="panel-heading">
+              <h2 id="chart-title">Balance Overview</h2>
+              <select disabled id="chart-period" aria-label="Chart period">
+                <option value="3">Last 3 weeks</option>
+                <option value="2">Last 2 weeks</option>
+                <option value="1">Last week</option>
+              </select>
+            </div>
+            <div class="chart" id="chart">
+              <div class="chart-tooltip" id="chart-tooltip">
+                <strong>$3,908</strong><small>Mar 18, 2025</small>
+              </div>
+              <svg
+                id="balance-chart"
+                viewBox="0 0 380 270"
+                role="img"
+                aria-labelledby="chart-accessible-title chart-accessible-description"
+              >
+                <title id="chart-accessible-title">
+                  Sample balance over time
+                </title>
+                <desc id="chart-accessible-description">
+                  Sample balance rises from $2,400 to $3,908. Use the day slider
+                  to inspect each value.
+                </desc>
+                <defs>
+                  <linearGradient id="area-fill" x1="0" y1="0" x2="0" y2="1">
+                    <stop stop-color="#83e8be" stop-opacity=".23" />
+                    <stop offset="1" stop-color="#83e8be" stop-opacity=".015" />
+                  </linearGradient>
+                </defs>
+                <g class="grid-lines">
+                  <path d="M42 25H370" />
+                  <text x="4" y="29">$5k</text>
+                  <path d="M42 68H370" />
+                  <text x="4" y="72">$4k</text>
+                  <path d="M42 111H370" />
+                  <text x="4" y="115">$3k</text>
+                  <path d="M42 154H370" />
+                  <text x="4" y="158">$2k</text>
+                  <path d="M42 197H370" />
+                  <text x="4" y="201">$1k</text>
+                  <path d="M42 240H370" />
+                  <text x="4" y="244">$0</text>
+                  <path d="M42 25V240" />
+                  <path d="M107 25V240" />
+                  <path d="M173 25V240" />
+                  <path d="M239 25V240" />
+                  <path d="M304 25V240" />
+                  <path d="M370 25V240" />
+                </g>
+                <path
+                  id="chart-area"
+                  fill="url(#area-fill)"
+                  d="M42 137L68 137L96 124L124 128L151 113L178 119L206 94L233 102L261 72L288 78L316 94L344 73L370 72V240H42Z"
+                />
+                <path
+                  id="chart-line"
+                  d="M42 137L68 137L96 124L124 128L151 113L178 119L206 94L233 102L261 72L288 78L316 94L344 73L370 72"
+                />
+                <path id="chart-crosshair" d="M261 25V240" />
+                <circle id="chart-halo" cx="261" cy="72" r="9" />
+                <circle id="chart-dot" cx="261" cy="72" r="4" />
+                <g class="chart-dates">
+                  <text x="42" y="263">Mar 10</text>
+                  <text x="122" y="263">Mar 13</text>
+                  <text x="202" y="263">Mar 16</text>
+                  <text x="282" y="263">Mar 19</text>
+                  <text x="338" y="263">Mar 22</text>
+                </g></svg
+              ><input
+                disabled
+                id="chart-day"
+                type="range"
+                min="0"
+                max="12"
+                value="8"
+                aria-label="Inspect balance date"
+              /><output id="chart-reading" class="sr-only" aria-live="polite"
+                >March 18: $3,908</output
+              >
+            </div>
+            <button disabled class="encouragement" data-panel="insight">
+              <span class="icon-bubble mint"
+                ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M4 18C1 10 7 4 20 3c1 12-6 19-13 16m-3 2L16 8"
+                  /></svg></span
+              ><span
+                ><strong>You’re doing great!</strong
+                ><small
+                  >Your balance is 12.4% higher than last month.</small
+                ></span
+              ><svg class="icon chevron" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m9 5 7 7-7 7" />
+              </svg>
+            </button>
+          </section>
+          <section class="quick panel" aria-labelledby="quick-title">
+            <h2 id="quick-title">Quick Actions</h2>
+            <button
+              disabled
+              class="quick-action"
+              data-action="send"
+              type="button"
+            >
+              <span class="icon-bubble mint"
+                ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m3 10 18-7-7 18-3-8-8-3Zm8 3L21 3" /></svg></span
+              ><span
+                ><strong>Send Money</strong
+                ><small>Preview a transfer</small></span
+              ><svg class="icon chevron" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m9 5 7 7-7 7" />
+              </svg></button
+            ><button
+              disabled
+              class="quick-action"
+              data-action="request"
+              type="button"
+            >
+              <span class="icon-bubble purple"
+                ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M5 9V4h11l4 4v12H5V9Zm11-5v5h4M9 14h7m-3-3 3 3-3 3"
+                  /></svg></span
+              ><span
+                ><strong>Request Money</strong
+                ><small>Draft a request</small></span
+              ><svg class="icon chevron" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m9 5 7 7-7 7" />
+              </svg></button
+            ><button
+              disabled
+              class="quick-action"
+              data-action="income"
+              type="button"
+            >
+              <span class="icon-bubble mint"
+                ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 3v13m-5-5 5 5 5-5M4 16v5h16v-5" /></svg></span
+              ><span
+                ><strong>Add Income</strong
+                ><small>Log a sample income</small></span
+              ><svg class="icon chevron" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m9 5 7 7-7 7" />
+              </svg></button
+            ><button
+              disabled
+              class="quick-action"
+              data-action="budget"
+              type="button"
+            >
+              <span class="icon-bubble purple"
+                ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M4 7V5a2 2 0 0 1 2-2h12v4M4 7h16v14H4zM16 12h4v5h-4z"
+                  /></svg></span
+              ><span
+                ><strong>Set Budget</strong
+                ><small>Create a sample budget</small></span
+              ><svg class="icon chevron" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m9 5 7 7-7 7" />
+              </svg>
+            </button>
+          </section>
+          <section
+            class="goals panel"
+            id="goals"
+            tabindex="-1"
+            aria-labelledby="goals-title"
+          >
+            <div class="panel-heading">
+              <h2 id="goals-title">Goals</h2>
+              <button disabled data-panel="goals" aria-label="View all goals">
+                View all
+              </button>
+            </div>
+            <button disabled class="goal-row" data-panel="laptop">
+              <span class="icon-bubble"
+                ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <circle cx="12" cy="12" r="9" />
+                  <circle cx="12" cy="12" r="5" />
+                  <path d="m12 12 8-8" /></svg></span
+              ><span class="goal-info"
+                ><span>Buy MacBook Air<small>$1,200 / $1,800</small></span
+                ><progress
+                  value="1200"
+                  max="1800"
+                  aria-label="Laptop savings goal"
+                >
+                  67%
+                </progress></span
+              ><small>67%</small></button
+            ><button disabled class="goal-row" data-panel="trip">
+              <span class="icon-bubble"
+                ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m21 3-5 18-4-7-9-4 18-7ZM12 14l9-11" /></svg></span
+              ><span class="goal-info"
+                ><span>Travel to Japan<small>$450 / $3,000</small></span
+                ><progress
+                  class="silver"
+                  value="450"
+                  max="3000"
+                  aria-label="Travel savings goal"
+                >
+                  15%
+                </progress></span
+              ><small>15%</small>
+            </button>
+          </section>
+        </aside>
+      </div>
+    </div>
+    <dialog id="detail-dialog" aria-labelledby="detail-title">
+      <button
+        disabled
+        class="close icon-button"
+        aria-label="Close details"
+        type="button"
+      >
+        ×
+      </button>
+      <p class="eyebrow">ARTO+ · SAMPLE WORKSPACE</p>
+      <h2 id="detail-title"></h2>
+      <p id="detail-copy"></p>
+      <dl id="detail-data"></dl>
+      <p class="dialog-note">
+        This is a local template preview. No real account, payment, or financial
+        service is connected.
+      </p>
+    </dialog>
+    <dialog id="action-dialog" aria-labelledby="action-title">
+      <button
+        disabled
+        class="close icon-button"
+        aria-label="Close action"
+        type="button"
+      >
+        ×
+      </button>
+      <p class="eyebrow">LOCAL EXAMPLE</p>
+      <h2 id="action-title">Preview a transfer</h2>
+      <p id="action-intro">No money will move.</p>
+      <form id="action-form">
+        <label for="action-name" id="action-name-label">Recipient name</label
+        ><input
+          disabled
+          id="action-name"
+          maxlength="80"
+          required
+          autocomplete="off"
+          autofocus
+        /><label for="action-amount">Amount in USD</label
+        ><input
+          disabled
+          id="action-amount"
+          type="number"
+          min="0.01"
+          max="100000"
+          step="0.01"
+          inputmode="decimal"
+          required
+          placeholder="0.00"
+        /><button
+          disabled
+          id="action-submit"
+          class="primary-button"
+          type="submit"
+        >
+          Preview transfer
+        </button>
+      </form>
+      <p id="action-result" role="status"></p>
+    </dialog>
+    <div class="static-disclosures">
+      <section id="budget">
+        <h2>Sample budgets</h2>
+        <p>Enable JavaScript to review or edit the sample budget.</p>
+      </section>
+      <section id="cards">
+        <h2>Cards</h2>
+        <p>No real cards or accounts are connected.</p>
+      </section>
+      <section id="settings">
+        <h2>Settings</h2>
+        <p>Currency USD. Sample data only. No account is connected.</p>
+      </section>
+    </div>
+    <noscript
+      ><p class="nojs">
+        This dashboard shows sample data. Enable JavaScript to use filters and
+        local previews.
+      </p></noscript
+    >
+    <template id="transaction-template"
+      ><tr>
+        <td>
+          <span class="transaction-type"
+            ><span class="icon-bubble"
+              ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 3v13m-5-5 5 5 5-5M4 16v5h16v-5" /></svg></span
+            ><span class="type-label"></span
+          ></span>
+        </td>
+        <td class="description"></td>
+        <td class="category"></td>
+        <td class="amount"></td>
+        <td class="date"></td>
+        <td><button disabled class="row-more" type="button">···</button></td>
+      </tr></template
+    >
+  </body>
+</html>

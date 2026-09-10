@@ -1,0 +1,14 @@
+{
+  "fonts": "loaded",
+  "height": 2552,
+  "images": [
+    {
+      "loaded": true,
+      "src": "assets/mountains.png"
+    }
+  ],
+  "scrollWidth": 375,
+  "titleFont": "Nimbus, Arial, sans-serif",
+  "url": "http://127.0.0.1:4173/arto/",
+  "width": 375
+}

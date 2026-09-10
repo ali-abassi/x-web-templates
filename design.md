@@ -90,3 +90,7 @@ Tenlevers:expressivelow-densityhero;edge-to-edge100svh/min900desktop,headerat40p
 Proof:3054sourceframesand1440render/realrecording,375/320,empty/invalid/max/cancel/edit/export/retry,local-fileZIP,missingart,keyboard/focus,contrast,hidden/reduced/pause,noJS. Nativecloudalphaandobjectlayoutinspectedincontext.
 
 **User-stated correction,2026-09-10:** NeuroLink’s clouds move reasonably fast. Supersede the earlier32–60second working-policy motion with a reference-paced7–9second foreground traverse and12second near-bank traverse. Verify actual visible speed in a real recording and retain pause/reduced/hidden safeguards.
+
+## Arto+ — frozen 2026-09-10
+
+**User-stated:** Reconstruct the supplied Arto dashboard. **Agent-selected working policy:** The complete compact visual system and source ledger are frozen in [evidence/arto/design.md](evidence/arto/design.md); one dashboard surface, native local sample interactions, original mountain photography, no banking effects. Default1440x1080; mobile375/320.

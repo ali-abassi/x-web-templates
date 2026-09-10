@@ -1,0 +1,10 @@
+{
+  "mode": "built-in imagegen",
+  "calls": 1,
+  "source": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-a7dca62d-3345-426e-a9b9-de498b0471f1.png",
+  "final": "/Users/aliabassi/Documents/ChatGPT/AI Designer/x-web-templates/templates/arto/dist/assets/mountains.png",
+  "sha256": "fb01911fe02010602c90727068653f295411034cab1f90c70e6371fc59705c65",
+  "prompt": "mountain-prompt.txt",
+  "inspection": "1536x1024 original landscape; dark left negative space and rock right at dusk; no text or UI; accepted anchor",
+  "cost": "native billing unavailable"
+}

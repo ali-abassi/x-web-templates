@@ -1,0 +1,57 @@
+[
+  {
+    "case": "maximum search empty fits",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "above max rejected",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "fractional cent rejected",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "maximum input result wraps",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "long budget review wraps",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "minimum income and literal text safe",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "art failure preserves ledger",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "details after art failure",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "reload restores original sample",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "mobile keyboard settings",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "mobile keyboard focus restored",
+    "passed": true,
+    "observed": true
+  }
+]

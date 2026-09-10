@@ -1,0 +1,307 @@
+{
+  "schema_version": "1.0",
+  "run_id": "neurolink-2026-09-10",
+  "mode": "iterate",
+  "target": {
+    "repo": "/Users/aliabassi/Documents/ChatGPT/AI Designer/x-web-templates",
+    "commit": "f24ed1f",
+    "dirty": false,
+    "build": "NeuroLink20 deployment36daae01-8e34-49f4-ab0b-6d5e69b58042"
+  },
+  "environment": {
+    "device": "Mac Chrome with viewport emulation",
+    "runtime": "Chrome153.0.0.0 / agent-browser0.37.1 actual Default headed",
+    "backend": "local static + personal Cloudflare Pages",
+    "account_role": "owner",
+    "locale": "en-US",
+    "network": "normal"
+  },
+  "product": {
+    "actor": "template visitor",
+    "trigger": "explores supplied AETHER NeuroLink reference",
+    "promised_progress": "Reusable gateway hero with fast cloud motion and local tribute preview/edit/download",
+    "weakest_link": "source fidelity and local-only truth",
+    "next_decision": "accept scoped template delivery"
+  },
+  "cases": [
+    {
+      "id": "NE01",
+      "journey": "Source and desktop motion",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Source and desktop motion meets frozen plan.md",
+      "observed": "Framed gold gateway and fixed reading hierarchy;cloud foregroundmoves17\u201319pxpersecond;48realframes/5.96sclipinspected.",
+      "artifacts": [
+        {
+          "kind": "screenshot",
+          "path": "evidence/neurolink/final/neurolink-1440.png"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/neurolink/final/motion-speed.json"
+        },
+        {
+          "kind": "video",
+          "path": "evidence/neurolink/final/cloud-motion.mp4"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/neurolink/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "NE02",
+      "journey": "Mobile375",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Mobile375 meets frozen plan.md",
+      "observed": "Header/copy/art recomposed;allassetsload,nooverflow.",
+      "artifacts": [
+        {
+          "kind": "screenshot",
+          "path": "evidence/neurolink/final/neurolink-375.png"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/neurolink/final/neurolink-375.json"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/neurolink/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "NE03",
+      "journey": "Narrow320 maximum draft",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Narrow320 maximum draft meets frozen plan.md",
+      "observed": "Long unbroken name/memory wrap;modal scroll and recovery controls usable.",
+      "artifacts": [
+        {
+          "kind": "screenshot",
+          "path": "evidence/neurolink/final/neurolink-320.png"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/neurolink/final/adverse.json"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/neurolink/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "NE04",
+      "journey": "Navigation and focus",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Navigation and focus meets frozen plan.md",
+      "observed": "All header dialogs and Escape focus restoration pass;SignInroutesCreateMemorial.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/neurolink/final/interactions.json"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/neurolink/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "NE05",
+      "journey": "Validation and preview edit",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Validation and preview edit meets frozen plan.md",
+      "observed": "Empty/whitespace rejected,valid optionalyears/preview/edit preserveinput.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/neurolink/final/interactions.json"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/neurolink/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "NE06",
+      "journey": "Download and cancel",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Download and cancel meets frozen plan.md",
+      "observed": "Real desktop/mobiledownloads exacttext;cancel/reopen preservespreview.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/neurolink/final/interactions.json"
+        },
+        {
+          "kind": "other",
+          "path": "evidence/neurolink/final/tribute-1440.txt"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/neurolink/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "NE07",
+      "journey": "Pause reduced hidden noJS",
+      "critical": true,
+      "requires_real": false,
+      "evidence_tier": "mock",
+      "status": "pass",
+      "expected": "Pause reduced hidden noJS meets frozen plan.md",
+      "observed": "Pausefreezes,hiddenactualtabfreezes,resume works;controlledreduced/noJSstaticdisclosurespass.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/neurolink/final/reduced.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/neurolink/final/nojs.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/neurolink/final/neurolink-visibility.json"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/neurolink/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "NE08",
+      "journey": "Mock missing art and failed export",
+      "critical": true,
+      "requires_real": false,
+      "evidence_tier": "mock",
+      "status": "pass",
+      "expected": "Mock missing art and failed export meets frozen plan.md",
+      "observed": "Inputpreserved,visiblefailurecopy,retry downloads successfully.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/neurolink/final/adverse.json"
+        },
+        {
+          "kind": "screenshot",
+          "path": "evidence/neurolink/final/blocked-export-320.png"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/neurolink/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "NE09",
+      "journey": "Public gallery and ZIP",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Public gallery and ZIP meets frozen plan.md",
+      "observed": "227publishedfilesexactmatch;20cards;publicpreview/download/ZIP andlocalfilepass.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/neurolink/final/live-bytes.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/neurolink/final/public.json"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/neurolink/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    }
+  ],
+  "findings": [
+    {
+      "id": "NE-F01",
+      "type": "ux_friction",
+      "severity": "P2",
+      "summary": "Original cloud pace too slow per user;changed to7\u20139secforeground/12secnear.",
+      "reproduction": "User observed source motion reasonably fast;original38\u201360sdraftunderstatedit.",
+      "case_ids": [
+        "NE01"
+      ],
+      "status": "verified",
+      "evidence": [
+        {
+          "kind": "state",
+          "path": "evidence/neurolink/final/motion-speed.json"
+        },
+        {
+          "kind": "video",
+          "path": "evidence/neurolink/final/cloud-motion.mp4"
+        }
+      ]
+    }
+  ],
+  "iterations": [
+    {
+      "id": "NE-I01",
+      "hypothesis": "Fasterlinearcloudtravelmatchesuserdirectionwhilekeepingtext/architecturesteady.",
+      "decision": "keep",
+      "changed_files": [
+        "templates/neurolink/dist/style.css"
+      ],
+      "checks": [
+        "final/motion-speed.json",
+        "final/interactions.json"
+      ],
+      "finding_ids": [
+        "NE-F01"
+      ]
+    }
+  ],
+  "gates": {
+    "build_provenance": true,
+    "critical_real_flows": true,
+    "automated_regression": true,
+    "logs_reviewed": true,
+    "data_integrity": true,
+    "recovery": true,
+    "accessibility": true,
+    "security_privacy": true,
+    "performance": true,
+    "rollback": true
+  },
+  "verdict": "production_ready",
+  "assurance_boundary": "Single static template and local memorial draft only. Original artwork and CSSclouds are independent reconstructions,not identical source3D. No authentication/upload/publication/payment. PhysicalmobileSafari/VoiceOveruntested;nativeimagebillingunavailable. Real browser screenshots at measured intervals replaced failed native video recorder;failedcapture retained."
+}
