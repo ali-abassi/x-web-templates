@@ -1,0 +1,311 @@
+{
+  "schema_version": "1.0",
+  "run_id": "arto-2026-09-10",
+  "mode": "iterate",
+  "target": {
+    "repo": "/Users/aliabassi/Documents/ChatGPT/AI Designer/x-web-templates",
+    "commit": "419aba7",
+    "dirty": false,
+    "build": "Arto21 canonical deployment c496328b-899e-44c1-a4c8-f9a316defae0"
+  },
+  "environment": {
+    "device": "Mac Chrome with viewport emulation",
+    "runtime": "Chrome153.0.0.0 / agent-browser0.37.1 actual Default headed",
+    "backend": "local static + personal Cloudflare Pages",
+    "account_role": "owner",
+    "locale": "en-US",
+    "network": "normal"
+  },
+  "product": {
+    "actor": "template visitor",
+    "trigger": "explores the supplied Arto+ design",
+    "promised_progress": "Reusable dashboard with local sample ledger, search, chart and action previews",
+    "weakest_link": "Source fidelity and accurate local-only interaction boundaries",
+    "next_decision": "Accept scoped template delivery"
+  },
+  "cases": [
+    {
+      "id": "AR01",
+      "journey": "Source composition and desktop",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Source composition and desktop meets frozen plan.md",
+      "observed": "Source hierarchy, native data and original mountain backdrop inspected at1440.",
+      "artifacts": [
+        {
+          "kind": "screenshot",
+          "path": "evidence/arto/final/arto-1440.png"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/arto/final/arto-1440.json"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/arto/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "AR02",
+      "journey": "Mobile375 and320",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Mobile375 and320 meets frozen plan.md",
+      "observed": "Responsive layout has no page overflow; table intentionally scrolls; long budget dialog fits.",
+      "artifacts": [
+        {
+          "kind": "screenshot",
+          "path": "evidence/arto/final/arto-375.png"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/arto/final/arto-320.json"
+        },
+        {
+          "kind": "screenshot",
+          "path": "evidence/arto/final/long-budget-320.png"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/arto/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "AR03",
+      "journey": "Periods balance and chart",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Periods balance and chart meets frozen plan.md",
+      "observed": "7/30day totals correct, total balance preserved, hide/showkeyboard and21/14/7day chart keyboard inspectionpass.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/arto/final/interactions.json"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/arto/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "AR04",
+      "journey": "Search details and empty",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Search details and empty meets frozen plan.md",
+      "observed": "Known/empty/maximum search, recent/all8 rows, detailtext and Escape focus pass.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/arto/final/interactions.json"
+        },
+        {
+          "kind": "screenshot",
+          "path": "evidence/arto/final/empty-375.png"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/arto/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "AR05",
+      "journey": "Navigation and panels",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Navigation and panels meets frozen plan.md",
+      "observed": "All navigation anchors, budgets/cards/settings, profile/notification/goals panels pass with focus.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/arto/final/interactions.json"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/arto/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "AR06",
+      "journey": "Local quick actions",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Local quick actions meets frozen plan.md",
+      "observed": "Send/request previews unchangedbalance and no messages; sampleincomeupdates; budgetsave/review; native amount bounds and cancelpreservation pass.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/arto/final/interactions.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/arto/final/adverse.json"
+        },
+        {
+          "kind": "screenshot",
+          "path": "evidence/arto/final/transfer-1440.png"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/arto/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "AR07",
+      "journey": "Adverse noJS reduced art",
+      "critical": true,
+      "requires_real": false,
+      "evidence_tier": "mock",
+      "status": "pass",
+      "expected": "Adverse noJS reduced art meets frozen plan.md",
+      "observed": "Controlled noJSstatic disclosure anddisabledcontrols;reduced;maximum/fractionalcent/literalHTML/missingart/reloadrecovery pass.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/arto/final/adverse.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/arto/final/nojs.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/arto/final/reduced.json"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/arto/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "AR08",
+      "journey": "Public gallery ZIP and standalone",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "Public gallery ZIP and standalone meets frozen plan.md",
+      "observed": "238 published files match exact deployment hashes;21gallery cards;10public andstandalone assertionspass,includingrealZIPdownload andmobiletablekeyboardscroll.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/arto/final/live-bytes.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/arto/final/public.json"
+        },
+        {
+          "kind": "screenshot",
+          "path": "evidence/arto/final/public-arto.png"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/arto/browser-trace.jsonl"
+        }
+      ],
+      "finding_ids": []
+    }
+  ],
+  "findings": [
+    {
+      "id": "AR-F01",
+      "type": "bug",
+      "severity": "P2",
+      "summary": "Cloned transaction details carried disabled noJS state. New rowbuttons now explicitly enabled.",
+      "reproduction": "Initial rendered snapshot showed every rowdetaildisabled afterJSrender. Click/details/Escape now pass.",
+      "case_ids": [
+        "AR04"
+      ],
+      "status": "verified",
+      "evidence": [
+        {
+          "kind": "state",
+          "path": "evidence/arto/final/interactions.json"
+        },
+        {
+          "kind": "trace",
+          "path": "evidence/arto/browser-trace.jsonl"
+        }
+      ]
+    },
+    {
+      "id": "AR-F02",
+      "type": "accessibility",
+      "severity": "P2",
+      "summary": "Mobile profile lost its accessible name when visible text was hidden. Explicitlabel added.",
+      "reproduction": "375initial snapshot showed unnamedprofilebutton. Final label andaxe now pass.",
+      "case_ids": [
+        "AR02",
+        "AR05"
+      ],
+      "status": "verified",
+      "evidence": [
+        {
+          "kind": "state",
+          "path": "evidence/arto/final/axe-375.json"
+        }
+      ]
+    }
+  ],
+  "iterations": [
+    {
+      "id": "AR-I01",
+      "hypothesis": "Explicit dynamiccontrol state and profilelabel restore detail/keyboard access; density correction bringsallpanelstowardsreference.",
+      "decision": "keep",
+      "changed_files": [
+        "templates/arto/dist/app.js",
+        "templates/arto/dist/index.html",
+        "templates/arto/dist/style.css"
+      ],
+      "checks": [
+        "final/interactions.json",
+        "final/axe-375.json"
+      ],
+      "finding_ids": [
+        "AR-F01",
+        "AR-F02"
+      ]
+    }
+  ],
+  "gates": {
+    "build_provenance": true,
+    "critical_real_flows": true,
+    "automated_regression": true,
+    "logs_reviewed": true,
+    "data_integrity": true,
+    "recovery": true,
+    "accessibility": true,
+    "security_privacy": true,
+    "performance": true,
+    "rollback": true
+  },
+  "verdict": "production_ready",
+  "assurance_boundary": "Only this static template and its local sample data. Chart and percentage comparisons are illustrative; no bank/authentication/payment/message/backend or persistentfinancialservice. Original mountainphoto substitutesreference. RealChromeviewportemulation,notphysicaliOS/Safari;VoiceOveruntested. One nativeimage call,billingunavailable."
+}

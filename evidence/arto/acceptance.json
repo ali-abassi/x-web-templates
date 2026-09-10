@@ -1,6 +1,6 @@
 {
   "verdict": "accept",
-  "scope": "pre-delivery Arto static candidate and NeuroLink postdelivery evidence",
+  "scope": "Completed Arto static template delivery",
   "candidate": {
     "base": "f24ed1f11ba50e31676764284ecdb76156ccef73",
     "dirty_content_hashes": {
@@ -144,7 +144,7 @@
     "good-design": "plan.md/design.md/reference.png;3typecomparisons/10levers/2departures;finaldefault/mobile/adverse renders",
     "github-research": "research.md:2clonedsource teardowns/commits/licenses/steal-list",
     "imagegen": "mountain-prompt.txt/image-receipt.json/originalnativeasset/copiedlocal",
-    "dogfooding": "journal.md/finalstate/screens/trace;manifestpublicgatepending"
+    "dogfooding": "journal.md/run-manifest.json and full final artifacts;8/8 declaredcasespass; validator passes afterpublicverification"
   },
   "usage": {
     "ownerCount": 1,
@@ -154,8 +154,26 @@
     "model": "hostselected preserved"
   },
   "unverified": [
-    "publicdeploymentbytes/browser/ZIP gate follows",
-    "PhysicalSafari/iOS/VoiceOver outside scope;no real bankconnection tested or claimed"
+    "PhysicalSafari/iOS/VoiceOver outside scopedChromeviewport proof",
+    "Nativeimagebilling unavailable",
+    "No real bank/auth/payment/message/backendservice connected or tested"
   ],
-  "time": "2026-09-10T12:44:48.793588+00:00"
+  "time": "2026-09-10T12:44:48.793588+00:00",
+  "delivery": {
+    "revision": "419aba7638b1bd8e3bb6cc7f767d101aa6000437",
+    "deployment": "c496328b-899e-44c1-a4c8-f9a316defae0",
+    "stage": "success",
+    "url": "https://x-web-templates.pages.dev/arto/",
+    "publishedFilesMatched": 238,
+    "publicBrowserAndStandaloneChecks": 10
+  },
+  "completionEvidenceHashes": {
+    "evidence/arto/final/public-arto.png": "be8a3e9655973997e450d5d64346836e6932242063aabec6298bedb524724ecc",
+    "evidence/arto/final/public-mobile-table.png": "e40f75de0edd874fd63faf851ba5005a54139e5388e4a7146481b0efce7d2b3f",
+    "evidence/arto/final/public-errors.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/arto/final/public-network.json": "63e69faac7ea633d4f0f456edbf0fd4dbdbc4fde2512514b39c3f856a81e9fa2",
+    "evidence/arto/final/public-gallery.png": "a12155522ae80c5eaaf12fbf90ca06602261208ca7c49512ae941a8cd8f258f2",
+    "evidence/arto/final/public.json": "d9c974419898a3479d18c21b2d39c035970285b65b97ca876405294f3056c6ac",
+    "evidence/arto/final/public-arto.zip": "d64feec76b06959833f5d9c8bcf674afca4a3be6998a4129cf2c01e102b25a16"
+  }
 }

@@ -1,0 +1,51 @@
+[
+  {
+    "case": "gallery has21",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "public assets and baseline",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "public search and details",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "public local income",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "public mobile no overflow",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "mobile table keyboard scroll",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "public ZIP exact bytes",
+    "passed": true
+  },
+  {
+    "case": "ZIP opens standalone",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "standalone data filter",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "standalone detail interaction",
+    "passed": true,
+    "observed": true
+  }
+]
