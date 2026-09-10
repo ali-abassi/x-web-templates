@@ -1,0 +1,42 @@
+{
+  "time": "2026-09-10T03:21:46.980299+00:00",
+  "origin": "https://x-web-templates.pages.dev/",
+  "source_commit": "fcea79c6a7306f7dcac9c8859f0bb973e352c32b",
+  "deployment": "0fb26dac-c032-44cf-a08b-97934ffb6116",
+  "commit_dirty": false,
+  "canonical_stage": "deploy success",
+  "account": "personal ee1dc4cf6920d04115184b5b5f07c9b4",
+  "repository": "ali-abassi/x-web-templates",
+  "visibility": "PRIVATE",
+  "branch": "main",
+  "payload": "Identical uploaded manifest to the candidate with 189/189 live bytes and 38 public interaction cases verified",
+  "clean_deployment_checks": [
+    {
+      "path": "index.html",
+      "sha256": "04e63187ae437705a0e09bcb2fe8a9d03c22827cf0b936137b88a4b0e608bbf7",
+      "match": true
+    },
+    {
+      "path": "olympus/index.html",
+      "sha256": "ac7456241eed6d86f12481f327ce011362c0e9ea8595ea29b173c6dc0a522a76",
+      "match": true
+    },
+    {
+      "path": "wandor/index.html",
+      "sha256": "691590dad0f49ef75d798f430c181b96f76a5a42f5ba21f4f43360ab46a85f59",
+      "match": true
+    },
+    {
+      "path": "downloads/olympus.zip",
+      "sha256": "9d39e7ace9286319c0c36ebc1789366d0efc2d13aab0e2fda0a42eff7457271d",
+      "match": true
+    },
+    {
+      "path": "downloads/wandor.zip",
+      "sha256": "09e52279e47e543bfaca8f259b8ba5b4c3e4b8dca949becdaf01b110be1938af",
+      "match": true
+    }
+  ],
+  "check_note": "Initial receipt probe omitted curl --location and hashed the redirect body; follow-redirect probes verified production and deployment URL pages, then root/new pages/new ZIPs passed. No content or deployment change.",
+  "prior_acceptance": "acceptance.json"
+}
