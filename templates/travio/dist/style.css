@@ -1,0 +1,475 @@
+@font-face {
+  font-family: Nimbus;
+  src: url("assets/sans.otf") format("opentype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: Nimbus;
+  src: url("assets/sans-bold.otf") format("opentype");
+  font-weight: 700;
+  font-display: swap;
+}
+:root {
+  font-family: Nimbus, Arial, sans-serif;
+  font-synthesis: none;
+  color: #182124;
+  background: #f4f7f7;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+button,
+input,
+select {
+  font: inherit;
+}
+button,
+a,
+input,
+select {
+  -webkit-tap-highlight-color: transparent;
+}
+a {
+  color: inherit;
+}
+:focus-visible {
+  outline: 3px solid #036985;
+  outline-offset: 5px;
+}
+[hidden] {
+  display: none !important;
+}
+.stage {
+  min-height: 760px;
+  height: 100svh;
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background:
+    url("assets/mountains.png") center / cover,
+    linear-gradient(#96bcd5, #dce9ec);
+}
+.back-word {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 25.2vw;
+  line-height: 0.9;
+  letter-spacing: -0.06em;
+  padding-right: 0.05em;
+  color: transparent;
+  background: linear-gradient(#fff 18%, #ffffff16 95%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.phone {
+  position: relative;
+  height: min(80svh, 800px);
+  min-height: 640px;
+  aspect-ratio: 390 / 844;
+  padding: 7px;
+  border: 3px solid #d7d2c8;
+  border-radius: 54px;
+  background: #101111;
+  box-shadow:
+    0 0 0 1px #333b3c,
+    0 18px 36px #173a531a;
+}
+.phone::before {
+  content: "";
+  position: absolute;
+  height: 64px;
+  width: 3px;
+  background: #434c4f;
+  top: 130px;
+  left: -5px;
+  border-radius: 2px;
+}
+.screen {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 44px;
+  background: #dae9f1;
+}
+.landscape {
+  position: absolute;
+  inset: 27% 0 0;
+  background:
+    url("assets/mountains.png") 50% bottom / auto 100%,
+    linear-gradient(#83b0d0, #c8e0e9);
+}
+.zipper {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.status-bar {
+  position: absolute;
+  inset: 14px 28px auto;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 700;
+}
+.status-bar i {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 94px;
+  height: 25px;
+  background: #000;
+  border-radius: 30px;
+}
+.intro {
+  position: absolute;
+  top: 11%;
+  width: 100%;
+  text-align: center;
+  padding: 0 16px;
+}
+h1 {
+  margin: 0;
+  font-size: clamp(26px, 2.2vw, 35px);
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+  font-weight: 700;
+}
+h1 svg {
+  width: 48px;
+  height: 36px;
+  position: absolute;
+  margin: -2px 0 0 -5px;
+  stroke: #202726;
+  stroke-width: 3;
+  fill: none;
+  stroke-linecap: round;
+}
+.intro p {
+  margin: 16px 0 0;
+  font-size: 12px;
+  color: #52616a;
+  line-height: 1.5;
+}
+.airplane {
+  position: absolute;
+  width: 35%;
+  height: 22%;
+  top: 24%;
+  left: 32.5%;
+  filter: drop-shadow(0 6px 5px #31637b30);
+}
+.travel-symbols {
+  position: absolute;
+  inset: 0;
+}
+.symbol {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  background: #ffffff80;
+}
+.symbol svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+.pin {
+  top: 29%;
+  left: 17%;
+  color: #8147db;
+}
+.flight {
+  top: 29%;
+  right: 17%;
+  color: #d7834b;
+}
+.camera {
+  top: 41%;
+  left: 6%;
+  color: #408f74;
+}
+.leaf {
+  top: 41%;
+  right: 6%;
+  color: #c79030;
+}
+.phone-word {
+  position: absolute;
+  top: 59%;
+  width: 100%;
+  text-align: center;
+  font-size: clamp(42px, 4vw, 62px);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: #ffffffe8;
+  text-shadow: 0 2px 7px #35567322;
+}
+.bottom-fade {
+  position: absolute;
+  inset: 76% 0 0;
+  background: linear-gradient(transparent, #f5f9f9 82%);
+}
+.start {
+  position: absolute;
+  bottom: 4.5%;
+  left: 24%;
+  width: 52%;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 5px 5px 5px 16px;
+  border-radius: 99px;
+  color: white;
+  background: #202726;
+  text-decoration: none;
+  font-size: 12px;
+  transition:
+    background-color 160ms,
+    transform 160ms;
+}
+.start span {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  color: #202726;
+  background: white;
+  font-size: 22px;
+}
+.start:hover {
+  background: #36515c;
+  transform: translateY(-2px);
+}
+.start:active {
+  transform: translateY(0);
+}
+.home-bar {
+  position: absolute;
+  bottom: 9px;
+  left: 33%;
+  width: 34%;
+  height: 4px;
+  border-radius: 8px;
+  background: #323838;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 24px;
+  font-size: 12px;
+  color: #52616a;
+}
+footer a {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+}
+footer > span {
+  align-self: center;
+}
+dialog {
+  width: min(460px, calc(100% - 32px));
+  max-height: calc(100svh - 32px);
+  padding: 0;
+  border: 0;
+  border-radius: 24px;
+  color: #182124;
+  background: #f4f7f7;
+}
+dialog::backdrop {
+  background: #15354d88;
+  backdrop-filter: blur(6px);
+}
+.trip-panel {
+  position: relative;
+  max-width: 460px;
+  margin: 0 auto;
+  padding: 32px;
+}
+.close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  font-size: 28px;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.close:hover {
+  background: #e0ebef;
+}
+.eyebrow {
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  margin: 8px 0 16px;
+  color: #52616a;
+}
+h2 {
+  font-size: 32px;
+  letter-spacing: -0.035em;
+  margin: 0 0 12px;
+}
+.muted {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #52616a;
+}
+form {
+  display: grid;
+  gap: 8px;
+  margin-top: 24px;
+}
+label {
+  font-size: 14px;
+}
+input,
+select {
+  width: 100%;
+  min-height: 48px;
+  background: #fff;
+  color: #182124;
+  border: 1px solid #a7bac5;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 8px;
+}
+input::placeholder {
+  color: #667680;
+  font-size: 12px;
+}
+button {
+  min-height: 48px;
+  padding: 12px 16px;
+  border: 0;
+  border-radius: 99px;
+  background: #202726;
+  color: white;
+  cursor: pointer;
+}
+button span {
+  margin-left: 8px;
+}
+button:hover {
+  background: #36515c;
+}
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.result {
+  border-top: 1px solid #cad6dc;
+  margin-top: 24px;
+  padding-top: 12px;
+}
+.result h3 {
+  font-size: 28px;
+  line-height: 1.15;
+  margin: 0;
+  overflow-wrap: anywhere;
+  letter-spacing: -0.025em;
+}
+.result > p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.demo-note {
+  margin: 24px 0 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #52616a;
+}
+@media (max-width: 600px) {
+  .stage {
+    min-height: 740px;
+    height: 100svh;
+    background: #e8f1f5;
+  }
+  .back-word,
+  .status-bar,
+  .home-bar {
+    display: none;
+  }
+  .phone {
+    width: 100%;
+    height: 100%;
+    min-height: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    aspect-ratio: auto;
+  }
+  .phone::before {
+    display: none;
+  }
+  .screen {
+    border-radius: 0;
+  }
+  .intro {
+    top: 8%;
+    padding: 0 20px;
+  }
+  h1 {
+    font-size: 34px;
+  }
+  .intro p {
+    font-size: 14px;
+  }
+  .airplane {
+    top: 23%;
+  }
+  .phone-word {
+    font-size: 60px;
+  }
+  .start {
+    left: 22%;
+    width: 56%;
+    min-height: 52px;
+    bottom: 6%;
+    font-size: 14px;
+  }
+  .start span {
+    width: 42px;
+    height: 42px;
+  }
+  .symbol {
+    width: 44px;
+    height: 44px;
+  }
+  .trip-panel {
+    padding: 32px 24px 24px;
+  }
+  footer {
+    padding: 12px 16px;
+    font-size: 10px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .start {
+    transition: none;
+  }
+}

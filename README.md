@@ -1,8 +1,8 @@
 # X Web Templates
 
-**[Browse all twenty-two live templates](https://x-web-templates.pages.dev/)**
+**[Browse all twenty-three live templates](https://x-web-templates.pages.dev/)**
 
-Twenty-two reusable templates: reference-led reconstructions and your original Aster import. Original ChatGPT-generated artwork, editable HTML/CSS/JavaScript, and local fonts. No runtime dependencies or API keys.
+Twenty-three reusable templates: reference-led reconstructions and your original Aster import. Original ChatGPT-generated artwork, editable HTML/CSS/JavaScript, and local fonts. No runtime dependencies or API keys.
 
 | Template | Live preview | Direction | Working interactions |
 | --- | --- | --- | --- |
@@ -28,6 +28,7 @@ Twenty-two reusable templates: reference-led reconstructions and your original A
 | [NeuroLink](templates/neurolink/) | [Open ↗](https://x-web-templates.pages.dev/neurolink/) | Cinematic memorial | Pauseable clouds and local tribute preview, edit and download. |
 | [Arto+](templates/arto/) | [Open ↗](https://x-web-templates.pages.dev/arto/) | Finance dashboard | Chart inspection, period filters, transaction search and local sample actions. |
 | [AnimoraAI](templates/animora/) | [Open ↗](https://x-web-templates.pages.dev/animora/) | Interactive character | Pointer, touch and keyboard gaze; four scene palettes; local preset download. |
+| [Travio](templates/travio/) | [Open ↗](https://x-web-templates.pages.dev/travio/) | Travel app concept | Alpine phone presentation, editable airplane and zipper, local preference preview. |
 
 ## Original designs and credits
 
@@ -39,6 +40,7 @@ The original four designs come from **[Naty / @DesignGuru01 — original X post]
 - **Pixel-world reference:** [Varun / @orseliyas — original post](https://x.com/orseliyas/status/2097307376143773730).
 
 - **AnimoraAI reference:** [Tanzil Chowdhury / @iamtanzil_ — original post](https://x.com/iamtanzil_/status/2098018663089533246). Fifteen-second character/gaze clip.
+- **Travio reference:** [Farhan ahmed Jibon / @jibon33212 — original post](https://x.com/jibon33212/status/2098040111472800179?s=46). A static travel-app splash composition with an alpine backdrop and airplane zipper.
 - **Arto+ reference:** [Andrew Gurio / @andrewgurio — original post](https://x.com/andrewgurio/status/2097988488146870482/photo/1). Supplied dashboard screenshot.
 - **NeuroLink reference:** [AETHER / @aether_uiux — original post](https://x.com/aether_uiux/status/2097650553782510046). Single visible gateway hero.
 - **Swift AI reference:** [Muddasir / @hussain_mu20778 — original post](https://x.com/hussain_mu20778/status/2097891688777932949). First forest background only.
@@ -109,6 +111,7 @@ Download an individual ZIP from the gallery or this repository:
 - [NeuroLink ZIP](dist/downloads/neurolink.zip)
 - [Arto+ ZIP](dist/downloads/arto.zip)
 - [AnimoraAI ZIP](dist/downloads/animora.zip)
+- [Travio ZIP](dist/downloads/travio.zip)
 
 Unzip it, open `dist/index.html`, and edit its files. For predictable local storage and download behavior, serve the downloaded `dist` folder using Python's static server. Each ZIP includes all required CSS, JavaScript, images, fonts, a customization guide, and font licenses. You can host its `dist` folder on any static host.
 
@@ -207,3 +210,7 @@ Every template README includes its screenshot and live preview.
 ### Verto
 
 [![Verto preview](gallery/assets/verto.png)](https://x-web-templates.pages.dev/verto/)
+
+### Travio
+
+[![Travio preview](gallery/assets/travio.png)](https://x-web-templates.pages.dev/travio/)

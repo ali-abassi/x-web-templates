@@ -1,0 +1,16 @@
+# Separate critical self-review — Travio
+
+The active agent reviewed the complete HTML, CSS, JavaScript, SVG, integration diff, image, font license and README. This is self-review, not independent-agent certification.
+
+The reference composition is recognizable: broad alpine sky and mountains, enormous translucent TRAVIO behind a centered phone, a compact two-line heading, blue airplane, diverging metallic zipper and lower pill CTA. Default1440×900 and mobile375/320 renders were inspected. The original generated photograph differs from the source photograph; the airplane and zipper are independently authored vector interpretations. No source motion or downstream app is claimed.
+
+T-F01: a noscript-only explanation would not explain an ordinary script load failure. Replaced it with a default visible explanation hidden only after successful initialization. Controlled script blocking now keeps the preview disabled, explains recovery, and Enter sends no form request. Verified; no original intent or gate changed.
+T-F02: the inherited collection header/footer counts were stale. Updated both for the release's actual23entries and verified the rendered count and absence of Liquid Glass. Verified.
+
+The first image-blocking CSP fixture did not remove cached art in this browser; its misleading screenshots remain preserved and are not counted as missing-image proof. A new copied fixture with the actual image omitted visibly shows the gradient fallback and a working CTA. This is a mock fault, not an ordinary production outage. Long typing returned a tool deadline after the input reached its actual80character limit; the live value and wrapped result were independently inspected. Initial mobile screenshots were scrolled68px after focus restoration, not clipped at first paint; settled scroll-zero screenshots are the final evidence. Read-only performance access was unavailable in the browser; no latency percentile or resource-timing claim is made.
+
+User-first checks covered native empty/whitespace validation, correction, all three travel styles, maximum input, result replacement, Escape, close, focus return and reopen retention. A separate final-candidate pass through the integrated gallery generated the Dolomites/slow preview and closed it with focus restored. Normal console error/warning logs are empty. All runtime assets are local. There is no network service, account, storage, tracking, AI request or booking; no personal test data was used. Native keyboard and readable-focus states pass within Chromium; physical Safari/iOS/VoiceOver are unverified.
+
+Focused cleanup formatted the native source, kept functions at complexity<=5 (actual branching maximum2) and authored zero TypeScript. No dependency or speculative abstraction was added. Build/check passes25pages23exactZIPs in the integrated release. Every old template and published file except the intentionally changed gallery is byte-identical to production base371f46e. The pending Liquid Glass candidate remains outside this release.
+
+The local candidate is accepted for the existing publication path. Public delivery is not yet covered by this predeployment review. Direct file:// launch remains explicitly unverified; the scoped standalone proof is the extracted ZIP served over HTTP, not a claim to bypass that browser policy.

@@ -1,0 +1,9 @@
+{
+  "state": {
+    "disabled": true,
+    "note": false,
+    "url": "http://127.0.0.1:4198/travio/?nojs#trip",
+    "value": "Safe local test"
+  },
+  "logs": []
+}

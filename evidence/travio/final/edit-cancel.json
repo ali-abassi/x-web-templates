@@ -1,0 +1,15 @@
+{
+  "changed": {
+    "destination": "Swiss Alps",
+    "hidden": true
+  },
+  "closed": {
+    "focus": "Get Started ↗",
+    "open": false
+  },
+  "reopened": {
+    "open": true,
+    "place": "Swiss Alps",
+    "style": "culture"
+  }
+}

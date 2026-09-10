@@ -1,0 +1,12 @@
+{
+  "mode": "built-in imagegen",
+  "calls": 1,
+  "iterations": 0,
+  "billing": "unavailable",
+  "source": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-4b176349-b772-4629-af7c-713bed28cc27.png",
+  "asset": "templates/travio/dist/assets/mountains.png",
+  "sha256": "6c6bf2913b5ee7657a5916ae12eb502f4f0ff40adb4da1c4c5633915d1d8ec31",
+  "reference": "reference.jpg",
+  "inputReferenceImages": 0,
+  "prompt": "image-request.js"
+}

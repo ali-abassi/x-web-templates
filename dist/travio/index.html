@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#96bcd5" />
+    <meta
+      name="description"
+      content="Explore without planning. An editable alpine travel-app concept with a local trip-preference preview."
+    />
+    <title>Travio — Explore Without Planning</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main id="welcome" class="stage">
+      <span class="back-word" aria-hidden="true">TRAVIO</span>
+      <div class="phone">
+        <div class="screen">
+          <div class="landscape" aria-hidden="true"></div>
+          <svg
+            class="zipper"
+            viewBox="0 0 390 844"
+            preserveAspectRatio="none"
+            aria-hidden="true"
+          >
+            <defs>
+              <linearGradient id="paper" x2=".65" y2="1">
+                <stop stop-color="#eff7fb" />
+                <stop offset=".55" stop-color="#f6f9fa" />
+                <stop offset="1" stop-color="#d6e4eb" />
+              </linearGradient>
+              <linearGradient id="metal">
+                <stop stop-color="#687681" />
+                <stop offset=".4" stop-color="#e3e9ed" />
+                <stop offset=".65" stop-color="#9ba7ae" />
+                <stop offset="1" stop-color="#3e4952" />
+              </linearGradient>
+              <path id="left-seam" d="M-12 567 C73 506 145 410 188 302" />
+              <path id="right-seam" d="M402 567 C317 506 245 410 202 302" />
+            </defs>
+            <path
+              fill="url(#paper)"
+              d="M0 0 H390 V565 C309 503 244 409 202 302 H188 C146 409 81 503 0 565 Z"
+            />
+            <g fill="none">
+              <g stroke="#fff" stroke-width="27">
+                <use href="#left-seam" />
+                <use href="#right-seam" />
+              </g>
+              <g stroke="#36424b" stroke-width="17">
+                <use href="#left-seam" />
+                <use href="#right-seam" />
+              </g>
+              <g stroke="url(#metal)" stroke-width="24" stroke-dasharray="5 6">
+                <use href="#left-seam" />
+                <use href="#right-seam" />
+              </g>
+              <g stroke="#18242c" stroke-width="4" stroke-dasharray="3 8">
+                <use href="#left-seam" />
+                <use href="#right-seam" />
+              </g>
+            </g>
+          </svg>
+          <div class="status-bar" aria-hidden="true">
+            <span>9:41</span><i></i><span>▴ ▰</span>
+          </div>
+          <header class="intro">
+            <h1>
+              Explore Without<br />Planning<svg
+                viewBox="0 0 64 48"
+                aria-hidden="true"
+              >
+                <path
+                  d="M8 32C25 52 67 38 51 19M39 17L55 4M41 5L48 11L60 13M47 22L48 11"
+                />
+              </svg>
+            </h1>
+            <p>Discover more. Plan less. Travel better.</p>
+          </header>
+          <div class="travel-symbols" aria-hidden="true">
+            <span class="symbol pin"
+              ><svg viewBox="0 0 24 24">
+                <path
+                  d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7Zm0 10a3 3 0 1 1 0-6 3 3 0 0 1 0 6Z"
+                /></svg
+            ></span>
+            <span class="symbol flight"
+              ><svg viewBox="0 0 24 24">
+                <path
+                  d="m10 3 2-2 2 2v6l8 5v3l-8-3v6l3 2H7l3-2v-6l-8 3v-3l8-5Z"
+                /></svg
+            ></span>
+            <span class="symbol camera"
+              ><svg viewBox="0 0 24 24">
+                <path d="M3 7h4l2-3h6l2 3h4v14H3Z" />
+                <circle cx="12" cy="13" r="4" fill="#fff" />
+                <circle cx="12" cy="13" r="2" /></svg
+            ></span>
+            <span class="symbol leaf"
+              ><svg viewBox="0 0 24 24">
+                <path
+                  d="M21 3C6 1 0 11 8 18L4 22l2 1 4-4C19 21 22 12 21 3Z"
+                /></svg
+            ></span>
+          </div>
+          <svg class="airplane" viewBox="0 0 160 190" aria-hidden="true">
+            <defs>
+              <linearGradient id="fuselage">
+                <stop stop-color="#319ec6" />
+                <stop offset=".34" stop-color="#b6effb" />
+                <stop offset=".53" stop-color="#e9fcff" />
+                <stop offset=".78" stop-color="#66c1dc" />
+                <stop offset="1" stop-color="#247caf" />
+              </linearGradient>
+              <linearGradient id="wing" x2=".5" y2="1">
+                <stop stop-color="#d1f4f9" />
+                <stop offset=".5" stop-color="#81d2e9" />
+                <stop offset="1" stop-color="#3c9dc4" />
+              </linearGradient>
+            </defs>
+            <g stroke="#4198b8" stroke-width=".7">
+              <rect
+                x="39"
+                y="77"
+                width="10"
+                height="36"
+                rx="5"
+                fill="url(#fuselage)"
+              />
+              <rect
+                x="111"
+                y="77"
+                width="10"
+                height="36"
+                rx="5"
+                fill="url(#fuselage)"
+              />
+              <path
+                d="M71 59 4 112v10l70-22h12l70 22v-10L89 59Z"
+                fill="url(#wing)"
+              />
+              <path
+                d="m75 140-35 34v8l36-10h8l36 10v-8l-35-34Z"
+                fill="url(#wing)"
+              />
+              <path
+                d="M80 5C69 6 69 31 69 54l3 89 8 38 8-38 3-89C91 31 91 6 80 5Z"
+                fill="url(#fuselage)"
+              />
+              <path
+                d="M75 23q5-4 10 0l2 7-7-2-7 2Z"
+                fill="#24576d"
+                stroke="none"
+              />
+              <path d="M80 143v33" stroke="#e2fbff" stroke-width="3" />
+              <path
+                d="m71 45 1 45m16-45-1 45"
+                stroke="#3c7e9b"
+                stroke-width="2"
+                stroke-dasharray="2 4"
+              />
+            </g>
+          </svg>
+          <span class="phone-word" aria-hidden="true">TRAVIO</span>
+          <div class="bottom-fade" aria-hidden="true"></div>
+          <a class="start" href="#trip"
+            >Get Started <span aria-hidden="true">↗</span></a
+          >
+          <span class="home-bar" aria-hidden="true"></span>
+        </div>
+      </div>
+    </main>
+    <section id="trip" class="trip-panel" aria-labelledby="trip-heading">
+      <a class="close" href="#welcome" aria-label="Close trip preview">×</a>
+      <p class="eyebrow">A LITTLE INSPIRATION</p>
+      <h2 id="trip-heading">Where to next?</h2>
+      <p class="muted">Choose a destination and your kind of day.</p>
+      <form id="trip-form">
+        <label for="destination">Destination</label>
+        <input
+          id="destination"
+          name="destination"
+          type="text"
+          required
+          maxlength="80"
+          placeholder="Somewhere you’ve been dreaming of"
+          autocomplete="off"
+        />
+        <label for="travel-style">Travel style</label>
+        <select id="travel-style" name="style">
+          <option value="slow">Take it slow</option>
+          <option value="outdoors">Into the outdoors</option>
+          <option value="culture">A little culture</option>
+        </select>
+        <button id="review" type="submit" disabled>
+          Preview my direction <span aria-hidden="true">↗</span>
+        </button>
+      </form>
+      <section
+        id="result"
+        class="result"
+        hidden
+        aria-labelledby="result-heading"
+      >
+        <p class="eyebrow">YOUR TRAVEL DIRECTION</p>
+        <h3 id="result-heading" tabindex="-1"></h3>
+        <p id="style-summary"></p>
+        <p class="muted">A starting idea to make your own.</p>
+      </section>
+      <p class="demo-note">
+        Local concept preview. No AI request or booking is made. Your choices
+        stay in this tab until reload.
+      </p>
+      <p id="script-note" class="muted">
+        Enable JavaScript to preview your choices. Nothing will be sent.
+      </p>
+    </section>
+    <dialog id="trip-dialog" aria-labelledby="trip-heading"></dialog>
+    <footer>
+      <span>Travio · An editable concept</span
+      ><a
+        href="https://x.com/jibon33212/status/2098040111472800179?s=46"
+        target="_blank"
+        rel="noreferrer"
+        >Design reference ↗</a
+      >
+    </footer>
+  </body>
+</html>

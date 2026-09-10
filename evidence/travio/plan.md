@@ -1,0 +1,13 @@
+# Frozen Travio execution and QA plan
+
+Owner1 activeagent, hostmodel/effort unchanged, delegates0, serial production. Standardgood-design + imagegenbuiltin + dogfoodingiterate. One ordinary surface reconstruction uses existing native platform and collectionbuild; no unfamiliarSDK or newdependency; broadGitHubresearch would not change this bounded implementation.
+
+Scope: templates/travio/**, gallerynewcard/asset/count, scripts/build.py name, README, distrebuild, evidence/travio and alignmentdocuments. Preserve everyprior template file. Base anddirtyinventory inpreexisting.json. Noeffectfulproductintegration. GitHubmain/Cloudflareexistingtarget ordinarilyauthorized but priorLiquidGlassgate unresolved: isolateorholdpublishedintegration, never silentlywaiveit. NoPR/delegation.
+
+Skill checklist: readpolicy/localreference/system/craft; exactreferencegeometry; threetypedirections; tenleversandtwo departures; freezeinputs/ownership/budget; originalassetinspect/nativeUI; baseline; userfirstnormal/adverse/mobilechecks; boundedcleanup; separatecriticalselfreview; exacthashreceipt/journal/validatedmanifest; galleryZIP and deliveryevidence ifallowed.
+
+Budget: up to2builtinimagecalls (one mountainanchorfirst, onlysecondif concretefailure); no paidmodeljudge/eval/API orvideo; builtintoolbillingunavailable, expected1–4min each. Totalworksoft40min, max2material correctionpasses, stoponrepeatedtoolblock/invalidasset. Assetproductionisnotcalibratedeval. No numericqualityratings. No purchasedassets. No irreversibleactions beyondauthorizeddelivery.
+
+Cases: T01real1440 composition/nativecopy/CTA -> screenshot/referencecompare. T02real375and320 default/form nooverflow -> screenshots/DOM. T03realGetStarted/empty/max80/select/review/edit/repeat/cancel/Escape -> snapshots/logs. T04mocknoJSandmissingimage -> content/CTA stillusable, explicitlymock. T05automatedbuildcheck/exactZIPandoldfilehash -> preserved. T06realHTTPservedextractedZIP -> local assets/functionalCTA. T07delivery -> configuredremotehash/publicroute/gallery/ZIP;blockedifexistingreleasegate prevents integration. CSSreducedmotion via source; noautonomousmotion. NoofflineAI/persistence/account/phoneclaim because absent. No local-fileclaim underknownblockedbrowserboundary.
+
+Rollback: revertownedcandidatecommit, preservepriorworkandgenerationevidence. Visualpassrequires recognizablemountain/phone/type/zippercompositionplusworkinglocalflow; sourcephotograph/fontidentityand unseenonboarding notclaimedexact. Rawchecksinfinal/, journal.md, review.md, run-manifest.json, acceptance.json. Frozenrefs cannotbeeditedtoapproveowncandidate.

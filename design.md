@@ -98,3 +98,7 @@ Proof:3054sourceframesand1440render/realrecording,375/320,empty/invalid/max/canc
 ## AnimoraAI — frozen2026-09-10
 
 **User-stated:** Reconstruct the supplied Tanzil character reference. **Agent-selected working policy:** The compact system is frozen in [evidence/animora/design.md](evidence/animora/design.md): one dark character hero, original artwork, native gaze and four themes, truthful local interaction boundaries. Preserve previous21templates.
+
+## Travio — frozen 2026-09-10
+
+**User-stated:** Add the supplied Travio travel-app concept. **Agent-selected working policy:** Follow [evidence/travio/design.md](evidence/travio/design.md): one alpine phone presentation, native zipper and plane, original photograph, accessible local preference preview. Preserve all 22 previously published templates.
