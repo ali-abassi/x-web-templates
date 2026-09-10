@@ -1,0 +1,30 @@
+{
+  "fonts": "loaded",
+  "height": 5400,
+  "images": [
+    {
+      "loaded": true,
+      "src": "assets/landmarks.png"
+    },
+    {
+      "loaded": true,
+      "src": "assets/flowers.png"
+    },
+    {
+      "loaded": true,
+      "src": "assets/window.png"
+    },
+    {
+      "loaded": true,
+      "src": "assets/pagoda.png"
+    },
+    {
+      "loaded": true,
+      "src": "assets/footer.png"
+    }
+  ],
+  "scrollWidth": 320,
+  "titleFont": "Sans, Arial, sans-serif",
+  "url": "http://127.0.0.1:4173/wandor/",
+  "width": 320
+}

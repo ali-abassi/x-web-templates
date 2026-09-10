@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:4173/wandor/",
+  "width": 1440,
+  "scrollWidth": 1440,
+  "reduced": true,
+  "enabledButtons": 6,
+  "running": 0,
+  "h1": "Where will you go next?",
+  "images": true
+}

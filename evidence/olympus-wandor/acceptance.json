@@ -1,0 +1,51 @@
+{
+  "verdict": "accept",
+  "candidate": {
+    "base": "855a3b47c3a17ffd6b3811b929094cfe34a7bf75",
+    "head": "855a3b47c3a17ffd6b3811b929094cfe34a7bf75",
+    "dirty_content": "candidate-hashes.json",
+    "deployment_input": "final/deployment-input.json"
+  },
+  "alignment": {
+    "vision.md": "954a1faf88b6736fa5682e4e2d4fedf13e2ecc6ae365704c37b3ffac43534407",
+    "intent.md": "0c648a39f28719118bf1a4ff81f8c24e447b5d0dd14934a62003661704caa0a0",
+    "design.md": "67fe1e70599f48b6ae97af1c2f0364212b624dcc3bd3db877f0b435401dc58d5"
+  },
+  "reviewer": "active agent separate critical self-review; no independent-agent review",
+  "time": "2026-09-10T03:20:22.539402+00:00",
+  "evidence": {
+    "visual": "comparisons.html, final/*-1440.png, *-375.png, *-320.png; inspected original stills and rendered output",
+    "motion": "final/*-motion.mp4, *-visibility.json, paused-content.json",
+    "local_interaction": "final/interactions.json: 38 unique latest verdicts pass; 2 historical driver failures retained",
+    "public_interaction": "final/live-interactions.json: 38 unique latest verdicts pass; 1 historical text-locator failure retained; keyboard FAQ verified",
+    "a11y": "final/*-axe-*.json: zero automated violations; review.md manual contrast checks",
+    "resilience": "8 reduced/noJS and 14 adverse cases; final/exports.json file-origin use",
+    "distribution": "19 HTML, 17 exact ZIPs; final/live-gallery.json four browser ZIP downloads with hashes",
+    "regression": "prior-runtime-parity.json original15 126 runtime files unchanged",
+    "production": "final/live-bytes.json 189/189 public files exact; deployment ad8678e3-6c1a-436a-b17f-887ab4e8c4f9 successful"
+  },
+  "checks": [
+    "python3 scripts/build.py PASS",
+    "python3 scripts/check.py PASS",
+    "git diff --check PASS",
+    "npx --yes eslint@9.39.1 --no-config-lookup --rule complexity:[error,5] both app.js PASS"
+  ],
+  "code_contract": {
+    "authored_typescript": 0,
+    "changed_javascript_function_complexity_maximum": 5,
+    "dependencies_added": 0
+  },
+  "usage": {
+    "owners": 1,
+    "delegation": false,
+    "native_image_calls": 11,
+    "billing": "unavailable",
+    "paid_judge_calls": 0
+  },
+  "unverified": [
+    "Physical Safari and VoiceOver; Chrome desktop/mobile viewport emulation is the tested browser boundary",
+    "Actual AI, bookings, accounts, certification and persistence excluded; local examples disclose these limits"
+  ],
+  "cleanup": "review.md",
+  "delivery": "Private main push and clean-source metadata receipt follow; public candidate already verified"
+}

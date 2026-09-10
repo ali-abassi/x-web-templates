@@ -1,0 +1,96 @@
+{
+  "template": "olympus",
+  "environment": "actual Chrome target activation; owned blank tab closed",
+  "before": {
+    "url": "http://127.0.0.1:4173/olympus/",
+    "hidden": false,
+    "flag": "false",
+    "animations": [
+      {
+        "state": "running",
+        "time": 133.305999958843
+      },
+      {
+        "state": "running",
+        "time": 133.305999958843
+      },
+      {
+        "state": "running",
+        "time": 133.305999958843
+      },
+      {
+        "state": "running",
+        "time": 133.305999958843
+      }
+    ]
+  },
+  "hidden": {
+    "url": "http://127.0.0.1:4173/olympus/",
+    "hidden": true,
+    "flag": "true",
+    "animations": [
+      {
+        "state": "paused",
+        "time": 649.951999958843
+      },
+      {
+        "state": "paused",
+        "time": 649.951999958843
+      },
+      {
+        "state": "paused",
+        "time": 649.951999958843
+      },
+      {
+        "state": "paused",
+        "time": 649.951999958843
+      }
+    ]
+  },
+  "held": {
+    "url": "http://127.0.0.1:4173/olympus/",
+    "hidden": true,
+    "flag": "true",
+    "animations": [
+      {
+        "state": "paused",
+        "time": 649.951999958843
+      },
+      {
+        "state": "paused",
+        "time": 649.951999958843
+      },
+      {
+        "state": "paused",
+        "time": 649.951999958843
+      },
+      {
+        "state": "paused",
+        "time": 649.951999958843
+      }
+    ]
+  },
+  "visible": {
+    "url": "http://127.0.0.1:4173/olympus/",
+    "hidden": false,
+    "flag": "false",
+    "animations": [
+      {
+        "state": "running",
+        "time": 933.2559998730196
+      },
+      {
+        "state": "running",
+        "time": 933.2559998730196
+      },
+      {
+        "state": "running",
+        "time": 933.2559998730196
+      },
+      {
+        "state": "running",
+        "time": 933.2559998730196
+      }
+    ]
+  }
+}

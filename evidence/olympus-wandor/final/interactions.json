@@ -1,0 +1,202 @@
+[
+  {
+    "case": "olympus assign 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "olympus unassign 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "olympus model 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "olympus workflow 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "olympus reset 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "olympus standard 1440",
+    "passed": false,
+    "observed": false
+  },
+  {
+    "case": "olympus standard 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "olympus CTA focus 1440",
+    "passed": false,
+    "observed": false
+  },
+  {
+    "case": "olympus CTA focus 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "olympus pause 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "olympus resume 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "wandor whitespace 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "wandor draft 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "wandor real browser download 1440",
+    "passed": true,
+    "sha256": "8ff1d457ad4f3975bd921313642be0c14e54830a8e6b3bb534f63d51614c8932"
+  },
+  {
+    "case": "wandor notes preserved 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "wandor day view 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "wandor saved empty 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "wandor stays restored 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "wandor FAQ 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "wandor pause 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "wandor resume 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "olympus assign 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "olympus unassign 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "olympus model 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "olympus workflow 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "olympus reset 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "olympus standard 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "olympus CTA focus 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "olympus pause 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "olympus resume 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "wandor whitespace 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "wandor draft 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "wandor real browser download 375",
+    "passed": true,
+    "sha256": "8ff1d457ad4f3975bd921313642be0c14e54830a8e6b3bb534f63d51614c8932"
+  },
+  {
+    "case": "wandor notes preserved 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "wandor day view 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "wandor saved empty 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "wandor stays restored 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "wandor FAQ 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "wandor pause 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "wandor resume 375",
+    "passed": true,
+    "observed": true
+  }
+]

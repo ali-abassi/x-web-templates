@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Wandor — Where will you go next?</title>
+    <meta
+      name="description"
+      content="An illustrated travel template with an editable local itinerary example."
+    />
+    <link rel="icon" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="page">
+      <header>
+        <a class="wordmark" href="#main">wandor</a>
+        <nav aria-label="Main navigation">
+          <a href="#discover">Discover</a><a href="#faq">FAQs</a
+          ><a href="#about">About</a>
+        </nav>
+        <a class="button" href="#planner">Plan my trip</a>
+      </header>
+      <main id="main">
+        <section class="hero" id="planner">
+          <img
+            class="landscape"
+            src="assets/landmarks.png"
+            width="1536"
+            height="1024"
+            alt="Illustrated Colosseum, Great Wall, Taj Mahal and Christ the Redeemer beneath a blue sky"
+          /><span class="cloud cloud-one" aria-hidden="true"></span
+          ><span class="cloud cloud-two" aria-hidden="true"></span>
+          <div class="hero-content">
+            <h1>Where will you go next?</h1>
+            <p>
+              Tell our AI where you’re going and what you love. <br />We’ll
+              create a personalized itinerary for you.
+            </p>
+            <form class="trip-form" data-trip-form>
+              <label class="sr" for="notes-top">Tell us about your trip</label
+              ><textarea
+                id="notes-top"
+                name="notes"
+                required
+                maxlength="2000"
+                placeholder="I’m planning a 7-day trip to Japan in October. I love food, hidden cafés, scenic hikes, and want to avoid crowds…"
+              ></textarea>
+              <div>
+                <span aria-hidden="true">↥</span
+                ><button class="button" type="submit" disabled>
+                  Plan my trip
+                </button>
+              </div>
+              <p class="form-status" role="status"></p>
+            </form>
+            <p class="demo-note">
+              Try the local itinerary example · no AI request or booking
+            </p>
+          </div>
+          <svg
+            class="scallop"
+            viewBox="0 0 1200 150"
+            preserveAspectRatio="none"
+            aria-hidden="true"
+          >
+            <path
+              d="M0 0Q35 10 45 50Q95 35 120 80Q155 63 190 106Q235 86 270 124Q310 108 350 138Q390 119 440 148Q480 128 525 150Q570 135 615 150Q665 128 715 148Q765 123 815 138Q860 110 910 124Q960 92 1010 106Q1050 70 1100 80Q1130 40 1160 50Q1180 10 1200 0V150H0Z"
+              fill="white"
+            />
+          </svg>
+        </section>
+        <section id="itinerary" class="itinerary section" hidden tabindex="-1">
+          <div>
+            <p class="eyebrow">YOUR LOCAL TRIP DRAFT</p>
+            <h2>A starting point for your adventure.</h2>
+            <p>
+              This is an editable example, not an AI-generated or verified
+              itinerary. Your notes stay in this page.
+            </p>
+          </div>
+          <label for="draft">Edit your itinerary</label
+          ><textarea id="draft" maxlength="16000" rows="12"></textarea>
+          <div class="draft-actions">
+            <button class="button" id="export" disabled>
+              Download itinerary ↓</button
+            ><button class="text-button" id="back">Back to my notes ↑</button>
+            <p id="export-status" role="status"></p>
+          </div>
+        </section>
+        <section id="discover" class="features section">
+          <div class="section-intro">
+            <h2>A better way to<br />plan a trip</h2>
+            <p>
+              Wandor takes what you want from your trip and turns it into a plan
+              you can actually follow.
+            </p>
+          </div>
+          <article class="feature-row">
+            <div>
+              <h3>PLAN AROUND YOU</h3>
+              <p>
+                Tell Wandor where you’re going, what you love, and how you like
+                to travel. It builds a trip that feels like yours, not another
+                tourist checklist.
+              </p>
+            </div>
+            <div class="phone-preview preview-one">
+              <div class="mini-app">
+                <div class="mini-top"><b>▣ Wandor</b><span>•••</span></div>
+                <div class="mini-content">
+                  <h3>Where to today, Alex?</h3>
+                  <p>Every trip starts with a little curiosity.</p>
+                  <div class="suggestion">☀ A slower weekend in Venice</div>
+                  <div class="suggestion">♧ Somewhere close to nature</div>
+                </div>
+                <div class="mini-bottom">
+                  Ask about your trip <span>↗</span>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="feature-row">
+            <div>
+              <h3>YOUR TRIP, FIGURED OUT</h3>
+              <p>
+                From places to see to things worth doing, Wandor turns your
+                ideas into a day-by-day itinerary you can actually follow.
+              </p>
+            </div>
+            <div class="phone-preview preview-two">
+              <div class="mini-app">
+                <div class="mini-top"><b>▣ Wandor</b><span>•••</span></div>
+                <div class="mini-content">
+                  <h3>Your week, beautifully planned.</h3>
+                  <p>A little structure. Plenty of room to wander.</p>
+                  <ol>
+                    <li>
+                      <b>Day 1 · Settle in</b>
+                      <p>Find your neighborhood café.</p>
+                    </li>
+                    <li>
+                      <b>Day 2 · A different view</b>
+                      <p>Explore the quiet side streets.</p>
+                    </li>
+                    <li>
+                      <b>Day 3 · Follow your curiosity</b>
+                      <p>Make time for a small discovery.</p>
+                    </li>
+                  </ol>
+                </div>
+                <div class="mini-bottom">
+                  Ask about your trip <span>↗</span>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="feature-row">
+            <div>
+              <h3>LESS PLANNING, MORE WANDERING</h3>
+              <p>
+                Skip the endless tabs, lists, and travel blogs. Get everything
+                you need for your trip, beautifully organized in one place.
+              </p>
+            </div>
+            <div class="phone-preview preview-three">
+              <div class="mini-app">
+                <div class="mini-top"><b>▣ Wandor</b><span>•••</span></div>
+                <div class="mini-content">
+                  <h3>Ultimate Venice Trip Guide</h3>
+                  <p>All the little things, in one place.</p>
+                  <div class="guide-stop">
+                    <span class="mini-photo photo-0"></span
+                    ><span
+                      >A morning by the water<small
+                        >Save for your next adventure</small
+                      ></span
+                    >
+                  </div>
+                  <div class="guide-stop">
+                    <span class="mini-photo photo-1"></span
+                    ><span
+                      >Your favorite kind of café<small
+                        >Save for your next adventure</small
+                      ></span
+                    >
+                  </div>
+                  <div class="guide-stop">
+                    <span class="mini-photo photo-2"></span
+                    ><span
+                      >A neighborhood worth exploring<small
+                        >Save for your next adventure</small
+                      ></span
+                    >
+                  </div>
+                  <div class="guide-stop">
+                    <span class="mini-photo photo-3"></span
+                    ><span
+                      >Room for the unexpected<small
+                        >Save for your next adventure</small
+                      ></span
+                    >
+                  </div>
+                </div>
+                <div class="mini-bottom">
+                  Ask about your trip <span>↗</span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+        <section class="journey section">
+          <div class="centered">
+            <h2>Your Journey Partner</h2>
+            <p>
+              From smarter planning to real-time updates, Wandor keeps the
+              important parts of your trip in one place.
+            </p>
+          </div>
+          <div class="floral-preview">
+            <img
+              src="assets/flowers.png"
+              width="1536"
+              height="1024"
+              alt="A hand-painted border of wildflowers, leaves and small travel-inspired blossoms"
+            />
+            <div class="dashboard">
+              <aside>
+                <b>▣ Wandor</b><span>◈ Chats</span><span>▣ Explore</span
+                ><span>♡ Saved</span><span>⚑ Trips</span><span>☼ Updates</span
+                ><span class="active">+ New adventure</span>
+                <div>My Venice Trip<small>Made for wandering.</small></div>
+              </aside>
+              <div class="dashboard-main">
+                <div class="dashboard-top">
+                  <h3>Ultimate Venice Trip Guide</h3>
+                  <span>↗</span>
+                </div>
+                <div
+                  class="view-buttons"
+                  role="group"
+                  aria-label="Journey preview"
+                >
+                  <button data-view="stays" aria-pressed="true" disabled>
+                    Stays</button
+                  ><button data-view="days" aria-pressed="false" disabled>
+                    Day by day</button
+                  ><button data-view="saved" aria-pressed="false" disabled>
+                    Saved
+                  </button>
+                </div>
+                <div id="journey-view">
+                  <div class="stay-grid">
+                    <article class="stay">
+                      <div class="stay-photo photo-0"></div>
+                      <h4>A room by the water</h4>
+                      <p>Venice, Italy · Example stay</p>
+                      <span>☆ Save for later</span>
+                    </article>
+                    <article class="stay">
+                      <div class="stay-photo photo-1"></div>
+                      <h4>A quieter corner</h4>
+                      <p>Venice, Italy · Example stay</p>
+                      <span>☆ Save for later</span>
+                    </article>
+                    <article class="stay">
+                      <div class="stay-photo photo-2"></div>
+                      <h4>A place to come back to</h4>
+                      <p>Venice, Italy · Example stay</p>
+                      <span>☆ Save for later</span>
+                    </article>
+                    <article class="stay">
+                      <div class="stay-photo photo-3"></div>
+                      <h4>A little more room</h4>
+                      <p>Venice, Italy · Example stay</p>
+                      <span>☆ Save for later</span>
+                    </article>
+                  </div>
+                </div>
+                <p id="view-status" role="status">
+                  Illustrative trip dashboard · select a view.
+                </p>
+              </div>
+            </div>
+          </div>
+          <a class="button" href="#planner">Plan my trip</a>
+        </section>
+        <section class="manifesto section">
+          <img
+            src="assets/window.png"
+            width="1024"
+            height="1024"
+            alt="A warm airplane window framing a wing above turquoise islands"
+          />
+          <p>
+            Travel is personal<br />No two people experience 🌄 a place the same
+            way. Your trip should feel like yours, shaped around your pace, 🥐
+            interests, little detours, and the 📸 moments you’ll actually
+            remember.
+          </p>
+        </section>
+        <section class="closing section">
+          <img
+            src="assets/pagoda.png"
+            width="1536"
+            height="1024"
+            alt="A richly painted green and turquoise Chinese temple roof"
+          />
+          <h2>Let’s make this<br />trip yours</h2>
+          <form class="trip-form" data-trip-form>
+            <label class="sr" for="notes-bottom">Tell us about your trip</label
+            ><textarea
+              id="notes-bottom"
+              name="notes"
+              required
+              maxlength="2000"
+              placeholder="I’m planning a 7-day trip to Japan in October. I love food, hidden cafés, scenic hikes, and want to avoid crowds…"
+            ></textarea>
+            <div>
+              <span aria-hidden="true">↥</span
+              ><button class="button" type="submit" disabled>
+                Plan my trip
+              </button>
+            </div>
+            <p class="form-status" role="status"></p>
+          </form>
+        </section>
+      </main>
+      <footer>
+        <div class="footer-top">
+          <div>
+            <a class="wordmark" href="#main">wandor</a>
+            <p>Travel planning, made personal.</p>
+          </div>
+          <div>
+            <h3>Explore</h3>
+            <a href="#planner">Plan a trip</a><a href="#discover">Features</a
+            ><a href="#faq">FAQs</a>
+          </div>
+          <div>
+            <h3>Company</h3>
+            <a href="#about">About Wandor</a
+            ><a href="https://x.com/oiharshit/status/2097666212767633581"
+              >Original design ↗</a
+            >
+          </div>
+        </div>
+        <details id="faq">
+          <summary>Questions before you wander?</summary>
+          <h3>Does this use AI or book a trip?</h3>
+          <p>
+            No. This standalone template turns your notes into an editable
+            example draft. It does not connect to AI, verify travel details,
+            make reservations or charge you.
+          </p>
+          <h3>Where are my notes saved?</h3>
+          <p>
+            Only in this page until you reload. Use Download itinerary to keep a
+            plain-text copy on your device.
+          </p>
+        </details>
+        <details id="about">
+          <summary>About this template</summary>
+          <p>
+            Reference-led reconstruction of Harshit’s Wandor design with
+            original generated illustrations and newly authored motion. Product
+            copy and dashboard content are illustrative. All controls operate
+            locally; no accounts, booking or real-time services are connected.
+          </p>
+        </details>
+        <div class="footer-bottom">
+          <span>wandor. © 2026 · design example</span
+          ><button id="motion" disabled aria-pressed="false">
+            Pause motion</button
+          ><span>Made for curious travelers.</span>
+        </div>
+        <p id="art-status" role="status"></p>
+        <noscript
+          >Scripts are off. Browse the page and FAQs; itinerary examples require
+          JavaScript.</noscript
+        >
+      </footer>
+      <img
+        class="footer-landscape"
+        src="assets/footer.png"
+        width="1536"
+        height="1024"
+        alt="A colorful panorama of world landmarks and blue clouds"
+      />
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

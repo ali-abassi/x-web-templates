@@ -1,0 +1,64 @@
+{
+  "template": "wandor",
+  "environment": "actual Chrome target activation; owned blank tab closed",
+  "before": {
+    "url": "http://127.0.0.1:4173/wandor/",
+    "hidden": false,
+    "flag": "false",
+    "animations": [
+      {
+        "state": "running",
+        "time": 166.56999993709476
+      },
+      {
+        "state": "running",
+        "time": 166.56999993709476
+      }
+    ]
+  },
+  "hidden": {
+    "url": "http://127.0.0.1:4173/wandor/",
+    "hidden": true,
+    "flag": "true",
+    "animations": [
+      {
+        "state": "paused",
+        "time": 683.3519999370948
+      },
+      {
+        "state": "paused",
+        "time": 683.3519999370948
+      }
+    ]
+  },
+  "held": {
+    "url": "http://127.0.0.1:4173/wandor/",
+    "hidden": true,
+    "flag": "true",
+    "animations": [
+      {
+        "state": "paused",
+        "time": 683.3519999370948
+      },
+      {
+        "state": "paused",
+        "time": 683.3519999370948
+      }
+    ]
+  },
+  "visible": {
+    "url": "http://127.0.0.1:4173/wandor/",
+    "hidden": false,
+    "flag": "false",
+    "animations": [
+      {
+        "state": "running",
+        "time": 966.6879999354929
+      },
+      {
+        "state": "running",
+        "time": 966.6879999354929
+      }
+    ]
+  }
+}

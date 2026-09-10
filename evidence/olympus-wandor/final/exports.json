@@ -1,0 +1,24 @@
+[
+  {
+    "template": "olympus",
+    "environment": "real Chrome file:// opened from actual unpacked ZIP",
+    "passed": true,
+    "observed": {
+      "fonts": "loaded",
+      "images": true,
+      "overflow": false
+    },
+    "zip_sha256": "9d39e7ace9286319c0c36ebc1789366d0efc2d13aab0e2fda0a42eff7457271d"
+  },
+  {
+    "template": "wandor",
+    "environment": "real Chrome file:// opened from actual unpacked ZIP",
+    "passed": true,
+    "observed": {
+      "fonts": "loaded",
+      "images": true,
+      "overflow": false
+    },
+    "zip_sha256": "09e52279e47e543bfaca8f259b8ba5b4c3e4b8dca949becdaf01b110be1938af"
+  }
+]

@@ -22,6 +22,8 @@ NAMES = (
     "reality-studio",
     "direct-cta",
     "quiet-presets",
+    "olympus",
+    "wandor",
 )
 
 

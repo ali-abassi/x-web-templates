@@ -1,0 +1,90 @@
+[
+  {
+    "index": 1,
+    "prompt": "Use case: illustration-story. Create original artwork ONLY for a travel website hero, wide 1536x1024. The attached reference is a style/composition reference, not an edit target. Painted editorial travel illustration with detailed warm terracotta Colosseum at lower left, Great Wall climbing green mountains across lower center, Taj Mahal lower right, Christ the Redeemer at far right edge. Lush small trees, sunlit golden stone, richly textured gouache, pale bright cyan sky. Landmarks occupy bottom 38 percent only; upper 62 percent is open soft cyan sky with three small cream clouds near side edges and broad empty center for separate HTML heading and input. Full bleed landscape rectangular artwork, not a screenshot, no UI, no letters, no logos, no watermark. Color and subject scale should closely evoke the supplied Wandor hero. Keep the buildings distinguishable and detailed; no frame or white margin.",
+    "source": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-fb4bc174-33cb-43ad-ab0b-f6429f4c79cb.png",
+    "route": "native image_gen",
+    "cost": "unavailable",
+    "decision": "planned asset"
+  },
+  {
+    "index": 2,
+    "prompt": "Use case: stylized-concept. Original website illustration asset, wide 1536x1024, full rectangular background exact pale ivory #f7f7f0. Style reference attached Olympus screenshot only. On far right, a beautifully carved classical Greek marble philosopher sits on a low marble plinth, head bowed thoughtfully looking at an open slim graphite laptop resting on his knees. White Carrara marble drapery, delicate realistic carvings, gentle beige shadows. Figure occupies rightmost 42 percent, bottom aligned, full seated pose visible. Left 58 percent nearly empty warm ivory with faint ethereal cream clouds low near bottom, two tiny pale doves near upper left. Quiet diffused daylight, very desaturated, museum artwork with soft lemon atmospheric glow. Render only art; no typography, letters, logos, UI or watermark. Fade cloud boundaries into ivory. Match restrained fine classical artwork of source; not dramatic dark lighting.",
+    "source": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-ba7e622a-4742-4c49-9e91-29dd6e18314f.png",
+    "route": "native image_gen",
+    "cost": "unavailable",
+    "decision": "planned asset"
+  },
+  {
+    "index": 3,
+    "prompt": "Use case: stylized-concept. Create an original square illustration asset for a very pale classical website. A small elegant ancient Greek marble temple with six Corinthian columns and triangular pediment, three-quarter view, its base fading into wispy ivory cloud. Two small pale doves flying to its left. Temple centered, fully visible, occupies 75 percent image width. Restrained antique warm white stone, soft beige shadows, faint pale lemon glow. Background uniform warm ivory #f7f7f0 fading seamlessly at every edge, no horizon, no frame. Reference image is a style reference only. Fine detailed carved architecture, delicate and quiet, not cartoon. No text, symbols, UI, watermark or added objects.",
+    "source": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-e5d55b19-219e-46d6-8073-d4258a29cfc6.png",
+    "route": "native image_gen",
+    "cost": "unavailable",
+    "decision": "planned asset"
+  },
+  {
+    "index": 4,
+    "prompt": "Use case: stylized-concept. Original square decorative artwork for a classical website. A finely carved pale Carrara marble bust of Apollo, profile facing right, laurel wreath, graceful curls and draped shoulder, cropped just below the upper chest. Centered bust fills 65 percent of the canvas, upper head fully visible. A faint soft pale lemon cloud halo behind it, everything fades into uniform warm ivory #f7f7f0 at all four edges. Fine realistic antique sculpture with muted beige shadows, delicate classical beauty. Reference is only a visual style reference. No letters, text, labels, frame, UI, watermark or other characters.",
+    "source": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-cc1f3385-ba0c-40ec-ab64-4c431fd45bfe.png",
+    "route": "native image_gen",
+    "cost": "unavailable",
+    "decision": "planned asset"
+  },
+  {
+    "index": 5,
+    "prompt": "Use case: historical-scene. Generate an original very wide 1536x1024 background illustration for a classical ivory website. Two delicate classical Renaissance-painted human hands reaching toward each other from far left and far right edges, left palm reaching upward and right index finger extended downward-left, beautiful natural anatomy, only hands and short forearms visible. Their fingertips end at about 29 percent and 71 percent of width, leaving the entire middle 42 percent blank ivory for an HTML heading. Hands sit in the upper 25 percent of canvas, all lower 70 percent blank. Subtle pale lemon cloud haze at top center only. Warm desaturated fresco flesh tones and soft stone-white drapery at side edges, museum painting softness. Background exact warm ivory #f7f7f0, nearly flat. Match the reference's soft classical mood but create new original art. No sun, no text, no UI, no symbols, no frame, no watermark.",
+    "source": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-b47a605a-4dc0-4bfa-80d8-380775fd1158.png",
+    "route": "native image_gen",
+    "cost": "unavailable",
+    "decision": "planned asset"
+  },
+  {
+    "index": 6,
+    "prompt": "Use case: illustration-story. Original decorative botanical border illustration for a travel website, landscape 1536x1024 on pure white background. A joyful fine hand-painted gouache wreath in a wide rectangular shape: wild daisies, little yellow flowers, purple lavender, green olive and eucalyptus leaves, orange poppies, two tiny tropical birds, gently irregular and organic. Flowers live ONLY around outer 15 percent of canvas. Entire central 75 percent width by 70 percent height must be pure solid white empty space for a separate HTML dashboard. Border has airy white gaps and soft asymmetry, no hard rectangular stroke, no UI, no letters, no logo, no text, no watermark. Match supplied Wandor reference's floral preview framing and saturated green/purple/yellow/orange brushwork. Flat artwork viewed straight on, not a perspective scene.",
+    "source": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-5c6cc3d4-09e7-4c5a-937b-849c2b4c2708.png",
+    "route": "native image_gen",
+    "cost": "unavailable",
+    "decision": "planned asset"
+  },
+  {
+    "index": 7,
+    "prompt": "Use case: illustration-story. Original square illustration for a travel website on pure white background. A single realistic rounded airplane passenger window, warm beige plastic surround, viewed perfectly straight on. Through the window: bright cyan sky with small cream clouds, an elegant white airplane wing crossing diagonally from right toward center, turquoise tropical sea with small lush green islands far below. Painterly travel illustration, refined gouache and soft realistic materials, sunny uplifting colors. Entire window centered and fully visible, occupies 65 percent of canvas width and 85 percent height, soft extremely subtle shadow on white. No outside objects, no labels, no text, no UI, no logo, no watermark. Match supplied Wandor airplane-window composition as style reference only.",
+    "source": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-6ca9b797-b2e5-40d5-b4ad-d511964ac0d0.png",
+    "route": "native image_gen",
+    "cost": "unavailable",
+    "decision": "planned asset"
+  },
+  {
+    "index": 8,
+    "prompt": "Use case: illustration-story. Original wide 1536x1024 illustration on pure white background. A single ornate traditional Chinese temple roof viewed straight on, curved jade green and turquoise glazed tiles, upward sweeping corners, terracotta ridge ornaments, fine rich teal, deep blue and muted red carved wood detail under the eaves. Only the roof and a short ornamental frieze below it, no entire building, no columns or ground. Centered, fully visible with generous white margins, roof occupies 75 percent width and 38 percent height at center. Refined richly textured gouache travel illustration matching the supplied Wandor reference's decorative roof above its final CTA. All background pure white, no gray box or shadow edge. No text, logo, labels, UI, border or watermark.",
+    "source": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-ed6f8295-689b-46c6-992e-dc1702cf5122.png",
+    "route": "native image_gen",
+    "cost": "unavailable",
+    "decision": "planned asset"
+  },
+  {
+    "index": 9,
+    "prompt": "Use case: illustration-story. Original wide 1536x1024 travel website footer illustration. Vibrant panoramic collage of world landmarks clustered in the lower half: Sagrada Familia left, Sydney Opera House, London bridge, Eiffel Tower center, Egyptian pyramids, golden Indian palace, Colosseum far right, green mountains between, bright white and pale blue scalloped clouds around their bases and tops. Warm ochre, terracotta, sunny yellow and cyan blue. Hand-painted richly textured gouache, charming detailed travel poster style, visually coherent dense architecture, no people. Upper 45 percent is pure white negative space; landmarks rise from lower edge, with all key towers fully visible and not cropped at top. Illustration is flat front view, no rectangular frame or border. Do not include any text, logos, labels, UI or watermark. Source image attached for style and composition reference only.",
+    "source": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-bd2c89f8-f275-4391-941a-b23ae027d2e2.png",
+    "route": "native image_gen",
+    "cost": "unavailable",
+    "decision": "planned asset"
+  },
+  {
+    "index": 10,
+    "prompt": "Use case: stylized-concept. Original composite decorative artwork matching the teams section composition in the supplied Olympus reference. Landscape 1536x1024 on a flat very pale warm ivory background #f7f7f0. A centered small mosaic of 55 rounded square tiles arranged in five staggered horizontal rows: approximately 35 tiles contain tiny realistic professional headshot portraits of diverse fictional adult people of varied ages, genders and skin tones, the rest are blank creamy tiles with faint lemon inner glows. Tiles have subtle white borders and soft shadows, neat regular gaps. Mosaic occupies middle 58 percent of width and vertical band from 30 to  sixty percent of height. On far left edge and far right edge, faint softly faded Renaissance-fresco-style robed classical figures with one arm outstretched toward mosaic, dusty rose drapery, cream skin and cloud-like fading; figures occupy outer 20 percent each and vertical band 35 to 85 percent. Keep people distinct and natural, subtle desaturated photographic tones. All four canvas edges fade to flat ivory. No heading, quotation, labels, letters, logo, UI controls or watermark. This is one decorative composition, not an editable app screenshot; use reference only for composition and classical mood.",
+    "source": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-3e0cf18e-2f9b-4b55-81b2-2a826cdedf3f.png",
+    "route": "native image_gen",
+    "cost": "unavailable",
+    "decision": "bounded visual correction"
+  },
+  {
+    "index": 11,
+    "prompt": "Use case: photorealistic-natural. Original travel photograph for a website's illustrated trip dashboard. Wide 1536x1024 sunlit view across a quiet Venice canal: beautiful warm terracotta and pale ochre Venetian palazzo hotels with ornate arched windows, balconies and striped mooring poles, teal water across lower third, small gondola at left, bright soft late-afternoon Mediterranean sky. Several visually different facades across full width so separate crops make distinct thumbnails. Realistic architecture, rich but natural color, fine details, inviting unposed travel editorial photography. No readable shop signs, no hotel branding, no labels, no text, no UI, no watermark. This will sit as small photos within an HTML dashboard, not be an entire website screenshot.",
+    "source": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-303e457b-8eea-4c34-b082-1a20a22b792b.png",
+    "route": "native image_gen",
+    "cost": "unavailable",
+    "decision": "bounded visual correction"
+  }
+]

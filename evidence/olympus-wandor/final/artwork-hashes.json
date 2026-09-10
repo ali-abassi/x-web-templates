@@ -1,0 +1,20 @@
+{
+  "templates/olympus/dist/assets/temple.png": "94a0219c7391ef51e7a579c4c0416715a1f2ba96bbc1fc9b752d344b79ee02e2",
+  "templates/olympus/dist/assets/sans-bold.otf": "7f33328e6b4d4cd21b45fa625791928c9407dc702db6780e56b09ca9a3ecaa67",
+  "templates/olympus/dist/assets/sans.otf": "7c25be4d78155523080ab85b10277150657ff7dabbcad7037bdd536c9b6d0d08",
+  "templates/olympus/dist/assets/InstrumentSerif-Regular.ttf": "498efd461f6ddfcb7a111bf9a565709d2085d48201d501ead960d93e84ffbb88",
+  "templates/olympus/dist/assets/hands.png": "864dcc229ea916527258829738af70d6877654eab8d2cdefa75dd9e64b25f688",
+  "templates/olympus/dist/assets/apollo.png": "55eded174c0c04f29b85dd1f2b167f3a51ee6f53f5ca0e1585189c2cd21e6e8c",
+  "templates/olympus/dist/assets/philosopher.png": "e67f071d7b4e0646043f2a4f4ec9c12c57c0e1b0534a106b34975f081d91dec7",
+  "templates/olympus/dist/assets/teams.png": "2a3319c21b6cdbf2efc1e1332003b40837d824b066cbb199dfc0380e430ed983",
+  "templates/olympus/dist/assets/favicon.svg": "fc8573041df42da4135041ff05526a37e1b4a7619e83dd0bdcf41db495c506fb",
+  "templates/wandor/dist/assets/flowers.png": "ea8253513d9f92dedab78a203d64e731bf39c4f8ee8b7e284288ecf23d73db73",
+  "templates/wandor/dist/assets/sans-bold.otf": "7f33328e6b4d4cd21b45fa625791928c9407dc702db6780e56b09ca9a3ecaa67",
+  "templates/wandor/dist/assets/sans.otf": "7c25be4d78155523080ab85b10277150657ff7dabbcad7037bdd536c9b6d0d08",
+  "templates/wandor/dist/assets/landmarks.png": "1010efe36a6ba9be3fff6bbc46581faf0992d2c6a918d202646a978e11ae1480",
+  "templates/wandor/dist/assets/window.png": "d84c8676a444e82ab16b8e167c9161a2480b1ff56ff606989b3748ba978aee9a",
+  "templates/wandor/dist/assets/footer.png": "65089118f0f15cb8dc0bfc0087f6516abd865fcc6d35d30503fa8c0c04e8b34a",
+  "templates/wandor/dist/assets/pagoda.png": "cb494bcb2d4a074459ca61ace2be9fda16e1bd5d73b66087ee10fb5898ceb0a7",
+  "templates/wandor/dist/assets/favicon.svg": "fc8573041df42da4135041ff05526a37e1b4a7619e83dd0bdcf41db495c506fb",
+  "templates/wandor/dist/assets/venice.png": "3c1a55951a273935acef39e0c5250e32b73d3e526431dc2fc93f927247ad32a0"
+}

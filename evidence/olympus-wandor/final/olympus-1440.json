@@ -1,0 +1,30 @@
+{
+  "fonts": "loaded",
+  "height": 4345,
+  "images": [
+    {
+      "loaded": true,
+      "src": "assets/temple.png"
+    },
+    {
+      "loaded": true,
+      "src": "assets/teams.png"
+    },
+    {
+      "loaded": true,
+      "src": "assets/apollo.png"
+    },
+    {
+      "loaded": true,
+      "src": "assets/hands.png"
+    },
+    {
+      "loaded": true,
+      "src": "assets/philosopher.png"
+    }
+  ],
+  "scrollWidth": 1440,
+  "titleFont": "OlympusSerif, Georgia, serif",
+  "url": "http://127.0.0.1:4173/olympus/",
+  "width": 1440
+}

@@ -1,8 +1,8 @@
 # X Web Templates
 
-**[Browse all fifteen live templates](https://x-web-templates.pages.dev/)**
+**[Browse all seventeen live templates](https://x-web-templates.pages.dev/)**
 
-Fifteen reusable templates: reference-led reconstructions and your original Aster import. Original ChatGPT-generated artwork, editable HTML/CSS/JavaScript, and local fonts. No runtime dependencies or API keys.
+Seventeen reusable templates: reference-led reconstructions and your original Aster import. Original ChatGPT-generated artwork, editable HTML/CSS/JavaScript, and local fonts. No runtime dependencies or API keys.
 
 | Template | Live preview | Direction | Working interactions |
 | --- | --- | --- | --- |
@@ -21,6 +21,8 @@ Fifteen reusable templates: reference-led reconstructions and your original Aste
 | [Reality is](templates/reality-studio/) | [Open ↗](https://x-web-templates.pages.dev/reality-studio/) | Studio & Footer | A drifting atmosphere and geometric trails that follow your pointer. |
 | [Direct](templates/direct-cta/) | [Open ↗](https://x-web-templates.pages.dev/direct-cta/) | Agency & Call To Action | Two bold CTA cards, rotating arrows, and a local work reveal. |
 | [Quiet](templates/quiet-presets/) | [Open ↗](https://x-web-templates.pages.dev/quiet-presets/) | Product & Feature Section | A swipeable focus-preset gallery with tactile lifestyle photography. |
+| [Olympus](templates/olympus/) | [Open ↗](https://x-web-templates.pages.dev/olympus/) | Classical AI workspace | Marble artwork, orbit motion, local task assignment and model examples. |
+| [Wandor](templates/wandor/) | [Open ↗](https://x-web-templates.pages.dev/wandor/) | Illustrated travel planner | A landmark-filled journey with editable local itinerary downloads. |
 
 ## Original designs and credits
 
@@ -30,6 +32,11 @@ The original four designs come from **[Naty / @DesignGuru01 — original X post]
 - **HorizonX reference:** [Viktor Oddy / @viktoroddy — original post](https://x.com/viktoroddy/status/2097500666357072243).
 - **BuzzKit reference:** [Christo / @chroxify — original post](https://x.com/chroxify/status/2097477196130529296).
 - **Pixel-world reference:** [Varun / @orseliyas — original post](https://x.com/orseliyas/status/2097307376143773730).
+
+- **Olympus reference:** [Judha / @jxdhaa — original post](https://x.com/jxdhaa/status/2097647071721607222).
+- **Wandor reference:** [Harshit / @oiharshit — original post](https://x.com/oiharshit/status/2097666212767633581).
+
+Olympus and Wandor reconstruct all sections from the supplied stills, using original artwork and newly authored motion. Their local examples do not connect to real AI services or bookings.
 
 Each reconstruction credits its source. Aster’s runtime is unchanged. The seven motion additions independently reconstruct one selected example per library below; their individual READMEs identify the exact original page.
 
@@ -171,3 +178,11 @@ Every template README includes its screenshot and live preview.
 [![buzzkit](gallery/assets/buzzkit.png)](https://x-web-templates.pages.dev/buzzkit/)
 
 [![quiet-presets](gallery/assets/quiet-presets.png)](https://x-web-templates.pages.dev/quiet-presets/)
+
+### Olympus
+
+[![Olympus preview](gallery/assets/olympus.png)](https://x-web-templates.pages.dev/olympus/)
+
+### Wandor
+
+[![Wandor preview](gallery/assets/wandor.png)](https://x-web-templates.pages.dev/wandor/)

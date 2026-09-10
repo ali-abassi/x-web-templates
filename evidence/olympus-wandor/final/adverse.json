@@ -1,0 +1,130 @@
+[
+  {
+    "case": "olympus long labels 1440",
+    "passed": true,
+    "observed": {
+      "h1Height": 118.71875,
+      "scrollWidth": 1440,
+      "visibleControls": true,
+      "width": 1440
+    }
+  },
+  {
+    "case": "olympus missing artwork 1440",
+    "passed": true,
+    "observed": {
+      "failed": true,
+      "scrollWidth": 1440,
+      "status": "Some artwork could not load. All content and examples remain available.",
+      "width": 1440
+    }
+  },
+  {
+    "case": "olympus long labels 375",
+    "passed": true,
+    "observed": {
+      "h1Height": 222.5625,
+      "scrollWidth": 375,
+      "visibleControls": true,
+      "width": 375
+    }
+  },
+  {
+    "case": "olympus missing artwork 375",
+    "passed": true,
+    "observed": {
+      "failed": true,
+      "scrollWidth": 375,
+      "status": "Some artwork could not load. All content and examples remain available.",
+      "width": 375
+    }
+  },
+  {
+    "case": "olympus long labels 320",
+    "passed": true,
+    "observed": {
+      "h1Height": 296.75,
+      "scrollWidth": 320,
+      "visibleControls": true,
+      "width": 320
+    }
+  },
+  {
+    "case": "olympus missing artwork 320",
+    "passed": true,
+    "observed": {
+      "failed": true,
+      "scrollWidth": 320,
+      "status": "Some artwork could not load. All content and examples remain available.",
+      "width": 320
+    }
+  },
+  {
+    "case": "wandor long labels 1440",
+    "passed": true,
+    "observed": {
+      "h1Height": 131.09375,
+      "scrollWidth": 1440,
+      "visibleControls": true,
+      "width": 1440
+    }
+  },
+  {
+    "case": "wandor missing artwork 1440",
+    "passed": true,
+    "observed": {
+      "failed": true,
+      "scrollWidth": 1440,
+      "status": "Some artwork could not load. The planner and all text remain available.",
+      "width": 1440
+    }
+  },
+  {
+    "case": "wandor long labels 375",
+    "passed": true,
+    "observed": {
+      "h1Height": 124.171875,
+      "scrollWidth": 375,
+      "visibleControls": true,
+      "width": 375
+    }
+  },
+  {
+    "case": "wandor missing artwork 375",
+    "passed": true,
+    "observed": {
+      "failed": true,
+      "scrollWidth": 375,
+      "status": "Some artwork could not load. The planner and all text remain available.",
+      "width": 375
+    }
+  },
+  {
+    "case": "wandor long labels 320",
+    "passed": true,
+    "observed": {
+      "h1Height": 124.171875,
+      "scrollWidth": 320,
+      "visibleControls": true,
+      "width": 320
+    }
+  },
+  {
+    "case": "wandor missing artwork 320",
+    "passed": true,
+    "observed": {
+      "failed": true,
+      "scrollWidth": 320,
+      "status": "Some artwork could not load. The planner and all text remain available.",
+      "width": 320
+    }
+  },
+  {
+    "case": "wandor empty draft",
+    "passed": true
+  },
+  {
+    "case": "wandor download unavailable preserves edit",
+    "passed": true
+  }
+]

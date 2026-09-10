@@ -1,0 +1,32 @@
+{
+  "base": "855a3b47c3a17ffd6b3811b929094cfe34a7bf75",
+  "preexisting_changes": [],
+  "owners": 1,
+  "delegation": false,
+  "models": "Host-selected active model and native image generation; effort unchanged",
+  "parallelism": "No agents; sequential artwork anchor then independent local implementation",
+  "scope": [
+    "templates/olympus",
+    "templates/wandor",
+    "gallery",
+    "scripts/build.py",
+    "README.md",
+    "dist",
+    "evidence/olympus-wandor"
+  ],
+  "review": "Focused cleanup then separate full-candidate self-review; integrated live verification",
+  "budget": "Up to 9 planned native artwork calls plus at most 2 specific corrections. Billing unavailable; no numeric model scoring or paid judge. Estimated artwork time 15-30 minutes. Stop for generator/infrastructure failure before further paid calls.",
+  "criteria": {
+    "visual": "three exact stills -> same-width full-page comparison",
+    "motion": "runtime recording + pause/reduced/hidden evidence",
+    "interaction": "assignment/model selection; trip draft/edit/export; keyboard/mobile checks",
+    "resilience": "noJS, missing art, long text and local export boundaries",
+    "distribution": "17 ZIP parity and existing15 runtime hashes",
+    "delivery": "private main SHA + personal Pages live byte verification"
+  },
+  "alignment": {
+    "vision.md": "954a1faf88b6736fa5682e4e2d4fedf13e2ecc6ae365704c37b3ffac43534407",
+    "intent.md": "0c648a39f28719118bf1a4ff81f8c24e447b5d0dd14934a62003661704caa0a0",
+    "design.md": "67fe1e70599f48b6ae97af1c2f0364212b624dcc3bd3db877f0b435401dc58d5"
+  }
+}

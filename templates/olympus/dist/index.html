@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Olympus — Work worthy of your team</title>
+    <meta
+      name="description"
+      content="An editable classical AI workspace template with local interactive examples."
+    />
+    <link rel="icon" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#features">Skip to content</a>
+    <nav class="utility" aria-label="Template controls">
+      <a href="#about">About this template</a
+      ><button id="motion" disabled aria-pressed="false">Pause motion</button>
+    </nav>
+    <main>
+      <section id="features" class="features">
+        <header class="feature-heading">
+          <h1>Everything You Need<br />Worthy of Olympus</h1>
+          <img
+            src="assets/temple.png"
+            width="1024"
+            height="1024"
+            alt="A marble Greek temple among soft clouds"
+          />
+        </header>
+        <div class="feature-grid">
+          <article class="feature">
+            <div class="miniature agent-art">
+              <div class="orbit-crop" aria-hidden="true">
+                <div class="orbit-line"></div>
+              </div>
+              <ul class="agents">
+                <li>
+                  <span class="avatar">M</span
+                  ><span
+                    ><strong>Research Agent</strong
+                    ><small>Summarize competitor landscape</small></span
+                  ><button disabled data-agent="Research">
+                    Assign<span class="sr"> Research task</span>
+                  </button>
+                </li>
+                <li>
+                  <span class="avatar">J</span
+                  ><span
+                    ><strong>Content Agent</strong
+                    ><small>Draft this week’s copy</small></span
+                  ><button disabled data-agent="Content">
+                    Assign<span class="sr"> Content task</span>
+                  </button>
+                </li>
+                <li>
+                  <span class="avatar">A</span
+                  ><span
+                    ><strong>Analytics Agent</strong
+                    ><small>Prepare a usage report</small></span
+                  ><button disabled data-agent="Analytics">
+                    Assign<span class="sr"> Analytics task</span>
+                  </button>
+                </li>
+                <li>
+                  <span class="avatar">N</span
+                  ><span
+                    ><strong>Outreach Agent</strong
+                    ><small>Prepare follow-up notes</small></span
+                  ><button disabled data-agent="Outreach">
+                    Assign<span class="sr"> Outreach task</span>
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <h2>AI Agent Delegation</h2>
+            <p>
+              Assign tasks to agents, letting your team focus on impactful work.
+            </p>
+            <p id="agent-status" class="feedback" role="status">
+              Local demo · choose a sample task above.
+            </p>
+          </article>
+          <article class="feature">
+            <div class="miniature workflow-art">
+              <div class="orbit-crop" aria-hidden="true">
+                <div class="orbit-line"></div>
+              </div>
+              <div class="address">
+                ▣ &nbsp; workspace.olympus.example <span>↗</span>
+              </div>
+              <div class="workflow">
+                <div>
+                  <strong>Agent handoff flow</strong><span>26%</span
+                  ><progress
+                    value="26"
+                    max="100"
+                    aria-label="Example agent handoff"
+                  >
+                    26%
+                  </progress>
+                </div>
+                <div>
+                  <strong>Integration sync</strong><span>70%</span
+                  ><progress
+                    value="70"
+                    max="100"
+                    aria-label="Example integration sync"
+                  >
+                    70%
+                  </progress>
+                </div>
+                <div>
+                  <strong>Document automation</strong><span>42%</span
+                  ><progress
+                    value="42"
+                    max="100"
+                    aria-label="Example document automation"
+                  >
+                    42%
+                  </progress>
+                </div>
+              </div>
+            </div>
+            <div class="title-action">
+              <h2>Intelligent Workflows</h2>
+              <button id="workflow" disabled>Run example ↗</button>
+            </div>
+            <p>
+              Create automated workflows to connect tools and streamline
+              processes.
+            </p>
+            <p id="workflow-status" class="feedback" role="status">
+              Example progress only; no integrations connected.
+            </p>
+          </article>
+          <article class="feature">
+            <div class="miniature models-art">
+              <div class="orbit-crop" aria-hidden="true">
+                <div class="orbit-line"></div>
+              </div>
+              <div class="models" role="group" aria-label="Example AI models">
+                <button
+                  disabled
+                  class="model"
+                  data-model="OpenAI"
+                  aria-pressed="false"
+                  aria-label="Select OpenAI example"
+                >
+                  <span aria-hidden="true">❋</span></button
+                ><button
+                  disabled
+                  class="model"
+                  data-model="Claude"
+                  aria-pressed="false"
+                  aria-label="Select Claude example"
+                >
+                  <span aria-hidden="true">✳</span></button
+                ><button
+                  disabled
+                  class="model"
+                  data-model="Olympus"
+                  aria-pressed="true"
+                  aria-label="Select Olympus example"
+                >
+                  <span aria-hidden="true">Ω</span></button
+                ><button
+                  disabled
+                  class="model"
+                  data-model="DeepSeek"
+                  aria-pressed="false"
+                  aria-label="Select DeepSeek example"
+                >
+                  <span aria-hidden="true">≈</span></button
+                ><button
+                  disabled
+                  class="model"
+                  data-model="Perplexity"
+                  aria-pressed="false"
+                  aria-label="Select Perplexity example"
+                >
+                  <span aria-hidden="true">⌘</span>
+                </button>
+              </div>
+            </div>
+            <h2>Unified AI Models</h2>
+            <p>
+              Access OpenAI and Claude from one workspace—select the right tool.
+            </p>
+            <p id="model-status" class="feedback" role="status">
+              Olympus selected in this local example.
+            </p>
+          </article>
+          <article class="feature">
+            <div class="miniature keyboard-art">
+              <div class="orbit-crop" aria-hidden="true">
+                <div class="orbit-line"></div>
+              </div>
+              <svg class="shield" viewBox="0 0 80 90" aria-hidden="true">
+                <path
+                  fill="#f6e8a8"
+                  stroke="#fdf4ce"
+                  stroke-width="5"
+                  d="M40 4Q59 17 74 18V42Q74 66 40 86Q6 66 6 42V18Q21 17 40 4Z"
+                />
+                <path fill="#dcbd58" d="M28 42h24v20H28z" />
+                <path
+                  d="M32 42v-8a8 8 0 0 1 16 0v8"
+                  fill="none"
+                  stroke="#dcbd58"
+                  stroke-width="5"
+                />
+              </svg>
+              <div class="keyboard" aria-hidden="true">
+                <div class="keyboard-row">
+                  <span>Q</span><span>W</span><span>E</span><span>R</span
+                  ><span>T</span><span>Y</span><span>U</span><span>I</span
+                  ><span>O</span><span>P</span>
+                </div>
+                <div class="keyboard-row">
+                  <span>A</span><span>S</span><span>D</span><span>F</span
+                  ><span>G</span><span>H</span><span>J</span><span>K</span
+                  ><span>L</span>
+                </div>
+                <div class="keyboard-row">
+                  <span>Z</span><span>X</span><span>C</span><span>V</span
+                  ><span>B</span><span>N</span><span>M</span>
+                </div>
+                <span class="spacebar"></span>
+              </div>
+            </div>
+            <h2>Enterprise-Grade Security</h2>
+            <p>
+              Secure your data with advanced controls and privacy-first
+              architecture.
+            </p>
+            <a class="quiet-link" href="#security"
+              >Explore the example standards ↗</a
+            >
+          </article>
+        </div>
+      </section>
+      <section class="teams section">
+        <div class="centered">
+          <span class="halo" aria-hidden="true"></span>
+          <h2>Trusted by Teams<br />Reaching New Heights</h2>
+          <p>
+            See how organizations are using Olympus AI to streamline workflows,
+            centralize knowledge, and unlock greater productivity.
+          </p>
+        </div>
+        <img
+          class="people"
+          src="assets/teams.png"
+          width="1536"
+          height="1024"
+          alt="A mosaic of fictional team portraits framed by softly painted classical figures"
+        />
+        <blockquote>
+          “Olympus AI is our team’s hub for managing knowledge, automating
+          tasks, and collaborating effectively. We now spend less time searching
+          for information and more on meaningful work.”
+        </blockquote>
+        <p class="quote-credit">
+          <span class="avatar">J</span
+          ><span
+            >Example team<small>Illustrative reference testimonial</small></span
+          >
+        </p>
+      </section>
+      <section id="security" class="security section">
+        <div class="centered">
+          <img
+            class="bust"
+            src="assets/apollo.png"
+            width="1024"
+            height="1024"
+            alt="A finely carved marble Apollo bust"
+          />
+          <h2>Security Standards<br />Worthy of Trust</h2>
+          <p>
+            Enterprise-grade security and compliance practices designed to
+            protect your data, safeguard your workflows, and ensure peace of
+            mind at every level.
+          </p>
+        </div>
+        <div class="security-grid">
+          <details>
+            <summary>
+              <span class="medal" aria-hidden="true">✧</span>
+              <h3>SOC 2 Type II</h3>
+              <span
+                >Audits ensure high standards for security, availability, and
+                confidentiality.</span
+              >
+            </summary>
+            <p>
+              Illustrative compliance card. This static template has no SOC 2
+              audit or certification. Replace this example with verified
+              documentation for your product.
+            </p>
+          </details>
+          <details>
+            <summary>
+              <span class="medal" aria-hidden="true">♧</span>
+              <h3>GDPR Compliant</h3>
+              <span
+                >Built on privacy principles to help organizations protect
+                personal data.</span
+              >
+            </summary>
+            <p>
+              Example privacy copy. This page sends no form data to a server. A
+              production product needs its own accurate privacy terms and
+              controls.
+            </p>
+          </details>
+          <details>
+            <summary>
+              <span class="medal" aria-hidden="true">◇</span>
+              <h3>End-to-End Encryption</h3>
+              <span
+                >Your data is protected in transit and at rest with
+                encryption.</span
+              >
+            </summary>
+            <p>
+              Illustrative security copy, not an encryption claim for a real
+              service. This template has no messaging or storage backend.
+            </p>
+          </details>
+        </div>
+        <p class="section-note">
+          Template examples · open a standard for its scope.
+        </p>
+      </section>
+      <section id="integrations" class="integrations section">
+        <div class="integration-heading">
+          <img
+            src="assets/hands.png"
+            width="1536"
+            height="1024"
+            alt="Two classical sculptural hands reaching toward a radiant sun"
+          />
+          <div class="centered">
+            <span class="sun" aria-hidden="true">☼</span>
+            <h2>Built for the Way<br />Modern Teams Work</h2>
+            <p>
+              Stop switching tools. Olympus AI centralizes knowledge and
+              automates tasks.
+            </p>
+          </div>
+        </div>
+        <div class="integration-grid">
+          <article>
+            <div class="integration-art slack" aria-hidden="true">
+              <span>✣</span><i></i><span>Ω</span>
+            </div>
+            <h3>Built Directly For Slack</h3>
+            <p>
+              Access AI directly within your team’s conversations and workflows.
+            </p>
+          </article>
+          <article>
+            <div class="integration-art list" aria-hidden="true">
+              <span>❋ &nbsp; OpenAI</span><span>✳ &nbsp; Claude</span
+              ><span>Ω &nbsp; Olympus</span>
+            </div>
+            <h3>Choose Any AI Model</h3>
+            <p>Choose from OpenAI, Claude, Perplexity and other AI models.</p>
+          </article>
+          <article>
+            <div class="integration-art orbit" aria-hidden="true">
+              <span>✳</span><span>Ω</span><span>✧</span>
+            </div>
+            <h3>Powered By Latest AI</h3>
+            <p>Stay updated on the latest AI breakthroughs.</p>
+          </article>
+          <article>
+            <div class="integration-art knowledge" aria-hidden="true">
+              <div>
+                Ω Olympus
+                <hr />
+                Sources <b>100+</b><br />Knowledge library<br />AI confidence
+                <b>•••••••</b>
+              </div>
+            </div>
+            <h3>Intelligent Knowledge Hub</h3>
+            <p>
+              Turn company knowledge into searchable, actionable intelligence.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="final-cta">
+        <img
+          src="assets/philosopher.png"
+          width="1536"
+          height="1024"
+          alt="A marble philosopher working at a laptop among soft clouds"
+        />
+        <div>
+          <h2>The Future of Work Starts Here</h2>
+          <p>
+            Join thousands of teams using AI to automate tasks, accelerate
+            decisions, and unlock their full potential.
+          </p>
+          <div class="cta-actions">
+            <a class="button" href="#features">Explore Features</a
+            ><a class="button dark" href="#features" id="start"
+              >Start Your Journey</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="about">
+      <details>
+        <summary>Olympus · About this template</summary>
+        <p>
+          A local, static design reconstruction of
+          <a href="https://x.com/jxdhaa/status/2097647071721607222"
+            >Judha’s Olympus reference</a
+          >. Artwork is newly generated. Motion is an original addition to
+          supplied stills. Product claims, logos, people and testimonials are
+          illustrative; there is no AI service, audit, account or integration.
+          The demos send nothing and keep no data after reload.
+        </p>
+      </details>
+      <p id="art-status" role="status"></p>
+      <noscript
+        >Scripts are off. All sections and standards remain readable;
+        interactive examples require JavaScript.</noscript
+      >
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
