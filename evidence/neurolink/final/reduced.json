@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:4173/neurolink/",
+  "width": 320,
+  "scrollWidth": 320,
+  "art": true,
+  "enabledButtons": 0,
+  "aboutVisible": false,
+  "reduced": true,
+  "animations": 0
+}

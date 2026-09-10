@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>NeuroLink — Where Memories Live Forever</title>
+    <meta
+      name="description"
+      content="A cinematic memorial website template. Create an editable local tribute draft; nothing is uploaded or published."
+    />
+    <meta name="theme-color" content="#0a2032" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <script src="motion.js" defer></script>
+  </head>
+  <body data-motion="paused">
+    <a class="skip" href="#main">Skip to content</a>
+    <main id="main" class="hero">
+      <div class="scene" aria-hidden="true">
+        <img
+          class="gateway"
+          src="assets/gateway.png"
+          width="1536"
+          height="1024"
+          alt=""
+          fetchpriority="high"
+        />
+        <img
+          class="cloud cloud-left"
+          src="assets/cloud.png"
+          width="1536"
+          height="1024"
+          alt=""
+        />
+        <img
+          class="cloud cloud-right"
+          src="assets/cloud.png"
+          width="1536"
+          height="1024"
+          alt=""
+        />
+        <img
+          class="cloud cloud-near"
+          src="assets/cloud.png"
+          width="1536"
+          height="1024"
+          alt=""
+        />
+      </div>
+      <header class="header">
+        <a class="brand" href="#main" aria-label="NeuroLink home"
+          ><svg viewBox="0 0 40 40" aria-hidden="true">
+            <path
+              d="M9 21a12 12 0 1 1 12 12M13 21a8 8 0 1 1 8 8M17 21a4 4 0 1 1 4 4M9 21C1 26 7 38 15 32l6-7"
+            /></svg
+          >NeuroLink</a
+        >
+        <nav aria-label="Main navigation">
+          <a href="#how">How It Works</a><a href="#tributes">Tributes</a
+          ><a href="#pricing">Pricing</a><a href="#support">Support</a
+          ><a class="sign-in" href="#signin">Sign In</a>
+        </nav>
+      </header>
+      <section class="hero-content" aria-labelledby="headline">
+        <div class="ornament" aria-hidden="true">
+          <span></span
+          ><svg viewBox="0 0 20 20">
+            <path
+              d="m10 0 3.2 6.8L20 10l-6.8 3.2L10 20l-3.2-6.8L0 10l6.8-3.2Z"
+            /></svg
+          ><span></span>
+        </div>
+        <h1 id="headline">Where Memories Live Forever</h1>
+        <p class="intro">
+          Create a beautiful memorial to share their story, photos, cherished<br
+            class="desktop-break"
+          />
+          moments, and celebrate their life together.
+        </p>
+        <a class="primary" id="create" href="#memorial"
+          >Create Memorial <span aria-hidden="true">→</span></a
+        >
+      </section>
+      <footer class="utility">
+        <p>Local template preview. Nothing is uploaded or published.</p>
+        <button id="motion-toggle" type="button" aria-pressed="false" disabled>
+          Pause clouds
+        </button>
+      </footer>
+      <p id="art-status" role="status"></p>
+    </main>
+    <dialog id="how" aria-labelledby="how-title">
+      <a class="close" href="#main" aria-label="Close How It Works">×</a>
+      <p class="eyebrow">HOW THIS PREVIEW WORKS</p>
+      <h2 id="how-title">Begin with a memory.</h2>
+      <ol>
+        <li>
+          <strong>Write.</strong> Add a name and a memory you would like to
+          preserve.
+        </li>
+        <li>
+          <strong>Preview.</strong> Read your tribute and return to edit it
+          whenever you need.
+        </li>
+        <li><strong>Keep.</strong> Download a text copy to your device.</li>
+      </ol>
+      <p class="muted">
+        This template keeps your draft on the current page until reload. It has
+        no photo upload, hosting, or sharing service connected.
+      </p>
+    </dialog>
+    <dialog id="tributes" aria-labelledby="tributes-title">
+      <a class="close" href="#main" aria-label="Close Tributes">×</a>
+      <p class="eyebrow">ILLUSTRATIVE TRIBUTE</p>
+      <h2 id="tributes-title">The small things stay.</h2>
+      <blockquote>
+        “The kettle was always on, the door was always open, and there was
+        always time for one more story.”
+      </blockquote>
+      <p>
+        A tribute can start with an ordinary moment that captures what made
+        someone special.
+      </p>
+      <p class="muted">
+        Fictional example copy for this template, not a real person’s memorial.
+      </p>
+    </dialog>
+    <dialog id="pricing" aria-labelledby="pricing-title">
+      <a class="close" href="#main" aria-label="Close Pricing">×</a>
+      <p class="eyebrow">TEMPLATE PREVIEW</p>
+      <h2 id="pricing-title">Room to make it yours.</h2>
+      <p>
+        You can explore this local demo without a subscription. No checkout or
+        paid memorial plan is connected.
+      </p>
+      <p class="muted">
+        If you turn this template into a service, replace this panel with your
+        own pricing, hosting, and privacy details.
+      </p>
+    </dialog>
+    <dialog id="support" aria-labelledby="support-title">
+      <a class="close" href="#main" aria-label="Close Support">×</a>
+      <p class="eyebrow">A FEW HELPFUL DETAILS</p>
+      <h2 id="support-title">Take your time.</h2>
+      <details>
+        <summary>Where does my draft go?</summary>
+        <p>
+          It stays in this page’s memory. Nothing is uploaded, published, or
+          saved to browser storage. Download a copy before reloading or closing
+          the page.
+        </p>
+      </details>
+      <details>
+        <summary>Can I change it later?</summary>
+        <p>
+          Use Edit tribute before downloading. Your downloaded text file can
+          also be edited with any text editor.
+        </p>
+      </details>
+      <details>
+        <summary>Can I add photos or invite family?</summary>
+        <p>
+          Those services are not connected in this template. No photo upload or
+          invitation is sent.
+        </p>
+      </details>
+    </dialog>
+    <dialog id="signin" aria-labelledby="signin-title">
+      <a class="close" href="#main" aria-label="Close Sign In">×</a>
+      <p class="eyebrow">NO ACCOUNT NEEDED HERE</p>
+      <h2 id="signin-title">Try a private draft.</h2>
+      <p>
+        This is an editable website template. Authentication is not connected,
+        and the preview does not ask for a password.
+      </p>
+      <button class="primary dark" id="start-draft" type="button" disabled>
+        Create a local draft <span aria-hidden="true">→</span>
+      </button>
+    </dialog>
+    <dialog id="memorial" aria-labelledby="memorial-title">
+      <a class="close" href="#main" aria-label="Close memorial editor">×</a>
+      <p class="eyebrow">YOUR LOCAL TRIBUTE</p>
+      <h2 id="memorial-title">A memory worth keeping.</h2>
+      <p class="muted">
+        Nothing is uploaded or published. Download your draft before reloading.
+      </p>
+      <form id="memorial-form">
+        <label for="person-name">Name to remember</label
+        ><input
+          id="person-name"
+          autocomplete="off"
+          maxlength="80"
+          required
+          autofocus
+        />
+        <label for="years"
+          >Years of life <span class="optional">(optional)</span></label
+        ><input
+          id="years"
+          autocomplete="off"
+          maxlength="32"
+          placeholder="For example, 1950–2020"
+        />
+        <label for="memory">A memory to share</label
+        ><textarea
+          id="memory"
+          rows="5"
+          maxlength="2000"
+          required
+          placeholder="A story, a small kindness, a moment that stays with you…"
+        ></textarea>
+        <button class="primary dark" type="submit" disabled>
+          Preview memorial <span aria-hidden="true">→</span>
+        </button>
+      </form>
+      <section id="tribute-preview" aria-label="Your tribute preview" hidden>
+        <div class="tribute">
+          <p class="eyebrow">IN LOVING MEMORY</p>
+          <h3 id="preview-name" tabindex="-1"></h3>
+          <p id="preview-years"></p>
+          <p id="preview-memory"></p>
+        </div>
+        <div class="preview-actions">
+          <button id="edit-tribute" class="secondary" type="button" disabled>
+            Edit tribute</button
+          ><button
+            id="download-tribute"
+            class="primary dark"
+            type="button"
+            disabled
+          >
+            Download tribute <span aria-hidden="true">↓</span>
+          </button>
+        </div>
+        <p id="download-status" role="status"></p>
+      </section>
+      <noscript
+        ><p>
+          Enable JavaScript to preview and download a local tribute. The page
+          and information panels remain readable.
+        </p></noscript
+      >
+    </dialog>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "generator": "native built-in ChatGPT image_gen",
+  "calls": 2,
+  "billing": "unavailable",
+  "assets": [
+    {
+      "asset": "gateway.png",
+      "native_output": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-d1d7d249-b4ec-4c8e-b274-141d6b1fb425.png",
+      "sha256": "1b6e05c995ef076d34c03f981bccf5314f4033a2a9663d1056b5c8205bd69b22"
+    },
+    {
+      "asset": "cloud.png",
+      "native_output": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-e6946d0f-77fc-40be-bcf2-6acc877f66d8.png",
+      "sha256": "cf2860fa6ba126f64787d08e8c1659edcb0f68600853e1f8010325d27eb91bd8"
+    }
+  ],
+  "cloud_alpha": {
+    "pixels": 1572864,
+    "fully_transparent": 1021627,
+    "minimum": 0,
+    "maximum": 254
+  },
+  "inspection": "Gateway anchor accepted before cloud call. Original frontal ivory/gold arch and blue sky; no generated UI or letters. Cloud is separate alpha PNG with soft translucent edges; in-context inspection follows.",
+  "rejected_outputs": []
+}

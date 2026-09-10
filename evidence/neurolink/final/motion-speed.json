@@ -1,0 +1,37 @@
+{
+  "before": [
+    {
+      "class": "cloud cloud-left",
+      "duration": "7s",
+      "x": 55.8145
+    },
+    {
+      "class": "cloud cloud-right",
+      "duration": "9s",
+      "x": -98.4908
+    },
+    {
+      "class": "cloud cloud-near",
+      "duration": "12s",
+      "x": 46.7105
+    }
+  ],
+  "after": [
+    {
+      "class": "cloud cloud-left",
+      "duration": "7s",
+      "x": 38.6087
+    },
+    {
+      "class": "cloud cloud-right",
+      "duration": "9s",
+      "x": -79.5325
+    },
+    {
+      "class": "cloud cloud-near",
+      "duration": "12s",
+      "x": 35.6404
+    }
+  ],
+  "interval_ms": 1000
+}

@@ -1,7 +1,9 @@
-# Current intent — Swift AI
+# Current intent — NeuroLink
 
-**User-stated, 2026-09-10:** Build the next template from https://x.com/hussain_mu20778/status/2097891688777932949?s=20. The four images are background options for one template; copy only one. Then build https://x.com/aether_uiux/status/2097650553782510046?s=20 as the following template.
+**User-stated,2026-09-10:** After the single Swift AI forest template, build https://x.com/aether_uiux/status/2097650553782510046?s=20 as the next template. Preserve established private repository, Cloudflare gallery, screenshots and individual ZIP delivery.
 
-**Agent-selected working policy:** Swift AI is template nineteen, using the first teal forest illustration only. Preserve its header, centered orbital wordmark, low-centered hero copy/email form, and short logo strip. Original native ChatGPT illustration; deterministic HTML text and controls; no invented page sections or background selector. Native local demo disclosures and form feedback, no actual signup or authentication.
+**Observed:** Swift AI19completed and published before this work. Aether’s5.34secondclip contains a single NeuroLink memorial hero with ornate gold gateway,blue sky,drifting clouds,fixed header and lower-centered copy.
 
-Acceptance: nineteen independent templates and ZIPs, all prior eighteen runtimes unchanged; source-matched composition at 1440px and usable 375/320px layouts; navigation/dialog, email validation/correction/cancellation, keyboard/focus, no-JS and missing-image states. Static illustration has no autoplay, therefore no pause control. Frozen evidence, complete critical self-review, private main push and verified Cloudflare production. Template twenty starts after nineteen is published.
+**Agent-selected working policy:** Template20,slug neurolink. Reconstruct only the visible hero. Original native ChatGPT gateway and transparent cloud art; independently authored CSS layered cloud motion, deterministic typography/logo/controls. Functional native local memorial draft → preview → edit → text download, no upload/account/publication or real memorial service. Header items open truthful local disclosures.
+
+Acceptance:20standalone templates/ZIPs; preserve all19previous runtimes; source-aligned desktop hero and responsive375/320composition; local form validation/preview/edit/export/recovery; keyboard/modal focus; pause/reduced/hidden/noJS and missing artwork; generated alpha inspected; real motion recording and sourcecomparison; exact publicbytes/ZIP/browserproof; critical self-review,private mainpush,existing personal Cloudflare only.

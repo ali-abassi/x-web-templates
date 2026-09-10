@@ -1,0 +1,15 @@
+{
+  "objective": "Inspect source-visible motion and UI only before reconstruction; not a scored eval.",
+  "source": "references/source.mp4",
+  "duration_seconds": 5.34059,
+  "model": "gemini-3.7-flash",
+  "user_override": "User AGENTS specifies3.7; installed skill now3.8. Copy skill runner to scratch and change MODEL constant only; preserve physical skill unchanged.",
+  "mode": "static",
+  "reason": "Short five-second clip; whole-clip frames matter.",
+  "max_requests": 1,
+  "store": false,
+  "retention": "Delete uploaded source after call; local source kept.",
+  "cost_estimate_usd": 0.01,
+  "cost_soft_cap_usd": 0.1,
+  "native_generation_plan": "One original gateway background anchor, inspect, then one transparent cloud layer; maxone targeted correction only if visible defect."
+}

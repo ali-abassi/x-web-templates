@@ -1,0 +1,80 @@
+{
+  "template": "neurolink",
+  "environment": "actual Chrome target activation; owned blank tab closed",
+  "before": {
+    "url": "http://127.0.0.1:4173/neurolink/#support",
+    "hidden": false,
+    "flag": "running",
+    "animations": [
+      {
+        "state": "running",
+        "time": 83.25700005102158
+      },
+      {
+        "state": "running",
+        "time": 83.25700005102158
+      },
+      {
+        "state": "running",
+        "time": 83.25700005102158
+      }
+    ]
+  },
+  "hidden": {
+    "url": "http://127.0.0.1:4173/neurolink/#support",
+    "hidden": true,
+    "flag": "paused",
+    "animations": [
+      {
+        "state": "paused",
+        "time": 616.5690000510216
+      },
+      {
+        "state": "paused",
+        "time": 616.5690000510216
+      },
+      {
+        "state": "paused",
+        "time": 616.5690000510216
+      }
+    ]
+  },
+  "held": {
+    "url": "http://127.0.0.1:4173/neurolink/#support",
+    "hidden": true,
+    "flag": "paused",
+    "animations": [
+      {
+        "state": "paused",
+        "time": 616.5690000510216
+      },
+      {
+        "state": "paused",
+        "time": 616.5690000510216
+      },
+      {
+        "state": "paused",
+        "time": 616.5690000510216
+      }
+    ]
+  },
+  "visible": {
+    "url": "http://127.0.0.1:4173/neurolink/#support",
+    "hidden": false,
+    "flag": "running",
+    "animations": [
+      {
+        "state": "running",
+        "time": 890.6530000422001
+      },
+      {
+        "state": "running",
+        "time": 890.6530000422001
+      },
+      {
+        "state": "running",
+        "time": 890.6530000422001
+      }
+    ]
+  }
+}

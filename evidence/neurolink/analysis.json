@@ -1,0 +1,57 @@
+{
+  "interaction_id": "",
+  "model": "gemini-3.7-flash",
+  "output_text": "### Motion & Camera Dynamics (00:00\u201300:04)\n* **00:00 \u2013 00:04:** The visual remains completely static across all frames.\n* **Moving vs. Fixed Parts:** No elements move; all visual layers (clouds, arch, lighting) and UI components remain fixed.\n* **Camera Movement:** No camera pan, tilt, zoom, or page scroll occurs.\n* **Foreground Cloud Parallax:** No active parallax or drifting motion is visible in the foreground or background clouds.\n\n---\n\n### Visible Page Sections & Visual Elements\n* **Hero Section (Full Viewport):**\n  * **Background:** Ornate golden celestial archway with fluted columns set against a bright blue sky, glowing sunbeams, and surrounding white/golden-lit cumulus clouds.\n  * **Bottom Overlay:** Dark gradient vignette supporting hero text and CTA.\n\n---\n\n### Exact Readable Text\n* **Header / Navigation:**\n  * `NeuroLink` (brand name alongside circular spiral logo)\n  * `How It Works`\n  * `Tributes`\n  * `Pricing`\n  * `Support`\n  * `Sign In` (enclosed in a translucent pill container)\n* **Hero Content:**\n  * `Where Memories Live Forever` (main headline)\n  * `Create a beautiful memorial to share their story, photos, cherished moments, and celebrate their life together.` (subheadline)\n  * `Create Memorial \u2192` (primary CTA pill button)\n\n---\n\n### Direct Observations vs. Inferred Implementation\n\n* **Direct Visual Observations:**\n  * Top navigation bar arranged horizontally with brand on the left and nav links on the right.\n  * Centered typography layout at the lower third with high contrast against the dark cloud base.\n  * Single decorative golden dot centered above the main title.\n* **Inferred Implementation:**\n  * The background likely represents a 3D WebGL render (e.g., Three.js/Spline) or video loop designed to animate upon user interaction or scroll.\n  * Navigation links and the `Create Memorial \u2192` button likely feature hover transitions and link to respective subpages/modals.",
+  "agentic_verified": true,
+  "step_types": [
+    "thought",
+    "model_output"
+  ],
+  "usage": {
+    "input_tokens_by_modality": [
+      {
+        "modality": "video",
+        "tokens": 440
+      },
+      {
+        "modality": "text",
+        "tokens": 99
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_input_tokens": 539,
+    "total_output_tokens": 465,
+    "total_thought_tokens": 688,
+    "total_tokens": 1692,
+    "total_tool_use_tokens": 0,
+    "raw_prompt_token": 729,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 239
+          },
+          {
+            "modality": "video",
+            "tokens": 440
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 469
+          }
+        ],
+        "thoughts_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 688
+          }
+        ]
+      }
+    ]
+  },
+  "retained_files": [],
+  "cleanup_errors": []
+}

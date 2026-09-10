@@ -1,0 +1,284 @@
+[
+  {
+    "case": "clouds running 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "cloud transform changes 1440",
+    "passed": true,
+    "before": "matrix(1.01825, 0, 0, 1.01825, 61.2688, -6.80754)",
+    "after": "matrix(1.02133, 0, 0, 1.02133, 71.6198, -7.95763)"
+  },
+  {
+    "case": "pause clouds 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "resume 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "How It Works dialog 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "How It Works Escape focus 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Tributes dialog 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Tributes Escape focus 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Pricing dialog 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Pricing Escape focus 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Support dialog 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Support Escape focus 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Sign In dialog 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Sign In Escape focus 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "FAQ Where does my draft go? 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "FAQ Can I change it later? 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "FAQ Can I add photos or invite family? 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "sign in routes to local draft 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "local draft return focus 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "empty required 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "whitespace name rejected 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "whitespace memory rejected 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "valid preview 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "edit preserves text 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "years shown 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "download feedback 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "cancel reopen preserves preview 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "assets and overflow 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "clouds running 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "cloud transform changes 375",
+    "passed": true,
+    "before": "matrix(1.01275, 0, 0, 1.01275, 36.0642, -4.00713)",
+    "after": "matrix(1.01587, 0, 0, 1.01587, 44.8975, -4.98861)"
+  },
+  {
+    "case": "pause clouds 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "resume 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "How It Works dialog 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "How It Works Escape focus 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Tributes dialog 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Tributes Escape focus 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Pricing dialog 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Pricing Escape focus 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Support dialog 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Support Escape focus 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Sign In dialog 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "Sign In Escape focus 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "FAQ Where does my draft go? 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "FAQ Can I change it later? 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "FAQ Can I add photos or invite family? 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "sign in routes to local draft 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "local draft return focus 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "empty required 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "whitespace name rejected 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "whitespace memory rejected 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "valid preview 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "edit preserves text 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "years shown 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "download feedback 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "cancel reopen preserves preview 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "assets and overflow 375",
+    "passed": true,
+    "observed": true
+  }
+]

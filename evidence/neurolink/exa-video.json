@@ -1,0 +1,41 @@
+{
+  "requestId": "bbe6d26533e79bb6f083cef141f0f505",
+  "resolvedSearchType": "",
+  "results": [
+    {
+      "id": "https://ai.google.dev/gemini-api/docs/pricing",
+      "title": "Gemini Developer API pricing",
+      "url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "publishedDate": "2026-09-08T11:47:47.498Z",
+      "highlights": [
+        "| | Free Tier | Paid Tier, per 1\n...\ntokens in USD |\n...\n| --- | --- | --- |\n...\nGoogle Search *\n...\nfree, shared across\n...\n3), then\n...\nUsed to improve our\n...\n| Free Tier | Paid Tier,\n...\n| --- | --- | --- |\n...\n3), then\n...\nfree, shared across Gemini\n...\n3), then\n...\n| Used to improve\n...\n| Free Tier\n...\n--- | --- | ---\n...\n| | Free Tier | Paid\n...\nin USD |\n...\n| --- | --- | --- |\n...\nGrounding with Google Search *\n...\n(free, shared\n...\n| | Free Tier\n...\nPaid Tier,\n...\n--- | --- | --- |\n...\n--- | --- | ---\n...\n| | Free Tier | Paid Tier, per 1M tokens in USD |\n...\n| --- | --- | --- |\n...\n(text / image\n...\nvideo) $1\n...\naudio) |\n...\nGrounding with Google Search *\n...\nUsed to improve\n...\n--- | --- | ---\n...\n--- | --- | ---\n...\n--- | --- | ---\n...\n| | Free Tier | Paid Tier, per second in USD |\n| --- | --- | --- |\n| Veo 3.1 Standard video with audio price (default) | Not available | $0.40 (720p and 1080p) $0.60 (4k) |\n| Veo 3.1 Fast video with audio price (default) | Not available | $0.10 (720p) $0.12 (1080p) $0.30 (4k) |\n| Veo 3.1 Lite video with audio price (default) | Not available | $0.05 (720p) $0.08 (1080p) (4k output not supported) |\n| Used to improve our products | Yes | No |\n...\n| --- | --- | --- |\n...\n| Veo 3\n...\n.10\n...\n720p)\n...\n2 (1\n...\n80p)\n...\n| Used to improve our products | Yes | No\n...\n| | Free Tier | Paid Tier, per 1M tokens in USD |\n| --- | --- | --- |\n| Text input price | Free of charge | $0.20 |\n| Image input price | Free of charge | $0.45 ($0.00012 per image) |\n| Audio input price | Free of charge | $6.50 ($0.00016 per second) |\n| Video input price | Free of charge | $12.00 ($0.00079 per frame) |\n| Used to improve our products | Yes | No |\n...\n| | Free Tier | Paid Tier, per 1M tokens in USD |\n| --- | --- | --- |\n| Text input price | Not available | $0.10 |\n| Image input price | Not available | $0.225 ($0.00006 per image) |\n| Audio input price | Not available | $3.25 ($0.00008 per second) |\n| Video input price | Not available | $6.00 ($0.000395 per frame) |\n| Used to improve our products | Yes | No |"
+      ],
+      "image": "https://ai.google.dev/static/site-assets/images/share-gemini-api-2.png"
+    },
+    {
+      "id": "https://ai.google.dev/gemini-api/docs/gemini-3",
+      "title": "Gemini 3 Developer Guide \u00a0|\u00a0 Gemini API \u00a0|\u00a0 Google AI for Developers",
+      "url": "https://ai.google.dev/gemini-api/docs/gemini-3",
+      "highlights": [
+        "| Model ID | Context Window (In / Out) | Knowledge Cutoff | Pricing (Input / Output)* |\n| --- | --- | --- | --- |\n| gemini-3.1-flash-lite | 1M / 64k | Jan 2025 | $0.25 (text, image, video), $0.50 (audio) / $1.50 |\n| gemini-3.1-flash-image-preview | 128k / 32k | Jan 2025 | $0.25 (Text Input) / $0.067 (Image Output)** |\n| gemini-3.1-pro-preview | 1M / 64k | Jan 2025 | $2 / $12 (<200k tokens) $4 / $18 (>200k tokens) |\n| gemini-3-flash-preview | 1M / 64k | Jan 2025 | $0.50 / $3 |\n| gemini-3-pro-image-preview | 65k / 32k | Jan 2025 | $2 (Text Input) / $0.134 (Image Output)** |\n...\n* Pricing is per 1 million tokens unless otherwise noted. ** Image pricing varies by resolution. See the pricing page for details.\n...\n3? Gemini\n...\nFlash `gemini-3-flash-preview` has\n...\nin the Gemini\n...\n. You can try\n...\n.1 Pro\n...\n`gemini-3.1-pro-preview` in\n...\nGemini API."
+      ],
+      "image": "https://ai.google.dev/static/site-assets/images/share-gemini-api-2026-07.png"
+    },
+    {
+      "id": "https://ai.google.dev/api/interactions-api",
+      "title": "Gemini Interactions API \u00a0|\u00a0 Gemini API \u00a0|\u00a0 Google AI for Developers",
+      "url": "https://ai.google.dev/api/interactions-api",
+      "highlights": [
+        "- `gemini-3.7-flash`\n\nOur most intelligent model for sustained frontier performance in agentic and coding tasks.\n...\nAlways set to `\"verbatim\"`.\n\n video_config VideoConfig (optional) \n\nConfiguration for video generation.\n...\n#### Fields\n\n task enum (string) (optional) \n\nOptional task mode for video generation. If not specified, the model automatically determines the appropriate mode based on the provided text prompt and input media.\n...\n- `text_to_video`\n...\nGenerates video solely from a text prompt.\n- `image_to_video`\n...\nGenerates video from one or two source images. The first image defines the starting frame, and the optional second image defines the ending frame.\n- `reference_to_video`\n...\nGenerates video using reference media (such as images, audio, or video).\n...\n- `edit`\n...\nModifies an existing input video.\n...\n- `extend`\n...\nagent_config object\n...\n)\n...\nAlternative to `generation_\n...\n` is set\n...\n- `gemini-3.7-flash`\n\nOur most intelligent model for sustained frontier performance in agentic and coding tasks.\n...\n#### Possible values\n...\n#### Possible values\n...\n#### Possible values\n...\n#### Possible values\n...\n.\n\n data string (optional\n...\nmime_type enum (string) (optional)\n...\nThe mime type of the video.\n...\n#### Possible values\n...\n#### Possible values\n...\n#### Possible values\n...\n#### Possible values\n...\n#### Possible values\n...\nPossible values:\n...\n#### Possible values\n...\n#### Possible values\n...\n#### Possible values"
+      ],
+      "image": "https://ai.google.dev/static/site-assets/images/share-gemini-api-2026-07.png"
+    }
+  ],
+  "searchTime": 989.1,
+  "costDollars": {
+    "total": 0.007,
+    "search": {
+      "neural": 0.007
+    }
+  }
+}

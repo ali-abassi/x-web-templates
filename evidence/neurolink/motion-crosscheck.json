@@ -1,0 +1,26 @@
+{
+  "frames": [
+    "references/frame-01.png",
+    "references/frame-05.png"
+  ],
+  "comparisons": [
+    {
+      "region": "left-clouds",
+      "crop": "900:600:0:0",
+      "ssim": 0.692868
+    },
+    {
+      "region": "arch-center",
+      "crop": "500:400:1200:150",
+      "ssim": 0.238911
+    },
+    {
+      "region": "headline",
+      "crop": "1500:120:750:1470",
+      "ssim": 0.843084
+    }
+  ],
+  "direct_visual_observation": "Cloud silhouettes and positions visibly change at00:00/00:02/00:04;gate composition and UI remain fixed. Gemini static-motion claim is contradicted by source frames, not accepted.",
+  "analysis_cost_estimate_usd": 0.004728,
+  "agentic_note": "Static mode, no processing_call/result. Script agentic_verified=true means agentic not required, not proof of agentic processing."
+}

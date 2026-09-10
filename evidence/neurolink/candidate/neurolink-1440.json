@@ -1,0 +1,26 @@
+{
+  "fonts": "loaded",
+  "height": 1000,
+  "images": [
+    {
+      "loaded": true,
+      "src": "assets/gateway.png"
+    },
+    {
+      "loaded": true,
+      "src": "assets/cloud.png"
+    },
+    {
+      "loaded": true,
+      "src": "assets/cloud.png"
+    },
+    {
+      "loaded": true,
+      "src": "assets/cloud.png"
+    }
+  ],
+  "scrollWidth": 1440,
+  "titleFont": "Nimbus, Arial, sans-serif",
+  "url": "http://127.0.0.1:4173/neurolink/",
+  "width": 1440
+}

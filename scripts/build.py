@@ -26,6 +26,7 @@ NAMES = (
     "wandor",
     "verto",
     "swift-ai",
+    "neurolink",
 )
 
 

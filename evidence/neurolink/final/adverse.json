@@ -1,0 +1,27 @@
+[
+  {
+    "case": "maximum input preview wraps",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "blocked download preserves tribute",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "retry download recovers",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "missing art warning",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "draft preserved after art failure",
+    "passed": true,
+    "observed": true
+  }
+]
