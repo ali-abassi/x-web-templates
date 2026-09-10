@@ -1,0 +1,18 @@
+{
+  "verdict": "accept for requested repository and catalog removal",
+  "revision": "0c580efae3689a0c1605e860c2fd617e2ccf075c",
+  "deployment": "8a6679dc-6fd1-4b9c-9dd3-101d084ade7d",
+  "production_status": "success",
+  "gallery_sha256": "602f624de1a5b2120924017f5b69c6567023e951639f978498e5585389daca11",
+  "checks": [
+    "Public rendered gallery has 18 templates",
+    "Canonical gallery bytes match release",
+    "All ten removed preview/ZIP URLs with fresh query return catalog fallback",
+    "Travio public ZIP exact match",
+    "Remaining 385 source/output files and 18 ZIPs unchanged"
+  ],
+  "limitation": "Unqueried old direct URLs still return cached old files (cache HIT, s-maxage=604800). Current deployment manifest has none. No Pages edge-cache purge endpoint exists; zone purge does not apply to user-unowned pages.dev zone. No claim of cache erasure.",
+  "source": "https://developers.cloudflare.com/pages/configuration/serving-pages/",
+  "research": "Exa unavailable; direct official docs used.",
+  "reviewer": "active agent self-review"
+}
