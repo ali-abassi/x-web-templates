@@ -1,0 +1,1 @@
+{"anchor_sha256": "45091f155ac9ad8cee67d34d14ea2234e52c1610eaf8bec8d44f28b8772fa45b", "model": "minimax/h3-max/image-to-video", "seconds": 6, "resolution": "768P", "estimate_usd": 0.12, "attempt": 1, "safety_checker": true}

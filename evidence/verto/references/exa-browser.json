@@ -1,0 +1,40 @@
+{
+  "requestId": "3c2fb41b03ffb00dbde21d04abc4162b",
+  "resolvedSearchType": "",
+  "results": [
+    {
+      "id": "https://agent-browser.dev/sessions",
+      "title": "Sessions | agent-browser",
+      "url": "https://agent-browser.dev/sessions",
+      "highlights": [
+        "## Chrome profile reuse#\n...\nThe simplest way to reuse your existing login state: pass a Chrome profile name to`--profile`. agent-browser copies the profile to a temp directory (read-only snapshot) and launches Chrome with your existing cookies and sessions.\n...\n```\n# List available Chrome profiles\nagent-browser profiles\n...\n# Reuse your default Chrome profile's login state\nagent-browser --profile Default open https://gmail.com\n...\n# Use a named profile (by display name or directory name)\nagent-browser --profile \"Work\" open https://app.example.com\n\n# Or via environment variable\nAGENT_BROWSER_PROFILE=Default agent-browser open https://gmail.com\n```\n...\ns copied | Cookies, local storage, extensions state (cache dirs excluded for\n...\n| Original profile | Never modified (read-only snapshot) |\n...\n| Cleanup | Temp copy deleted\n...\nbrowser closes |\n...\n| Close Chrome before using`--profile ` if Chrome is running |\n...\nFor a custom profile directory that persists state across browser restarts, pass a path to`--profile`:\n...\n```\n# Use a persistent profile directory\nagent-browser --profile ~/.myapp-profile open myapp.com\n...\n# Login once, then reuse the authenticated session\nagent-browser --profile ~/.myapp-profile open myapp.com/dashboard\n...\n# Or via environment variable\nAGENT_BROWSER_PROFILE=~/.myapp-profile agent-browser open myapp.com\n...\n```\n# Load auth at launch\nagent-browser --state ./my-auth.json open https://app.example.com/dashboard\n...\n# Or load into an already-launched session\nagent-browser open about:blank\nagent-browser state load ./my-auth.json\nagent-browser open https://app.example.com/dashboard\n```\n...\n--- | --- |\n...\n_SESSION` |\n...\nsession ID (default:\n...\ndefault\") |\n...\n| `AGENT\n...\nSER_NAMESPACE`\n...\nfor daemon sockets and restore-state directories |\n...\n| `AGENT_BROWSER\n...\n| Pin the\n...\n/load state"
+      ],
+      "image": "https://agent-browser.dev/og/sessions"
+    },
+    {
+      "id": "https://agent-browser.dev/changelog",
+      "title": "Changelog | agent-browser",
+      "url": "https://agent-browser.dev/changelog",
+      "highlights": [
+        "- Chrome profile login state reuse - `--profile ` now resolves Chrome profile names (e.g. `Default`, `Profile 1`) and copies the profile to a temp directory to reuse login state, cookies, and extensions without modifying the original. Added `profiles` command to list available Chrome profiles with `--json` support (#1131)\n...\n- Fixed browser not relaunching when launch options change (e.g. adding extensions to `config.json`) between consecutive launch commands (#996)\n...\n- Fixed browser launch options not being passed correctly when using persistent profiles\n- Added pre-flight checks for socket path length limits and directory write permissions\n- Improved error handling to properly exit with failure status when browser launch fails\n...\n- Persistent browser profiles - Store cookies, localStorage, and login sessions across browser restarts\n...\n```\nagent-browser\n...\nmyapp.com\n...\n- Browser launch configuration - Fine-grained control over browser startup"
+      ],
+      "image": "https://agent-browser.dev/og/changelog"
+    },
+    {
+      "id": "https://github.com/vercel-labs/agent-browser/blob/main/CHANGELOG.md",
+      "title": "CHANGELOG.md - vercel-labs/agent-browser - GitHub",
+      "url": "https://github.com/vercel-labs/agent-browser/blob/main/CHANGELOG.md",
+      "publishedDate": "2026-09-08T04:01:29.081Z",
+      "highlights": [
+        "- **Chrome profile login state reuse** - `--profile ` now resolves Chrome profile names (e.g. `Default`, `Profile 1`) and copies the profile to a temp directory to reuse login state, cookies, and\n...\nwithout modifying the original. Added `profiles` command to list available Chrome profiles with `--json` support (#1131)\n...\n- Fixed **browser not relaunching** when launch options change (e.g. adding extensions to `config.json`) between consecutive launch commands (#996)\n...\n- 01ac557: Added AGENT_BROWSER_HEADED environment variable support for running the browser in headed mode, and improved temporary profile cleanup when launching Chrome directly. Also includes documentation clarification that browser extensions work in both headed and headless modes."
+      ]
+    }
+  ],
+  "searchTime": 1114.6,
+  "costDollars": {
+    "total": 0.007,
+    "search": {
+      "neural": 0.007
+    }
+  }
+}

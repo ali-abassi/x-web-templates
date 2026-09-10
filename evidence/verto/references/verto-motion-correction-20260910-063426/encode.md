@@ -1,0 +1,1 @@
+{"path": "/Users/aliabassi/Documents/ChatGPT/AI Designer/x-web-templates/templates/verto/dist/assets/motion.mp4", "sha256": "b79f5f1311895fafc54ed14ff9f4c5af4d2590616315bf27b24db8eb7485ce64", "bytes": 2446165, "duration": "6.000000", "width": 1152, "height": 768}

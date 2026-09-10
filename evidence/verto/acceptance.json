@@ -1,0 +1,48 @@
+{
+  "verdict": "accept",
+  "candidate": {
+    "base": "9545657c26f8a1e3bbdd434a9e43e4fd0915a2d2",
+    "dirty_shipping_hashes": "evidence/verto/final/candidate-hashes.json",
+    "deployment_hashes": "evidence/verto/final/deployment-input.json"
+  },
+  "alignment": {
+    "vision.md": "954a1faf88b6736fa5682e4e2d4fedf13e2ecc6ae365704c37b3ffac43534407",
+    "intent.md": "9310efa98f4dc44f6f917c41ea408fa461d565c1a76fe47a9b36b8a117bfc797",
+    "design.md": "52c908eb4c121b8b5497fc43ece52971494e81424879445fefc05847e10426e3"
+  },
+  "changes": "evidence/verto/final/changed-paths.json",
+  "evidence": {
+    "reference": "comparisons.html and final section screenshots",
+    "motion": "non-range-blob-recovery.json, public.json, visibility/reduced proofs, public-video.json and recordings",
+    "interactions": "53 local + 12 narrow/adverse + 8 public checks, actual file-origin/HTTP downloads",
+    "distribution": "18 exact ZIPs, 150 prior runtime hashes unchanged, 208/208 public bytes"
+  },
+  "environment": "Headed Chrome 152.0.7977.83 actual Default profile; 1440/375/320, local HTTP/file and personal Cloudflare Pages",
+  "checks": "evidence/verto/final/checks.json",
+  "reviewer": "active agent separate critical self-review",
+  "review": "evidence/verto/review.md",
+  "usage": {
+    "owners": 1,
+    "delegates": 0,
+    "native_images": 9,
+    "native_billing": "unavailable",
+    "fal_video_calls": 2,
+    "fal_estimated_usd": 0.24,
+    "fal_actual_billing": "unavailable",
+    "gemini_static_calls": 1,
+    "gemini_estimated_usd": 0.006
+  },
+  "public_deployment": "a0160fde-0123-4dad-8ba3-625e15e96c11",
+  "risks": [
+    "Generated artwork and recreated turn differ from original source",
+    "Headless automation reset cause unresolved; required headed journey passed"
+  ],
+  "unverified": [
+    "Physical Safari/iOS",
+    "VoiceOver",
+    "Real agency/client/backend services excluded",
+    "Exact proprietary source font/rig",
+    "Actual provider bill"
+  ],
+  "time": "2026-09-10T04:38:32.176974+00:00"
+}

@@ -1,0 +1,1 @@
+PASS: 19 pages, local links/anchors, image attributes, JS syntax, and 17 exact ZIPs.

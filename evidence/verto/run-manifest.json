@@ -1,0 +1,419 @@
+{
+  "schema_version": "1.0",
+  "run_id": "verto-2026-09-10",
+  "mode": "iterate",
+  "target": {
+    "repo": "/Users/aliabassi/Documents/ChatGPT/AI Designer/x-web-templates",
+    "commit": "9545657c26f8a1e3bbdd434a9e43e4fd0915a2d2",
+    "dirty": true,
+    "build": "Verto new template"
+  },
+  "environment": {
+    "device": "Mac Chrome with viewport emulation",
+    "runtime": "Headed Google Chrome 152.0.7977.83 / agent-browser 0.37.1 actual Default profile",
+    "backend": "local static + personal Cloudflare Pages",
+    "account_role": "owner",
+    "locale": "en-US",
+    "network": "normal"
+  },
+  "product": {
+    "actor": "template user",
+    "trigger": "browses Verto design",
+    "promised_progress": "browse work, inspect services, prepare and download a local brief",
+    "weakest_link": "scroll video readability and responsive crop",
+    "next_decision": "accept scoped release after real browser checks"
+  },
+  "cases": [
+    {
+      "id": "VERTO-01",
+      "journey": "reference composition and 1440/375/320 responsive states",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "reference composition and 1440/375/320 responsive states works at its declared boundary",
+      "observed": "Original frames and real section screenshots compared at 1440/375; 320 no-overflow sweep and complete art loading passed. Mobile face crop corrected.",
+      "artifacts": [
+        {
+          "kind": "screenshot",
+          "path": "evidence/verto/final/verto-full-1440.png"
+        },
+        {
+          "kind": "screenshot",
+          "path": "evidence/verto/final/verto-full-375.png"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/verto/final/adverse.json"
+        }
+      ],
+      "finding_ids": [
+        "VERTO-F01"
+      ]
+    },
+    {
+      "id": "VERTO-02",
+      "journey": "scroll video forward/reverse, pause/reduced/hidden",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "scroll video forward/reverse, pause/reduced/hidden works at its declared boundary",
+      "observed": "Forward/reverse video, pause/resume passed at 1440/375; reduced mode stopped motion; actual hidden-target activation held both video/animation times; non-range recovery and repeat-logo alignment passed.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/verto/final/interactions.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/verto/final/verto-reduced-375.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/verto/final/verto-visibility.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/verto/final/range-scroll.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/verto/final/non-range-recovery.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/verto/final/logo-loop.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/verto/final/non-range-blob-recovery.json"
+        }
+      ],
+      "finding_ids": [
+        "VERTO-F02",
+        "VERTO-F03"
+      ]
+    },
+    {
+      "id": "VERTO-03",
+      "journey": "keyboard navigation, service switching and project details",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "keyboard navigation, service switching and project details works at its declared boundary",
+      "observed": "All four services and five project dialogs passed keyboard activation and Escape at desktop/mobile; focus visible and native modal focus behavior inspected.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/verto/final/interactions.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/verto/final/main-axe-1440.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/verto/final/main-axe-375.json"
+        }
+      ],
+      "finding_ids": [
+        "VERTO-INF01"
+      ]
+    },
+    {
+      "id": "VERTO-04",
+      "journey": "testimonial navigation and local process disclosure",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "testimonial navigation and local process disclosure works at its declared boundary",
+      "observed": "Next/back/wrapping example testimonials, mobile menu and three-step process dialog passed.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/verto/final/interactions.json"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "VERTO-05",
+      "journey": "contact draft validation, edit and actual export",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "contact draft validation, edit and actual export works at its declared boundary",
+      "observed": "Whitespace validation, editing, reopen retention and real downloaded brief contents passed on desktop/mobile.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/verto/final/interactions.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/verto/final/brief-axe-1440.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/verto/final/brief-axe-375.json"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "VERTO-06",
+      "journey": "missing images/video, export failure and long text",
+      "critical": true,
+      "requires_real": false,
+      "evidence_tier": "mock",
+      "status": "pass",
+      "expected": "missing images/video, export failure and long text works at its declared boundary",
+      "observed": "12 narrow/adverse checks: no overflow through 320 page, 5000-character input, blocked export with preserved selection, missing video/image with still portrait and working brief.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/verto/final/adverse.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/verto/final/blocked-fetch.json"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "VERTO-07",
+      "journey": "no-JS reading and file-origin ZIP use",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "no-JS reading and file-origin ZIP use works at its declared boundary",
+      "observed": "No-JS reading passed with zero enabled visible JS controls and loaded art. Actual unzipped file-origin fonts, imagery, scroll video and local brief download passed.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/verto/final/verto-nojs-375.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/verto/final/file-origin.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/verto/final/file-origin-final-loader.json"
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "id": "VERTO-08",
+      "journey": "production gallery, ZIP downloads and byte hashes",
+      "critical": true,
+      "requires_real": true,
+      "evidence_tier": "real",
+      "status": "pass",
+      "expected": "production gallery, ZIP downloads and byte hashes works at its declared boundary",
+      "observed": "Eight public browser checks passed: gallery 18, actual 22.7 MB ZIP matches, Verto route, Blob-backed live scroll seeking, services, project modal/Escape and mobile actual brief export. All 208 public bytes matched corrected deployment a0160fde-0123-4dad-8ba3-625e15e96c11.",
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/verto/final/public.json"
+        },
+        {
+          "kind": "network",
+          "path": "evidence/verto/final/live-bytes.json"
+        }
+      ],
+      "finding_ids": [
+        "VERTO-F04"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "VERTO-F01",
+      "type": "ux_friction",
+      "severity": "P2",
+      "status": "verified",
+      "summary": "Mobile face crop clipped goggles/nose; object-position 75% keeps the face within the view.",
+      "reproduction": "375px baseline hero before crop change; compare final 375/320.",
+      "case_ids": [
+        "VERTO-01"
+      ],
+      "evidence": [
+        {
+          "kind": "screenshot",
+          "path": "evidence/verto/final/verto-hero-375.png"
+        }
+      ]
+    },
+    {
+      "id": "VERTO-F02",
+      "type": "bug",
+      "severity": "P1",
+      "status": "verified",
+      "summary": "Unseekable range caused repeated impossible seek requests; clamp to seekable end prevents the loop.",
+      "reproduction": "Serve MP4 with Python SimpleHTTP, scroll to 2000; seekable [0,0], prior currentTime setter emits seeked at zero repeatedly. Corrected page remains responsive and not seeking.",
+      "case_ids": [
+        "VERTO-02"
+      ],
+      "evidence": [
+        {
+          "kind": "state",
+          "path": "evidence/verto/final/non-range-recovery.json"
+        }
+      ]
+    },
+    {
+      "id": "VERTO-F03",
+      "type": "ux_friction",
+      "severity": "P3",
+      "status": "verified",
+      "summary": "Logo rail loop omitted half-gap. Corrected loop matches repeated-group offset.",
+      "reproduction": "Compare first/repeated logo start positions with loop transform distance at 1440 and 375.",
+      "case_ids": [
+        "VERTO-02"
+      ],
+      "evidence": [
+        {
+          "kind": "state",
+          "path": "evidence/verto/final/logo-loop.json"
+        }
+      ]
+    },
+    {
+      "id": "VERTO-INF01",
+      "type": "observability",
+      "severity": "P2",
+      "status": "accepted",
+      "summary": "Headless browser reset during rapid dialogs; exact cause unresolved. Required real headed Chrome journey passes.",
+      "reproduction": "Run preserved headless sequence: tab becomes blank during rapid project cycles. Headed actual-profile complete rerun passed 53 checks and captured no target-crash event.",
+      "case_ids": [
+        "VERTO-03"
+      ],
+      "evidence": [
+        {
+          "kind": "state",
+          "path": "evidence/verto/final/interactions-after-seek-fix-headless-interruption.json"
+        }
+      ]
+    },
+    {
+      "id": "VERTO-F04",
+      "type": "bug",
+      "severity": "P1",
+      "status": "verified",
+      "summary": "Pages MP4 has no seekable range; one small HTTP Blob source now enables actual public scroll seeking.",
+      "reproduction": "First deployment: scroll to 1800, seekable [0,0], time 0. Corrected HTTP Blob: full range [0,6], public seek assertion passes; live browser service/modal/export checks pass.",
+      "case_ids": [
+        "VERTO-02",
+        "VERTO-08"
+      ],
+      "evidence": [
+        {
+          "kind": "state",
+          "path": "evidence/verto/final/public-before-blob-failure.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/verto/final/public.json"
+        }
+      ]
+    }
+  ],
+  "iterations": [
+    {
+      "id": "Verto-crop",
+      "hypothesis": "Shift the mobile crop toward the face to avoid clipping goggles.",
+      "decision": "keep",
+      "changed_files": [
+        "templates/verto/dist/style.css"
+      ],
+      "checks": [
+        "375/320 hero screenshots"
+      ],
+      "finding_ids": [
+        "VERTO-F01"
+      ]
+    },
+    {
+      "id": "Verto-seek",
+      "hypothesis": "Clamp to the actual seekable end to stop retries at an impossible target.",
+      "decision": "keep",
+      "changed_files": [
+        "templates/verto/dist/motion.js"
+      ],
+      "checks": [
+        "Same non-range origin responsive",
+        "HTTP 206 origin seeks to 2.590899",
+        "53 headed interaction checks"
+      ],
+      "finding_ids": [
+        "VERTO-F02"
+      ]
+    },
+    {
+      "id": "Verto-loop",
+      "hypothesis": "Including half the gap makes the repeated logo group align at the loop boundary.",
+      "decision": "keep",
+      "changed_files": [
+        "templates/verto/dist/style.css"
+      ],
+      "checks": [
+        "Real rendered distances at 1440/375 align within 0.1px"
+      ],
+      "finding_ids": [
+        "VERTO-F03"
+      ]
+    },
+    {
+      "id": "Verto-headed",
+      "hypothesis": "Use visible actual-profile Chrome and CDP diagnostics to isolate headless interruption.",
+      "decision": "harden_eval",
+      "changed_files": [],
+      "checks": [
+        "53 complete interaction checks passed; no target crash in diagnostics"
+      ],
+      "finding_ids": [
+        "VERTO-INF01"
+      ]
+    },
+    {
+      "id": "Verto-pages-blob",
+      "hypothesis": "A complete local Blob source provides seekability on Pages without range requests or new hosting.",
+      "decision": "keep",
+      "changed_files": [
+        "templates/verto/dist/motion.js",
+        "templates/verto/README.md"
+      ],
+      "checks": [
+        "Same non-range origin seeks with Blob",
+        "53 affected interaction checks",
+        "Reduced/no-JS, blocked fetch, hidden and final file-origin loader checks",
+        "Eight corrected public checks and 208 public hashes"
+      ],
+      "finding_ids": [
+        "VERTO-F04"
+      ]
+    }
+  ],
+  "gates": {
+    "build_provenance": true,
+    "critical_real_flows": true,
+    "automated_regression": true,
+    "logs_reviewed": true,
+    "data_integrity": true,
+    "recovery": true,
+    "accessibility": true,
+    "security_privacy": true,
+    "performance": true,
+    "rollback": true
+  },
+  "verdict": "inconclusive",
+  "assurance_boundary": "Static template and explicitly local demos. No actual agency service, client proof, message, payment or backend. Physical Safari and VoiceOver not covered."
+}

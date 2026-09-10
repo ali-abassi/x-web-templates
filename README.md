@@ -1,8 +1,8 @@
 # X Web Templates
 
-**[Browse all seventeen live templates](https://x-web-templates.pages.dev/)**
+**[Browse all eighteen live templates](https://x-web-templates.pages.dev/)**
 
-Seventeen reusable templates: reference-led reconstructions and your original Aster import. Original ChatGPT-generated artwork, editable HTML/CSS/JavaScript, and local fonts. No runtime dependencies or API keys.
+Eighteen reusable templates: reference-led reconstructions and your original Aster import. Original ChatGPT-generated artwork, editable HTML/CSS/JavaScript, and local fonts. No runtime dependencies or API keys.
 
 | Template | Live preview | Direction | Working interactions |
 | --- | --- | --- | --- |
@@ -23,6 +23,7 @@ Seventeen reusable templates: reference-led reconstructions and your original As
 | [Quiet](templates/quiet-presets/) | [Open ↗](https://x-web-templates.pages.dev/quiet-presets/) | Product & Feature Section | A swipeable focus-preset gallery with tactile lifestyle photography. |
 | [Olympus](templates/olympus/) | [Open ↗](https://x-web-templates.pages.dev/olympus/) | Classical AI workspace | Marble artwork, orbit motion, local task assignment and model examples. |
 | [Wandor](templates/wandor/) | [Open ↗](https://x-web-templates.pages.dev/wandor/) | Illustrated travel planner | A landmark-filled journey with editable local itinerary downloads. |
+| [Verto](templates/verto/) | [Open ↗](https://x-web-templates.pages.dev/verto/) | Cinematic Creative Studio | Scroll-controlled portrait, service previews, project stories, and downloadable local briefs. |
 
 ## Original designs and credits
 
@@ -33,6 +34,7 @@ The original four designs come from **[Naty / @DesignGuru01 — original X post]
 - **BuzzKit reference:** [Christo / @chroxify — original post](https://x.com/chroxify/status/2097477196130529296).
 - **Pixel-world reference:** [Varun / @orseliyas — original post](https://x.com/orseliyas/status/2097307376143773730).
 
+- **Verto reference:** [Alex roy / @alexroyhe — original post](https://x.com/alexroyhe/status/2097505519397163100).
 - **Olympus reference:** [Judha / @jxdhaa — original post](https://x.com/jxdhaa/status/2097647071721607222).
 - **Wandor reference:** [Harshit / @oiharshit — original post](https://x.com/oiharshit/status/2097666212767633581).
 
@@ -186,3 +188,7 @@ Every template README includes its screenshot and live preview.
 ### Wandor
 
 [![Wandor preview](gallery/assets/wandor.png)](https://x-web-templates.pages.dev/wandor/)
+
+### Verto
+
+[![Verto preview](gallery/assets/verto.png)](https://x-web-templates.pages.dev/verto/)

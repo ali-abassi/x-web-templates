@@ -1,0 +1,62 @@
+[
+  {
+    "case": "no overflow 320 at 0",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "no overflow 320 at 900",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "no overflow 320 at 1800",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "no overflow 320 at 2700",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "no overflow 320 at 3600",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "no overflow 320 at 4500",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "no overflow 320 at 5600",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "no overflow 320 at 6600",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "long form fits",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "blocked export preserves and selects notes",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "missing video and artwork recover",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "brief remains usable after missing media",
+    "passed": true,
+    "observed": true
+  }
+]

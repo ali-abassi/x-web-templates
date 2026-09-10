@@ -1,0 +1,269 @@
+[
+  {
+    "case": "service 0 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "service 1 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "service 2 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "service 3 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "project Explore Noxen House 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "project escape Explore Noxen House 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "project Explore Sonnet Print Poster 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "project escape Explore Sonnet Print Poster 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "project Explore Smart Earbuds App 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "project escape Explore Smart Earbuds App 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "project Explore Shopping App 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "project escape Explore Shopping App 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "project Explore Fibespace Studio 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "project escape Explore Fibespace Studio 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "quote next 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "quote back 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "quote wraps 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "brief open 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "whitespace validation 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "brief survives close 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "actual brief download 1440",
+    "passed": true,
+    "sha256": "fd31ab9ad5563dd3b068a2b24c820db3e4c26c1c187a140306ecc68d3e06efd6"
+  },
+  {
+    "case": "process opens 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "scroll advances video 1440",
+    "passed": true,
+    "start": 0.254625,
+    "middle": 2.1077
+  },
+  {
+    "case": "pause freezes scene and rail 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "resume and reverse scroll 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "all loaded and no overflow 1440",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "service 0 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "service 1 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "service 2 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "service 3 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "project Explore Noxen House 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "project escape Explore Noxen House 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "project Explore Sonnet Print Poster 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "project escape Explore Sonnet Print Poster 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "project Explore Smart Earbuds App 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "project escape Explore Smart Earbuds App 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "project Explore Shopping App 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "project escape Explore Shopping App 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "project Explore Fibespace Studio 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "project escape Explore Fibespace Studio 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "quote next 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "quote back 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "quote wraps 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "brief open 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "whitespace validation 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "brief survives close 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "actual brief download 375",
+    "passed": true,
+    "sha256": "fd31ab9ad5563dd3b068a2b24c820db3e4c26c1c187a140306ecc68d3e06efd6"
+  },
+  {
+    "case": "mobile menu opens",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "process opens 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "scroll advances video 375",
+    "passed": true,
+    "start": 0,
+    "middle": 1.557741
+  },
+  {
+    "case": "pause freezes scene and rail 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "resume and reverse scroll 375",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "all loaded and no overflow 375",
+    "passed": true,
+    "observed": true
+  }
+]

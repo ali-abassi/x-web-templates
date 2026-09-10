@@ -1,0 +1,43 @@
+[
+  {
+    "case": "public gallery 18",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "public actual Verto ZIP download",
+    "passed": true,
+    "bytes": 22742888,
+    "sha256": "ee4778869fa2f633edfa0339c8871198d45727f4ada503339de8ad4e12f13447"
+  },
+  {
+    "case": "public Verto route",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "public scroll video seeks",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "public services",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "public project details",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "public close project",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "public mobile export feedback",
+    "passed": true,
+    "observed": true
+  }
+]

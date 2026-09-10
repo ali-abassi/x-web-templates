@@ -1,0 +1,50 @@
+{
+  "fonts": "loaded",
+  "height": 5545,
+  "images": [
+    {
+      "loaded": true,
+      "src": "assets/portrait.png"
+    },
+    {
+      "loaded": true,
+      "src": "assets/synth-sky.png"
+    },
+    {
+      "loaded": true,
+      "src": "assets/portrait-red.png"
+    },
+    {
+      "loaded": true,
+      "src": "assets/iris.png"
+    },
+    {
+      "loaded": false,
+      "src": "assets/coral.png"
+    },
+    {
+      "loaded": false,
+      "src": "assets/earbuds.png"
+    },
+    {
+      "loaded": false,
+      "src": "assets/blocks.png"
+    },
+    {
+      "loaded": false,
+      "src": "assets/synth-yellow.png"
+    },
+    {
+      "loaded": false,
+      "src": "assets/portrait-prism.png"
+    },
+    {
+      "loaded": true,
+      "src": "assets/synth-sky.png"
+    }
+  ],
+  "scrollWidth": 1440,
+  "titleFont": "VertoSans, Arial, sans-serif",
+  "url": "http://127.0.0.1:4173/verto/",
+  "width": 1440
+}

@@ -1,0 +1,7 @@
+{
+  "environment": "mock network failure: CDP blocks only motion.mp4",
+  "hidden": true,
+  "status": "Motion could not load. The still portrait and all page features remain available.",
+  "still": true,
+  "briefEnabled": true
+}

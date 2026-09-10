@@ -1,0 +1,40 @@
+[
+ {
+  "id": "encode",
+  "model": null,
+  "cached": false,
+  "attempts": 1,
+  "passed": false,
+  "seconds": 0.8,
+  "input": 0,
+  "output": 0,
+  "total": 0,
+  "cost": 0.0,
+  "failure": "cmd exited 1: Traceback (most recent call last): File \"/private/tmp/xweb-alex-0910/encode.py\", line 5, in <module> meta=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(target)]));assert 5.8<float(meta['format']['duration'])<6.3;assert target.stat().st_size<12*1024*1024 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ AssertionError",
+  "failure_kind": "command_exit"
+ },
+ {
+  "id": "generate",
+  "model": null,
+  "cached": false,
+  "attempts": 1,
+  "passed": true,
+  "seconds": 10.9,
+  "input": 0,
+  "output": 0,
+  "total": 0,
+  "cost": 0.0
+ },
+ {
+  "id": "preflight",
+  "model": null,
+  "cached": false,
+  "attempts": 1,
+  "passed": true,
+  "seconds": 0.0,
+  "input": 0,
+  "output": 0,
+  "total": 0,
+  "cost": 0.0
+ }
+]

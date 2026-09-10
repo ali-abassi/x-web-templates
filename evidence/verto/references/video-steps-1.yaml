@@ -1,0 +1,14 @@
+version: 1
+workflow: verto-motion
+workers: 1
+steps:
+  - id: preflight
+    cmd: python3 /private/tmp/xweb-alex-0910/preflight.py > "$OUT"
+  - id: generate
+    needs: [preflight]
+    cmd: python3 /private/tmp/xweb-alex-0910/video-run.py > "$OUT"
+    retries: 0
+  - id: encode
+    needs: [generate]
+    cmd: python3 /private/tmp/xweb-alex-0910/encode.py > "$OUT"
+    retries: 0

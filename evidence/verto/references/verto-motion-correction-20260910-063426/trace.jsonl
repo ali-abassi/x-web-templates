@@ -1,0 +1,8 @@
+{"schema":"pi-graph.trace-event.v1","seq":1,"timestamp":"2026-09-10T03:34:26.490431+00:00","run_id":"verto-motion-correction-20260910-063426","type":"run_started","payload":{"todo":["preflight","generate","encode"],"workers":1}}
+{"schema":"pi-graph.trace-event.v1","seq":2,"timestamp":"2026-09-10T03:34:26.492720+00:00","run_id":"verto-motion-correction-20260910-063426","type":"step_started","payload":{},"step_id":"preflight"}
+{"schema":"pi-graph.trace-event.v1","seq":3,"timestamp":"2026-09-10T03:34:26.523139+00:00","run_id":"verto-motion-correction-20260910-063426","type":"step_finished","payload":{"attempts":1,"failure":"","failure_kind":""},"step_id":"preflight"}
+{"schema":"pi-graph.trace-event.v1","seq":4,"timestamp":"2026-09-10T03:34:26.595745+00:00","run_id":"verto-motion-correction-20260910-063426","type":"step_started","payload":{},"step_id":"generate"}
+{"schema":"pi-graph.trace-event.v1","seq":5,"timestamp":"2026-09-10T03:34:37.578639+00:00","run_id":"verto-motion-correction-20260910-063426","type":"step_finished","payload":{"attempts":1,"failure":"","failure_kind":""},"step_id":"generate"}
+{"schema":"pi-graph.trace-event.v1","seq":6,"timestamp":"2026-09-10T03:34:37.615384+00:00","run_id":"verto-motion-correction-20260910-063426","type":"step_started","payload":{},"step_id":"encode"}
+{"schema":"pi-graph.trace-event.v1","seq":7,"timestamp":"2026-09-10T03:34:38.326214+00:00","run_id":"verto-motion-correction-20260910-063426","type":"step_finished","payload":{"attempts":1,"failure":"","failure_kind":""},"step_id":"encode"}
+{"schema":"pi-graph.trace-event.v1","seq":8,"timestamp":"2026-09-10T03:34:38.354382+00:00","run_id":"verto-motion-correction-20260910-063426","type":"run_completed","payload":{"skipped":[]}}

@@ -1,0 +1,8 @@
+{
+  "build": "18 sites + gallery + reproducible ZIPs",
+  "check": "20 pages; local links/anchors, image attributes, JS syntax and 18 exact ZIPs",
+  "complexity": "ESLint 9.39.1 complexity max 5 passed app.js and motion.js",
+  "typescript_authored": 0,
+  "prior_runtime_files_unchanged": 150,
+  "frozen_alignment": "all match plan.json"
+}

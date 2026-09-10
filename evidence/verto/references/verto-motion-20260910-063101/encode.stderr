@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/private/tmp/xweb-alex-0910/encode.py", line 5, in <module>
+    meta=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(target)]));assert 5.8<float(meta['format']['duration'])<6.3;assert target.stat().st_size<12*1024*1024
+                                                                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

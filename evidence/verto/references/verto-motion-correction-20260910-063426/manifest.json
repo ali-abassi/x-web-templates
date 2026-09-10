@@ -1,0 +1,27 @@
+{
+ "schema": "pi-graph.run-bundle.v1",
+ "run_id": "verto-motion-correction-20260910-063426",
+ "workflow": {
+  "snapshot": "workflow.yaml",
+  "source_path": "/private/tmp/xweb-alex-0910/video-steps-2.yaml",
+  "sha256": "cc74db422c88ea2aea94e0727015d59ef87c3ebe9e889b6f642079562f3f7039",
+  "bytes": 392
+ },
+ "input": null,
+ "execution": {
+  "cwd": "/private/tmp/xweb-alex-0910",
+  "workflow_dir": "/private/tmp/xweb-alex-0910"
+ },
+ "status": "completed",
+ "created_at": "2026-09-10T03:34:26.489714+00:00",
+ "updated_at": "2026-09-10T03:34:38.354382+00:00",
+ "started_at": "2026-09-10T03:34:26.490431+00:00",
+ "completed_at": "2026-09-10T03:34:38.354382+00:00",
+ "projections": {
+  "ledger": "ledger.json",
+  "log": "log.md",
+  "step_artifacts": "<step>.md",
+  "produced": "produced/",
+  "events": "/Users/aliabassi/.pi-graph/state/events/cli-4465148edb58.jsonl"
+ }
+}

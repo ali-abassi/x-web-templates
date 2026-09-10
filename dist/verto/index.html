@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#173d59" />
+    <meta
+      name="description"
+      content="Verto — a cinematic creative studio template with a scroll-controlled portrait and local project brief."
+    />
+    <title>VERTO — Bold digital identities</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="motion.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="scene" aria-hidden="true">
+      <img
+        class="portrait"
+        src="assets/portrait.png"
+        width="1536"
+        height="1024"
+        alt=""
+        fetchpriority="high"
+      /><video
+        id="scene-video"
+        muted
+        playsinline
+        preload="none"
+        aria-hidden="true"
+        tabindex="-1"
+        data-src="assets/motion.mp4"
+      ></video>
+      <div class="scene-shade"></div>
+    </div>
+    <header class="header">
+      <a class="wordmark" href="#top" aria-label="Verto home"
+        >VERTO<sup>®</sup></a
+      >
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#services">Services</a
+        ><a href="#projects">Projects</a
+        ><button data-dialog="process-dialog" disabled>Process</button
+        ><a href="#testimonial">Testimonial</a>
+      </nav>
+      <div class="header-actions">
+        <details class="mobile-menu">
+          <summary>Menu</summary>
+          <nav aria-label="Mobile navigation">
+            <a href="#about">About</a><a href="#services">Services</a
+            ><a href="#projects">Projects</a
+            ><button data-dialog="process-dialog" disabled>Process</button
+            ><a href="#testimonial">Testimonial</a>
+          </nav>
+        </details>
+        <button class="primary" data-dialog="brief-dialog" disabled>
+          Let’s Talk
+        </button>
+      </div>
+    </header>
+    <main id="main">
+      <section class="hero wrap" id="top" aria-labelledby="hero-heading">
+        <div class="hero-title" aria-hidden="true">VERTO<sup>®</sup></div>
+        <div class="hero-bottom">
+          <div class="hero-copy">
+            <h1 id="hero-heading">
+              Bold digital identities<br />for ambitious founders.
+            </h1>
+            <p>
+              Turning bold ideas into distinctive brands<br
+                class="desktop-break"
+              />
+              and lasting impressions.
+            </p>
+          </div>
+          <button
+            class="featured"
+            data-project="noxen"
+            aria-label="Explore Noxen House"
+            disabled
+          >
+            <img
+              src="assets/synth-sky.png"
+              alt="Pale blue synthesizer under an open sky"
+              width="1536"
+              height="1024"
+            /><span class="featured-label"
+              ><span
+                ><strong>Noxen House®</strong
+                ><small>Brand Direction · 2026°</small></span
+              ><span class="round" aria-hidden="true">↗</span></span
+            >
+          </button>
+          <div class="logo-rail" aria-label="Example brand identities">
+            <div class="logo-track">
+              <span>▰ DashMark</span><span>▣ Overlay</span
+              ><span>▱ FrameFlow</span><span>◎ NeuroLink</span
+              ><span>✺ Brightly</span><span aria-hidden="true">▰ DashMark</span
+              ><span aria-hidden="true">▣ Overlay</span
+              ><span aria-hidden="true">▱ FrameFlow</span
+              ><span aria-hidden="true">◎ NeuroLink</span
+              ><span aria-hidden="true">✺ Brightly</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="about wrap section"
+        id="about"
+        aria-labelledby="about-heading"
+      >
+        <p class="eyebrow">[ 01 ] &nbsp; ABOUT COMPANY</p>
+        <h2 id="about-heading">
+          The strongest brands go beyond visual details. They create a distinct
+          feeling <span class="slash">/</span> that draws people in, builds
+          connection, and stays in their minds long after.
+        </h2>
+      </section>
+      <section
+        class="services wrap section"
+        id="services"
+        aria-labelledby="services-heading"
+      >
+        <div class="section-top">
+          <h2 class="eyebrow" id="services-heading">
+            [ 02 ] &nbsp; OUR SERVICES
+          </h2>
+          <p>
+            Brand identities and digital experiences shaped with precision,
+            creativity, and minimalism.
+          </p>
+        </div>
+        <div class="service-layout">
+          <div
+            class="service-list"
+            role="group"
+            aria-label="Explore our services"
+          >
+            <button
+              data-service="0"
+              aria-pressed="true"
+              aria-controls="service-preview"
+              disabled
+            >
+              <span aria-hidden="true">↳</span>Branding &amp; Identity<sup
+                >[ 01 ]</sup
+              ></button
+            ><button
+              data-service="1"
+              aria-pressed="false"
+              aria-controls="service-preview"
+              disabled
+            >
+              <span aria-hidden="true">↳</span>UI/UX Design<sup
+                >[ 02 ]</sup
+              ></button
+            ><button
+              data-service="2"
+              aria-pressed="false"
+              aria-controls="service-preview"
+              disabled
+            >
+              <span aria-hidden="true">↳</span>Creative Direction<sup
+                >[ 03 ]</sup
+              ></button
+            ><button
+              data-service="3"
+              aria-pressed="false"
+              aria-controls="service-preview"
+              disabled
+            >
+              <span aria-hidden="true">↳</span>Development<sup>[ 04 ]</sup>
+            </button>
+          </div>
+          <div id="service-preview">
+            <div class="service-art">
+              <img
+                id="service-image-a"
+                src="assets/portrait-red.png"
+                width="1024"
+                height="1536"
+                alt="Red and cyan editorial portrait"
+                loading="lazy"
+              /><img
+                id="service-image-b"
+                src="assets/iris.png"
+                width="1024"
+                height="1536"
+                alt="Sculptural lavender iris"
+                loading="lazy"
+              />
+            </div>
+            <p id="service-description">
+              Distinctive identities that make a clear first impression — from a
+              single mark to a complete visual language.
+            </p>
+            <div class="tags">
+              <span id="service-tags">Strategy · Identity · Guidelines</span
+              ><button
+                class="round"
+                data-dialog="brief-dialog"
+                aria-label="Start a project brief"
+                disabled
+              >
+                ↗
+              </button>
+            </div>
+            <p class="sr-only" id="service-status" role="status"></p>
+          </div>
+        </div>
+      </section>
+      <section
+        class="portfolio wrap section"
+        id="projects"
+        aria-labelledby="projects-heading"
+      >
+        <div class="section-top">
+          <p class="eyebrow">[ 03 ] &nbsp; BEST PORTFOLIO</p>
+          <span class="date-mark"
+            >20–26° &nbsp;
+            <span aria-hidden="true">|||||||||||||||||</span></span
+          >
+        </div>
+        <div class="portfolio-intro">
+          <h2 id="projects-heading">We Make Brands<br />That Stay Relevant.</h2>
+          <p>
+            We don’t just design visuals.<br />We shape stories into
+            experiences.
+          </p>
+        </div>
+        <div class="project-grid">
+          <article class="project" id="sonnet">
+            <button
+              class="project-image"
+              data-project="sonnet"
+              aria-label="Explore Sonnet Print Poster"
+              disabled
+            >
+              <img
+                src="assets/coral.png"
+                alt="Sonnet Print Poster concept artwork"
+                width="1254"
+                height="1254"
+                loading="lazy"
+              /><span aria-hidden="true">↗</span>
+            </button>
+            <div class="project-copy">
+              <p class="project-number">01 — 04 / CONCEPT WORK</p>
+              <h3>Sonnet Print Poster</h3>
+              <p>
+                A visual exploration of form, tone, and rhythm. Crafted as a
+                study in minimalist balance.
+              </p>
+              <div class="tags">
+                <span>Branding & Identity</span
+                ><button
+                  class="round"
+                  data-project="sonnet"
+                  aria-label="Read about Sonnet Print Poster"
+                  disabled
+                >
+                  ↗
+                </button>
+              </div>
+              <div class="case-detail" hidden>
+                An experimental visual identity built around a single sculptural
+                form. The glass-bead artwork explores how a repeated material
+                can become a recognizable visual language.
+              </div>
+            </div>
+          </article>
+          <article class="project" id="earbuds">
+            <button
+              class="project-image"
+              data-project="earbuds"
+              aria-label="Explore Smart Earbuds App"
+              disabled
+            >
+              <img
+                src="assets/earbuds.png"
+                alt="Smart Earbuds App concept artwork"
+                width="1254"
+                height="1254"
+                loading="lazy"
+              /><span aria-hidden="true">↗</span>
+            </button>
+            <div class="project-copy">
+              <p class="project-number">02 — 04 / CONCEPT WORK</p>
+              <h3>Smart Earbuds App</h3>
+              <p>
+                An audio experience designed for clarity, confidence, and
+                seamless usability.
+              </p>
+              <div class="tags">
+                <span>UI/UX · Product Design</span
+                ><button
+                  class="round"
+                  data-project="earbuds"
+                  aria-label="Read about Smart Earbuds App"
+                  disabled
+                >
+                  ↗
+                </button>
+              </div>
+              <div class="case-detail" hidden>
+                A concept for an audio companion, with a clear hierarchy for
+                listening, device status, and everyday controls. This portfolio
+                entry is an illustrative case study, not a working audio app.
+              </div>
+            </div>
+          </article>
+          <article class="project" id="shopping">
+            <button
+              class="project-image"
+              data-project="shopping"
+              aria-label="Explore Shopping App"
+              disabled
+            >
+              <img
+                src="assets/blocks.png"
+                alt="Shopping App concept artwork"
+                width="1254"
+                height="1254"
+                loading="lazy"
+              /><span aria-hidden="true">↗</span>
+            </button>
+            <div class="project-copy">
+              <p class="project-number">03 — 04 / CONCEPT WORK</p>
+              <h3>Shopping App</h3>
+              <p>
+                A shopping experience that turns a world of possibilities into a
+                considered selection.
+              </p>
+              <div class="tags">
+                <span>UI/UX · Development</span
+                ><button
+                  class="round"
+                  data-project="shopping"
+                  aria-label="Read about Shopping App"
+                  disabled
+                >
+                  ↗
+                </button>
+              </div>
+              <div class="case-detail" hidden>
+                A playful exploration of a shopping identity through tactile
+                color and modular forms. The blocks stand for a flexible visual
+                system; no shopping or checkout service is connected.
+              </div>
+            </div>
+          </article>
+          <article class="project" id="fibespace">
+            <button
+              class="project-image"
+              data-project="fibespace"
+              aria-label="Explore Fibespace Studio"
+              disabled
+            >
+              <img
+                src="assets/synth-yellow.png"
+                alt="Fibespace Studio concept artwork"
+                width="1254"
+                height="1254"
+                loading="lazy"
+              /><span aria-hidden="true">↗</span>
+            </button>
+            <div class="project-copy">
+              <p class="project-number">04 — 04 / CONCEPT WORK</p>
+              <h3>Fibespace Studio</h3>
+              <p>
+                Brand and packaging design rooted in simplicity. Color, rhythm,
+                and a little room to play.
+              </p>
+              <div class="tags">
+                <span>Branding & Identity</span
+                ><button
+                  class="round"
+                  data-project="fibespace"
+                  aria-label="Read about Fibespace Studio"
+                  disabled
+                >
+                  ↗
+                </button>
+              </div>
+              <div class="case-detail" hidden>
+                A compact music studio identity inspired by the satisfying
+                tactility of analog instruments. Warm color, precise geometry,
+                and an expressive image system give the concept its character.
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section
+        class="testimonial wrap section"
+        id="testimonial"
+        aria-labelledby="testimonial-heading"
+      >
+        <h2 class="eyebrow" id="testimonial-heading">
+          [ 04 ] &nbsp; WHAT CLIENTS SAY
+        </h2>
+        <p class="example-note">
+          Illustrative testimonials · fictional names and portraits
+        </p>
+        <div class="testimonial-layout">
+          <div class="testimonial-portrait">
+            <div class="portrait-tools">
+              <button
+                class="round"
+                id="quote-previous"
+                aria-label="Previous example testimonial"
+                disabled
+              >
+                ←</button
+              ><span aria-hidden="true">＋</span>
+            </div>
+            <img
+              src="assets/portrait-prism.png"
+              width="1254"
+              height="1254"
+              alt="Fictional creative founder in prism light"
+              loading="lazy"
+            />
+            <p class="eyebrow">EXAMPLE CUSTOMER <span>2026°</span></p>
+          </div>
+          <div class="quote-content">
+            <blockquote>
+              <span class="quote-mark" aria-hidden="true">“</span>
+              <p id="quote-text">
+                From the very beginning, they understood our direction. The
+                process was smooth, collaborative, and the final result feels
+                truly lasting.
+              </p>
+              <footer id="quote-name">— Sophia R.</footer>
+            </blockquote>
+            <div class="quote-bottom">
+              <p>More than just visuals.<br />Let’s build yours together.</p>
+              <button
+                class="round"
+                id="quote-next"
+                aria-label="Next example testimonial"
+                disabled
+              >
+                →
+              </button>
+            </div>
+            <p class="sr-only" id="quote-status" role="status"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer wrap">
+      <a
+        href="https://x.com/alexroyhe/status/2097505519397163100"
+        target="_blank"
+        rel="noreferrer"
+        >Original design by Alex roy ↗</a
+      >
+      <details>
+        <summary>About this template</summary>
+        <p>
+          Independent reconstruction with original generated artwork and
+          scroll-controlled video. Project stories, brand marks and testimonials
+          are illustrative examples. Nothing here submits to a real studio. Your
+          brief stays in this page until you download it or reload.
+        </p>
+      </details>
+      <button id="motion" aria-pressed="false" disabled>Pause motion</button>
+      <p id="media-status" role="status"></p>
+    </footer>
+    <noscript
+      ><p class="noscript-note wrap">
+        Motion and interactive examples need JavaScript. All page content and
+        artwork remain available for reading.
+      </p></noscript
+    >
+    <dialog id="project-dialog" aria-labelledby="project-title">
+      <button
+        class="dialog-close"
+        data-close
+        aria-label="Close project details"
+      >
+        ×
+      </button>
+      <p class="eyebrow">SELECTED CONCEPT / LOCAL PREVIEW</p>
+      <h2 id="project-title">Project</h2>
+      <img
+        id="project-art"
+        src="assets/synth-sky.png"
+        alt="Selected project artwork"
+        width="1536"
+        height="1024"
+      />
+      <p id="project-description"></p>
+      <button class="primary" data-dialog="brief-dialog" disabled>
+        Build something like this ↗
+      </button>
+    </dialog>
+    <dialog id="process-dialog" aria-labelledby="process-title">
+      <button class="dialog-close" data-close aria-label="Close process">
+        ×
+      </button>
+      <p class="eyebrow">A SIMPLE WORKING RHYTHM</p>
+      <h2 id="process-title">From an idea<br />to something lasting.</h2>
+      <ol class="process-list">
+        <li>
+          <strong>Discover.</strong>
+          <p>
+            Understand the people, the problem, and what makes your idea
+            different.
+          </p>
+        </li>
+        <li>
+          <strong>Shape.</strong>
+          <p>
+            Explore one clear direction through words, form, and a working
+            prototype.
+          </p>
+        </li>
+        <li>
+          <strong>Make.</strong>
+          <p>
+            Refine the details, test the experience, and prepare the files for
+            the next step.
+          </p>
+        </li>
+      </ol>
+      <p class="dialog-note">
+        An example process added for this reusable template.
+      </p>
+    </dialog>
+    <dialog id="brief-dialog" aria-labelledby="brief-title">
+      <button class="dialog-close" data-close aria-label="Close project brief">
+        ×
+      </button>
+      <p class="eyebrow">LET’S MAKE A START</p>
+      <h2 id="brief-title">What are you<br />thinking about?</h2>
+      <p>Write a few notes. Download your brief and make it your own.</p>
+      <form id="brief-form">
+        <label for="project-name">Project name</label
+        ><input
+          id="project-name"
+          name="project"
+          maxlength="120"
+          placeholder="Your next big idea"
+          required
+        /><label for="project-service">What do you need?</label
+        ><select id="project-service" name="service">
+          <option>Branding &amp; Identity</option>
+          <option>UI/UX Design</option>
+          <option>Creative Direction</option>
+          <option>Development</option></select
+        ><label for="brief-notes">Your brief</label
+        ><textarea
+          id="brief-notes"
+          name="notes"
+          rows="5"
+          maxlength="5000"
+          placeholder="Who is it for? What should it help them do?"
+          required
+        ></textarea
+        ><button class="primary" type="submit" disabled>
+          Download my brief ↓
+        </button>
+        <p class="form-status" id="brief-status" role="status"></p>
+      </form>
+      <p class="dialog-note">
+        Local draft only. No message is sent. Download a copy before leaving or
+        reloading this page.
+      </p>
+    </dialog>
+  </body>
+</html>

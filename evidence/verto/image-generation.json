@@ -1,0 +1,66 @@
+[
+  {
+    "asset": "portrait.png",
+    "prompt": "Use case: stylized-concept. Asset type: full-screen website background and first frame for a slow fashion turntable. Image 1 is ONLY a composition/material reference. Create original cinematic 3D fashion artwork of a fictional adult with rich brown skin, very short mint-green textured buzzcut, rounded silver-chrome goggles with orange lenses, a voluminous iridescent deep-teal silk cape with golden lining and a large elegant gold clasp. No text, no typography, no UI, no website elements, no logos or watermark at all. Keep the reference blue-at-top to dusty coral-middle and warm orange-at-bottom smooth seamless background. Same broad composition: head centered about x=62%, y=23%; subject in right-facing three-quarter profile, crown at y=11%; shoulders and sweeping cape fill the bottom two-thirds and extend out of frame. Upper left third is clear blue negative space for separate HTML wordmark. Lower left can have flowing cape but no props. Full-bleed landscape 3:2 composition, no border. Camera is level, medium upper-body fashion portrait, eye and skin anatomy plausible, chrome frames sculptural and sharp, teal satin folds richly detailed with soft warm edge light. Preserve overall silhouette and scene geometry of the reference while making a fresh character. Remove all letters, figures, logos, navigation, inset synth card and controls from the reference.",
+    "source": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-423d2eba-5560-418a-bbc3-c53be511c869.png",
+    "route": "native image_gen",
+    "decision": "accepted original anchor: right profile, teal/gold cape, blue/coral gradient, no raster text",
+    "inspection": "Viewed native output; accepted composition/material; final context QA pending"
+  },
+  {
+    "asset": "synth-sky.png",
+    "prompt": "Use case: product-mockup. Landscape editorial 3D product photograph for an agency portfolio, 3:2 aspect ratio. A beautiful pale icy-blue analog music synthesizer with white knobs, black and white piano keys, minimal brushed-aluminum panel with NO letters, no logos, no text. It rests on a pale-blue architectural pedestal outdoors beneath a vivid clear sky with a few soft cumulus clouds. Slightly elevated three-quarter camera looking down from the front left; synthesizer fills the lower two-thirds, sky the upper third. Playful yet precise industrial design, bright warm sunlight, soft long shadows, powder blue sea horizon far behind. Clean detailed geometry, plausible keys and knobs, polished soft product render. Full bleed, no borders, no website UI.",
+    "source": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-b2ed8173-ef53-4d92-85d0-5a4e4bca2ee7.png",
+    "route": "native image_gen",
+    "inspection": "Viewed native output; accepted composition/material; final context QA pending"
+  },
+  {
+    "asset": "portrait-red.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: vertical editorial portrait for a creative studio portfolio. Portrait 2:3 aspect ratio. Original adult male fashion model, 25 years old, fair skin with real pores, tousled short black hair, clean shaven, cropped from chest to just above hair. Face slightly turned but gazing toward camera with a neutral, calm expression. Dramatic cyan light from the left and deep hot-red light from the right. Solid saturated red-orange studio backdrop. Plain dark charcoal shirt. A real carefully lit fashion photograph, close crop, strong color separation, restrained fine grain. No jewelry, text, logos, watermarks, interface, frame or collage. Exact plausible anatomy; no waxy skin or over-retouching.",
+    "source": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-2fa5675a-87f0-4914-804f-ca1fd69cf0a6.png",
+    "route": "native image_gen",
+    "inspection": "Viewed native output; accepted composition/material; final context QA pending"
+  },
+  {
+    "asset": "iris.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: vertical fine-art botanical photograph, 2:3 aspect. One delicate lavender-purple iris flower in close macro, its folded translucent petals and fine veins visible. Green stem runs diagonally upward from the lower right. Pale cool gray studio background, shallow depth of field with the foremost purple petal sharply focused and the far petals softly blurred. Real photographic texture and soft diffused window light. Flower fills most of the portrait, cropped elegantly at the edges. Quiet, sculptural, restrained lilac color. No pot, text, lettering, logo, watermark, interface, collage or border.",
+    "source": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-be808341-a6bc-4858-b3a4-f504b0cc6b27.png",
+    "route": "native image_gen",
+    "inspection": "Viewed native output; accepted composition/material; final context QA pending"
+  },
+  {
+    "asset": "coral.png",
+    "prompt": "Use case: stylized-concept. Square macro 3D artwork for an experimental print-poster portfolio. A single intricately ruffled coral/rose-shaped sculptural form made of thousands of tiny transparent glass beads and fine iridescent filaments. Layered curled petals, ice-white translucent edges, warm burgundy/red depths and prismatic pink/lilac highlights. Cropped close so the abstract blossom fills the square, with a narrow soft medium-gray background at edges. Sculptural high-detail material study, coherent layered structure, delicate glints, soft studio directional light. No actual text, typography, brand mark, watermark, frame, interface or product label. Not a website screenshot, just the artwork.",
+    "source": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-130ce95e-8d39-4409-af50-16ec73250de6.png",
+    "route": "native image_gen",
+    "inspection": "Viewed native output; accepted composition/material; final context QA pending"
+  },
+  {
+    "asset": "earbuds.png",
+    "prompt": "Use case: photorealistic-natural. Square editorial macro photograph for an audio product art-direction portfolio. Extreme close-up side of a fictional adult's face, medium brown skin with fine natural pores. A tiny sculptural black wireless earbud sits correctly in the visible ear near the right side of frame, while cheekbone, a little of nose and temple occupy the rest. Hot orange/copper light from one side and deep crimson shadow from the other; dramatic almost abstract crop. High fashion beauty photography, warm metallic-looking specular highlights from lighting, real skin not metal. No text, logos, watermark, interface or collage. Preserve realistic ear anatomy and a clearly identifiable unbranded earbud; no exaggerated jewelry.",
+    "source": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-8962c916-3fca-4e6c-8a1d-0cba94b0ac72.png",
+    "route": "native image_gen",
+    "inspection": "Viewed native output; accepted composition/material; final context QA pending"
+  },
+  {
+    "asset": "blocks.png",
+    "prompt": "Use case: stylized-concept. Square 3D material sculpture for a creative studio portfolio. A vertical loosely stacked tower of soft rounded rectangular blocks in magenta, violet, coral, pale sand and deep green, their surfaces made of very tiny tightly packed beads. Hundreds of matching microscopic particles gently suspended around the top-left and right edges like an elegant material disintegration, not an explosion. Form is coherent and sculptural, blocks stagger slightly in an interlocking stack. Medium warm gray seamless studio backdrop, soft shadows, tactile macro detail, restrained saturated palette. No text, logos, watermarks, interface, frame or collage. Full bleed close composition with tower filling most of square.",
+    "source": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-7e061ba5-1780-4bc8-a533-08b668341fec.png",
+    "route": "native image_gen",
+    "inspection": "Viewed native output; accepted composition/material; final context QA pending"
+  },
+  {
+    "asset": "synth-yellow.png",
+    "prompt": "Use case: product-mockup. Square studio product render of a compact beautiful retro music synthesizer, an original unbranded object. Warm apricot-orange aluminum body, white side cheeks, black and white keyboard, a tidy group of small pale-gray control knobs and coral pads. Viewed from a slightly elevated front-left three-quarter angle on a seamless deep golden-yellow background and tabletop, with soft directional shadows. Product centered and filling about 75% of the square, generous yellow negative space around it. Playful refined industrial design, precise physically plausible geometry, subtly textured materials. No letters or numbers, no logo, no watermark, no UI, no frame or extra props.",
+    "source": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-882bd300-f79a-4a16-a8e4-9e5d21cc37ec.png",
+    "route": "native image_gen",
+    "inspection": "Viewed native output; accepted composition/material; final context QA pending"
+  },
+  {
+    "asset": "portrait-prism.png",
+    "prompt": "Use case: photorealistic-natural. Square editorial portrait photograph of a fictional adult male creative founder, around 30, wavy dark-brown hair, short natural beard, thoughtful direct gaze, head and upper chest. A narrow prism of rainbow sunlight crosses one eye and cheek diagonally, while the rest is softly lit by natural window light. Olive-gray neutral background. Real skin texture, understated off-white shirt, believable proportions and photographic depth. Artistic and warm, not glossy corporate stock. Face fills much of the square, hair not clipped. This is an original fictional person, not a specific individual. No text, logo, watermark, frame, typography, interface or collage.",
+    "source": "/Users/aliabassi/.codex/generated_images/01a0878b-80a4-7e30-8aba-c71cf1997163/exec-ad4312c0-b89f-4988-bce1-84a22da76e9c.png",
+    "route": "native image_gen",
+    "inspection": "Viewed native output; accepted composition/material; final context QA pending"
+  }
+]

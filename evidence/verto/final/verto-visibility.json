@@ -1,0 +1,56 @@
+{
+  "template": "verto",
+  "environment": "actual Chrome target activation; owned blank tab closed",
+  "before": {
+    "url": "http://127.0.0.1:4174/verto/",
+    "hidden": false,
+    "flag": "false",
+    "videoTime": 0,
+    "animations": [
+      {
+        "state": "running",
+        "time": 16.981999998912215
+      },
+      {
+        "state": "running",
+        "time": 75.68000003602356
+      }
+    ]
+  },
+  "hidden": {
+    "url": "http://127.0.0.1:4174/verto/",
+    "hidden": true,
+    "flag": "true",
+    "videoTime": 0,
+    "animations": [
+      {
+        "state": "paused",
+        "time": 592.3260000360235
+      }
+    ]
+  },
+  "held": {
+    "url": "http://127.0.0.1:4174/verto/",
+    "hidden": true,
+    "flag": "true",
+    "videoTime": 0,
+    "animations": [
+      {
+        "state": "paused",
+        "time": 592.3260000360235
+      }
+    ]
+  },
+  "visible": {
+    "url": "http://127.0.0.1:4174/verto/",
+    "hidden": false,
+    "flag": "false",
+    "videoTime": 0,
+    "animations": [
+      {
+        "state": "running",
+        "time": 866.4460000418424
+      }
+    ]
+  }
+}

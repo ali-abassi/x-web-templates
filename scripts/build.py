@@ -24,6 +24,7 @@ NAMES = (
     "quiet-presets",
     "olympus",
     "wandor",
+    "verto",
 )
 
 

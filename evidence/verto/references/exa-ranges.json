@@ -1,0 +1,32 @@
+{
+  "requestId": "10acc8ab757d374afb7a973d5c4ed9a4",
+  "resolvedSearchType": "",
+  "results": [
+    {
+      "id": "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/buffering_seeking_time_ranges",
+      "title": "Media buffering, seeking, and time ranges - Media | MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/buffering_seeking_time_ranges",
+      "highlights": [
+        "The `seekable` attribute returns a `TimeRanges` object and tells us which parts of the media can be played without delay; this is irrespective of whether that part has been downloaded or not. Some parts of the media may be seekable but not buffered if byte-range requests are enabled on the server. Byte range requests allow parts of the media file to be delivered from the server and so can be ready to play almost immediately \u2014 thus they are seekable. For more information on byte range requests see HTTP range requests.\n...\nseekableTimeRanges = audio.seekable;\n...\ncreate our own\n...\nplayer, we may\n...\nIn practice a\n...\nnot necessarily contiguous\n...\nNote: `audio.seekable.end(audio.seekable.length - 1)` actually tells us the end point of the last time range that is seekable (not all seekable media). In practice this is good enough as the browser either enables range requests or it doesn't. If it doesn't then `audio.seekable` will be equivalent to `audio.buffered`, which will give a valid indication of the end of seekable media. If range requests are enabled this value usually becomes the duration of the media almost instantly."
+      ],
+      "image": "https://developer.mozilla.org/mdn-social-image.46ac2375.png"
+    },
+    {
+      "id": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/seekable",
+      "title": "HTMLMediaElement: seekable property - Web APIs | MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/seekable",
+      "publishedDate": "2025-04-27T00:00:00.000Z",
+      "highlights": [
+        "- Learn more \n- See full compatibility \n\nThe `seekable` read-only property of `HTMLMediaElement` objects returns a new static normalized `TimeRanges` object that represents the ranges of the media resource, if any, that the user agent is able to seek to at the time `seekable` property is accessed.\n...\nA new static normalized TimeRanges object that represents the ranges of the media resource, if any, that the user agent is able to seek to at the time `seekable` property is accessed.\n...\n```\nconst video = document.querySelector(\"video\");\nconst timeRangesObject = video.seekable;\nconst timeRanges = [];\n...\n// Go through the object and output an array\nfor (let count = 0; count < timeRangesObject.length; count++) {\n  timeRanges.push([timeRangesObject.start(count), timeRangesObject.end(count)]);\n}\n\n```"
+      ],
+      "image": "https://developer.mozilla.org/mdn-social-image.46ac2375.png"
+    }
+  ],
+  "searchTime": 939.5,
+  "costDollars": {
+    "total": 0.007,
+    "search": {
+      "neural": 0.007
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "base": "9545657c26f8a1e3bbdd434a9e43e4fd0915a2d2",
+  "preexisting_changes": [],
+  "owners": 1,
+  "delegation": false,
+  "models": "Host-selected model and effort unchanged. Native ChatGPT image tool; direct Gemini 3.7 Flash static analysis; FAL MiniMax H3 Max for motion. No delegated models or scoring judges.",
+  "scope": [
+    "templates/verto",
+    "gallery",
+    "scripts/build.py",
+    "README.md",
+    "dist",
+    "evidence/verto",
+    "intent.md",
+    "design.md"
+  ],
+  "alignment": {
+    "vision.md": "954a1faf88b6736fa5682e4e2d4fedf13e2ecc6ae365704c37b3ffac43534407",
+    "intent.md": "9310efa98f4dc44f6f917c41ea408fa461d565c1a76fe47a9b36b8a117bfc797",
+    "design.md": "52c908eb4c121b8b5497fc43ece52971494e81424879445fefc05847e10426e3"
+  },
+  "budget": {
+    "native_images_planned": 9,
+    "native_specific_corrections_max": 2,
+    "native_billing": "unavailable",
+    "video_calls_max": 2,
+    "video_first": "6s 768P at current promotional $0.02/s = $0.12; only one targeted correction if visibly necessary, ceiling $0.24",
+    "analysis_calls": 1,
+    "analysis_mode": "static for whole-clip short reference, not agentic",
+    "analysis_estimate_usd_max": 0.05,
+    "time_estimate": "25-40 minutes artwork/build plus focused QA",
+    "retry": "No blind generation retries. Stop paid execution on infrastructure defect."
+  },
+  "review": "Focused cleanup followed by separate complete-candidate self-review and public verification",
+  "criteria_to_evidence": {
+    "reference": "references source/frame/video analysis; equal-width final screenshots",
+    "motion": "generated source + encoded asset + real scroll/pause/reduced/hidden proof",
+    "interactions": "browser trace and case manifest",
+    "distribution": "18 ZIP source parity, prior17 runtime hashes, production file hashes",
+    "delivery": "private main SHA and personal Pages canonical deployment"
+  }
+}

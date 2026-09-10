@@ -1,0 +1,23 @@
+[
+  {
+    "case": "public gallery 18",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "public actual Verto ZIP download",
+    "passed": true,
+    "bytes": 22742667,
+    "sha256": "37a6e72a9c2ad44b488381be0c4742176341edb3d4db9899cfdcaf0a716fa3e2"
+  },
+  {
+    "case": "public Verto route",
+    "passed": true,
+    "observed": true
+  },
+  {
+    "case": "public scroll video seeks",
+    "passed": false,
+    "observed": false
+  }
+]

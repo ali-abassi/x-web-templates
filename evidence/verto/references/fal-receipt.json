@@ -1,0 +1,15 @@
+{
+  "requestId": "01a0895e-7985-7590-a324-a6d0b1cefdbd",
+  "data": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aa9d072/LW1qAlTTIOQcGik6EZx2T_minimax-h3.mp4",
+      "content_type": "video/mp4",
+      "file_name": "LW1qAlTTIOQcGik6EZx2T_minimax-h3.mp4",
+      "file_size": 6809789
+    },
+    "expanded_prompt": null,
+    "timings": {
+      "inference": 3.3060247279936448
+    }
+  }
+}
