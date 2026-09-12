@@ -1,0 +1,23 @@
+{
+  "verdict": "accept",
+  "source_commit": "395618544e1fa9b98c049bdee22a699d3c2a438a",
+  "production_deployment": "69bdda60-055c-4c59-bee2-efdb234dc0dc",
+  "production_url": "https://x-web-templates.pages.dev/chatsheet/",
+  "preview_deployment": "e79e648f-4f0c-4a18-93da-f11cbca3e7cc",
+  "canonical_stage": "deploy:success",
+  "canonical_commit_matches": true,
+  "http_files_matched": 7,
+  "templates": 20,
+  "zip_parity": 20,
+  "old_template_file_hashes_matched": 224,
+  "review": "Separate active-agent critical self-review; no independent agent",
+  "rollback_deployment": "cbb95c58-4e45-4c86-97f1-ee9c2c2931db",
+  "runtime_changes_after_review": false,
+  "typed_code": "No authored TypeScript; JS maximum cyclomatic complexity4",
+  "paid_generation_cost": 0,
+  "host_model_usage": "unavailable",
+  "limits": [
+    "Real OS reduced-motion switching and background-tab event, due to browser-driver limits",
+    "Safari/Firefox, real iPhone and original source renderer/typeface"
+  ]
+}

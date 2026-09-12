@@ -1,0 +1,51 @@
+[
+  {
+    "path": "chatsheet/index.html",
+    "bytes": 26924,
+    "exit": 0,
+    "error": "",
+    "match": true
+  },
+  {
+    "path": "chatsheet/style.css",
+    "bytes": 6735,
+    "exit": 0,
+    "error": "",
+    "match": true
+  },
+  {
+    "path": "chatsheet/app.js",
+    "bytes": 1387,
+    "exit": 0,
+    "error": "",
+    "match": true
+  },
+  {
+    "path": "chatsheet/favicon.svg",
+    "bytes": 344,
+    "exit": 0,
+    "error": "",
+    "match": true
+  },
+  {
+    "path": "index.html",
+    "bytes": 19791,
+    "exit": 0,
+    "error": "",
+    "match": true
+  },
+  {
+    "path": "assets/chatsheet.png",
+    "bytes": 78965,
+    "exit": 0,
+    "error": "",
+    "match": true
+  },
+  {
+    "path": "downloads/chatsheet.zip",
+    "bytes": 9512,
+    "exit": 0,
+    "error": "",
+    "match": true
+  }
+]

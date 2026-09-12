@@ -1,0 +1,333 @@
+{
+  "schema_version": "1.0",
+  "run_id": "chatsheet-2026-09-13",
+  "mode": "iterate",
+  "verdict": "production_ready",
+  "assurance_boundary": "Static reference-study template in tested Chrome viewports, native local disclosures, hosted bytes and package; not real booking/integrations, cross-browser certification, real phone, OS reduced-motion or background-event validation.",
+  "target": {
+    "repo": "https://github.com/ali-abassi/x-web-templates",
+    "commit": "395618544e1fa9b98c049bdee22a699d3c2a438a",
+    "build": "Cloudflare69bdda60-055c-4c59-bee2-efdb234dc0dc; source hashes candidate-hashes.json",
+    "dirty": false
+  },
+  "environment": {
+    "device": "macOS desktop; responsive browser viewport emulation",
+    "runtime": "Connected Chrome profileAli; Node26.8.1; Python3.14.7",
+    "backend": "Static HTTP localhost then personalCloudflarePages",
+    "account_role": "Public template visitor; no product account",
+    "locale": "English; Europe/Sofia",
+    "network": "Online; fallback tests explicitly mocked"
+  },
+  "product": {
+    "actor": "Template user",
+    "trigger": "Open supplied design reconstruction",
+    "promised_progress": "Inspect, customize and download a responsive editable hero",
+    "weakest_link": "Reference fidelity and truthful native interactions",
+    "next_decision": "Use the published template"
+  },
+  "cases": [
+    {
+      "id": "C1",
+      "journey": "Desktop reference composition",
+      "expected": "One faithful light serif/SVG hero at1440 and1024",
+      "observed": "Rendered and inspected matching hierarchy and diagonal illustration; known font/shading differences documented",
+      "evidence_tier": "real",
+      "critical": true,
+      "requires_real": true,
+      "status": "pass",
+      "finding_ids": [
+        "F1",
+        "F4",
+        "F5"
+      ],
+      "artifacts": [
+        {
+          "kind": "screenshot",
+          "path": "evidence/chatsheet/production-desktop.png"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/chatsheet/browser-state.json"
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "journey": "Responsive reading",
+      "expected": "No horizontal overflow and reachable controls at375/320",
+      "observed": "Actual Chrome viewport375/320 and adjacent820 passed; latest production375 width equals scrollWidth",
+      "evidence_tier": "real",
+      "critical": true,
+      "requires_real": true,
+      "status": "pass",
+      "finding_ids": [
+        "F2"
+      ],
+      "artifacts": [
+        {
+          "kind": "screenshot",
+          "path": "evidence/chatsheet/production-mobile.png"
+        },
+        {
+          "kind": "screenshot",
+          "path": "evidence/chatsheet/mobile-320.png"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/chatsheet/production-browser.json"
+        }
+      ]
+    },
+    {
+      "id": "C3",
+      "journey": "Local navigation and keyboard",
+      "expected": "Relevant disclosure opens, gains focus, collapses by Enter; no external booking",
+      "observed": "All nav destinations and CTA verified; summary focus fixed and real hosted discovery rerun passed",
+      "evidence_tier": "real",
+      "critical": true,
+      "requires_real": true,
+      "status": "pass",
+      "finding_ids": [
+        "F3"
+      ],
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/chatsheet/interactions.json"
+        },
+        {
+          "kind": "receipt",
+          "path": "evidence/chatsheet/pre-delivery-review.md"
+        }
+      ]
+    },
+    {
+      "id": "C4",
+      "journey": "Motion and fallback safeguards",
+      "expected": "Pause/resume works; source guards stop hidden/reduced/static states",
+      "observed": "Real pause/resume and changing transforms pass; actual script guards and CSS branch pass mocked checks; no OS/background-event claim",
+      "evidence_tier": "automated",
+      "critical": true,
+      "requires_real": false,
+      "status": "pass",
+      "finding_ids": [],
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/chatsheet/interactions.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/chatsheet/motion-guards.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/chatsheet/visible-motion.json"
+        },
+        {
+          "kind": "state",
+          "path": "evidence/chatsheet/fallback-fixtures.json"
+        }
+      ]
+    },
+    {
+      "id": "C5",
+      "journey": "Long-copy adverse fixture",
+      "expected": "Heading wraps without overlap or overflow at320",
+      "observed": "Mock long-heading fixture width320,scrollWidth320; description22px below heading",
+      "evidence_tier": "mock",
+      "critical": true,
+      "requires_real": false,
+      "status": "pass",
+      "finding_ids": [],
+      "artifacts": [
+        {
+          "kind": "state",
+          "path": "evidence/chatsheet/long-copy-state.json"
+        },
+        {
+          "kind": "screenshot",
+          "path": "evidence/chatsheet/long-copy-320.png"
+        }
+      ]
+    },
+    {
+      "id": "C6",
+      "journey": "Hosted gallery and downloadable package",
+      "expected": "20cards, exact matching public files/ZIP, old19templates preserved",
+      "observed": "Live gallery20cards and new preview navigation; seven changed HTTP files match, all20ZIPs pass exact checker",
+      "evidence_tier": "real",
+      "critical": true,
+      "requires_real": true,
+      "status": "pass",
+      "finding_ids": [
+        "F6"
+      ],
+      "artifacts": [
+        {
+          "kind": "network",
+          "path": "evidence/chatsheet/production-http.json"
+        },
+        {
+          "kind": "receipt",
+          "path": "evidence/chatsheet/delivery.json"
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "severity": "P2",
+      "type": "ux_friction",
+      "summary": "Panel clipped at initial SVG top",
+      "reproduction": "Starting candidate and exact observation/correction documented under F1 in journal.md",
+      "case_ids": [
+        "C1"
+      ],
+      "status": "verified",
+      "evidence": [
+        {
+          "kind": "receipt",
+          "path": "evidence/chatsheet/journal.md"
+        }
+      ]
+    },
+    {
+      "id": "F2",
+      "severity": "P2",
+      "type": "ux_friction",
+      "summary": "Left app tile cropped on initial375layout",
+      "reproduction": "Starting candidate and exact observation/correction documented under F2 in journal.md",
+      "case_ids": [
+        "C2"
+      ],
+      "status": "verified",
+      "evidence": [
+        {
+          "kind": "receipt",
+          "path": "evidence/chatsheet/journal.md"
+        }
+      ]
+    },
+    {
+      "id": "F3",
+      "severity": "P2",
+      "type": "accessibility",
+      "summary": "Native fragment navigation reset focused summary toBODY",
+      "reproduction": "Starting candidate and exact observation/correction documented under F3 in journal.md",
+      "case_ids": [
+        "C3"
+      ],
+      "status": "verified",
+      "evidence": [
+        {
+          "kind": "receipt",
+          "path": "evidence/chatsheet/journal.md"
+        }
+      ]
+    },
+    {
+      "id": "F4",
+      "severity": "P3",
+      "type": "ux_friction",
+      "summary": "Source-size header inset and vertical geometry differed",
+      "reproduction": "Starting candidate and exact observation/correction documented under F4 in journal.md",
+      "case_ids": [
+        "C1"
+      ],
+      "status": "verified",
+      "evidence": [
+        {
+          "kind": "receipt",
+          "path": "evidence/chatsheet/journal.md"
+        }
+      ]
+    },
+    {
+      "id": "F5",
+      "severity": "P2",
+      "type": "accessibility",
+      "summary": "Initial primary gradient top contrast3.80:1",
+      "reproduction": "Starting candidate and exact observation/correction documented under F5 in journal.md",
+      "case_ids": [
+        "C1"
+      ],
+      "status": "verified",
+      "evidence": [
+        {
+          "kind": "receipt",
+          "path": "evidence/chatsheet/journal.md"
+        }
+      ]
+    },
+    {
+      "id": "F6",
+      "severity": "P3",
+      "type": "trust",
+      "summary": "Catalog footer saidNineteen after20thcard",
+      "reproduction": "Starting candidate and exact observation/correction documented under F6 in journal.md",
+      "case_ids": [
+        "C6"
+      ],
+      "status": "verified",
+      "evidence": [
+        {
+          "kind": "receipt",
+          "path": "evidence/chatsheet/journal.md"
+        }
+      ]
+    }
+  ],
+  "iterations": [
+    {
+      "id": "I1",
+      "hypothesis": "Correct observed clip/crop/focus/geometry/contrast/count defects without expanding product scope",
+      "decision": "keep",
+      "changed_files": [
+        "templates/chatsheet/dist/index.html",
+        "templates/chatsheet/dist/style.css",
+        "templates/chatsheet/dist/app.js",
+        "gallery/index.html"
+      ],
+      "checks": [
+        "Real browser reruns and source-size screenshots",
+        "Motion VM guards",
+        "Build/link/ZIP parity",
+        "Hosted preview and production byte comparison"
+      ],
+      "finding_ids": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6"
+      ]
+    }
+  ],
+  "gates": {
+    "build_provenance": true,
+    "critical_real_flows": true,
+    "automated_regression": true,
+    "logs_reviewed": true,
+    "data_integrity": true,
+    "recovery": true,
+    "accessibility": true,
+    "security_privacy": true,
+    "performance": true,
+    "rollback": true
+  },
+  "unverified": [
+    "Real OS reduced-motion switching and background-tab event, due to browser-driver limits",
+    "Safari/Firefox, real iPhone and original source renderer/typeface"
+  ],
+  "skill_artifacts": [
+    "plan.md",
+    "alignment.json",
+    "research.md",
+    "journal.md",
+    "pre-delivery-review.md",
+    "candidate-hashes.json"
+  ]
+}
