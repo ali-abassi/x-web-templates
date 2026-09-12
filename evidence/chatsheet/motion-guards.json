@@ -1,0 +1,26 @@
+{
+  "boundary": "Actual app.js in VM with mocked DOM/media/visibility; not a real OS preference or background-tab event",
+  "states": [
+    {
+      "name": "moving",
+      "enabled": true
+    },
+    {
+      "name": "moving",
+      "enabled": false
+    },
+    {
+      "name": "moving",
+      "enabled": false
+    },
+    {
+      "name": "moving",
+      "enabled": false
+    },
+    {
+      "name": "moving",
+      "enabled": true
+    }
+  ],
+  "result": "pass"
+}

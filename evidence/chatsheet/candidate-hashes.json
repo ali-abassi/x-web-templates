@@ -1,0 +1,21 @@
+{
+  "dist/assets/chatsheet.png": "7a06afda74af51f733c0e724badeeeb47d3f8c9c9df960b0a88be359f204974c",
+  "dist/chatsheet/app.js": "d3fc9da0042a86f1abb0e824ca559f6e65b91dfa543dd7128da300f33bff4998",
+  "dist/chatsheet/favicon.svg": "0359dca0b1469dfcae306954d65f12bae19bf177fb9f0cd71036db841711fb73",
+  "dist/chatsheet/index.html": "9985e424ab38a9a025c3f88ea9269ef60a43d1a34ee9efeab2bf1c9b493c0d70",
+  "dist/chatsheet/style.css": "4b5e3290e5cbdbe7bfb316bbcd857aebcb7f6f4e6efead0964c15b79cf3af342",
+  "dist/downloads/chatsheet.zip": "84c9580dfa82e9b9a862f8c64733af6aa48a44a7473054ab1f445cbf64006d43",
+  "gallery/assets/chatsheet.png": "7a06afda74af51f733c0e724badeeeb47d3f8c9c9df960b0a88be359f204974c",
+  "templates/chatsheet/README.md": "105b149cd01415a3610613048e788dd19209de9eb9aa8d796211f7c62c6a7d8b",
+  "templates/chatsheet/dist/app.js": "d3fc9da0042a86f1abb0e824ca559f6e65b91dfa543dd7128da300f33bff4998",
+  "templates/chatsheet/dist/favicon.svg": "0359dca0b1469dfcae306954d65f12bae19bf177fb9f0cd71036db841711fb73",
+  "templates/chatsheet/dist/index.html": "9985e424ab38a9a025c3f88ea9269ef60a43d1a34ee9efeab2bf1c9b493c0d70",
+  "templates/chatsheet/dist/style.css": "4b5e3290e5cbdbe7bfb316bbcd857aebcb7f6f4e6efead0964c15b79cf3af342",
+  "templates/chatsheet/licenses/reference-notice.txt": "8331768f1c834f9b7040bd912cd60ce135eb1579a0a2a241aac7b8100667487d",
+  "README.md": "dd3be9f1e9b46a6c709a923a79e8fedcb90d2f5c345febcfc4217de6aa3c2937",
+  "design.md": "586d1169dbddb202bb36687bfe1ef881769b8fd09445e65299a9c2eb007fa4a4",
+  "dist/index.html": "550417fa93fa8b91589642d9e2f75206314133bc05477020362c883d87f5eb89",
+  "gallery/index.html": "550417fa93fa8b91589642d9e2f75206314133bc05477020362c883d87f5eb89",
+  "intent.md": "9b1e3051f568a2095a108fbb2dd574bc9321f5a1ff61333042cbdbcd071ce7a4",
+  "scripts/build.py": "102136dd09b3312a02327603b0b3348571103a6b35dcd75aa2092c7c29a83099"
+}

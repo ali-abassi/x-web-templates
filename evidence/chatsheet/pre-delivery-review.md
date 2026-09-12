@@ -1,0 +1,9 @@
+# Pre-delivery critical review
+
+Local candidate: accept. Base7f83d661c6de44219d717d1b8560930f0ebc7905 plus exact product hashes in candidate-hashes.json. Author/critical reviewer: active agent, separate self-review pass; no independent-agent gate was requested. Alignment unchanged against alignment.json. Scope inventory is the hash map; final evidence files do not change runtime.
+
+Evidence: C1 desktop.png/reference-size.png vs reference.jpg; C2 mobile375/320 and journal; C3 interactions.json, discovery.png; C4 visible-motion.json,motion-guards.json,fallback-fixtures.json; C5 long-copy-state.json and screenshot. Build:python3 scripts/build.py →20sites; python3 scripts/check.py →21pages and20exactZIPs. git diff --check passed. Old19template files matchbaseline hashes. JS syntax passes allpages; authoredTSnone,newJScomplexity≤4.
+
+Known differences: independently drawn SVG/shading/app-symbol approximations, system typeface and larger accessible buttons; mobile reflow and local information replace original unknown destinations. Not a pixel-identical source implementation. Native reduced/hidden guards have deterministic/mock evidence; real OS preference/background switching unavailable. No backend is claimed. Critical static-demo outcome is supported; preview/production delivery remains pending until delivery.json. Rollback previousCloudflare deploymentcbb95c58-4e45-4c86-97f1-ee9c2c2931db. User-facing artifacts remain unpublished until exact hosted verification; authorized scope permits delivery after this review.
+
+Hosted preview accepted: e79e648f-4f0c-4a18-93da-f11cbca3e7cc, successful deploy. Seven public files match candidate byte-for-byte (preview-http.json). Real Chrome desktop screenshot hosted-preview.png inspected and discovery CTA opens the correct local explanation with SUMMARY focus. Production delivery is authorized with this exact226-file upload manifest.

@@ -1,0 +1,32 @@
+{
+  "boundary": "Mock fixtures: removed script, forced reduced-motion CSS branch, replaced long heading; not OS setting emulation",
+  "fallback": {
+    "moving": false,
+    "open": true,
+    "script": false
+  },
+  "reduced": {
+    "animations": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ]
+  },
+  "longCopy": {
+    "descriptionTop": 306.09375,
+    "headingBottom": 282.09375,
+    "scroll": 1512,
+    "width": 1512
+  }
+}

@@ -26,6 +26,7 @@ NAMES = (
     "animora",
     "travio",
     "veloura",
+    "chatsheet",
 )
 
 

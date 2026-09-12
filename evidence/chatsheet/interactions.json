@@ -1,0 +1,46 @@
+{
+  "navigation": [
+    {
+      "focus": "SUMMARY",
+      "id": "how",
+      "open": true
+    },
+    {
+      "focus": "SUMMARY",
+      "id": "become",
+      "open": true
+    },
+    {
+      "focus": "SUMMARY",
+      "id": "partners",
+      "open": true
+    },
+    {
+      "focus": "SUMMARY",
+      "id": "discovery",
+      "open": true
+    }
+  ],
+  "paused": {
+    "moving": false,
+    "states": [
+      "paused",
+      "paused",
+      "paused",
+      "paused",
+      "paused",
+      "paused",
+      "paused",
+      "paused",
+      "paused",
+      "paused",
+      "paused",
+      "paused",
+      "paused",
+      "paused"
+    ]
+  },
+  "resumed": {
+    "moving": true
+  }
+}

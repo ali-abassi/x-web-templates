@@ -1,0 +1,747 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Chatsheet — an editable automation landing page with a dimensional SVG workflow."
+    />
+    <meta name="theme-color" content="#f1f2f4" />
+    <title>Chatsheet — Turn manual tasks into automations</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="frame">
+      <header>
+        <a class="brand" href="#main" aria-label="Chatsheet home"
+          ><svg viewBox="0 0 100 100" fill="none" aria-hidden="true">
+            <circle
+              cx="50"
+              cy="50"
+              r="44"
+              stroke="currentColor"
+              stroke-width="6"
+            />
+            <path
+              d="M50 18a32 32 0 1 1-32 32 32 32 0 0 1 19-29M50 32a18 18 0 1 1-18 18 18 18 0 0 1 9-15"
+              stroke="currentColor"
+              stroke-width="7"
+              stroke-linecap="round"
+            />
+            <circle cx="50" cy="50" r="5" fill="currentColor" /></svg
+          ><span>Chatsheet</span></a
+        >
+        <nav aria-label="Main">
+          <a href="#how">How it Works</a><a href="#cases">Use Cases</a
+          ><a href="#become">Become a Partner</a
+          ><a href="#partners">Partners</a>
+        </nav>
+        <a class="button header-call" href="#discovery">Book a Free Call</a>
+      </header>
+      <main id="main">
+        <section class="hero" aria-labelledby="headline">
+          <div class="hero-copy">
+            <h1 id="headline">Turn Manual Tasks<br />into Automations</h1>
+            <p>
+              Automate documents, emails, approvals, and more, with<br
+                class="desktop-break"
+              />
+              expert help and enterprise-grade AI integrations.
+            </p>
+            <div class="actions">
+              <a class="button primary" href="#discovery"
+                >Book a Free Discovery</a
+              ><a class="button" href="#cases">Case Studies</a>
+            </div>
+          </div>
+          <svg
+            class="workflow"
+            viewBox="0 0 1024 520"
+            role="img"
+            aria-labelledby="diagram-title diagram-desc"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title id="diagram-title">
+              Every tool. One connected workflow.
+            </title>
+            <desc id="diagram-desc">
+              Email, documents and app tiles feed a blue automation hub. Three
+              glass panels represent automation actions, strategy content and
+              productivity.
+            </desc>
+            <defs>
+              <linearGradient id="tile" x2="0" y2="1">
+                <stop stop-color="#fff" />
+                <stop offset="1" stop-color="#f3f7fc" />
+              </linearGradient>
+              <linearGradient id="rim" x2="0" y2="1">
+                <stop stop-color="#dce6f8" />
+                <stop offset="1" stop-color="#8195bf" />
+              </linearGradient>
+              <linearGradient id="side">
+                <stop stop-color="#071321" />
+                <stop offset=".55" stop-color="#19283f" />
+                <stop offset="1" stop-color="#020b1b" />
+              </linearGradient>
+              <linearGradient id="glass" x1="0" y1="1" x2="1" y2="0">
+                <stop stop-color="#fff" stop-opacity=".88" />
+                <stop offset=".6" stop-color="#f9fcff" stop-opacity=".7" />
+                <stop offset="1" stop-color="#dceaff" stop-opacity=".3" />
+              </linearGradient>
+              <radialGradient id="blue-glow">
+                <stop stop-color="#93b9ff" stop-opacity=".45" />
+                <stop offset="1" stop-color="#dce8ff" stop-opacity="0" />
+              </radialGradient>
+              <linearGradient id="edge-fade">
+                <stop stop-color="#fff" stop-opacity="0" />
+                <stop offset=".12" stop-color="#fff" />
+                <stop offset=".78" stop-color="#fff" />
+                <stop offset="1" stop-color="#fff" stop-opacity="0" />
+              </linearGradient>
+              <mask id="scene-mask">
+                <rect
+                  y="-200"
+                  width="1024"
+                  height="720"
+                  fill="url(#edge-fade)"
+                />
+              </mask>
+              <filter id="shadow" x="-50%" y="-60%" width="200%" height="240%">
+                <feDropShadow
+                  dx="0"
+                  dy="6"
+                  stdDeviation="5"
+                  flood-color="#5b7293"
+                  flood-opacity=".12"
+                />
+              </filter>
+              <g id="base">
+                <rect
+                  x="-24"
+                  y="-20"
+                  width="48"
+                  height="48"
+                  rx="9"
+                  fill="url(#rim)"
+                />
+                <rect
+                  x="-24"
+                  y="-24"
+                  width="48"
+                  height="48"
+                  rx="9"
+                  fill="url(#tile)"
+                  stroke="#ccd4df"
+                />
+                <rect
+                  x="-21"
+                  y="-21"
+                  width="42"
+                  height="42"
+                  rx="7"
+                  fill="none"
+                  stroke="#fff"
+                />
+              </g>
+              <g id="drive">
+                <path d="M-5-14h10l15 26H10Z" fill="#fbbc04" />
+                <path d="M-5-14-20 12l5 9L0-5Z" fill="#34a853" />
+                <path d="M-20 12h40l-5 9h-30Z" fill="#4285f4" />
+              </g>
+              <g id="mail">
+                <path
+                  d="M-17-12v25h7V-3L0 5 10-3v16h7v-25L0 0Z"
+                  fill="#ea4335"
+                />
+                <path d="M-17-12-10-7V13h-7Z" fill="#4285f4" />
+                <path d="m10-7 7-5v25h-7Z" fill="#34a853" />
+                <path d="m10-7 7-5v9l-7 5Z" fill="#fbbc04" />
+              </g>
+              <g id="video">
+                <rect
+                  x="-17"
+                  y="-12"
+                  width="34"
+                  height="24"
+                  rx="7"
+                  fill="#e42538"
+                />
+                <path d="m-4-6 11 6-11 6Z" fill="white" />
+              </g>
+              <g id="sheet">
+                <path d="M-11-17H7l7 7v27h-25Z" fill="#34a853" />
+                <path d="M7-17v8h7" fill="#8fd3a1" />
+                <path
+                  d="M-5-3H8v14H-5ZM-5 2H8M-5 6H8M1-3v14"
+                  fill="none"
+                  stroke="white"
+                  stroke-width="1.8"
+                />
+              </g>
+              <g id="excel">
+                <rect
+                  x="-5"
+                  y="-17"
+                  width="24"
+                  height="34"
+                  rx="2"
+                  fill="#21a366"
+                />
+                <path
+                  d="M7-17v34M-5-5h24M-5 6h24"
+                  stroke="#107c41"
+                  stroke-width="2"
+                />
+                <rect
+                  x="-21"
+                  y="-12"
+                  width="26"
+                  height="26"
+                  rx="2"
+                  fill="#107c41"
+                />
+                <path
+                  d="m-14-6 12 14m0-14-12 14"
+                  stroke="white"
+                  stroke-width="3"
+                />
+              </g>
+              <g id="linkedin">
+                <rect
+                  x="-15"
+                  y="-15"
+                  width="30"
+                  height="30"
+                  rx="3"
+                  fill="#338da8"
+                />
+                <circle cx="-8" cy="-8" r="2.4" fill="white" />
+                <path
+                  d="M-8-3V9M0 9V-3M0 1c0-6 9-6 9 0v8"
+                  fill="none"
+                  stroke="white"
+                  stroke-width="3.5"
+                />
+              </g>
+              <g id="pdf">
+                <path
+                  d="M-12-17H5l9 9v25h-26Z"
+                  fill="#fff"
+                  stroke="#bb8798"
+                  stroke-width="1.5"
+                />
+                <path
+                  d="M5-17v10h9M-8 10c9-12 10-21 6-19s1 21 11 17-19-4-17 2Z"
+                  fill="none"
+                  stroke="#ad7387"
+                  stroke-width="1.4"
+                />
+              </g>
+              <g id="slack" stroke-width="7" stroke-linecap="round">
+                <path d="M-5-17v9M-17 5h9" stroke="#36c5f0" />
+                <path d="M5-17h9M5-8v9" stroke="#2eb67d" />
+                <path d="M17 5H8M5 17V8" stroke="#ecb22e" />
+                <path d="M-5 17h-9M-5 8V-1" stroke="#e01e5a" />
+              </g>
+            </defs>
+            <g mask="url(#scene-mask)">
+              <ellipse
+                class="breathe"
+                cx="540"
+                cy="270"
+                rx="210"
+                ry="150"
+                fill="url(#blue-glow)"
+              />
+              <g
+                class="connections"
+                fill="none"
+                stroke="#bec7d5"
+                stroke-width="1.1"
+                stroke-dasharray="2 3"
+              >
+                <path
+                  d="M-30 300 98 226Q133 204 168 221l154 90q30 17 66-4l115-66"
+                />
+                <path d="m146 468 340-197M451 457v-73l-36-23" />
+              </g>
+              <path
+                class="signal"
+                d="m146 468 340-197"
+                fill="none"
+                stroke="#6192ed"
+                stroke-width="1.4"
+                stroke-dasharray="7 350"
+              />
+              <g transform="translate(524 189)">
+                <g class="float panel" style="--delay: 0s">
+                  <g
+                    transform="matrix(.866 -.5 .866 .5 0 0)"
+                    filter="url(#shadow)"
+                  >
+                    <rect
+                      x="0"
+                      y="5"
+                      width="152"
+                      height="102"
+                      rx="13"
+                      fill="url(#rim)"
+                      opacity=".6"
+                    />
+                    <rect
+                      width="152"
+                      height="102"
+                      rx="13"
+                      fill="url(#glass)"
+                      stroke="#bdc8d9"
+                      stroke-width="1"
+                    />
+                    <rect
+                      x="3"
+                      y="3"
+                      width="146"
+                      height="96"
+                      rx="11"
+                      fill="none"
+                      stroke="#fff"
+                    />
+                    <path
+                      d="M22 26h83M22 37h61M22 48h96"
+                      stroke="#e1e8f2"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                    />
+                    <use
+                      href="#drive"
+                      transform="translate(20 69) scale(.25)"
+                    />
+                    <use
+                      href="#video"
+                      transform="translate(43 69) scale(.25)"
+                    />
+                    <use href="#pdf" transform="translate(66 69) scale(.25)" />
+                    <use
+                      href="#linkedin"
+                      transform="translate(89 69) scale(.25)"
+                    />
+                    <use
+                      href="#sheet"
+                      transform="translate(112 69) scale(.25)"
+                    />
+                    <rect
+                      x="42"
+                      y="86"
+                      width="137"
+                      height="24"
+                      rx="12"
+                      fill="#3979ed"
+                      stroke="#8db8ff"
+                    />
+                    <text
+                      x="110.5"
+                      y="101.5"
+                      text-anchor="middle"
+                      font-family="Arial,sans-serif"
+                      font-size="9.5"
+                      fill="white"
+                    >
+                      Automation Action
+                    </text>
+                  </g>
+                </g>
+              </g>
+              <g transform="translate(655 113)">
+                <g class="float panel" style="--delay: -1.8s">
+                  <g
+                    transform="matrix(.866 -.5 .866 .5 0 0)"
+                    filter="url(#shadow)"
+                  >
+                    <rect
+                      x="0"
+                      y="5"
+                      width="152"
+                      height="102"
+                      rx="13"
+                      fill="url(#rim)"
+                      opacity=".6"
+                    />
+                    <rect
+                      width="152"
+                      height="102"
+                      rx="13"
+                      fill="url(#glass)"
+                      stroke="#bdc8d9"
+                      stroke-width="1"
+                    />
+                    <rect
+                      x="3"
+                      y="3"
+                      width="146"
+                      height="96"
+                      rx="11"
+                      fill="none"
+                      stroke="#fff"
+                    />
+                    <path
+                      d="M22 26h83M22 37h61M22 48h96"
+                      stroke="#e1e8f2"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                    />
+                    <use
+                      href="#drive"
+                      transform="translate(20 69) scale(.25)"
+                    />
+                    <use
+                      href="#video"
+                      transform="translate(43 69) scale(.25)"
+                    />
+                    <use href="#pdf" transform="translate(66 69) scale(.25)" />
+                    <use
+                      href="#linkedin"
+                      transform="translate(89 69) scale(.25)"
+                    />
+                    <use
+                      href="#sheet"
+                      transform="translate(112 69) scale(.25)"
+                    />
+                    <rect
+                      x="42"
+                      y="86"
+                      width="137"
+                      height="24"
+                      rx="12"
+                      fill="#3979ed"
+                      stroke="#8db8ff"
+                    />
+                    <text
+                      x="110.5"
+                      y="101.5"
+                      text-anchor="middle"
+                      font-family="Arial,sans-serif"
+                      font-size="9.5"
+                      fill="white"
+                    >
+                      Strategy Content
+                    </text>
+                  </g>
+                </g>
+              </g>
+              <g transform="translate(786 37)">
+                <g class="float panel" style="--delay: -3.6s">
+                  <g
+                    transform="matrix(.866 -.5 .866 .5 0 0)"
+                    filter="url(#shadow)"
+                  >
+                    <rect
+                      x="0"
+                      y="5"
+                      width="152"
+                      height="102"
+                      rx="13"
+                      fill="url(#rim)"
+                      opacity=".6"
+                    />
+                    <rect
+                      width="152"
+                      height="102"
+                      rx="13"
+                      fill="url(#glass)"
+                      stroke="#bdc8d9"
+                      stroke-width="1"
+                    />
+                    <rect
+                      x="3"
+                      y="3"
+                      width="146"
+                      height="96"
+                      rx="11"
+                      fill="none"
+                      stroke="#fff"
+                    />
+                    <path
+                      d="M22 26h83M22 37h61M22 48h96"
+                      stroke="#e1e8f2"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                    />
+                    <use
+                      href="#sheet"
+                      transform="translate(20 69) scale(.25)"
+                    />
+                    <use
+                      href="#sheet"
+                      transform="translate(43 69) scale(.25)"
+                    />
+                    <use
+                      href="#sheet"
+                      transform="translate(66 69) scale(.25)"
+                    />
+                    <use
+                      href="#sheet"
+                      transform="translate(89 69) scale(.25)"
+                    />
+                    <use
+                      href="#sheet"
+                      transform="translate(112 69) scale(.25)"
+                    />
+                    <rect
+                      x="42"
+                      y="86"
+                      width="137"
+                      height="24"
+                      rx="12"
+                      fill="#3979ed"
+                      stroke="#8db8ff"
+                    />
+                    <text
+                      x="110.5"
+                      y="101.5"
+                      text-anchor="middle"
+                      font-family="Arial,sans-serif"
+                      font-size="9.5"
+                      fill="white"
+                    >
+                      Productivity
+                    </text>
+                  </g>
+                </g>
+              </g>
+              <g transform="translate(263 400)" opacity="1">
+                <g class="float" style="--delay: -1s">
+                  <g
+                    transform="matrix(.72 -.42 .72 .42 0 0)"
+                    filter="url(#shadow)"
+                  >
+                    <use href="#base" />
+                    <use href="#excel" transform="scale(.72)" />
+                  </g>
+                </g>
+              </g>
+              <g transform="translate(338 359)" opacity="1">
+                <g class="float" style="--delay: -3s">
+                  <g
+                    transform="matrix(.72 -.42 .72 .42 0 0)"
+                    filter="url(#shadow)"
+                  >
+                    <use href="#base" />
+                    <use href="#mail" transform="scale(.72)" />
+                  </g>
+                </g>
+              </g>
+              <g transform="translate(432 302)" opacity="1">
+                <g class="float" style="--delay: -2s">
+                  <g
+                    transform="matrix(.72 -.42 .72 .42 0 0)"
+                    filter="url(#shadow)"
+                  >
+                    <use href="#base" />
+                    <use href="#drive" transform="scale(.72)" />
+                  </g>
+                </g>
+              </g>
+              <g transform="translate(452 367)" opacity="1">
+                <g class="float" style="--delay: -5s">
+                  <g
+                    transform="matrix(.72 -.42 .72 .42 0 0)"
+                    filter="url(#shadow)"
+                  >
+                    <use href="#base" />
+                    <use href="#sheet" transform="scale(.72)" />
+                  </g>
+                </g>
+              </g>
+              <g transform="translate(432 450)" opacity="0.45">
+                <g class="float" style="--delay: -4s">
+                  <g
+                    transform="matrix(.72 -.42 .72 .42 0 0)"
+                    filter="url(#shadow)"
+                  >
+                    <use href="#base" />
+                    <use href="#linkedin" transform="scale(.72)" />
+                  </g>
+                </g>
+              </g>
+              <g transform="translate(176 465)" opacity="0.3">
+                <g class="float" style="--delay: -2s">
+                  <g
+                    transform="matrix(.72 -.42 .72 .42 0 0)"
+                    filter="url(#shadow)"
+                  >
+                    <use href="#base" />
+                    <use href="#pdf" transform="scale(.72)" />
+                  </g>
+                </g>
+              </g>
+              <g transform="translate(264 291)" opacity="1">
+                <g class="float" style="--delay: -4s">
+                  <g
+                    transform="matrix(.72 -.42 .72 .42 0 0)"
+                    filter="url(#shadow)"
+                  >
+                    <use href="#base" />
+                    <use href="#video" transform="scale(.72)" />
+                  </g>
+                </g>
+              </g>
+              <g transform="translate(104 285)">
+                <g class="float" style="--delay: -2s">
+                  <g transform="matrix(.8 -.46 0 1 0 0)">
+                    <use href="#base" />
+                    <use href="#slack" transform="scale(.76)" />
+                  </g>
+                </g>
+              </g>
+              <g transform="translate(176 280)">
+                <g class="float" style="--delay: -4s">
+                  <g transform="matrix(.85 .08 .38 .7 0 0)">
+                    <use href="#base" />
+                    <use href="#pdf" transform="scale(.72)" />
+                  </g>
+                </g>
+              </g>
+              <g transform="translate(512 238)">
+                <ellipse
+                  cx="0"
+                  cy="41"
+                  rx="94"
+                  ry="27"
+                  fill="#93b5e9"
+                  opacity=".1"
+                />
+                <path d="M-87 0v24a87 48 0 0 0 174 0V0Z" fill="url(#side)" />
+                <ellipse rx="87" ry="49" fill="url(#rim)" stroke="#90a5ce" />
+                <ellipse cy="-2" rx="83" ry="46" fill="#bdd5ff" />
+                <g
+                  transform="translate(0 -2) scale(1 .55)"
+                  fill="none"
+                  stroke="#3477e9"
+                  stroke-width="12"
+                  stroke-linecap="round"
+                >
+                  <path d="M10-65a66 66 0 1 1-20 0" />
+                  <path d="M-4 43a44 44 0 1 1 20-3" />
+                  <path d="M-1 20a20 20 0 1 1 13-4" />
+                  <circle r="7" fill="#3477e9" stroke="none" />
+                </g>
+                <ellipse
+                  cy="-2"
+                  rx="86"
+                  ry="48"
+                  fill="none"
+                  stroke="white"
+                  stroke-opacity=".5"
+                />
+              </g>
+            </g>
+          </svg>
+        </section>
+        <section class="template-notes" aria-label="Template information">
+          <div class="utility">
+            <span>Chatsheet / Local template preview</span
+            ><button id="motion" type="button" aria-pressed="false" hidden>
+              Pause motion
+            </button>
+          </div>
+          <details id="how">
+            <summary>How it works</summary>
+            <div class="detail-body">
+              <h2>Bring the busywork together.</h2>
+              <ol>
+                <li>
+                  <strong>Map one repeatable task.</strong> Define its trigger,
+                  inputs and the result you need.
+                </li>
+                <li>
+                  <strong>Connect the right tools.</strong> Decide which steps
+                  can run automatically and which need a person.
+                </li>
+                <li>
+                  <strong>Review, then repeat.</strong> Keep approvals and a
+                  clear record of each run.
+                </li>
+              </ol>
+            </div>
+          </details>
+          <details id="cases">
+            <summary>Use cases</summary>
+            <div class="detail-body">
+              <h2>A few places to start.</h2>
+              <ul>
+                <li>
+                  <strong>Document intake:</strong> collect a file, extract key
+                  fields and route it for review.
+                </li>
+                <li>
+                  <strong>Email triage:</strong> label incoming requests and
+                  prepare a draft response.
+                </li>
+                <li>
+                  <strong>Approvals:</strong> send a reminder when a decision is
+                  waiting.
+                </li>
+              </ul>
+              <p>
+                Illustrative workflows, not customer results. No apps are
+                connected in this template.
+              </p>
+            </div>
+          </details>
+          <details id="discovery">
+            <summary>Book a free discovery</summary>
+            <div class="detail-body">
+              <h2>Start with one task.</h2>
+              <p>
+                This is a local template preview; it does not book a call.
+                Before connecting your own booking service, prepare these three
+                things:
+              </p>
+              <ol>
+                <li>The task you repeat most often.</li>
+                <li>The tools and information it uses.</li>
+                <li>The step that needs your approval.</li>
+              </ol>
+              <p>
+                Replace the discovery links with your calendar URL when you
+                customize this page.
+              </p>
+            </div>
+          </details>
+          <details id="become">
+            <summary>Become a partner</summary>
+            <div class="detail-body">
+              <h2>Make the handoff clear.</h2>
+              <p>
+                A useful automation partnership starts with a named owner, an
+                agreed scope and a support plan. This template does not accept
+                partner applications.
+              </p>
+            </div>
+          </details>
+          <details id="partners">
+            <summary>Partners</summary>
+            <div class="detail-body">
+              <h2>Your tools, thoughtfully connected.</h2>
+              <p>
+                The diagram uses familiar application symbols to illustrate a
+                connected workflow. It does not indicate a partnership,
+                endorsement or live integration. Replace these symbols with the
+                tools you actually support.
+              </p>
+            </div>
+          </details>
+          <footer>
+            Independent reference study. Design shared by
+            <a href="https://x.com/marcelkargul/status/2098877780293271731"
+              >Marcel Kargul ↗</a
+            >. No live booking or integrations.
+          </footer>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

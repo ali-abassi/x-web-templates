@@ -1,5 +1,5 @@
-# Current intent — Veloura
+# Current intent — Chatsheet
 
-**User-stated, 2026-09-11:** Add the next reference, https://x.com/AltamashAyazz/status/2098071500934775112?s=20, to the template collection. Inspect it in the in-app browser.
+**User-stated, 2026-09-13:** Add the next reference: https://x.com/marcelkargul/status/2098877780293271731?s=46.
 
-**Agent-selected working policy:** Add one Veloura hero template, its catalog card, README preview, source attribution, self-contained ZIP, and verification. Preserve all 18 existing templates and the five removals. Deliver to the existing GitHub main branch and personal Cloudflare Pages project after scoped checks.
+**Agent-selected working policy:** Add one faithful Chatsheet hero, editable SVG workflow, catalog card, source credit, standalone ZIP and scoped browser evidence. Preserve the 19 existing templates. Deliver to the established GitHub main branch and personal Cloudflare Pages collection.
